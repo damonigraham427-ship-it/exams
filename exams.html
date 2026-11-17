@@ -14,12 +14,19 @@
 .exam-card p { margin: 0.25rem 0; }
 .start-btn { display: inline-block; margin-top: 0.5rem; padding: 0.6rem 1.2rem; background: #111; color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; }
 #scroll-btn { position: fixed; right: 1rem; bottom: 1rem; padding: 0.8rem 1.2rem; font-size: 1rem; font-weight: 700; border-radius: 999px; border: 2px solid #111; background: #ffd23f; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.3); z-index: 10; }
+.subtabs { margin: 1rem 0 0.5rem; }
+.subtab { padding: 0.5rem 1rem; font-size: 1rem; font-weight: 600; border: 2px solid #111; background: #fff; cursor: pointer; border-radius: 8px 8px 0 0; margin-right: 0.25rem; }
+.subtab.active { background: #111; color: #fff; }
 </style>
 </head>
 <body>
 <main>
 <h1>All Exams</h1>
 <p><a href="index.html">&larr; Back to exam list</a></p>
+<div class="subtabs">
+<button class="subtab active" type="button" data-filter="all">All Exams</button>
+<button class="subtab" type="button" data-filter="NREMT">NREMT Exams</button>
+</div>
 <div id="exam-cards"></div>
 <p id="empty" hidden>No exams yet.</p>
 </main>

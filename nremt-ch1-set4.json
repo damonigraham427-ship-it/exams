@@ -1,0 +1,213 @@
+{
+ "questions": [
+  {
+   "question": "An experienced paramedic visits a patient at home each week to check his long-term heart condition and make sure he is taking his medicines correctly. What is this program called?",
+   "choices": [
+    "Secondary prevention",
+    "Public safety access point",
+    "Community paramedicine",
+    "Evidence-based medicine"
+   ],
+   "answer": 2,
+   "explanation": "Providing ongoing care for a chronic condition in the community, outside of an emergency call, is community paramedicine."
+  },
+  {
+   "question": "A specially trained paramedic does home health checks for frequent 911 callers and helps one patient get connected to a regular doctor. What is this role an example of?",
+   "choices": [
+    "Community paramedicine",
+    "Emergency medical responder",
+    "Secondary prevention",
+    "Public safety access point"
+   ],
+   "answer": 0,
+   "explanation": "Home evaluations and helping patients connect to regular care are the work of community paramedicine."
+  },
+  {
+   "question": "Instead of only responding to emergencies, a veteran paramedic monitors diabetic patients at home and watches for problems before they become emergencies. What is this model of care called?",
+   "choices": [
+    "Evidence-based medicine",
+    "Community paramedicine",
+    "Primary prevention",
+    "Emergency medical dispatch"
+   ],
+   "answer": 1,
+   "explanation": "Monitoring chronic conditions at home is a service provided under the community paramedicine model."
+  },
+  {
+   "question": "After a man falls from a ladder, the crew carefully protects his spine so the injury does not get worse. What type of prevention is this?",
+   "choices": [
+    "Primary prevention",
+    "Community paramedicine",
+    "Evidence-based practice",
+    "Secondary prevention"
+   ],
+   "answer": 3,
+   "explanation": "The injury already happened, so limiting its effects is secondary prevention."
+  },
+  {
+   "question": "A woman has already broken her ankle in a fall, and the crew splints it and applies cold to reduce further damage and swelling. What type of prevention is this an example of?",
+   "choices": [
+    "Primary prevention",
+    "Secondary prevention",
+    "Public safety access",
+    "Evidence-based medicine"
+   ],
+   "answer": 1,
+   "explanation": "Care aimed at keeping an existing injury from causing more harm is secondary prevention."
+  },
+  {
+   "question": "Following a car crash, EMTs control a patient's bleeding promptly so blood loss and shock do not progress. What type of prevention does this represent?",
+   "choices": [
+    "Community paramedicine",
+    "Primary prevention",
+    "Secondary prevention",
+    "Emergency medical response"
+   ],
+   "answer": 2,
+   "explanation": "Acting after the event to limit how bad the outcome becomes is secondary prevention."
+  },
+  {
+   "question": "A maker says its defibrillator stops ventricular fibrillation on the first shock 95% of the time, but no study shows patients survive more often with it. What approach says this claim alone does not prove the device saves more lives?",
+   "choices": [
+    "Evidence-based medicine",
+    "Secondary prevention",
+    "Community paramedicine",
+    "Public safety access point"
+   ],
+   "answer": 0,
+   "explanation": "Evidence-based medicine bases decisions on proven patient outcomes, not on a manufacturer's claim alone."
+  },
+  {
+   "question": "For a major trauma patient, the crew skips time-consuming field procedures and transports quickly for surgery, following findings from prehospital studies. What is this decision mostly based on?",
+   "choices": [
+    "Community paramedicine",
+    "Secondary prevention",
+    "Public safety access point",
+    "Evidence-based medicine"
+   ],
+   "answer": 3,
+   "explanation": "Following EMS research on what actually improves trauma survival is evidence-based medicine."
+  },
+  {
+   "question": "An agency changes its treatment protocol only after well-conducted studies show the new method gives patients better outcomes. What approach to medicine is the agency using?",
+   "choices": [
+    "Primary prevention",
+    "Evidence-based medicine",
+    "Emergency medical response",
+    "Mobile integrated health care"
+   ],
+   "answer": 1,
+   "explanation": "A protocol change driven by the strength of the scientific evidence is evidence-based medicine."
+  },
+  {
+   "question": "A firefighter stationed two blocks away reaches a collapsed man first and starts basic care several minutes before the ambulance arrives. What level of provider is this firefighter acting as?",
+   "choices": [
+    "Emergency medical technician",
+    "Community paramedic",
+    "Emergency medical responder",
+    "Public safety access point"
+   ],
+   "answer": 2,
+   "explanation": "The trained first person on scene providing initial assistance is an emergency medical responder."
+  },
+  {
+   "question": "A law enforcement officer is first to reach a crash victim and controls bleeding until the EMT crew gets there. What is this officer's role in the EMS system?",
+   "choices": [
+    "Emergency medical responder",
+    "Emergency medical technician",
+    "Paramedic",
+    "Medical director"
+   ],
+   "answer": 0,
+   "explanation": "Arriving first and providing initial medical assistance before the ambulance is the emergency medical responder role."
+  },
+  {
+   "question": "Because they are often already out in the community, police and fire personnel frequently begin care before EMS crews arrive. What are these trained first-arriving personnel called?",
+   "choices": [
+    "Community paramedics",
+    "Emergency medical dispatchers",
+    "Emergency medical technicians",
+    "Emergency medical responders"
+   ],
+   "answer": 3,
+   "explanation": "Arriving first and starting care is the defining part of the emergency medical responder role."
+  },
+  {
+   "question": "A caller dials 911 and reaches a staffed center that takes the report and sends police, fire, and ambulance units as needed. What is this center called?",
+   "choices": [
+    "Emergency operations center",
+    "Public safety access point",
+    "Community paramedicine center",
+    "Secondary dispatch center"
+   ],
+   "answer": 1,
+   "explanation": "That center manages requests for police, fire, and ambulance services; it is the public safety access point."
+  },
+  {
+   "question": "Trained personnel at a central call center receive a report of a house fire and coordinate the fire and EMS response. What facility are they working in?",
+   "choices": [
+    "An emergency medical dispatch office",
+    "A secondary prevention center",
+    "A public safety access point",
+    "A community paramedic station"
+   ],
+   "answer": 2,
+   "explanation": "Managing incoming emergency requests is the job of the public safety access point."
+  },
+  {
+   "question": "Every 911 call in the county goes first to one center, where staff sort the call and route it to the right agency. What is that center known as?",
+   "choices": [
+    "Public safety access point",
+    "Evidence-based dispatch center",
+    "Emergency medical responder station",
+    "Mobile integrated health hub"
+   ],
+   "answer": 0,
+   "explanation": "It is the single point that receives and manages public safety requests: the public safety access point."
+  },
+  {
+   "question": "In 2011, Minnesota became the first state to define community paramedics in law, and its Medicaid program began paying for their care of patients with frequent emergency department visits. What made it possible for this program to operate as a recognized, paid service?",
+   "choices": [
+    "A federal rule requiring every state to hire community paramedics",
+    "A study proving home visits eliminate emergency department use",
+    "Legal recognition of the role plus a payment mechanism",
+    "A requirement that paramedics replace primary care doctors"
+   ],
+   "answer": 2,
+   "explanation": "Minnesota shows that legal recognition and payment are what let community paramedicine operate."
+  },
+  {
+   "question": "In a 1994 Houston trial, 598 adults with penetrating torso injuries and low field blood pressure were split into two groups: one received IV fluids immediately, while the other had an IV line placed but received no fluids until the operating room. Survival to discharge was 70% with delayed fluids versus 62% with immediate fluids. What practice change did this evidence support?",
+   "choices": [
+    "Giving larger fluid volumes on scene for all trauma patients",
+    "Delaying IV fluids until the operating room for penetrating torso trauma",
+    "Removing IV access from trauma protocols entirely",
+    "Keeping penetrating trauma patients on scene longer for stabilization"
+   ],
+   "answer": 1,
+   "explanation": "The trial moved trauma care toward permissive hypotension: for penetrating torso trauma, rapid transport beats aggressive field fluids."
+  },
+  {
+   "question": "In April 2014, an outage at a 911 routing center caused thousands of calls across multiple states to never reach dispatch centers, including calls about a heart attack and a home intruder; the FCC later fined the carriers involved $17.4 million. The center that receives 911 calls and dispatches responders is known as a:",
+   "choices": [
+    "Community paramedicine hub",
+    "Emergency medical responder station",
+    "Secondary prevention center",
+    "Public safety access point"
+   ],
+   "answer": 3,
+   "explanation": "The FCC holds carriers responsible for delivering 911 calls to public safety access points (PSAPs)."
+  },
+  {
+   "question": "In January 2023, Buffalo Bills player Damar Hamlin collapsed in cardiac arrest during a game in Cincinnati. Team athletic trainers reached him within about 10 seconds, started CPR, and defibrillated him on the field before the ambulance arrived. In the EMS system, these on-site trained personnel who delivered the first critical care acted as:",
+   "choices": [
+    "Emergency medical responders",
+    "Public safety access points",
+    "Community paramedics",
+    "Emergency medical dispatchers"
+   ],
+   "answer": 0,
+   "explanation": "On-site trained responders, not the ambulance, delivered Hamlin's first critical care, which is the emergency medical responder role."
+  }
+ ]
+}

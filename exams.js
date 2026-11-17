@@ -2,6 +2,18 @@ const PALETTE = ['#2563eb', '#b91c1c', '#047857', '#b45309', '#6d28d9', '#0e7490
 let cards = [];
 let current = -1;
 
+function visibleCards() {
+  return cards.filter(c => c.style.display !== 'none');
+}
+
+function resetScrollBtn() {
+  const btn = document.getElementById('scroll-btn');
+  current = -1;
+  cards.forEach(c => c.classList.remove('current'));
+  btn.innerHTML = 'Next exam &darr;';
+  btn.hidden = visibleCards().length === 0;
+}
+
 fetch('index.json')
   .then(r => r.json())
   .then(data => {
@@ -22,6 +34,7 @@ fetch('index.json')
       card.className = 'exam-card';
       card.style.borderTopColor = color;
       card.id = 'exam-' + (i + 1);
+      card.dataset.category = e.category || 'General';
 
       const badge = document.createElement('span');
       badge.className = 'badge';
@@ -55,10 +68,23 @@ fetch('index.json')
     });
   });
 
+document.querySelectorAll('.subtab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.subtab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    const f = tab.dataset.filter;
+    cards.forEach(c => {
+      c.style.display = (f === 'all' || c.dataset.category === f) ? '' : 'none';
+    });
+    resetScrollBtn();
+  });
+});
+
 document.getElementById('scroll-btn').addEventListener('click', () => {
-  if (!cards.length) return;
+  const vis = visibleCards();
+  if (!vis.length) return;
   const btn = document.getElementById('scroll-btn');
-  if (current === cards.length - 1) {
+  if (current === vis.length - 1) {
     current = -1;
     cards.forEach(c => c.classList.remove('current'));
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -67,8 +93,8 @@ document.getElementById('scroll-btn').addEventListener('click', () => {
   }
   current = current + 1;
   cards.forEach(c => c.classList.remove('current'));
-  const card = cards[current];
+  const card = vis[current];
   card.classList.add('current');
   card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  btn.innerHTML = current === cards.length - 1 ? 'Back to top &uarr;' : 'Next exam &darr;';
+  btn.innerHTML = current === vis.length - 1 ? 'Back to top &uarr;' : 'Next exam &darr;';
 });
