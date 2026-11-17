@@ -6,35 +6,34 @@
 <title>All Exams</title>
 <link rel="stylesheet" href="style.css">
 <style>
-.exam-card { border: 1px solid #ccc; border-top: 8px solid #2563eb; border-radius: 8px; padding: 1rem; margin: 1rem 0; background: #fff; }
-.exam-card.current { outline: 3px solid #111; outline-offset: 2px; }
-.badge { display: inline-block; color: #fff; font-weight: 700; padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.85rem; letter-spacing: 0.05em; }
-.chip { display: inline-block; border: 1px solid #999; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.85rem; margin-left: 0.5rem; }
-.exam-card h2 { margin: 0.5rem 0 0.25rem; }
-.exam-card p { margin: 0.25rem 0; }
-.start-btn { display: inline-block; margin-top: 0.5rem; padding: 0.6rem 1.2rem; background: #111; color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; }
-#scroll-btn { position: fixed; right: 1rem; bottom: 1rem; padding: 0.8rem 1.2rem; font-size: 1rem; font-weight: 700; border-radius: 999px; border: 2px solid #111; background: #ffd23f; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.3); z-index: 10; }
-.subtabs { margin: 1rem 0 0.5rem; }
-.subtab { padding: 0.5rem 1rem; font-size: 1rem; font-weight: 600; border: 2px solid #111; background: #fff; cursor: pointer; border-radius: 8px 8px 0 0; margin-right: 0.25rem; }
-.subtab.active { background: #111; color: #fff; }
-.exam-card.placeholder { opacity: .55; border-top-style: dashed; }
-.not-built { font-weight: 600; color: #666; }
+#scroll-btn { position: fixed; right: 1rem; bottom: 1rem; z-index: 10; background: #ffd23f; color: #111; font-weight: 700; border: 2px solid #111; border-radius: 999px; padding: 0.7rem 1.1rem; box-shadow: 0 2px 8px rgba(0,0,0,.35); cursor: pointer; }
+.exam-card.current { outline: 4px solid #111; outline-offset: 2px; }
 .history { font-size: .9rem; color: #444; }
-.chapter-heading { margin: 1.5rem 0 0.5rem; padding-bottom: 0.25rem; border-bottom: 3px solid #111; }
+.nav-card { display: block; width: 100%; text-align: left; background: #fff; border: 2px solid #111; border-top: 8px solid #2563eb; border-radius: 8px; padding: 1rem; margin: 0.75rem 0; font-size: 1.15rem; font-weight: 700; cursor: pointer; }
+.nav-card small { display: block; font-weight: 400; font-size: .9rem; color: #444; margin-top: 0.25rem; }
+.back-btn { background: none; border: none; color: #2563eb; font-size: 1rem; font-weight: 700; cursor: pointer; padding: 0.25rem 0; }
+.crumb { color: #444; font-size: .95rem; margin: 0.25rem 0 0.75rem; }
 </style>
 </head>
 <body>
 <main>
+<p><a href="index.html">&larr; Home</a></p>
 <h1>All Exams</h1>
-<p><a href="index.html">&larr; Back to exam list</a></p>
-<div class="subtabs">
-<button class="subtab active" type="button" data-filter="all">All Exams</button>
-<button class="subtab" type="button" data-filter="NREMT">NREMT Exams</button>
-</div>
+
+<nav id="crumb-nav">
+<button id="back-btn" class="back-btn" hidden></button>
+<p id="crumb" class="crumb">All Exams</p>
+</nav>
+
+<section id="level-categories"></section>
+<section id="level-chapters" hidden></section>
+<section id="level-exams" hidden>
 <div id="exam-cards"></div>
 <p id="empty" hidden>No exams yet.</p>
+</section>
+
+<button id="scroll-btn" hidden>Next exam &darr;</button>
 </main>
-<button id="scroll-btn" type="button">Next exam &darr;</button>
 <script src="exams.js"></script>
 </body>
 </html>
