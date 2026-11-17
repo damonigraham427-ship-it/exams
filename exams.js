@@ -31,7 +31,7 @@ fetch('index.json')
       const name = parts.length > 1 ? parts.slice(1).join('—').trim() : e.title;
 
       const card = document.createElement('section');
-      card.className = 'exam-card';
+      card.className = 'exam-card' + (e.placeholder ? ' placeholder' : '');
       card.style.borderTopColor = color;
       card.id = 'exam-' + (i + 1);
       card.dataset.category = e.category || 'General';
@@ -57,11 +57,32 @@ fetch('index.json')
         card.appendChild(p);
       }
 
-      const a = document.createElement('a');
-      a.className = 'start-btn';
-      a.href = 'exam.html?exam=' + encodeURIComponent(e.file);
-      a.textContent = 'Start exam';
-      card.appendChild(a);
+      if (e.placeholder) {
+        const s = document.createElement('span');
+        s.className = 'not-built';
+        s.textContent = 'Not built yet';
+        card.appendChild(s);
+      } else {
+        const a = document.createElement('a');
+        a.className = 'start-btn';
+        a.href = 'exam.html?exam=' + encodeURIComponent(e.file);
+        a.textContent = 'Start exam';
+        card.appendChild(a);
+
+        try {
+          const hist = JSON.parse(localStorage.getItem('examHistory') || '{}');
+          const attempts = hist[e.file];
+          if (Array.isArray(attempts) && attempts.length) {
+            const last = attempts[0];
+            const d = new Date(last.ts);
+            const hp = document.createElement('p');
+            hp.className = 'history';
+            hp.textContent = 'Last attempt: ' + last.score + '/' + last.total + ' · ' + last.missed.length + ' missed · ' +
+              d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+            card.appendChild(hp);
+          }
+        } catch (err) { /* no saved history */ }
+      }
 
       wrap.appendChild(card);
       cards.push(card);

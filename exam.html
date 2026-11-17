@@ -8,7 +8,7 @@
 </head>
 <body>
 <main>
-<p><a href="index.html">All exams</a></p>
+<p><a href="exams.html">All exams</a></p>
 <h1 id="exam-title">Exam</h1>
 <p id="progress"></p>
 <section id="question-box">
@@ -19,7 +19,11 @@
 </section>
 <section id="result-box" hidden>
 <h2 id="score"></h2>
-<p><a href="index.html">Back to exams</a></p>
+<h3>Missed questions</h3>
+<ol id="missed-list"></ol>
+<p id="no-missed" hidden>None — perfect score.</p>
+<p><button id="download-btn">Download missed questions (.txt)</button></p>
+<p><a href="exams.html">Back to exams</a></p>
 <button id="retry-btn">Retry</button>
 </section>
 </main>
