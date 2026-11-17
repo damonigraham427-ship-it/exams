@@ -88,17 +88,36 @@ document.getElementById('next-btn').onclick = () => {
   finish();
 };
 document.getElementById('retry-btn').onclick = () => location.reload();
-document.getElementById('download-btn').onclick = () => {
+function missedText() {
   const lines = [examTitle, 'Date: ' + new Date().toLocaleString(), 'Score: ' + score + ' of ' + exam.questions.length, '', 'Missed questions:'];
   if (!lastMissed.length) lines.push('None — perfect score.');
   lastMissed.forEach(m => {
     lines.push('', 'Q' + m.n + '. ' + m.question, 'Your answer: ' + m.your, 'Correct answer: ' + m.correct);
     if (m.explanation) lines.push('Why: ' + m.explanation);
   });
-  const blob = new Blob([lines.join('\n')], { type: 'text/plain' });
+  return lines.join('\n');
+}
+
+document.getElementById('download-btn').onclick = () => {
+  const blob = new Blob([missedText()], { type: 'text/plain' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
   a.download = file.replace(/\.json$/, '') + '-missed.txt';
   a.click();
   URL.revokeObjectURL(a.href);
 };
+document.getElementById('copy-btn').onclick = () => {
+  const btn = document.getElementById('copy-btn');
+  const done = () => { btn.textContent = 'Copied — paste it to Edison'; setTimeout(() => { btn.textContent = 'Copy missed list'; }, 3000); };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(missedText()).then(done).catch(() => fallbackCopy(done));
+  } else { fallbackCopy(done); }
+};
+function fallbackCopy(done) {
+  const ta = document.createElement('textarea');
+  ta.value = missedText();
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand('copy'); done(); } catch (e) { /* clipboard unavailable */ }
+  ta.remove();
+}
