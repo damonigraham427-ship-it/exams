@@ -1,5 +1,40 @@
-body { font-family: system-ui, sans-serif; margin: 2rem auto; max-width: 42rem; padding: 0 1rem; line-height: 1.5; }
-button.choice { display: block; width: 100%; text-align: left; margin: 0.5rem 0; padding: 0.75rem; font-size: 1rem; cursor: pointer; }
-button.choice.correct { border: 2px solid green; }
-button.choice.wrong { border: 2px solid red; }
+body { font-family: system-ui, sans-serif; margin: 2rem auto; max-width: 44rem; padding: 0 1rem; line-height: 1.5; background: #f1f5f9; color: #0f172a; }
+h1 { font-size: 1.6rem; margin: 0.5rem 0 1rem; }
+a { color: #2563eb; }
+
+/* Exam cards */
+.exam-card { background: #fff; border-radius: 12px; border-top: 6px solid #2563eb; box-shadow: 0 1px 4px rgba(15, 23, 42, .15); padding: 1rem 1.1rem; margin: 0.9rem 0; }
+.exam-card.placeholder { opacity: .55; }
+.exam-card h2 { font-size: 1.15rem; margin: 0.5rem 0 0.25rem; }
+.badge { display: inline-block; color: #fff; font-size: .75rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: 999px; margin-right: 0.5rem; vertical-align: middle; }
+.chip { display: inline-block; background: #e2e8f0; color: #334155; font-size: .75rem; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 999px; vertical-align: middle; }
+.start-btn { display: inline-block; background: #111827; color: #fff; font-weight: 600; text-decoration: none; padding: 0.55rem 1.05rem; border-radius: 8px; margin-top: 0.45rem; }
+.not-built { color: #b45309; font-weight: 600; }
+.history { font-size: .9rem; color: #475569; margin: 0.45rem 0 0; }
+
+/* Drill-down navigation */
+.nav-card { display: block; width: 100%; text-align: left; background: #fff; border: 2px solid #111827; border-top: 8px solid #2563eb; border-radius: 12px; box-shadow: 0 1px 4px rgba(15, 23, 42, .15); padding: 1rem 1.1rem; margin: 0.75rem 0; font-size: 1.15rem; font-weight: 700; color: #0f172a; cursor: pointer; }
+.nav-card:hover { background: #f8fafc; }
+.nav-card small { display: block; font-weight: 400; font-size: .9rem; color: #475569; margin-top: 0.25rem; }
+.back-btn { background: none; border: none; color: #2563eb; font-size: 1rem; font-weight: 700; cursor: pointer; padding: 0.25rem 0; }
+.crumb { color: #64748b; font-size: .95rem; margin: 0.25rem 0 0.75rem; }
+
+/* Exam runner */
+#progress { font-size: .9rem; font-weight: 600; color: #64748b; margin: 0.25rem 0; }
+#question-text { font-size: 1.25rem; margin: 0.5rem 0 0.25rem; }
+#source-line { display: inline-block; background: #eef2ff; color: #3730a3; font-size: .8rem; font-weight: 600; padding: 0.1rem 0.55rem; border-radius: 999px; margin: 0.25rem 0 0.75rem; }
+#source-line:empty { display: none; }
+button.choice { display: block; width: 100%; text-align: left; margin: 0.5rem 0; padding: 0.8rem 1rem; font-size: 1rem; background: #fff; border: 2px solid #cbd5e1; border-radius: 10px; cursor: pointer; }
+button.choice:hover:not(:disabled) { border-color: #2563eb; }
+button.choice.correct { background: #dcfce7; border-color: #16a34a; }
+button.choice.wrong { background: #fee2e2; border-color: #dc2626; }
 #feedback { min-height: 1.5em; font-weight: 600; }
+#feedback:not(:empty) { background: #fffbeb; border-left: 4px solid #f59e0b; padding: 0.5rem 0.75rem; border-radius: 6px; }
+#flag-btn, #next-btn, #download-btn, #copy-btn, #retry-btn { padding: 0.55rem 1rem; border-radius: 8px; border: 2px solid #111827; background: #fff; color: #0f172a; font-weight: 600; font-size: 1rem; cursor: pointer; }
+#flag-btn { margin-right: 0.5rem; }
+#flag-btn.flagged-on { background: #ffd23f; }
+#next-btn { background: #2563eb; border-color: #2563eb; color: #fff; }
+
+/* Results */
+#score { font-size: 1.4rem; }
+#missed-list li, #flagged-list li { background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(15, 23, 42, .12); padding: 0.6rem 0.8rem; margin: 0.45rem 0; }
