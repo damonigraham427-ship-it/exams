@@ -1,22 +1,9 @@
 const PALETTE = ['#2563eb', '#b91c1c', '#047857', '#b45309', '#6d28d9', '#0e7490'];
 let allExams = [];
 let cards = [];
-let current = -1;
 let view = 'categories';
 let selCategory = null;
 let selChapter = null;
-
-function visibleCards() {
-  return cards.filter(c => c.style.display !== 'none');
-}
-
-function resetScrollBtn() {
-  const btn = document.getElementById('scroll-btn');
-  current = -1;
-  cards.forEach(c => c.classList.remove('current'));
-  btn.innerHTML = 'Next exam &darr;';
-  btn.hidden = view !== 'exams' || visibleCards().length === 0;
-}
 
 function setView() {
   document.getElementById('level-categories').hidden = view !== 'categories';
@@ -26,17 +13,16 @@ function setView() {
   const crumb = document.getElementById('crumb');
   if (view === 'categories') {
     back.hidden = true;
-    crumb.textContent = 'All Exams';
+    crumb.textContent = 'Exams';
   } else if (view === 'chapters') {
     back.hidden = false;
-    back.textContent = '\u2190 All Exams';
-    crumb.textContent = 'All Exams / ' + selCategory;
+    back.textContent = '\u2190 Exams';
+    crumb.textContent = 'Exams / ' + selCategory;
   } else {
     back.hidden = false;
     back.textContent = '\u2190 ' + selCategory;
-    crumb.textContent = 'All Exams / ' + selCategory + ' / Chapter ' + selChapter;
+    crumb.textContent = 'Exams / ' + selCategory + ' / Chapter ' + selChapter;
   }
-  resetScrollBtn();
 }
 
 function navCard(label, sub, color, onclick) {
@@ -60,8 +46,10 @@ function renderCategories() {
     if (!cats.includes(c)) cats.push(c);
   });
   cats.forEach((c, i) => {
-    const n = allExams.filter(e => (e.category || 'General') === c).length;
-    wrap.appendChild(navCard(c, n + (n === 1 ? ' exam' : ' exams'), PALETTE[i % PALETTE.length], () => {
+    const inCat = allExams.filter(e => (e.category || 'General') === c);
+    const chs = new Set(inCat.map(e => e.chapter === undefined ? 'Other' : String(e.chapter)));
+    const n = chs.size;
+    wrap.appendChild(navCard(c, n + (n === 1 ? ' chapter' : ' chapters'), PALETTE[i % PALETTE.length], () => {
       selCategory = c;
       renderChapters();
       view = 'chapters';
@@ -194,23 +182,4 @@ document.getElementById('back-btn').addEventListener('click', () => {
   else if (view === 'chapters') { view = 'categories'; }
   setView();
   window.scrollTo({ top: 0 });
-});
-
-document.getElementById('scroll-btn').addEventListener('click', () => {
-  const vis = visibleCards();
-  if (!vis.length) return;
-  const btn = document.getElementById('scroll-btn');
-  if (current === vis.length - 1) {
-    current = -1;
-    cards.forEach(c => c.classList.remove('current'));
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    btn.innerHTML = 'Next exam &darr;';
-    return;
-  }
-  current = current + 1;
-  cards.forEach(c => c.classList.remove('current'));
-  const card = vis[current];
-  card.classList.add('current');
-  card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  btn.innerHTML = current === vis.length - 1 ? 'Back to top &uarr;' : 'Next exam &darr;';
 });

@@ -3,11 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>All Exams</title>
+<title>Exams</title>
 <link rel="stylesheet" href="style.css">
 <style>
-#scroll-btn { position: fixed; right: 1rem; bottom: 1rem; z-index: 10; background: #ffd23f; color: #111; font-weight: 700; border: 2px solid #111; border-radius: 999px; padding: 0.7rem 1.1rem; box-shadow: 0 2px 8px rgba(0,0,0,.35); cursor: pointer; }
-.exam-card.current { outline: 4px solid #111; outline-offset: 2px; }
 .history { font-size: .9rem; color: #444; }
 .nav-card { display: block; width: 100%; text-align: left; background: #fff; border: 2px solid #111; border-top: 8px solid #2563eb; border-radius: 8px; padding: 1rem; margin: 0.75rem 0; font-size: 1.15rem; font-weight: 700; cursor: pointer; }
 .nav-card small { display: block; font-weight: 400; font-size: .9rem; color: #444; margin-top: 0.25rem; }
@@ -17,12 +15,12 @@
 </head>
 <body>
 <main>
-<p><a href="index.html">&larr; Home</a></p>
-<h1>All Exams</h1>
+<p><a href="exams.html">&larr; Exams</a></p>
+<h1>Exams</h1>
 
 <nav id="crumb-nav">
 <button id="back-btn" class="back-btn" hidden></button>
-<p id="crumb" class="crumb">All Exams</p>
+<p id="crumb" class="crumb">Exams</p>
 </nav>
 
 <section id="level-categories"></section>
@@ -31,8 +29,6 @@
 <div id="exam-cards"></div>
 <p id="empty" hidden>No exams yet.</p>
 </section>
-
-<button id="scroll-btn" hidden>Next exam &darr;</button>
 </main>
 <script src="exams.js"></script>
 </body>
