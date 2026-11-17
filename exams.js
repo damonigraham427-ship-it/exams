@@ -1,5 +1,6 @@
 const PALETTE = ['#2563eb', '#b91c1c', '#047857', '#b45309', '#6d28d9', '#0e7490'];
 let cards = [];
+let headings = [];
 let current = -1;
 
 function visibleCards() {
@@ -14,6 +15,13 @@ function resetScrollBtn() {
   btn.hidden = visibleCards().length === 0;
 }
 
+function refreshHeadings() {
+  headings.forEach(h => {
+    const anyVisible = cards.some(c => c.dataset.chapter === h.dataset.chapter && c.style.display !== 'none');
+    h.style.display = anyVisible ? '' : 'none';
+  });
+}
+
 fetch('index.json')
   .then(r => r.json())
   .then(data => {
@@ -24,68 +32,90 @@ fetch('index.json')
       btn.hidden = true;
       return;
     }
-    data.exams.forEach((e, i) => {
-      const color = PALETTE[i % PALETTE.length];
-      const parts = e.title.split('—');
-      const cat = parts.length > 1 ? parts[0].trim() : 'Exam';
-      const name = parts.length > 1 ? parts.slice(1).join('—').trim() : e.title;
+    // Group exams by chapter, preserving the order chapters first appear.
+    const chapterOrder = [];
+    const byChapter = {};
+    data.exams.forEach(e => {
+      const ch = e.chapter === undefined ? 'Other' : String(e.chapter);
+      if (!byChapter[ch]) { byChapter[ch] = []; chapterOrder.push(ch); }
+      byChapter[ch].push(e);
+    });
 
-      const card = document.createElement('section');
-      card.className = 'exam-card' + (e.placeholder ? ' placeholder' : '');
-      card.style.borderTopColor = color;
-      card.id = 'exam-' + (i + 1);
-      card.dataset.category = e.category || 'General';
+    let n = 0;
+    chapterOrder.forEach(ch => {
+      const heading = document.createElement('h2');
+      heading.className = 'chapter-heading';
+      heading.dataset.chapter = ch;
+      heading.textContent = ch === 'Other' ? 'Other' : 'Chapter ' + ch;
+      wrap.appendChild(heading);
+      headings.push(heading);
 
-      const badge = document.createElement('span');
-      badge.className = 'badge';
-      badge.style.background = color;
-      badge.textContent = 'EXAM ' + (i + 1);
-      card.appendChild(badge);
+      byChapter[ch].forEach(e => {
+        n++;
+        const color = PALETTE[(n - 1) % PALETTE.length];
+        const parts = e.title.split('—');
+        const cat = parts.length > 1 ? parts[0].trim() : 'Exam';
+        const name = parts.length > 1 ? parts.slice(1).join('—').trim() : e.title;
 
-      const chip = document.createElement('span');
-      chip.className = 'chip';
-      chip.textContent = cat;
-      card.appendChild(chip);
+        const card = document.createElement('section');
+        card.className = 'exam-card' + (e.placeholder ? ' placeholder' : '');
+        card.style.borderTopColor = color;
+        card.id = 'exam-' + n;
+        card.dataset.category = e.category || 'General';
+        card.dataset.chapter = ch;
 
-      const h = document.createElement('h2');
-      h.textContent = name;
-      card.appendChild(h);
+        const badge = document.createElement('span');
+        badge.className = 'badge';
+        badge.style.background = color;
+        badge.textContent = 'EXAM ' + n;
+        card.appendChild(badge);
 
-      if (e.note) {
-        const p = document.createElement('p');
-        p.textContent = e.note;
-        card.appendChild(p);
-      }
+        const chip = document.createElement('span');
+        chip.className = 'chip';
+        chip.textContent = cat;
+        card.appendChild(chip);
 
-      if (e.placeholder) {
-        const s = document.createElement('span');
-        s.className = 'not-built';
-        s.textContent = 'Not built yet';
-        card.appendChild(s);
-      } else {
-        const a = document.createElement('a');
-        a.className = 'start-btn';
-        a.href = 'exam.html?exam=' + encodeURIComponent(e.file);
-        a.textContent = 'Start exam';
-        card.appendChild(a);
+        const h = document.createElement('h2');
+        h.textContent = name;
+        card.appendChild(h);
 
-        try {
-          const hist = JSON.parse(localStorage.getItem('examHistory') || '{}');
-          const attempts = hist[e.file];
-          if (Array.isArray(attempts) && attempts.length) {
-            const last = attempts[0];
-            const d = new Date(last.ts);
-            const hp = document.createElement('p');
-            hp.className = 'history';
-            hp.textContent = 'Last attempt: ' + last.score + '/' + last.total + ' · ' + last.missed.length + ' missed · ' +
-              d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
-            card.appendChild(hp);
-          }
-        } catch (err) { /* no saved history */ }
-      }
+        if (e.note) {
+          const p = document.createElement('p');
+          p.textContent = e.note;
+          card.appendChild(p);
+        }
 
-      wrap.appendChild(card);
-      cards.push(card);
+        if (e.placeholder) {
+          const s = document.createElement('span');
+          s.className = 'not-built';
+          s.textContent = 'Not built yet';
+          card.appendChild(s);
+        } else {
+          const a = document.createElement('a');
+          a.className = 'start-btn';
+          a.href = 'exam.html?exam=' + encodeURIComponent(e.file);
+          a.textContent = 'Start exam';
+          card.appendChild(a);
+
+          try {
+            const hist = JSON.parse(localStorage.getItem('examHistory') || '{}');
+            const attempts = hist[e.file];
+            if (Array.isArray(attempts) && attempts.length) {
+              const last = attempts[0];
+              const d = new Date(last.ts);
+              const hp = document.createElement('p');
+              hp.className = 'history';
+              hp.textContent = 'Last attempt: ' + last.score + '/' + last.total + ' · ' + last.missed.length + ' missed' +
+                (last.flagged && last.flagged.length ? ' · ' + last.flagged.length + ' flagged' : '') + ' · ' +
+                d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+              card.appendChild(hp);
+            }
+          } catch (err) { /* no saved history */ }
+        }
+
+        wrap.appendChild(card);
+        cards.push(card);
+      });
     });
   });
 
@@ -97,6 +127,7 @@ document.querySelectorAll('.subtab').forEach(tab => {
     cards.forEach(c => {
       c.style.display = (f === 'all' || c.dataset.category === f) ? '' : 'none';
     });
+    refreshHeadings();
     resetScrollBtn();
   });
 });

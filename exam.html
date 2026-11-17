@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Exam</title>
 <link rel="stylesheet" href="style.css">
+<style>
+#flag-btn { margin-right: 0.5rem; }
+#flag-btn.flagged-on { background: #ffd23f; font-weight: 700; border: 2px solid #111; }
+</style>
 </head>
 <body>
 <main>
@@ -15,6 +19,7 @@
 <h2 id="question-text"></h2>
 <div id="choices"></div>
 <p id="feedback" role="status"></p>
+<button id="flag-btn" type="button">&#9734; Needs more practice</button>
 <button id="next-btn" hidden>Next</button>
 </section>
 <section id="result-box" hidden>
@@ -22,6 +27,9 @@
 <h3>Missed questions</h3>
 <ol id="missed-list"></ol>
 <p id="no-missed" hidden>None — perfect score.</p>
+<h3>Flagged: needs more practice</h3>
+<ol id="flagged-list"></ol>
+<p id="no-flagged" hidden>None flagged.</p>
 <p><button id="download-btn">Download missed questions (.txt)</button> <button id="copy-btn">Copy missed list</button></p>
 <p><a href="exams.html">Back to exams</a></p>
 <button id="retry-btn">Retry</button>

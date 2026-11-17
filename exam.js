@@ -2,6 +2,8 @@ const file = new URLSearchParams(location.search).get('exam');
 let exam, examTitle = file, idx = 0, score = 0;
 const answers = [];
 let lastMissed = [];
+let lastFlagged = [];
+const flagged = new Set();
 
 fetch('index.json')
   .then(r => r.json())
@@ -16,12 +18,20 @@ fetch(file)
   .then(r => r.json())
   .then(data => { exam = data; if (data.title) { examTitle = data.title; document.getElementById('exam-title').textContent = examTitle; } show(); });
 
+function refreshFlagBtn() {
+  const btn = document.getElementById('flag-btn');
+  const on = flagged.has(idx);
+  btn.textContent = on ? '\u2605 Flagged for practice' : '\u2606 Needs more practice';
+  btn.classList.toggle('flagged-on', on);
+}
+
 function show() {
   const q = exam.questions[idx];
   document.getElementById('progress').textContent = 'Question ' + (idx + 1) + ' of ' + exam.questions.length;
   document.getElementById('question-text').textContent = q.question;
   document.getElementById('feedback').textContent = '';
   document.getElementById('next-btn').hidden = true;
+  refreshFlagBtn();
   const box = document.getElementById('choices');
   box.innerHTML = '';
   q.choices.forEach((c, i) => {
@@ -73,15 +83,38 @@ function finish() {
   });
   document.getElementById('no-missed').hidden = lastMissed.length !== 0;
 
+  lastFlagged = [...flagged].sort((a, b) => a - b).map(i => {
+    const q = exam.questions[i];
+    return {
+      n: i + 1,
+      question: q.question,
+      correct: q.choices[q.answer],
+      explanation: q.explanation || '',
+      result: answers[i] === q.answer ? 'answered correctly' : 'answered incorrectly'
+    };
+  });
+  const flist = document.getElementById('flagged-list');
+  flist.innerHTML = '';
+  lastFlagged.forEach(m => {
+    const li = document.createElement('li');
+    li.textContent = m.question + ' — Correct: ' + m.correct + ' · You ' + m.result + (m.explanation ? ' · ' + m.explanation : '');
+    flist.appendChild(li);
+  });
+  document.getElementById('no-flagged').hidden = lastFlagged.length !== 0;
+
   try {
     const all = JSON.parse(localStorage.getItem('examHistory') || '{}');
     if (!Array.isArray(all[file])) all[file] = [];
-    all[file].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, missed: lastMissed });
+    all[file].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, missed: lastMissed, flagged: lastFlagged });
     all[file] = all[file].slice(0, 20);
     localStorage.setItem('examHistory', JSON.stringify(all));
   } catch (e) { /* storage unavailable; results still shown on screen */ }
 }
 
+document.getElementById('flag-btn').onclick = () => {
+  if (flagged.has(idx)) flagged.delete(idx); else flagged.add(idx);
+  refreshFlagBtn();
+};
 document.getElementById('next-btn').onclick = () => {
   idx++;
   if (idx < exam.questions.length) { show(); return; }
@@ -93,6 +126,12 @@ function missedText() {
   if (!lastMissed.length) lines.push('None — perfect score.');
   lastMissed.forEach(m => {
     lines.push('', 'Q' + m.n + '. ' + m.question, 'Your answer: ' + m.your, 'Correct answer: ' + m.correct);
+    if (m.explanation) lines.push('Why: ' + m.explanation);
+  });
+  lines.push('', 'Flagged: needs more practice:');
+  if (!lastFlagged.length) lines.push('None flagged.');
+  lastFlagged.forEach(m => {
+    lines.push('', 'Q' + m.n + '. ' + m.question, 'Correct answer: ' + m.correct, 'You ' + m.result + '.');
     if (m.explanation) lines.push('Why: ' + m.explanation);
   });
   return lines.join('\n');
