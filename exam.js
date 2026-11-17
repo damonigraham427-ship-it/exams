@@ -16,7 +16,21 @@ fetch('index.json')
 
 fetch(file)
   .then(r => r.json())
-  .then(data => { exam = data; if (data.title) { examTitle = data.title; document.getElementById('exam-title').textContent = examTitle; } show(); });
+  .then(data => {
+    exam = data;
+    if (data.title) { examTitle = data.title; document.getElementById('exam-title').textContent = examTitle; }
+    try {
+      const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
+      const p = all[file];
+      if (p && p.total === data.questions.length && p.idx < data.questions.length) {
+        idx = p.idx; score = p.score || 0;
+        (p.answers || []).forEach((a, i) => { answers[i] = a; });
+        (p.flagged || []).forEach(i => flagged.add(i));
+      }
+    } catch (e) { /* no saved progress */ }
+    show();
+    renderAnswered();
+  });
 
 function refreshFlagBtn() {
   const btn = document.getElementById('flag-btn');
@@ -25,10 +39,39 @@ function refreshFlagBtn() {
   btn.classList.toggle('flagged-on', on);
 }
 
+const PKEY = 'examProgress';
+function saveProgress() {
+  try {
+    const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
+    all[file] = { idx: idx, answers: answers, flagged: [...flagged], score: score, total: exam.questions.length, ts: Date.now() };
+    localStorage.setItem(PKEY, JSON.stringify(all));
+  } catch (e) { /* storage unavailable */ }
+}
+function clearProgress() {
+  try {
+    const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
+    delete all[file];
+    localStorage.setItem(PKEY, JSON.stringify(all));
+  } catch (e) { /* storage unavailable */ }
+}
+function renderAnswered() {
+  const q = exam.questions[idx];
+  const picked = answers[idx];
+  if (picked === undefined) return;
+  document.querySelectorAll('button.choice').forEach((b, i) => {
+    b.disabled = true;
+    if (i === picked) b.className += picked === q.answer ? ' correct' : ' wrong';
+  });
+  document.getElementById('feedback').textContent =
+    (picked === q.answer ? 'Correct. ' : 'Wrong. Answer: ' + q.choices[q.answer] + '. ') + (q.explanation || '');
+  document.getElementById('next-btn').hidden = false;
+}
+
 function show() {
   const q = exam.questions[idx];
   document.getElementById('progress').textContent = 'Question ' + (idx + 1) + ' of ' + exam.questions.length;
   document.getElementById('question-text').textContent = q.question;
+  document.getElementById('source-line').textContent = q.source ? 'Deck: ' + q.source : '';
   document.getElementById('feedback').textContent = '';
   document.getElementById('next-btn').hidden = true;
   refreshFlagBtn();
@@ -53,9 +96,11 @@ function pick(i, btn) {
   document.getElementById('feedback').textContent =
     (right ? 'Correct. ' : 'Wrong. Answer: ' + q.choices[q.answer] + '. ') + (q.explanation || '');
   document.getElementById('next-btn').hidden = false;
+  saveProgress();
 }
 
 function finish() {
+  clearProgress();
   document.getElementById('question-box').hidden = true;
   document.getElementById('progress').textContent = '';
   document.getElementById('result-box').hidden = false;
@@ -67,6 +112,7 @@ function finish() {
       lastMissed.push({
         n: i + 1,
         question: q.question,
+        source: q.source || '',
         your: answers[i] === undefined ? '(no answer)' : q.choices[answers[i]],
         correct: q.choices[q.answer],
         explanation: q.explanation || ''
@@ -78,7 +124,7 @@ function finish() {
   list.innerHTML = '';
   lastMissed.forEach(m => {
     const li = document.createElement('li');
-    li.textContent = m.question + ' — Your answer: ' + m.your + ' · Correct: ' + m.correct + (m.explanation ? ' · ' + m.explanation : '');
+    li.textContent = m.question + ' — Your answer: ' + m.your + ' · Correct: ' + m.correct + (m.source ? ' · Deck: ' + m.source : '') + (m.explanation ? ' · ' + m.explanation : '');
     list.appendChild(li);
   });
   document.getElementById('no-missed').hidden = lastMissed.length !== 0;
@@ -88,6 +134,7 @@ function finish() {
     return {
       n: i + 1,
       question: q.question,
+      source: q.source || '',
       correct: q.choices[q.answer],
       explanation: q.explanation || '',
       result: answers[i] === q.answer ? 'answered correctly' : 'answered incorrectly'
@@ -97,7 +144,7 @@ function finish() {
   flist.innerHTML = '';
   lastFlagged.forEach(m => {
     const li = document.createElement('li');
-    li.textContent = m.question + ' — Correct: ' + m.correct + ' · You ' + m.result + (m.explanation ? ' · ' + m.explanation : '');
+    li.textContent = m.question + ' — Correct: ' + m.correct + ' · You ' + m.result + (m.source ? ' · Deck: ' + m.source : '') + (m.explanation ? ' · ' + m.explanation : '');
     flist.appendChild(li);
   });
   document.getElementById('no-flagged').hidden = lastFlagged.length !== 0;
@@ -114,24 +161,27 @@ function finish() {
 document.getElementById('flag-btn').onclick = () => {
   if (flagged.has(idx)) flagged.delete(idx); else flagged.add(idx);
   refreshFlagBtn();
+  saveProgress();
 };
 document.getElementById('next-btn').onclick = () => {
   idx++;
-  if (idx < exam.questions.length) { show(); return; }
+  if (idx < exam.questions.length) { show(); saveProgress(); return; }
   finish();
 };
-document.getElementById('retry-btn').onclick = () => location.reload();
+document.getElementById('retry-btn').onclick = () => { clearProgress(); location.reload(); };
 function missedText() {
   const lines = [examTitle, 'Date: ' + new Date().toLocaleString(), 'Score: ' + score + ' of ' + exam.questions.length, '', 'Missed questions:'];
   if (!lastMissed.length) lines.push('None — perfect score.');
   lastMissed.forEach(m => {
     lines.push('', 'Q' + m.n + '. ' + m.question, 'Your answer: ' + m.your, 'Correct answer: ' + m.correct);
+    if (m.source) lines.push('Deck: ' + m.source);
     if (m.explanation) lines.push('Why: ' + m.explanation);
   });
   lines.push('', 'Flagged: needs more practice:');
   if (!lastFlagged.length) lines.push('None flagged.');
   lastFlagged.forEach(m => {
     lines.push('', 'Q' + m.n + '. ' + m.question, 'Correct answer: ' + m.correct, 'You ' + m.result + '.');
+    if (m.source) lines.push('Deck: ' + m.source);
     if (m.explanation) lines.push('Why: ' + m.explanation);
   });
   return lines.join('\n');

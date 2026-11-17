@@ -98,6 +98,17 @@ fetch('index.json')
           card.appendChild(a);
 
           try {
+            const prog = JSON.parse(localStorage.getItem('examProgress') || '{}');
+            const p = prog[e.file];
+            if (p && p.idx !== undefined && p.total) {
+              const pp = document.createElement('p');
+              pp.className = 'history';
+              pp.textContent = 'In progress — question ' + (p.idx + 1) + ' of ' + p.total;
+              card.appendChild(pp);
+            }
+          } catch (err) { /* no saved progress */ }
+
+          try {
             const hist = JSON.parse(localStorage.getItem('examHistory') || '{}');
             const attempts = hist[e.file];
             if (Array.isArray(attempts) && attempts.length) {
