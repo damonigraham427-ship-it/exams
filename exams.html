@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All Exams</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.exam-card { border: 1px solid #ccc; border-top: 8px solid #2563eb; border-radius: 8px; padding: 1rem; margin: 1rem 0; background: #fff; }
+.exam-card.current { outline: 3px solid #111; outline-offset: 2px; }
+.badge { display: inline-block; color: #fff; font-weight: 700; padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.85rem; letter-spacing: 0.05em; }
+.chip { display: inline-block; border: 1px solid #999; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.85rem; margin-left: 0.5rem; }
+.exam-card h2 { margin: 0.5rem 0 0.25rem; }
+.exam-card p { margin: 0.25rem 0; }
+.start-btn { display: inline-block; margin-top: 0.5rem; padding: 0.6rem 1.2rem; background: #111; color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; }
+#scroll-btn { position: fixed; right: 1rem; bottom: 1rem; padding: 0.8rem 1.2rem; font-size: 1rem; font-weight: 700; border-radius: 999px; border: 2px solid #111; background: #ffd23f; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.3); z-index: 10; }
+</style>
+</head>
+<body>
+<main>
+<h1>All Exams</h1>
+<p><a href="index.html">&larr; Back to exam list</a></p>
+<div id="exam-cards"></div>
+<p id="empty" hidden>No exams yet.</p>
+</main>
+<button id="scroll-btn" type="button">Next exam &darr;</button>
+<script src="exams.js"></script>
+</body>
+</html>
