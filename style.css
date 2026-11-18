@@ -38,3 +38,16 @@ button.choice.wrong { background: #fee2e2; border-color: #dc2626; }
 /* Results */
 #score { font-size: 1.4rem; }
 #missed-list li, #flagged-list li { background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(15, 23, 42, .12); padding: 0.6rem 0.8rem; margin: 0.45rem 0; }
+
+/* Checklist page */
+.check-note { color: #475569; font-size: .95rem; margin: 0 0 0.25rem; }
+.check-totals { font-weight: 700; margin: 0.25rem 0 1rem; }
+.check-cat { font-size: 1.3rem; margin: 1.25rem 0 0.25rem; }
+.check-ch { font-size: 1.05rem; color: #334155; margin: 1rem 0 0.4rem; }
+.check-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 12px; box-shadow: 0 1px 4px rgba(15, 23, 42, .15); overflow: hidden; }
+.check-table th, .check-table td { padding: 0.5rem 0.6rem; text-align: center; border-bottom: 1px solid #e2e8f0; font-size: .95rem; }
+.check-table th { background: #f8fafc; color: #334155; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; }
+.check-table td.tname, .check-table th.tname { text-align: left; }
+.check-table tbody tr:last-child td { border-bottom: none; }
+.check-sub { color: #64748b; font-size: .8rem; }
+.check-dash { color: #94a3b8; }
