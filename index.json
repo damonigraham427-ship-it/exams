@@ -540,6 +540,35 @@
     48,
     51
    ]
+  },
+  {
+   "file": "hour-minutes-per-day.json",
+   "title": "60 Minutes Equals an Hour — Minutes per day",
+   "note": "20 questions",
+   "category": "60 Minutes Equals an Hour",
+   "draw": 20,
+   "redundancy": [
+    17,
+    36,
+    54,
+    72,
+    90,
+    109,
+    127,
+    145,
+    163,
+    182,
+    200,
+    218,
+    236,
+    255,
+    273,
+    291,
+    309,
+    328,
+    346,
+    364
+   ]
   }
  ]
 }
