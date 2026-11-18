@@ -4,6 +4,7 @@ const wantMode = params.get('mode');
 let storageKey = file;
 let isRedund = false;
 let isCoverage = false;
+let isMeta = false;
 let exam, examTitle = file, idx = 0, score = 0;
 const answers = [];
 let lastMissed = [];
@@ -11,6 +12,73 @@ let lastFlagged = [];
 const flagged = new Set();
 let entry = null;
 let runOrder = null;
+
+function buildMetaQuestions(pool) {
+  const N = pool.length;
+  const bands = [];
+  for (let b = 0; b < 20; b++) bands.push([Math.floor(b * N / 20), Math.floor((b + 1) * N / 20)]);
+  const tier = b => (b * 5 + 1) + '\u2013' + ((b + 1) * 5) + '%';
+  const ans = i => pool[i].choices[pool[i].answer];
+  const isFrac = /as a (percentage|decimal)/.test(pool[0].question);
+  function neighbors(b) {
+    const out = [];
+    [b - 1, b + 1, b - 2, b + 2, b - 3, b + 3, b - 4, b + 4].forEach(x => { if (x >= 0 && x < 20 && !out.includes(x)) out.push(x); });
+    return out.slice(0, 3);
+  }
+  function place(list, seed) {
+    const pos = ((seed * 7 + 3) % 4 + 4) % 4;
+    const arr = list.slice(1);
+    arr.splice(pos, 0, list[0]);
+    return { choices: arr, answer: pos };
+  }
+  function fracOf(i) { const m = pool[i].question.match(/(\d+)\/(\d+)/); return m ? [m[1], m[2]] : null; }
+  function pctAnswerOf(k, den) {
+    for (let i = 0; i < N; i++) {
+      if (pool[i].question === 'What is ' + k + '/' + den + ' as a percentage?') return ans(i);
+    }
+    return '';
+  }
+  function rangeStr(b) {
+    const lo = bands[b][0], hi = bands[b][1];
+    if (isFrac) {
+      const f1 = fracOf(lo), f2 = fracOf(hi - 1);
+      return f1[0] === f2[0] ? f1[0] + '/' + f1[1] : f1[0] + '/' + f1[1] + ' \u2013 ' + f2[0] + '/' + f2[1];
+    }
+    const a = ans(lo), c = ans(hi - 1);
+    return a === c ? a : a + ' \u2013 ' + c;
+  }
+  const out = [];
+  for (let b = 0; b < 20; b++) {
+    const lo = bands[b][0], hi = bands[b][1];
+    const nb = neighbors(b);
+    if (b % 2 === 0) {
+      const p = place([rangeStr(b)].concat(nb.map(rangeStr)), b);
+      let expl;
+      if (isFrac) {
+        const f1 = fracOf(lo), f2 = fracOf(hi - 1);
+        expl = 'The ' + tier(b) + ' tier runs from ' + f1[0] + '/' + f1[1] + ' (' + pctAnswerOf(f1[0], f1[1]) + ') to ' + f2[0] + '/' + f2[1] + ' (' + pctAnswerOf(f2[0], f2[1]) + ').';
+      } else {
+        expl = 'The ' + tier(b) + ' tier runs from "' + pool[lo].question + '" (' + ans(lo) + ') to "' + pool[hi - 1].question + '" (' + ans(hi - 1) + ').';
+      }
+      out.push({ question: (isFrac ? 'Which fractions sit in the ' : 'Which answer range falls in the ') + tier(b) + ' tier?',
+                 choices: p.choices, answer: p.answer, explanation: expl, source: 'Meta \u2014 tiers' });
+    } else {
+      const m = lo + Math.floor((hi - lo) / 2);
+      const p = place([tier(b)].concat(nb.map(tier)), b);
+      let qtext, expl;
+      if (isFrac) {
+        const f = fracOf(m);
+        qtext = f[0] + '/' + f[1] + ' (' + pctAnswerOf(f[0], f[1]) + ') falls in which tier?';
+        expl = f[0] + '/' + f[1] + ' is entry ' + (m + 1) + ' of ' + N + ', inside the ' + tier(b) + ' tier.';
+      } else {
+        qtext = ans(m) + ' is an answer in which tier?';
+        expl = ans(m) + ' answers "' + pool[m].question + '" \u2014 entry ' + (m + 1) + ' of ' + N + ', inside the ' + tier(b) + ' tier.';
+      }
+      out.push({ question: qtext, choices: p.choices, answer: p.answer, explanation: expl, source: 'Meta \u2014 tiers' });
+    }
+  }
+  return out;
+}
 
 function shuffleIdx(n) {
   const a = Array.from({ length: n }, (_, i) => i);
@@ -33,7 +101,12 @@ Promise.all([
   const pool = data.questions;
   isRedund = !!(wantMode === 'redundancy' && entry && Array.isArray(entry.redundancy) && entry.redundancy.length);
   isCoverage = !!(wantMode === 'coverage' && entry && entry.draw);
-  if (isRedund) {
+  isMeta = !!(wantMode === 'meta' && entry && entry.draw);
+  if (isMeta) {
+    storageKey = file + '#meta';
+    examTitle = examTitle + ' \u2014 Meta';
+    document.getElementById('exam-title').textContent = examTitle;
+  } else if (isRedund) {
     storageKey = file + '#redundancy';
     examTitle = examTitle + ' \u2014 Redundancy';
     document.getElementById('exam-title').textContent = examTitle;
@@ -45,7 +118,20 @@ Promise.all([
   try {
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
     const p = all[storageKey];
-    if (isRedund) {
+    if (isMeta) {
+      const metaQs = buildMetaQuestions(pool);
+      let restored = false;
+      if (p && Array.isArray(p.order) && p.order.length === metaQs.length && p.total === metaQs.length &&
+          p.order.every(i => i >= 0 && i < metaQs.length) && p.idx < metaQs.length) {
+        runOrder = p.order;
+        idx = p.idx; score = p.score || 0;
+        (p.answers || []).forEach((a, i) => { answers[i] = a; });
+        (p.flagged || []).forEach(i => flagged.add(i));
+        restored = true;
+      }
+      if (!restored) runOrder = shuffleIdx(metaQs.length);
+      exam = Object.assign({}, data, { questions: runOrder.map(i => metaQs[i]) });
+    } else if (isRedund) {
       const picks = entry.redundancy.filter(i => i >= 0 && i < pool.length);
       const drawN = picks.length;
       let restored = false;
