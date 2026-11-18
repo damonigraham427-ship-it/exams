@@ -1,8 +1,9 @@
 const params = new URLSearchParams(location.search);
 const file = params.get('exam');
-const wantRedund = params.get('mode') === 'redundancy';
+const wantMode = params.get('mode');
 let storageKey = file;
 let isRedund = false;
+let isCoverage = false;
 let exam, examTitle = file, idx = 0, score = 0;
 const answers = [];
 let lastMissed = [];
@@ -30,10 +31,15 @@ Promise.all([
   exam = data;
   if (data.title) { examTitle = data.title; document.getElementById('exam-title').textContent = examTitle; }
   const pool = data.questions;
-  isRedund = !!(wantRedund && entry && Array.isArray(entry.redundancy) && entry.redundancy.length);
+  isRedund = !!(wantMode === 'redundancy' && entry && Array.isArray(entry.redundancy) && entry.redundancy.length);
+  isCoverage = !!(wantMode === 'coverage' && entry && entry.draw);
   if (isRedund) {
     storageKey = file + '#redundancy';
     examTitle = examTitle + ' \u2014 Redundancy';
+    document.getElementById('exam-title').textContent = examTitle;
+  } else if (isCoverage) {
+    storageKey = file + '#coverage';
+    examTitle = examTitle + ' \u2014 Coverage';
     document.getElementById('exam-title').textContent = examTitle;
   }
   try {
@@ -52,6 +58,27 @@ Promise.all([
         restored = true;
       }
       if (!restored) runOrder = shuffleIdx(drawN).map(i => picks[i]);
+      exam = Object.assign({}, data, { questions: runOrder.map(i => pool[i]) });
+    } else if (isCoverage) {
+      const drawN = Math.min(20, pool.length);
+      let restored = false;
+      if (p && Array.isArray(p.order) && p.order.length === drawN && p.total === drawN &&
+          p.order.every(i => i >= 0 && i < pool.length) && p.idx < drawN) {
+        runOrder = p.order;
+        idx = p.idx; score = p.score || 0;
+        (p.answers || []).forEach((a, i) => { answers[i] = a; });
+        (p.flagged || []).forEach(i => flagged.add(i));
+        restored = true;
+      }
+      if (!restored) {
+        const picks = [];
+        for (let b = 0; b < drawN; b++) {
+          const lo = Math.floor(b * pool.length / drawN);
+          const hi = Math.floor((b + 1) * pool.length / drawN);
+          picks.push(lo + Math.floor(Math.random() * Math.max(1, hi - lo)));
+        }
+        runOrder = shuffleIdx(picks.length).map(i => picks[i]);
+      }
       exam = Object.assign({}, data, { questions: runOrder.map(i => pool[i]) });
     } else if (entry && entry.draw) {
       const drawN = Math.min(entry.draw, pool.length);

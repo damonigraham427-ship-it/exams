@@ -146,6 +146,24 @@ function buildCards() {
       a.textContent = 'Start exam';
       card.appendChild(a);
 
+      if (e.draw) {
+        const cv = document.createElement('a');
+        cv.className = 'start-btn alt';
+        cv.href = 'exam.html?exam=' + encodeURIComponent(e.file) + '&mode=coverage';
+        cv.textContent = 'Coverage exam';
+        card.appendChild(cv);
+        try {
+          const prog3 = JSON.parse(localStorage.getItem('examProgress') || '{}');
+          const cp = prog3[e.file + '#coverage'];
+          if (cp && cp.idx !== undefined && cp.total) {
+            const cpp = document.createElement('p');
+            cpp.className = 'history';
+            cpp.textContent = 'Coverage in progress \u2014 question ' + (cp.idx + 1) + ' of ' + cp.total;
+            card.appendChild(cpp);
+          }
+        } catch (err) { /* no saved coverage progress */ }
+      }
+
       if (e.redundancy) {
         const r = document.createElement('a');
         r.className = 'start-btn alt';
