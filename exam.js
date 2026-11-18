@@ -4,33 +4,53 @@ const answers = [];
 let lastMissed = [];
 let lastFlagged = [];
 const flagged = new Set();
+let entry = null;
+let runOrder = null;
 
-fetch('index.json')
-  .then(r => r.json())
-  .then(data => {
-    const entry = (data.exams || []).find(e => e.file === file);
-    if (entry) examTitle = entry.title;
-    document.getElementById('exam-title').textContent = examTitle;
-  })
-  .catch(() => {});
+function shuffleIdx(n) {
+  const a = Array.from({ length: n }, (_, i) => i);
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
 
-fetch(file)
-  .then(r => r.json())
-  .then(data => {
-    exam = data;
-    if (data.title) { examTitle = data.title; document.getElementById('exam-title').textContent = examTitle; }
-    try {
-      const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
-      const p = all[file];
-      if (p && p.total === data.questions.length && p.idx < data.questions.length) {
+Promise.all([
+  fetch('index.json').then(r => r.json()).catch(() => null),
+  fetch(file).then(r => r.json())
+]).then(([idxData, data]) => {
+  entry = ((idxData && idxData.exams) || []).find(e => e.file === file) || null;
+  if (entry) examTitle = entry.title;
+  document.getElementById('exam-title').textContent = examTitle;
+  exam = data;
+  if (data.title) { examTitle = data.title; document.getElementById('exam-title').textContent = examTitle; }
+  const pool = data.questions;
+  try {
+    const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
+    const p = all[file];
+    if (entry && entry.draw) {
+      const drawN = Math.min(entry.draw, pool.length);
+      let restored = false;
+      if (p && Array.isArray(p.order) && p.order.length === drawN && p.total === drawN &&
+          p.order.every(i => i >= 0 && i < pool.length) && p.idx < drawN) {
+        runOrder = p.order;
         idx = p.idx; score = p.score || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
+        restored = true;
       }
-    } catch (e) { /* no saved progress */ }
-    show();
-    renderAnswered();
-  });
+      if (!restored) runOrder = shuffleIdx(pool.length).slice(0, drawN);
+      exam = Object.assign({}, data, { questions: runOrder.map(i => pool[i]) });
+    } else if (p && p.total === pool.length && p.idx < pool.length) {
+      idx = p.idx; score = p.score || 0;
+      (p.answers || []).forEach((a, i) => { answers[i] = a; });
+      (p.flagged || []).forEach(i => flagged.add(i));
+    }
+  } catch (e) { /* no saved progress */ }
+  show();
+  renderAnswered();
+});
 
 function refreshFlagBtn() {
   const btn = document.getElementById('flag-btn');
@@ -43,7 +63,9 @@ const PKEY = 'examProgress';
 function saveProgress() {
   try {
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
-    all[file] = { idx: idx, answers: answers, flagged: [...flagged], score: score, total: exam.questions.length, ts: Date.now() };
+    const rec = { idx: idx, answers: answers, flagged: [...flagged], score: score, total: exam.questions.length, ts: Date.now() };
+    if (runOrder) rec.order = runOrder;
+    all[file] = rec;
     localStorage.setItem(PKEY, JSON.stringify(all));
   } catch (e) { /* storage unavailable */ }
 }

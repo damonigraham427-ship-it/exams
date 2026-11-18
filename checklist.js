@@ -25,8 +25,14 @@
     var attempts = hist[exam.file] || [];
     var latest = attempts.length ? attempts[0] : null;
     var p = prog[exam.file] || null;
+    var avg = null;
+    if (attempts.length) {
+      var m = attempts.reduce(function (sum, a) { return sum + (a.total ? a.score / a.total : 0); }, 0) / attempts.length;
+      avg = Math.round(m * 100) + '%';
+    }
     return {
       attempts: attempts.length,
+      avg: avg,
       correct: latest ? latest.score : null,
       wrong: latest ? (latest.missed ? latest.missed.length : latest.total - latest.score) : null,
       review: latest ? (latest.flagged ? latest.flagged.length : 0) : null,
@@ -75,7 +81,7 @@
 
           var table = document.createElement('table');
           table.className = 'check-table';
-          var thead = '<thead><tr><th class="tname">Test</th><th>Attempts</th><th>Correct</th><th>Wrong</th><th>&#9734; Review</th></tr></thead>';
+          var thead = '<thead><tr><th class="tname">Test</th><th>Attempts</th><th>Avg</th><th>Correct</th><th>Wrong</th><th>&#9734; Review</th></tr></thead>';
           var body = rows.map(function (r) {
             totExams++;
             totAttempts += r.s.attempts;
@@ -93,6 +99,7 @@
             return '<tr>' +
               '<td class="tname">' + name + (sub ? '<br>' + sub : '') + '</td>' +
               '<td>' + (r.s.attempts ? r.s.attempts : dash) + '</td>' +
+              '<td>' + (r.s.avg == null ? dash : r.s.avg) + '</td>' +
               '<td>' + (r.s.correct == null ? dash : r.s.correct) + '</td>' +
               '<td>' + (r.s.wrong == null ? dash : r.s.wrong) + '</td>' +
               '<td>' + (r.s.review == null ? dash : r.s.review) + '</td>' +
