@@ -182,6 +182,24 @@ function buildCards() {
         } catch (err) { /* no saved meta progress */ }
       }
 
+      if (e.draw) {
+        const m10 = document.createElement('a');
+        m10.className = 'start-btn alt';
+        m10.href = 'exam.html?exam=' + encodeURIComponent(e.file) + '&mode=meta10';
+        m10.textContent = 'Meta 10% exam';
+        card.appendChild(m10);
+        try {
+          const prog5 = JSON.parse(localStorage.getItem('examProgress') || '{}');
+          const mp10 = prog5[e.file + '#meta10'];
+          if (mp10 && mp10.idx !== undefined && mp10.total) {
+            const mpp10 = document.createElement('p');
+            mpp10.className = 'history';
+            mpp10.textContent = 'Meta 10 in progress \u2014 question ' + (mp10.idx + 1) + ' of ' + mp10.total;
+            card.appendChild(mpp10);
+          }
+        } catch (err) { /* no saved meta10 progress */ }
+      }
+
       if (e.redundancy) {
         const r = document.createElement('a');
         r.className = 'start-btn alt';
