@@ -146,6 +146,24 @@ function buildCards() {
       a.textContent = 'Start exam';
       card.appendChild(a);
 
+      if (e.draw) {
+        const r = document.createElement('a');
+        r.className = 'start-btn alt';
+        r.href = 'exam.html?exam=' + encodeURIComponent(e.file) + '&mode=redundancy';
+        r.textContent = 'Redundancy exam';
+        card.appendChild(r);
+        try {
+          const prog2 = JSON.parse(localStorage.getItem('examProgress') || '{}');
+          const rp = prog2[e.file + '#redundancy'];
+          if (rp && rp.idx !== undefined && rp.total) {
+            const rpp = document.createElement('p');
+            rpp.className = 'history';
+            rpp.textContent = 'Redundancy in progress \u2014 question ' + (rp.idx + 1) + ' of ' + rp.total;
+            card.appendChild(rpp);
+          }
+        } catch (err) { /* no saved redundancy progress */ }
+      }
+
       try {
         const prog = JSON.parse(localStorage.getItem('examProgress') || '{}');
         const p = prog[e.file];

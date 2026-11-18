@@ -1,4 +1,8 @@
-const file = new URLSearchParams(location.search).get('exam');
+const params = new URLSearchParams(location.search);
+const file = params.get('exam');
+const wantRedund = params.get('mode') === 'redundancy';
+let storageKey = file;
+let isRedund = false;
 let exam, examTitle = file, idx = 0, score = 0;
 const answers = [];
 let lastMissed = [];
@@ -26,10 +30,37 @@ Promise.all([
   exam = data;
   if (data.title) { examTitle = data.title; document.getElementById('exam-title').textContent = examTitle; }
   const pool = data.questions;
+  isRedund = !!(wantRedund && entry && entry.draw);
+  if (isRedund) {
+    storageKey = file + '#redundancy';
+    examTitle = examTitle + ' \u2014 Redundancy';
+    document.getElementById('exam-title').textContent = examTitle;
+  }
   try {
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
-    const p = all[file];
-    if (entry && entry.draw) {
+    const p = all[storageKey];
+    if (isRedund) {
+      const drawN = Math.min(entry.draw, pool.length);
+      let restored = false;
+      if (p && Array.isArray(p.order) && p.order.length === drawN && p.total === drawN &&
+          p.order.every(i => i >= 0 && i < pool.length) && p.idx < drawN) {
+        runOrder = p.order;
+        idx = p.idx; score = p.score || 0;
+        (p.answers || []).forEach((a, i) => { answers[i] = a; });
+        (p.flagged || []).forEach(i => flagged.add(i));
+        restored = true;
+      }
+      if (!restored) {
+        const picks = [];
+        for (let b = 0; b < drawN; b++) {
+          const lo = Math.floor(b * pool.length / drawN);
+          const hi = Math.floor((b + 1) * pool.length / drawN);
+          picks.push(lo + Math.floor(Math.random() * Math.max(1, hi - lo)));
+        }
+        runOrder = shuffleIdx(picks.length).map(i => picks[i]);
+      }
+      exam = Object.assign({}, data, { questions: runOrder.map(i => pool[i]) });
+    } else if (entry && entry.draw) {
       const drawN = Math.min(entry.draw, pool.length);
       let restored = false;
       if (p && Array.isArray(p.order) && p.order.length === drawN && p.total === drawN &&
@@ -65,14 +96,14 @@ function saveProgress() {
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
     const rec = { idx: idx, answers: answers, flagged: [...flagged], score: score, total: exam.questions.length, ts: Date.now() };
     if (runOrder) rec.order = runOrder;
-    all[file] = rec;
+    all[storageKey] = rec;
     localStorage.setItem(PKEY, JSON.stringify(all));
   } catch (e) { /* storage unavailable */ }
 }
 function clearProgress() {
   try {
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
-    delete all[file];
+    delete all[storageKey];
     localStorage.setItem(PKEY, JSON.stringify(all));
   } catch (e) { /* storage unavailable */ }
 }
@@ -173,9 +204,9 @@ function finish() {
 
   try {
     const all = JSON.parse(localStorage.getItem('examHistory') || '{}');
-    if (!Array.isArray(all[file])) all[file] = [];
-    all[file].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, missed: lastMissed, flagged: lastFlagged });
-    all[file] = all[file].slice(0, 20);
+    if (!Array.isArray(all[storageKey])) all[storageKey] = [];
+    all[storageKey].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, missed: lastMissed, flagged: lastFlagged });
+    all[storageKey] = all[storageKey].slice(0, 20);
     localStorage.setItem('examHistory', JSON.stringify(all));
   } catch (e) { /* storage unavailable; results still shown on screen */ }
 }
