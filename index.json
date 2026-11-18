@@ -283,14 +283,14 @@
   {
    "file": "hour-minutes-per-hour.json",
    "title": "60 Minutes Equals an Hour — Minutes per hour",
-   "note": "167 questions",
-   "category": "60 Minutes Equals an Hour"
+      "note": "168 questions",
+         "category": "60 Minutes Equals an Hour"
   },
   {
    "file": "hour-seconds-per-hour.json",
    "title": "60 Minutes Equals an Hour — Seconds per hour",
-   "note": "167 questions",
-   "category": "60 Minutes Equals an Hour"
+      "note": "168 questions",
+         "category": "60 Minutes Equals an Hour"
   },
   {
    "file": "hour-x15.json",
