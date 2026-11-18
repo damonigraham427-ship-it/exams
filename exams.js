@@ -18,6 +18,10 @@ function setView() {
     back.hidden = false;
     back.textContent = '\u2190 Exams';
     crumb.textContent = 'Exams / ' + selCategory;
+  } else if (selChapter === 'Other') {
+    back.hidden = false;
+    back.textContent = '\u2190 Exams';
+    crumb.textContent = 'Exams / ' + selCategory;
   } else {
     back.hidden = false;
     back.textContent = '\u2190 ' + selCategory;
@@ -49,12 +53,24 @@ function renderCategories() {
     const inCat = allExams.filter(e => (e.category || 'General') === c);
     const chs = new Set(inCat.map(e => e.chapter === undefined ? 'Other' : String(e.chapter)));
     const n = chs.size;
-    wrap.appendChild(navCard(c, n + (n === 1 ? ' chapter' : ' chapters'), PALETTE[i % PALETTE.length], () => {
-      selCategory = c;
-      renderChapters();
-      view = 'chapters';
-      setView();
-    }));
+    if (n === 1 && chs.has('Other')) {
+      wrap.appendChild(navCard(c, inCat.length + (inCat.length === 1 ? ' exam' : ' exams'), PALETTE[i % PALETTE.length], () => {
+        selCategory = c;
+        selChapter = 'Other';
+        cards.forEach(card => {
+          card.style.display = (card.dataset.category === selCategory && card.dataset.chapter === selChapter) ? '' : 'none';
+        });
+        view = 'exams';
+        setView();
+      }));
+    } else {
+      wrap.appendChild(navCard(c, n + (n === 1 ? ' chapter' : ' chapters'), PALETTE[i % PALETTE.length], () => {
+        selCategory = c;
+        renderChapters();
+        view = 'chapters';
+        setView();
+      }));
+    }
   });
 }
 
@@ -178,7 +194,7 @@ fetch('index.json')
   });
 
 document.getElementById('back-btn').addEventListener('click', () => {
-  if (view === 'exams') { view = 'chapters'; }
+  if (view === 'exams') { view = selChapter === 'Other' ? 'categories' : 'chapters'; }
   else if (view === 'chapters') { view = 'categories'; }
   setView();
   window.scrollTo({ top: 0 });

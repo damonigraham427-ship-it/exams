@@ -279,6 +279,54 @@
    "note": "98 questions · shuffled",
    "category": "NREMT",
    "chapter": 4
+  },
+  {
+   "file": "hour-minutes-per-hour.json",
+   "title": "60 Minutes Equals an Hour — Minutes per hour",
+   "note": "167 questions",
+   "category": "60 Minutes Equals an Hour"
+  },
+  {
+   "file": "hour-seconds-per-hour.json",
+   "title": "60 Minutes Equals an Hour — Seconds per hour",
+   "note": "167 questions",
+   "category": "60 Minutes Equals an Hour"
+  },
+  {
+   "file": "hour-x15.json",
+   "title": "60 Minutes Equals an Hour — X/15",
+   "note": "28 questions",
+   "category": "60 Minutes Equals an Hour"
+  },
+  {
+   "file": "hour-x35.json",
+   "title": "60 Minutes Equals an Hour — X/35",
+   "note": "68 questions",
+   "category": "60 Minutes Equals an Hour"
+  },
+  {
+   "file": "hour-x45.json",
+   "title": "60 Minutes Equals an Hour — X/45",
+   "note": "88 questions",
+   "category": "60 Minutes Equals an Hour"
+  },
+  {
+   "file": "hour-minutes-per-1-week.json",
+   "title": "60 Minutes Equals an Hour — Minutes per 1 week",
+   "note": "100 questions",
+   "category": "60 Minutes Equals an Hour"
+  },
+  {
+   "file": "hour-minutes-4-weeks.json",
+   "title": "60 Minutes Equals an Hour — Minutes 4 weeks",
+   "note": "100 questions",
+   "category": "60 Minutes Equals an Hour"
+  },
+  {
+   "file": "hour-52-weeks-364-days.json",
+   "title": "60 Minutes Equals an Hour — 52 Weeks 364 Days",
+   "note": "100 questions",
+   "category": "60 Minutes Equals an Hour"
   }
  ]
 }

@@ -1,0 +1,1204 @@
+{
+ "questions": [
+  {
+   "question": "How many minutes is 1% of 1 week?",
+   "choices": [
+    "201.6",
+    "302.4",
+    "100.8",
+    "403.2"
+   ],
+   "answer": 2,
+   "explanation": "1% of 10,080 = 100.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 2% of 1 week?",
+   "choices": [
+    "201.6",
+    "100.8",
+    "302.4",
+    "403.2"
+   ],
+   "answer": 0,
+   "explanation": "2% of 10,080 = 201.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 3% of 1 week?",
+   "choices": [
+    "100.8",
+    "201.6",
+    "403.2",
+    "302.4"
+   ],
+   "answer": 3,
+   "explanation": "3% of 10,080 = 302.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 4% of 1 week?",
+   "choices": [
+    "100.8",
+    "201.6",
+    "302.4",
+    "403.2"
+   ],
+   "answer": 3,
+   "explanation": "4% of 10,080 = 403.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 5% of 1 week?",
+   "choices": [
+    "504",
+    "201.6",
+    "302.4",
+    "403.2"
+   ],
+   "answer": 0,
+   "explanation": "5% of 10,080 = 504",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 6% of 1 week?",
+   "choices": [
+    "302.4",
+    "403.2",
+    "504",
+    "604.8"
+   ],
+   "answer": 3,
+   "explanation": "6% of 10,080 = 604.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 7% of 1 week?",
+   "choices": [
+    "403.2",
+    "504",
+    "705.6",
+    "604.8"
+   ],
+   "answer": 2,
+   "explanation": "7% of 10,080 = 705.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 8% of 1 week?",
+   "choices": [
+    "806.4",
+    "504",
+    "604.8",
+    "705.6"
+   ],
+   "answer": 0,
+   "explanation": "8% of 10,080 = 806.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 9% of 1 week?",
+   "choices": [
+    "604.8",
+    "907.2",
+    "705.6",
+    "806.4"
+   ],
+   "answer": 1,
+   "explanation": "9% of 10,080 = 907.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 10% of 1 week?",
+   "choices": [
+    "705.6",
+    "1,008",
+    "806.4",
+    "907.2"
+   ],
+   "answer": 1,
+   "explanation": "10% of 10,080 = 1,008",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 11% of 1 week?",
+   "choices": [
+    "806.4",
+    "1,108.8",
+    "907.2",
+    "1,008"
+   ],
+   "answer": 1,
+   "explanation": "11% of 10,080 = 1,108.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 12% of 1 week?",
+   "choices": [
+    "1,209.6",
+    "907.2",
+    "1,008",
+    "1,108.8"
+   ],
+   "answer": 0,
+   "explanation": "12% of 10,080 = 1,209.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 13% of 1 week?",
+   "choices": [
+    "1,008",
+    "1,108.8",
+    "1,310.4",
+    "1,209.6"
+   ],
+   "answer": 2,
+   "explanation": "13% of 10,080 = 1,310.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 14% of 1 week?",
+   "choices": [
+    "1,108.8",
+    "1,411.2",
+    "1,209.6",
+    "1,310.4"
+   ],
+   "answer": 1,
+   "explanation": "14% of 10,080 = 1,411.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 15% of 1 week?",
+   "choices": [
+    "1,512",
+    "1,209.6",
+    "1,310.4",
+    "1,411.2"
+   ],
+   "answer": 0,
+   "explanation": "15% of 10,080 = 1,512",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 16% of 1 week?",
+   "choices": [
+    "1,612.8",
+    "1,310.4",
+    "1,411.2",
+    "1,512"
+   ],
+   "answer": 0,
+   "explanation": "16% of 10,080 = 1,612.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 17% of 1 week?",
+   "choices": [
+    "1,411.2",
+    "1,512",
+    "1,612.8",
+    "1,713.6"
+   ],
+   "answer": 3,
+   "explanation": "17% of 10,080 = 1,713.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 18% of 1 week?",
+   "choices": [
+    "1,512",
+    "1,612.8",
+    "1,814.4",
+    "1,713.6"
+   ],
+   "answer": 2,
+   "explanation": "18% of 10,080 = 1,814.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 19% of 1 week?",
+   "choices": [
+    "1,915.2",
+    "1,612.8",
+    "1,713.6",
+    "1,814.4"
+   ],
+   "answer": 0,
+   "explanation": "19% of 10,080 = 1,915.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 20% of 1 week?",
+   "choices": [
+    "2,016",
+    "1,713.6",
+    "1,814.4",
+    "1,915.2"
+   ],
+   "answer": 0,
+   "explanation": "20% of 10,080 = 2,016",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 21% of 1 week?",
+   "choices": [
+    "1,814.4",
+    "2,116.8",
+    "1,915.2",
+    "2,016"
+   ],
+   "answer": 1,
+   "explanation": "21% of 10,080 = 2,116.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 22% of 1 week?",
+   "choices": [
+    "1,915.2",
+    "2,016",
+    "2,217.6",
+    "2,116.8"
+   ],
+   "answer": 2,
+   "explanation": "22% of 10,080 = 2,217.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 23% of 1 week?",
+   "choices": [
+    "2,016",
+    "2,318.4",
+    "2,116.8",
+    "2,217.6"
+   ],
+   "answer": 1,
+   "explanation": "23% of 10,080 = 2,318.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 24% of 1 week?",
+   "choices": [
+    "2,419.2",
+    "2,116.8",
+    "2,217.6",
+    "2,318.4"
+   ],
+   "answer": 0,
+   "explanation": "24% of 10,080 = 2,419.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 25% of 1 week?",
+   "choices": [
+    "2,217.6",
+    "2,318.4",
+    "2,419.2",
+    "2,520"
+   ],
+   "answer": 3,
+   "explanation": "25% of 10,080 = 2,520",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 26% of 1 week?",
+   "choices": [
+    "2,620.8",
+    "2,318.4",
+    "2,419.2",
+    "2,520"
+   ],
+   "answer": 0,
+   "explanation": "26% of 10,080 = 2,620.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 27% of 1 week?",
+   "choices": [
+    "2,419.2",
+    "2,520",
+    "2,620.8",
+    "2,721.6"
+   ],
+   "answer": 3,
+   "explanation": "27% of 10,080 = 2,721.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 28% of 1 week?",
+   "choices": [
+    "2,520",
+    "2,620.8",
+    "2,822.4",
+    "2,721.6"
+   ],
+   "answer": 2,
+   "explanation": "28% of 10,080 = 2,822.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 29% of 1 week?",
+   "choices": [
+    "2,620.8",
+    "2,721.6",
+    "2,822.4",
+    "2,923.2"
+   ],
+   "answer": 3,
+   "explanation": "29% of 10,080 = 2,923.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 30% of 1 week?",
+   "choices": [
+    "2,721.6",
+    "2,822.4",
+    "2,923.2",
+    "3,024"
+   ],
+   "answer": 3,
+   "explanation": "30% of 10,080 = 3,024",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 31% of 1 week?",
+   "choices": [
+    "2,822.4",
+    "3,124.8",
+    "2,923.2",
+    "3,024"
+   ],
+   "answer": 1,
+   "explanation": "31% of 10,080 = 3,124.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 32% of 1 week?",
+   "choices": [
+    "2,923.2",
+    "3,225.6",
+    "3,024",
+    "3,124.8"
+   ],
+   "answer": 1,
+   "explanation": "32% of 10,080 = 3,225.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 33% of 1 week?",
+   "choices": [
+    "3,024",
+    "3,326.4",
+    "3,124.8",
+    "3,225.6"
+   ],
+   "answer": 1,
+   "explanation": "33% of 10,080 = 3,326.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 34% of 1 week?",
+   "choices": [
+    "3,427.2",
+    "3,124.8",
+    "3,225.6",
+    "3,326.4"
+   ],
+   "answer": 0,
+   "explanation": "34% of 10,080 = 3,427.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 35% of 1 week?",
+   "choices": [
+    "3,528",
+    "3,225.6",
+    "3,326.4",
+    "3,427.2"
+   ],
+   "answer": 0,
+   "explanation": "35% of 10,080 = 3,528",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 36% of 1 week?",
+   "choices": [
+    "3,326.4",
+    "3,427.2",
+    "3,628.8",
+    "3,528"
+   ],
+   "answer": 2,
+   "explanation": "36% of 10,080 = 3,628.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 37% of 1 week?",
+   "choices": [
+    "3,427.2",
+    "3,528",
+    "3,729.6",
+    "3,628.8"
+   ],
+   "answer": 2,
+   "explanation": "37% of 10,080 = 3,729.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 38% of 1 week?",
+   "choices": [
+    "3,528",
+    "3,628.8",
+    "3,729.6",
+    "3,830.4"
+   ],
+   "answer": 3,
+   "explanation": "38% of 10,080 = 3,830.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 39% of 1 week?",
+   "choices": [
+    "3,628.8",
+    "3,729.6",
+    "3,931.2",
+    "3,830.4"
+   ],
+   "answer": 2,
+   "explanation": "39% of 10,080 = 3,931.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 40% of 1 week?",
+   "choices": [
+    "4,032",
+    "3,729.6",
+    "3,830.4",
+    "3,931.2"
+   ],
+   "answer": 0,
+   "explanation": "40% of 10,080 = 4,032",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 41% of 1 week?",
+   "choices": [
+    "3,830.4",
+    "3,931.2",
+    "4,032",
+    "4,132.8"
+   ],
+   "answer": 3,
+   "explanation": "41% of 10,080 = 4,132.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 42% of 1 week?",
+   "choices": [
+    "4,233.6",
+    "3,931.2",
+    "4,032",
+    "4,132.8"
+   ],
+   "answer": 0,
+   "explanation": "42% of 10,080 = 4,233.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 43% of 1 week?",
+   "choices": [
+    "4,032",
+    "4,132.8",
+    "4,334.4",
+    "4,233.6"
+   ],
+   "answer": 2,
+   "explanation": "43% of 10,080 = 4,334.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 44% of 1 week?",
+   "choices": [
+    "4,132.8",
+    "4,435.2",
+    "4,233.6",
+    "4,334.4"
+   ],
+   "answer": 1,
+   "explanation": "44% of 10,080 = 4,435.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 45% of 1 week?",
+   "choices": [
+    "4,536",
+    "4,233.6",
+    "4,334.4",
+    "4,435.2"
+   ],
+   "answer": 0,
+   "explanation": "45% of 10,080 = 4,536",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 46% of 1 week?",
+   "choices": [
+    "4,334.4",
+    "4,435.2",
+    "4,636.8",
+    "4,536"
+   ],
+   "answer": 2,
+   "explanation": "46% of 10,080 = 4,636.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 47% of 1 week?",
+   "choices": [
+    "4,435.2",
+    "4,737.6",
+    "4,536",
+    "4,636.8"
+   ],
+   "answer": 1,
+   "explanation": "47% of 10,080 = 4,737.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 48% of 1 week?",
+   "choices": [
+    "4,536",
+    "4,838.4",
+    "4,636.8",
+    "4,737.6"
+   ],
+   "answer": 1,
+   "explanation": "48% of 10,080 = 4,838.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 49% of 1 week?",
+   "choices": [
+    "4,636.8",
+    "4,737.6",
+    "4,838.4",
+    "4,939.2"
+   ],
+   "answer": 3,
+   "explanation": "49% of 10,080 = 4,939.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 50% of 1 week?",
+   "choices": [
+    "5,040",
+    "4,737.6",
+    "4,838.4",
+    "4,939.2"
+   ],
+   "answer": 0,
+   "explanation": "50% of 10,080 = 5,040",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 51% of 1 week?",
+   "choices": [
+    "5,140.8",
+    "4,838.4",
+    "4,939.2",
+    "5,040"
+   ],
+   "answer": 0,
+   "explanation": "51% of 10,080 = 5,140.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 52% of 1 week?",
+   "choices": [
+    "4,939.2",
+    "5,040",
+    "5,140.8",
+    "5,241.6"
+   ],
+   "answer": 3,
+   "explanation": "52% of 10,080 = 5,241.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 53% of 1 week?",
+   "choices": [
+    "5,040",
+    "5,140.8",
+    "5,241.6",
+    "5,342.4"
+   ],
+   "answer": 3,
+   "explanation": "53% of 10,080 = 5,342.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 54% of 1 week?",
+   "choices": [
+    "5,140.8",
+    "5,241.6",
+    "5,443.2",
+    "5,342.4"
+   ],
+   "answer": 2,
+   "explanation": "54% of 10,080 = 5,443.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 55% of 1 week?",
+   "choices": [
+    "5,241.6",
+    "5,544",
+    "5,342.4",
+    "5,443.2"
+   ],
+   "answer": 1,
+   "explanation": "55% of 10,080 = 5,544",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 56% of 1 week?",
+   "choices": [
+    "5,342.4",
+    "5,443.2",
+    "5,644.8",
+    "5,544"
+   ],
+   "answer": 2,
+   "explanation": "56% of 10,080 = 5,644.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 57% of 1 week?",
+   "choices": [
+    "5,443.2",
+    "5,544",
+    "5,745.6",
+    "5,644.8"
+   ],
+   "answer": 2,
+   "explanation": "57% of 10,080 = 5,745.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 58% of 1 week?",
+   "choices": [
+    "5,544",
+    "5,644.8",
+    "5,846.4",
+    "5,745.6"
+   ],
+   "answer": 2,
+   "explanation": "58% of 10,080 = 5,846.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 59% of 1 week?",
+   "choices": [
+    "5,644.8",
+    "5,745.6",
+    "5,846.4",
+    "5,947.2"
+   ],
+   "answer": 3,
+   "explanation": "59% of 10,080 = 5,947.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 60% of 1 week?",
+   "choices": [
+    "6,048",
+    "5,745.6",
+    "5,846.4",
+    "5,947.2"
+   ],
+   "answer": 0,
+   "explanation": "60% of 10,080 = 6,048",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 61% of 1 week?",
+   "choices": [
+    "5,846.4",
+    "5,947.2",
+    "6,148.8",
+    "6,048"
+   ],
+   "answer": 2,
+   "explanation": "61% of 10,080 = 6,148.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 62% of 1 week?",
+   "choices": [
+    "6,249.6",
+    "5,947.2",
+    "6,048",
+    "6,148.8"
+   ],
+   "answer": 0,
+   "explanation": "62% of 10,080 = 6,249.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 63% of 1 week?",
+   "choices": [
+    "6,048",
+    "6,350.4",
+    "6,148.8",
+    "6,249.6"
+   ],
+   "answer": 1,
+   "explanation": "63% of 10,080 = 6,350.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 64% of 1 week?",
+   "choices": [
+    "6,451.2",
+    "6,148.8",
+    "6,249.6",
+    "6,350.4"
+   ],
+   "answer": 0,
+   "explanation": "64% of 10,080 = 6,451.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 65% of 1 week?",
+   "choices": [
+    "6,249.6",
+    "6,552",
+    "6,350.4",
+    "6,451.2"
+   ],
+   "answer": 1,
+   "explanation": "65% of 10,080 = 6,552",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 66% of 1 week?",
+   "choices": [
+    "6,350.4",
+    "6,451.2",
+    "6,652.8",
+    "6,552"
+   ],
+   "answer": 2,
+   "explanation": "66% of 10,080 = 6,652.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 67% of 1 week?",
+   "choices": [
+    "6,451.2",
+    "6,753.6",
+    "6,552",
+    "6,652.8"
+   ],
+   "answer": 1,
+   "explanation": "67% of 10,080 = 6,753.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 68% of 1 week?",
+   "choices": [
+    "6,854.4",
+    "6,552",
+    "6,652.8",
+    "6,753.6"
+   ],
+   "answer": 0,
+   "explanation": "68% of 10,080 = 6,854.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 69% of 1 week?",
+   "choices": [
+    "6,652.8",
+    "6,955.2",
+    "6,753.6",
+    "6,854.4"
+   ],
+   "answer": 1,
+   "explanation": "69% of 10,080 = 6,955.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 70% of 1 week?",
+   "choices": [
+    "6,753.6",
+    "7,056",
+    "6,854.4",
+    "6,955.2"
+   ],
+   "answer": 1,
+   "explanation": "70% of 10,080 = 7,056",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 71% of 1 week?",
+   "choices": [
+    "6,854.4",
+    "7,156.8",
+    "6,955.2",
+    "7,056"
+   ],
+   "answer": 1,
+   "explanation": "71% of 10,080 = 7,156.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 72% of 1 week?",
+   "choices": [
+    "7,257.6",
+    "6,955.2",
+    "7,056",
+    "7,156.8"
+   ],
+   "answer": 0,
+   "explanation": "72% of 10,080 = 7,257.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 73% of 1 week?",
+   "choices": [
+    "7,056",
+    "7,156.8",
+    "7,257.6",
+    "7,358.4"
+   ],
+   "answer": 3,
+   "explanation": "73% of 10,080 = 7,358.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 74% of 1 week?",
+   "choices": [
+    "7,459.2",
+    "7,156.8",
+    "7,257.6",
+    "7,358.4"
+   ],
+   "answer": 0,
+   "explanation": "74% of 10,080 = 7,459.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 75% of 1 week?",
+   "choices": [
+    "7,257.6",
+    "7,358.4",
+    "7,560",
+    "7,459.2"
+   ],
+   "answer": 2,
+   "explanation": "75% of 10,080 = 7,560",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 76% of 1 week?",
+   "choices": [
+    "7,358.4",
+    "7,459.2",
+    "7,560",
+    "7,660.8"
+   ],
+   "answer": 3,
+   "explanation": "76% of 10,080 = 7,660.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 77% of 1 week?",
+   "choices": [
+    "7,459.2",
+    "7,560",
+    "7,761.6",
+    "7,660.8"
+   ],
+   "answer": 2,
+   "explanation": "77% of 10,080 = 7,761.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 78% of 1 week?",
+   "choices": [
+    "7,560",
+    "7,660.8",
+    "7,761.6",
+    "7,862.4"
+   ],
+   "answer": 3,
+   "explanation": "78% of 10,080 = 7,862.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 79% of 1 week?",
+   "choices": [
+    "7,660.8",
+    "7,761.6",
+    "7,963.2",
+    "7,862.4"
+   ],
+   "answer": 2,
+   "explanation": "79% of 10,080 = 7,963.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 80% of 1 week?",
+   "choices": [
+    "7,761.6",
+    "7,862.4",
+    "8,064",
+    "7,963.2"
+   ],
+   "answer": 2,
+   "explanation": "80% of 10,080 = 8,064",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 81% of 1 week?",
+   "choices": [
+    "7,862.4",
+    "7,963.2",
+    "8,064",
+    "8,164.8"
+   ],
+   "answer": 3,
+   "explanation": "81% of 10,080 = 8,164.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 82% of 1 week?",
+   "choices": [
+    "7,963.2",
+    "8,265.6",
+    "8,064",
+    "8,164.8"
+   ],
+   "answer": 1,
+   "explanation": "82% of 10,080 = 8,265.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 83% of 1 week?",
+   "choices": [
+    "8,064",
+    "8,164.8",
+    "8,366.4",
+    "8,265.6"
+   ],
+   "answer": 2,
+   "explanation": "83% of 10,080 = 8,366.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 84% of 1 week?",
+   "choices": [
+    "8,164.8",
+    "8,265.6",
+    "8,366.4",
+    "8,467.2"
+   ],
+   "answer": 3,
+   "explanation": "84% of 10,080 = 8,467.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 85% of 1 week?",
+   "choices": [
+    "8,265.6",
+    "8,568",
+    "8,366.4",
+    "8,467.2"
+   ],
+   "answer": 1,
+   "explanation": "85% of 10,080 = 8,568",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 86% of 1 week?",
+   "choices": [
+    "8,366.4",
+    "8,467.2",
+    "8,568",
+    "8,668.8"
+   ],
+   "answer": 3,
+   "explanation": "86% of 10,080 = 8,668.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 87% of 1 week?",
+   "choices": [
+    "8,769.6",
+    "8,467.2",
+    "8,568",
+    "8,668.8"
+   ],
+   "answer": 0,
+   "explanation": "87% of 10,080 = 8,769.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 88% of 1 week?",
+   "choices": [
+    "8,568",
+    "8,668.8",
+    "8,870.4",
+    "8,769.6"
+   ],
+   "answer": 2,
+   "explanation": "88% of 10,080 = 8,870.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 89% of 1 week?",
+   "choices": [
+    "8,971.2",
+    "8,668.8",
+    "8,769.6",
+    "8,870.4"
+   ],
+   "answer": 0,
+   "explanation": "89% of 10,080 = 8,971.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 90% of 1 week?",
+   "choices": [
+    "8,769.6",
+    "9,072",
+    "8,870.4",
+    "8,971.2"
+   ],
+   "answer": 1,
+   "explanation": "90% of 10,080 = 9,072",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 91% of 1 week?",
+   "choices": [
+    "8,870.4",
+    "8,971.2",
+    "9,172.8",
+    "9,072"
+   ],
+   "answer": 2,
+   "explanation": "91% of 10,080 = 9,172.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 92% of 1 week?",
+   "choices": [
+    "8,971.2",
+    "9,072",
+    "9,273.6",
+    "9,172.8"
+   ],
+   "answer": 2,
+   "explanation": "92% of 10,080 = 9,273.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 93% of 1 week?",
+   "choices": [
+    "9,072",
+    "9,374.4",
+    "9,172.8",
+    "9,273.6"
+   ],
+   "answer": 1,
+   "explanation": "93% of 10,080 = 9,374.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 94% of 1 week?",
+   "choices": [
+    "9,475.2",
+    "9,172.8",
+    "9,273.6",
+    "9,374.4"
+   ],
+   "answer": 0,
+   "explanation": "94% of 10,080 = 9,475.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 95% of 1 week?",
+   "choices": [
+    "9,576",
+    "9,273.6",
+    "9,374.4",
+    "9,475.2"
+   ],
+   "answer": 0,
+   "explanation": "95% of 10,080 = 9,576",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 96% of 1 week?",
+   "choices": [
+    "9,374.4",
+    "9,676.8",
+    "9,475.2",
+    "9,576"
+   ],
+   "answer": 1,
+   "explanation": "96% of 10,080 = 9,676.8",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 97% of 1 week?",
+   "choices": [
+    "9,475.2",
+    "9,777.6",
+    "9,576",
+    "9,676.8"
+   ],
+   "answer": 1,
+   "explanation": "97% of 10,080 = 9,777.6",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 98% of 1 week?",
+   "choices": [
+    "9,878.4",
+    "9,576",
+    "9,676.8",
+    "9,777.6"
+   ],
+   "answer": 0,
+   "explanation": "98% of 10,080 = 9,878.4",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 99% of 1 week?",
+   "choices": [
+    "9,676.8",
+    "9,777.6",
+    "9,878.4",
+    "9,979.2"
+   ],
+   "answer": 3,
+   "explanation": "99% of 10,080 = 9,979.2",
+   "source": "Minutes per 1 week"
+  },
+  {
+   "question": "How many minutes is 100% of 1 week?",
+   "choices": [
+    "10,080",
+    "9,777.6",
+    "9,878.4",
+    "9,979.2"
+   ],
+   "answer": 0,
+   "explanation": "100% of 10,080 = 10,080",
+   "source": "Minutes per 1 week"
+  }
+ ]
+}

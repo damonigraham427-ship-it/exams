@@ -1,0 +1,1204 @@
+{
+ "questions": [
+  {
+   "question": "How many minutes is 1% of 4 weeks?",
+   "choices": [
+    "806.4",
+    "1,209.6",
+    "1,612.8",
+    "403.2"
+   ],
+   "answer": 3,
+   "explanation": "1% of 40,320 = 403.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 2% of 4 weeks?",
+   "choices": [
+    "403.2",
+    "1,209.6",
+    "1,612.8",
+    "806.4"
+   ],
+   "answer": 3,
+   "explanation": "2% of 40,320 = 806.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 3% of 4 weeks?",
+   "choices": [
+    "1,209.6",
+    "403.2",
+    "806.4",
+    "1,612.8"
+   ],
+   "answer": 0,
+   "explanation": "3% of 40,320 = 1,209.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 4% of 4 weeks?",
+   "choices": [
+    "403.2",
+    "806.4",
+    "1,612.8",
+    "1,209.6"
+   ],
+   "answer": 2,
+   "explanation": "4% of 40,320 = 1,612.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 5% of 4 weeks?",
+   "choices": [
+    "806.4",
+    "1,209.6",
+    "1,612.8",
+    "2,016"
+   ],
+   "answer": 3,
+   "explanation": "5% of 40,320 = 2,016",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 6% of 4 weeks?",
+   "choices": [
+    "2,419.2",
+    "1,209.6",
+    "1,612.8",
+    "2,016"
+   ],
+   "answer": 0,
+   "explanation": "6% of 40,320 = 2,419.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 7% of 4 weeks?",
+   "choices": [
+    "1,612.8",
+    "2,016",
+    "2,419.2",
+    "2,822.4"
+   ],
+   "answer": 3,
+   "explanation": "7% of 40,320 = 2,822.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 8% of 4 weeks?",
+   "choices": [
+    "3,225.6",
+    "2,016",
+    "2,419.2",
+    "2,822.4"
+   ],
+   "answer": 0,
+   "explanation": "8% of 40,320 = 3,225.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 9% of 4 weeks?",
+   "choices": [
+    "3,628.8",
+    "2,419.2",
+    "2,822.4",
+    "3,225.6"
+   ],
+   "answer": 0,
+   "explanation": "9% of 40,320 = 3,628.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 10% of 4 weeks?",
+   "choices": [
+    "2,822.4",
+    "4,032",
+    "3,225.6",
+    "3,628.8"
+   ],
+   "answer": 1,
+   "explanation": "10% of 40,320 = 4,032",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 11% of 4 weeks?",
+   "choices": [
+    "3,225.6",
+    "3,628.8",
+    "4,435.2",
+    "4,032"
+   ],
+   "answer": 2,
+   "explanation": "11% of 40,320 = 4,435.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 12% of 4 weeks?",
+   "choices": [
+    "3,628.8",
+    "4,032",
+    "4,435.2",
+    "4,838.4"
+   ],
+   "answer": 3,
+   "explanation": "12% of 40,320 = 4,838.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 13% of 4 weeks?",
+   "choices": [
+    "4,032",
+    "4,435.2",
+    "4,838.4",
+    "5,241.6"
+   ],
+   "answer": 3,
+   "explanation": "13% of 40,320 = 5,241.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 14% of 4 weeks?",
+   "choices": [
+    "4,435.2",
+    "4,838.4",
+    "5,241.6",
+    "5,644.8"
+   ],
+   "answer": 3,
+   "explanation": "14% of 40,320 = 5,644.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 15% of 4 weeks?",
+   "choices": [
+    "4,838.4",
+    "6,048",
+    "5,241.6",
+    "5,644.8"
+   ],
+   "answer": 1,
+   "explanation": "15% of 40,320 = 6,048",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 16% of 4 weeks?",
+   "choices": [
+    "5,241.6",
+    "5,644.8",
+    "6,451.2",
+    "6,048"
+   ],
+   "answer": 2,
+   "explanation": "16% of 40,320 = 6,451.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 17% of 4 weeks?",
+   "choices": [
+    "6,854.4",
+    "5,644.8",
+    "6,048",
+    "6,451.2"
+   ],
+   "answer": 0,
+   "explanation": "17% of 40,320 = 6,854.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 18% of 4 weeks?",
+   "choices": [
+    "6,048",
+    "6,451.2",
+    "6,854.4",
+    "7,257.6"
+   ],
+   "answer": 3,
+   "explanation": "18% of 40,320 = 7,257.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 19% of 4 weeks?",
+   "choices": [
+    "6,451.2",
+    "6,854.4",
+    "7,257.6",
+    "7,660.8"
+   ],
+   "answer": 3,
+   "explanation": "19% of 40,320 = 7,660.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 20% of 4 weeks?",
+   "choices": [
+    "6,854.4",
+    "8,064",
+    "7,257.6",
+    "7,660.8"
+   ],
+   "answer": 1,
+   "explanation": "20% of 40,320 = 8,064",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 21% of 4 weeks?",
+   "choices": [
+    "8,467.2",
+    "7,257.6",
+    "7,660.8",
+    "8,064"
+   ],
+   "answer": 0,
+   "explanation": "21% of 40,320 = 8,467.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 22% of 4 weeks?",
+   "choices": [
+    "8,870.4",
+    "7,660.8",
+    "8,064",
+    "8,467.2"
+   ],
+   "answer": 0,
+   "explanation": "22% of 40,320 = 8,870.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 23% of 4 weeks?",
+   "choices": [
+    "9,273.6",
+    "8,064",
+    "8,467.2",
+    "8,870.4"
+   ],
+   "answer": 0,
+   "explanation": "23% of 40,320 = 9,273.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 24% of 4 weeks?",
+   "choices": [
+    "8,467.2",
+    "8,870.4",
+    "9,676.8",
+    "9,273.6"
+   ],
+   "answer": 2,
+   "explanation": "24% of 40,320 = 9,676.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 25% of 4 weeks?",
+   "choices": [
+    "8,870.4",
+    "10,080",
+    "9,273.6",
+    "9,676.8"
+   ],
+   "answer": 1,
+   "explanation": "25% of 40,320 = 10,080",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 26% of 4 weeks?",
+   "choices": [
+    "9,273.6",
+    "9,676.8",
+    "10,483.2",
+    "10,080"
+   ],
+   "answer": 2,
+   "explanation": "26% of 40,320 = 10,483.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 27% of 4 weeks?",
+   "choices": [
+    "9,676.8",
+    "10,080",
+    "10,483.2",
+    "10,886.4"
+   ],
+   "answer": 3,
+   "explanation": "27% of 40,320 = 10,886.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 28% of 4 weeks?",
+   "choices": [
+    "11,289.6",
+    "10,080",
+    "10,483.2",
+    "10,886.4"
+   ],
+   "answer": 0,
+   "explanation": "28% of 40,320 = 11,289.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 29% of 4 weeks?",
+   "choices": [
+    "11,692.8",
+    "10,483.2",
+    "10,886.4",
+    "11,289.6"
+   ],
+   "answer": 0,
+   "explanation": "29% of 40,320 = 11,692.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 30% of 4 weeks?",
+   "choices": [
+    "10,886.4",
+    "11,289.6",
+    "11,692.8",
+    "12,096"
+   ],
+   "answer": 3,
+   "explanation": "30% of 40,320 = 12,096",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 31% of 4 weeks?",
+   "choices": [
+    "11,289.6",
+    "11,692.8",
+    "12,096",
+    "12,499.2"
+   ],
+   "answer": 3,
+   "explanation": "31% of 40,320 = 12,499.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 32% of 4 weeks?",
+   "choices": [
+    "11,692.8",
+    "12,096",
+    "12,902.4",
+    "12,499.2"
+   ],
+   "answer": 2,
+   "explanation": "32% of 40,320 = 12,902.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 33% of 4 weeks?",
+   "choices": [
+    "12,096",
+    "13,305.6",
+    "12,499.2",
+    "12,902.4"
+   ],
+   "answer": 1,
+   "explanation": "33% of 40,320 = 13,305.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 34% of 4 weeks?",
+   "choices": [
+    "13,708.8",
+    "12,499.2",
+    "12,902.4",
+    "13,305.6"
+   ],
+   "answer": 0,
+   "explanation": "34% of 40,320 = 13,708.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 35% of 4 weeks?",
+   "choices": [
+    "12,902.4",
+    "14,112",
+    "13,305.6",
+    "13,708.8"
+   ],
+   "answer": 1,
+   "explanation": "35% of 40,320 = 14,112",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 36% of 4 weeks?",
+   "choices": [
+    "13,305.6",
+    "13,708.8",
+    "14,112",
+    "14,515.2"
+   ],
+   "answer": 3,
+   "explanation": "36% of 40,320 = 14,515.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 37% of 4 weeks?",
+   "choices": [
+    "13,708.8",
+    "14,112",
+    "14,918.4",
+    "14,515.2"
+   ],
+   "answer": 2,
+   "explanation": "37% of 40,320 = 14,918.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 38% of 4 weeks?",
+   "choices": [
+    "14,112",
+    "15,321.6",
+    "14,515.2",
+    "14,918.4"
+   ],
+   "answer": 1,
+   "explanation": "38% of 40,320 = 15,321.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 39% of 4 weeks?",
+   "choices": [
+    "14,515.2",
+    "14,918.4",
+    "15,724.8",
+    "15,321.6"
+   ],
+   "answer": 2,
+   "explanation": "39% of 40,320 = 15,724.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 40% of 4 weeks?",
+   "choices": [
+    "14,918.4",
+    "15,321.6",
+    "15,724.8",
+    "16,128"
+   ],
+   "answer": 3,
+   "explanation": "40% of 40,320 = 16,128",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 41% of 4 weeks?",
+   "choices": [
+    "15,321.6",
+    "16,531.2",
+    "15,724.8",
+    "16,128"
+   ],
+   "answer": 1,
+   "explanation": "41% of 40,320 = 16,531.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 42% of 4 weeks?",
+   "choices": [
+    "15,724.8",
+    "16,128",
+    "16,934.4",
+    "16,531.2"
+   ],
+   "answer": 2,
+   "explanation": "42% of 40,320 = 16,934.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 43% of 4 weeks?",
+   "choices": [
+    "16,128",
+    "17,337.6",
+    "16,531.2",
+    "16,934.4"
+   ],
+   "answer": 1,
+   "explanation": "43% of 40,320 = 17,337.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 44% of 4 weeks?",
+   "choices": [
+    "17,740.8",
+    "16,531.2",
+    "16,934.4",
+    "17,337.6"
+   ],
+   "answer": 0,
+   "explanation": "44% of 40,320 = 17,740.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 45% of 4 weeks?",
+   "choices": [
+    "16,934.4",
+    "18,144",
+    "17,337.6",
+    "17,740.8"
+   ],
+   "answer": 1,
+   "explanation": "45% of 40,320 = 18,144",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 46% of 4 weeks?",
+   "choices": [
+    "17,337.6",
+    "18,547.2",
+    "17,740.8",
+    "18,144"
+   ],
+   "answer": 1,
+   "explanation": "46% of 40,320 = 18,547.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 47% of 4 weeks?",
+   "choices": [
+    "18,950.4",
+    "17,740.8",
+    "18,144",
+    "18,547.2"
+   ],
+   "answer": 0,
+   "explanation": "47% of 40,320 = 18,950.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 48% of 4 weeks?",
+   "choices": [
+    "18,144",
+    "18,547.2",
+    "19,353.6",
+    "18,950.4"
+   ],
+   "answer": 2,
+   "explanation": "48% of 40,320 = 19,353.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 49% of 4 weeks?",
+   "choices": [
+    "18,547.2",
+    "18,950.4",
+    "19,353.6",
+    "19,756.8"
+   ],
+   "answer": 3,
+   "explanation": "49% of 40,320 = 19,756.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 50% of 4 weeks?",
+   "choices": [
+    "18,950.4",
+    "19,353.6",
+    "19,756.8",
+    "20,160"
+   ],
+   "answer": 3,
+   "explanation": "50% of 40,320 = 20,160",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 51% of 4 weeks?",
+   "choices": [
+    "19,353.6",
+    "20,563.2",
+    "19,756.8",
+    "20,160"
+   ],
+   "answer": 1,
+   "explanation": "51% of 40,320 = 20,563.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 52% of 4 weeks?",
+   "choices": [
+    "20,966.4",
+    "19,756.8",
+    "20,160",
+    "20,563.2"
+   ],
+   "answer": 0,
+   "explanation": "52% of 40,320 = 20,966.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 53% of 4 weeks?",
+   "choices": [
+    "20,160",
+    "20,563.2",
+    "20,966.4",
+    "21,369.6"
+   ],
+   "answer": 3,
+   "explanation": "53% of 40,320 = 21,369.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 54% of 4 weeks?",
+   "choices": [
+    "20,563.2",
+    "20,966.4",
+    "21,369.6",
+    "21,772.8"
+   ],
+   "answer": 3,
+   "explanation": "54% of 40,320 = 21,772.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 55% of 4 weeks?",
+   "choices": [
+    "20,966.4",
+    "21,369.6",
+    "22,176",
+    "21,772.8"
+   ],
+   "answer": 2,
+   "explanation": "55% of 40,320 = 22,176",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 56% of 4 weeks?",
+   "choices": [
+    "21,369.6",
+    "21,772.8",
+    "22,176",
+    "22,579.2"
+   ],
+   "answer": 3,
+   "explanation": "56% of 40,320 = 22,579.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 57% of 4 weeks?",
+   "choices": [
+    "22,982.4",
+    "21,772.8",
+    "22,176",
+    "22,579.2"
+   ],
+   "answer": 0,
+   "explanation": "57% of 40,320 = 22,982.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 58% of 4 weeks?",
+   "choices": [
+    "22,176",
+    "23,385.6",
+    "22,579.2",
+    "22,982.4"
+   ],
+   "answer": 1,
+   "explanation": "58% of 40,320 = 23,385.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 59% of 4 weeks?",
+   "choices": [
+    "23,788.8",
+    "22,579.2",
+    "22,982.4",
+    "23,385.6"
+   ],
+   "answer": 0,
+   "explanation": "59% of 40,320 = 23,788.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 60% of 4 weeks?",
+   "choices": [
+    "24,192",
+    "22,982.4",
+    "23,385.6",
+    "23,788.8"
+   ],
+   "answer": 0,
+   "explanation": "60% of 40,320 = 24,192",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 61% of 4 weeks?",
+   "choices": [
+    "23,385.6",
+    "24,595.2",
+    "23,788.8",
+    "24,192"
+   ],
+   "answer": 1,
+   "explanation": "61% of 40,320 = 24,595.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 62% of 4 weeks?",
+   "choices": [
+    "23,788.8",
+    "24,192",
+    "24,595.2",
+    "24,998.4"
+   ],
+   "answer": 3,
+   "explanation": "62% of 40,320 = 24,998.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 63% of 4 weeks?",
+   "choices": [
+    "25,401.6",
+    "24,192",
+    "24,595.2",
+    "24,998.4"
+   ],
+   "answer": 0,
+   "explanation": "63% of 40,320 = 25,401.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 64% of 4 weeks?",
+   "choices": [
+    "24,595.2",
+    "24,998.4",
+    "25,804.8",
+    "25,401.6"
+   ],
+   "answer": 2,
+   "explanation": "64% of 40,320 = 25,804.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 65% of 4 weeks?",
+   "choices": [
+    "24,998.4",
+    "25,401.6",
+    "26,208",
+    "25,804.8"
+   ],
+   "answer": 2,
+   "explanation": "65% of 40,320 = 26,208",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 66% of 4 weeks?",
+   "choices": [
+    "26,611.2",
+    "25,401.6",
+    "25,804.8",
+    "26,208"
+   ],
+   "answer": 0,
+   "explanation": "66% of 40,320 = 26,611.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 67% of 4 weeks?",
+   "choices": [
+    "25,804.8",
+    "27,014.4",
+    "26,208",
+    "26,611.2"
+   ],
+   "answer": 1,
+   "explanation": "67% of 40,320 = 27,014.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 68% of 4 weeks?",
+   "choices": [
+    "26,208",
+    "26,611.2",
+    "27,417.6",
+    "27,014.4"
+   ],
+   "answer": 2,
+   "explanation": "68% of 40,320 = 27,417.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 69% of 4 weeks?",
+   "choices": [
+    "26,611.2",
+    "27,014.4",
+    "27,820.8",
+    "27,417.6"
+   ],
+   "answer": 2,
+   "explanation": "69% of 40,320 = 27,820.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 70% of 4 weeks?",
+   "choices": [
+    "28,224",
+    "27,014.4",
+    "27,417.6",
+    "27,820.8"
+   ],
+   "answer": 0,
+   "explanation": "70% of 40,320 = 28,224",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 71% of 4 weeks?",
+   "choices": [
+    "27,417.6",
+    "27,820.8",
+    "28,627.2",
+    "28,224"
+   ],
+   "answer": 2,
+   "explanation": "71% of 40,320 = 28,627.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 72% of 4 weeks?",
+   "choices": [
+    "29,030.4",
+    "27,820.8",
+    "28,224",
+    "28,627.2"
+   ],
+   "answer": 0,
+   "explanation": "72% of 40,320 = 29,030.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 73% of 4 weeks?",
+   "choices": [
+    "28,224",
+    "28,627.2",
+    "29,433.6",
+    "29,030.4"
+   ],
+   "answer": 2,
+   "explanation": "73% of 40,320 = 29,433.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 74% of 4 weeks?",
+   "choices": [
+    "28,627.2",
+    "29,836.8",
+    "29,030.4",
+    "29,433.6"
+   ],
+   "answer": 1,
+   "explanation": "74% of 40,320 = 29,836.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 75% of 4 weeks?",
+   "choices": [
+    "29,030.4",
+    "29,433.6",
+    "30,240",
+    "29,836.8"
+   ],
+   "answer": 2,
+   "explanation": "75% of 40,320 = 30,240",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 76% of 4 weeks?",
+   "choices": [
+    "30,643.2",
+    "29,433.6",
+    "29,836.8",
+    "30,240"
+   ],
+   "answer": 0,
+   "explanation": "76% of 40,320 = 30,643.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 77% of 4 weeks?",
+   "choices": [
+    "31,046.4",
+    "29,836.8",
+    "30,240",
+    "30,643.2"
+   ],
+   "answer": 0,
+   "explanation": "77% of 40,320 = 31,046.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 78% of 4 weeks?",
+   "choices": [
+    "30,240",
+    "30,643.2",
+    "31,046.4",
+    "31,449.6"
+   ],
+   "answer": 3,
+   "explanation": "78% of 40,320 = 31,449.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 79% of 4 weeks?",
+   "choices": [
+    "30,643.2",
+    "31,046.4",
+    "31,852.8",
+    "31,449.6"
+   ],
+   "answer": 2,
+   "explanation": "79% of 40,320 = 31,852.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 80% of 4 weeks?",
+   "choices": [
+    "31,046.4",
+    "31,449.6",
+    "32,256",
+    "31,852.8"
+   ],
+   "answer": 2,
+   "explanation": "80% of 40,320 = 32,256",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 81% of 4 weeks?",
+   "choices": [
+    "31,449.6",
+    "31,852.8",
+    "32,659.2",
+    "32,256"
+   ],
+   "answer": 2,
+   "explanation": "81% of 40,320 = 32,659.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 82% of 4 weeks?",
+   "choices": [
+    "31,852.8",
+    "33,062.4",
+    "32,256",
+    "32,659.2"
+   ],
+   "answer": 1,
+   "explanation": "82% of 40,320 = 33,062.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 83% of 4 weeks?",
+   "choices": [
+    "32,256",
+    "32,659.2",
+    "33,062.4",
+    "33,465.6"
+   ],
+   "answer": 3,
+   "explanation": "83% of 40,320 = 33,465.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 84% of 4 weeks?",
+   "choices": [
+    "33,868.8",
+    "32,659.2",
+    "33,062.4",
+    "33,465.6"
+   ],
+   "answer": 0,
+   "explanation": "84% of 40,320 = 33,868.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 85% of 4 weeks?",
+   "choices": [
+    "33,062.4",
+    "33,465.6",
+    "33,868.8",
+    "34,272"
+   ],
+   "answer": 3,
+   "explanation": "85% of 40,320 = 34,272",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 86% of 4 weeks?",
+   "choices": [
+    "34,675.2",
+    "33,465.6",
+    "33,868.8",
+    "34,272"
+   ],
+   "answer": 0,
+   "explanation": "86% of 40,320 = 34,675.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 87% of 4 weeks?",
+   "choices": [
+    "33,868.8",
+    "34,272",
+    "35,078.4",
+    "34,675.2"
+   ],
+   "answer": 2,
+   "explanation": "87% of 40,320 = 35,078.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 88% of 4 weeks?",
+   "choices": [
+    "34,272",
+    "34,675.2",
+    "35,078.4",
+    "35,481.6"
+   ],
+   "answer": 3,
+   "explanation": "88% of 40,320 = 35,481.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 89% of 4 weeks?",
+   "choices": [
+    "34,675.2",
+    "35,078.4",
+    "35,884.8",
+    "35,481.6"
+   ],
+   "answer": 2,
+   "explanation": "89% of 40,320 = 35,884.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 90% of 4 weeks?",
+   "choices": [
+    "35,078.4",
+    "35,481.6",
+    "35,884.8",
+    "36,288"
+   ],
+   "answer": 3,
+   "explanation": "90% of 40,320 = 36,288",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 91% of 4 weeks?",
+   "choices": [
+    "36,691.2",
+    "35,481.6",
+    "35,884.8",
+    "36,288"
+   ],
+   "answer": 0,
+   "explanation": "91% of 40,320 = 36,691.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 92% of 4 weeks?",
+   "choices": [
+    "35,884.8",
+    "36,288",
+    "37,094.4",
+    "36,691.2"
+   ],
+   "answer": 2,
+   "explanation": "92% of 40,320 = 37,094.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 93% of 4 weeks?",
+   "choices": [
+    "36,288",
+    "37,497.6",
+    "36,691.2",
+    "37,094.4"
+   ],
+   "answer": 1,
+   "explanation": "93% of 40,320 = 37,497.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 94% of 4 weeks?",
+   "choices": [
+    "37,900.8",
+    "36,691.2",
+    "37,094.4",
+    "37,497.6"
+   ],
+   "answer": 0,
+   "explanation": "94% of 40,320 = 37,900.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 95% of 4 weeks?",
+   "choices": [
+    "37,094.4",
+    "38,304",
+    "37,497.6",
+    "37,900.8"
+   ],
+   "answer": 1,
+   "explanation": "95% of 40,320 = 38,304",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 96% of 4 weeks?",
+   "choices": [
+    "37,497.6",
+    "38,707.2",
+    "37,900.8",
+    "38,304"
+   ],
+   "answer": 1,
+   "explanation": "96% of 40,320 = 38,707.2",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 97% of 4 weeks?",
+   "choices": [
+    "39,110.4",
+    "37,900.8",
+    "38,304",
+    "38,707.2"
+   ],
+   "answer": 0,
+   "explanation": "97% of 40,320 = 39,110.4",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 98% of 4 weeks?",
+   "choices": [
+    "38,304",
+    "38,707.2",
+    "39,513.6",
+    "39,110.4"
+   ],
+   "answer": 2,
+   "explanation": "98% of 40,320 = 39,513.6",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 99% of 4 weeks?",
+   "choices": [
+    "38,707.2",
+    "39,110.4",
+    "39,513.6",
+    "39,916.8"
+   ],
+   "answer": 3,
+   "explanation": "99% of 40,320 = 39,916.8",
+   "source": "Minutes 4 weeks"
+  },
+  {
+   "question": "How many minutes is 100% of 4 weeks?",
+   "choices": [
+    "39,110.4",
+    "39,513.6",
+    "39,916.8",
+    "40,320"
+   ],
+   "answer": 3,
+   "explanation": "100% of 40,320 = 40,320",
+   "source": "Minutes 4 weeks"
+  }
+ ]
+}

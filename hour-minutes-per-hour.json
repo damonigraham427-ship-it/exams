@@ -1,0 +1,2020 @@
+{
+ "questions": [
+  {
+   "question": "How many minutes are in 1 hour?",
+   "choices": [
+    "60",
+    "120",
+    "180",
+    "240"
+   ],
+   "answer": 0,
+   "explanation": "60 × 1 = 60",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 2 hours?",
+   "choices": [
+    "60",
+    "180",
+    "120",
+    "240"
+   ],
+   "answer": 2,
+   "explanation": "60 × 2 = 120",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 3 hours?",
+   "choices": [
+    "180",
+    "60",
+    "120",
+    "240"
+   ],
+   "answer": 0,
+   "explanation": "60 × 3 = 180",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 4 hours?",
+   "choices": [
+    "60",
+    "120",
+    "180",
+    "240"
+   ],
+   "answer": 3,
+   "explanation": "60 × 4 = 240",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 5 hours?",
+   "choices": [
+    "300",
+    "120",
+    "180",
+    "240"
+   ],
+   "answer": 0,
+   "explanation": "60 × 5 = 300",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 6 hours?",
+   "choices": [
+    "180",
+    "240",
+    "300",
+    "360"
+   ],
+   "answer": 3,
+   "explanation": "60 × 6 = 360",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 7 hours?",
+   "choices": [
+    "240",
+    "420",
+    "300",
+    "360"
+   ],
+   "answer": 1,
+   "explanation": "60 × 7 = 420",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 8 hours?",
+   "choices": [
+    "300",
+    "480",
+    "360",
+    "420"
+   ],
+   "answer": 1,
+   "explanation": "60 × 8 = 480",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 9 hours?",
+   "choices": [
+    "540",
+    "360",
+    "420",
+    "480"
+   ],
+   "answer": 0,
+   "explanation": "60 × 9 = 540",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 10 hours?",
+   "choices": [
+    "420",
+    "600",
+    "480",
+    "540"
+   ],
+   "answer": 1,
+   "explanation": "60 × 10 = 600",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 11 hours?",
+   "choices": [
+    "660",
+    "480",
+    "540",
+    "600"
+   ],
+   "answer": 0,
+   "explanation": "60 × 11 = 660",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 12 hours?",
+   "choices": [
+    "540",
+    "720",
+    "600",
+    "660"
+   ],
+   "answer": 1,
+   "explanation": "60 × 12 = 720",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 13 hours?",
+   "choices": [
+    "600",
+    "660",
+    "780",
+    "720"
+   ],
+   "answer": 2,
+   "explanation": "60 × 13 = 780",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 14 hours?",
+   "choices": [
+    "660",
+    "720",
+    "780",
+    "840"
+   ],
+   "answer": 3,
+   "explanation": "60 × 14 = 840",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 15 hours?",
+   "choices": [
+    "720",
+    "780",
+    "900",
+    "840"
+   ],
+   "answer": 2,
+   "explanation": "60 × 15 = 900",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 16 hours?",
+   "choices": [
+    "780",
+    "840",
+    "960",
+    "900"
+   ],
+   "answer": 2,
+   "explanation": "60 × 16 = 960",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 17 hours?",
+   "choices": [
+    "840",
+    "900",
+    "960",
+    "1,020"
+   ],
+   "answer": 3,
+   "explanation": "60 × 17 = 1,020",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 18 hours?",
+   "choices": [
+    "1,080",
+    "900",
+    "960",
+    "1,020"
+   ],
+   "answer": 0,
+   "explanation": "60 × 18 = 1,080",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 19 hours?",
+   "choices": [
+    "960",
+    "1,020",
+    "1,080",
+    "1,140"
+   ],
+   "answer": 3,
+   "explanation": "60 × 19 = 1,140",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 20 hours?",
+   "choices": [
+    "1,020",
+    "1,200",
+    "1,080",
+    "1,140"
+   ],
+   "answer": 1,
+   "explanation": "60 × 20 = 1,200",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 21 hours?",
+   "choices": [
+    "1,260",
+    "1,080",
+    "1,140",
+    "1,200"
+   ],
+   "answer": 0,
+   "explanation": "60 × 21 = 1,260",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 22 hours?",
+   "choices": [
+    "1,320",
+    "1,140",
+    "1,200",
+    "1,260"
+   ],
+   "answer": 0,
+   "explanation": "60 × 22 = 1,320",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 23 hours?",
+   "choices": [
+    "1,200",
+    "1,380",
+    "1,260",
+    "1,320"
+   ],
+   "answer": 1,
+   "explanation": "60 × 23 = 1,380",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 24 hours?",
+   "choices": [
+    "1,260",
+    "1,440",
+    "1,320",
+    "1,380"
+   ],
+   "answer": 1,
+   "explanation": "60 × 24 = 1,440",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 25 hours?",
+   "choices": [
+    "1,320",
+    "1,380",
+    "1,500",
+    "1,440"
+   ],
+   "answer": 2,
+   "explanation": "60 × 25 = 1,500",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 26 hours?",
+   "choices": [
+    "1,380",
+    "1,440",
+    "1,560",
+    "1,500"
+   ],
+   "answer": 2,
+   "explanation": "60 × 26 = 1,560",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 27 hours?",
+   "choices": [
+    "1,440",
+    "1,500",
+    "1,560",
+    "1,620"
+   ],
+   "answer": 3,
+   "explanation": "60 × 27 = 1,620",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 28 hours?",
+   "choices": [
+    "1,680",
+    "1,500",
+    "1,560",
+    "1,620"
+   ],
+   "answer": 0,
+   "explanation": "60 × 28 = 1,680",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 29 hours?",
+   "choices": [
+    "1,560",
+    "1,740",
+    "1,620",
+    "1,680"
+   ],
+   "answer": 1,
+   "explanation": "60 × 29 = 1,740",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 30 hours?",
+   "choices": [
+    "1,620",
+    "1,680",
+    "1,740",
+    "1,800"
+   ],
+   "answer": 3,
+   "explanation": "60 × 30 = 1,800",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 31 hours?",
+   "choices": [
+    "1,860",
+    "1,680",
+    "1,740",
+    "1,800"
+   ],
+   "answer": 0,
+   "explanation": "60 × 31 = 1,860",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 32 hours?",
+   "choices": [
+    "1,740",
+    "1,920",
+    "1,800",
+    "1,860"
+   ],
+   "answer": 1,
+   "explanation": "60 × 32 = 1,920",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 33 hours?",
+   "choices": [
+    "1,980",
+    "1,800",
+    "1,860",
+    "1,920"
+   ],
+   "answer": 0,
+   "explanation": "60 × 33 = 1,980",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 34 hours?",
+   "choices": [
+    "2,040",
+    "1,860",
+    "1,920",
+    "1,980"
+   ],
+   "answer": 0,
+   "explanation": "60 × 34 = 2,040",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 35 hours?",
+   "choices": [
+    "1,920",
+    "1,980",
+    "2,100",
+    "2,040"
+   ],
+   "answer": 2,
+   "explanation": "60 × 35 = 2,100",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 36 hours?",
+   "choices": [
+    "1,980",
+    "2,160",
+    "2,040",
+    "2,100"
+   ],
+   "answer": 1,
+   "explanation": "60 × 36 = 2,160",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 37 hours?",
+   "choices": [
+    "2,040",
+    "2,100",
+    "2,160",
+    "2,220"
+   ],
+   "answer": 3,
+   "explanation": "60 × 37 = 2,220",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 38 hours?",
+   "choices": [
+    "2,100",
+    "2,160",
+    "2,280",
+    "2,220"
+   ],
+   "answer": 2,
+   "explanation": "60 × 38 = 2,280",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 39 hours?",
+   "choices": [
+    "2,340",
+    "2,160",
+    "2,220",
+    "2,280"
+   ],
+   "answer": 0,
+   "explanation": "60 × 39 = 2,340",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 40 hours?",
+   "choices": [
+    "2,220",
+    "2,280",
+    "2,400",
+    "2,340"
+   ],
+   "answer": 2,
+   "explanation": "60 × 40 = 2,400",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 41 hours?",
+   "choices": [
+    "2,460",
+    "2,280",
+    "2,340",
+    "2,400"
+   ],
+   "answer": 0,
+   "explanation": "60 × 41 = 2,460",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 42 hours?",
+   "choices": [
+    "2,340",
+    "2,400",
+    "2,520",
+    "2,460"
+   ],
+   "answer": 2,
+   "explanation": "60 × 42 = 2,520",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 43 hours?",
+   "choices": [
+    "2,400",
+    "2,580",
+    "2,460",
+    "2,520"
+   ],
+   "answer": 1,
+   "explanation": "60 × 43 = 2,580",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 44 hours?",
+   "choices": [
+    "2,460",
+    "2,520",
+    "2,640",
+    "2,580"
+   ],
+   "answer": 2,
+   "explanation": "60 × 44 = 2,640",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 45 hours?",
+   "choices": [
+    "2,700",
+    "2,520",
+    "2,580",
+    "2,640"
+   ],
+   "answer": 0,
+   "explanation": "60 × 45 = 2,700",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 46 hours?",
+   "choices": [
+    "2,580",
+    "2,640",
+    "2,760",
+    "2,700"
+   ],
+   "answer": 2,
+   "explanation": "60 × 46 = 2,760",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 47 hours?",
+   "choices": [
+    "2,640",
+    "2,700",
+    "2,820",
+    "2,760"
+   ],
+   "answer": 2,
+   "explanation": "60 × 47 = 2,820",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 48 hours?",
+   "choices": [
+    "2,700",
+    "2,880",
+    "2,760",
+    "2,820"
+   ],
+   "answer": 1,
+   "explanation": "60 × 48 = 2,880",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 49 hours?",
+   "choices": [
+    "2,760",
+    "2,820",
+    "2,880",
+    "2,940"
+   ],
+   "answer": 3,
+   "explanation": "60 × 49 = 2,940",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 50 hours?",
+   "choices": [
+    "3,000",
+    "2,820",
+    "2,880",
+    "2,940"
+   ],
+   "answer": 0,
+   "explanation": "60 × 50 = 3,000",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 51 hours?",
+   "choices": [
+    "3,060",
+    "2,880",
+    "2,940",
+    "3,000"
+   ],
+   "answer": 0,
+   "explanation": "60 × 51 = 3,060",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 52 hours?",
+   "choices": [
+    "2,940",
+    "3,120",
+    "3,000",
+    "3,060"
+   ],
+   "answer": 1,
+   "explanation": "60 × 52 = 3,120",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 53 hours?",
+   "choices": [
+    "3,000",
+    "3,060",
+    "3,120",
+    "3,180"
+   ],
+   "answer": 3,
+   "explanation": "60 × 53 = 3,180",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 54 hours?",
+   "choices": [
+    "3,240",
+    "3,060",
+    "3,120",
+    "3,180"
+   ],
+   "answer": 0,
+   "explanation": "60 × 54 = 3,240",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 55 hours?",
+   "choices": [
+    "3,300",
+    "3,120",
+    "3,180",
+    "3,240"
+   ],
+   "answer": 0,
+   "explanation": "60 × 55 = 3,300",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 56 hours?",
+   "choices": [
+    "3,360",
+    "3,180",
+    "3,240",
+    "3,300"
+   ],
+   "answer": 0,
+   "explanation": "60 × 56 = 3,360",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 57 hours?",
+   "choices": [
+    "3,240",
+    "3,420",
+    "3,300",
+    "3,360"
+   ],
+   "answer": 1,
+   "explanation": "60 × 57 = 3,420",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 58 hours?",
+   "choices": [
+    "3,300",
+    "3,360",
+    "3,480",
+    "3,420"
+   ],
+   "answer": 2,
+   "explanation": "60 × 58 = 3,480",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 59 hours?",
+   "choices": [
+    "3,360",
+    "3,420",
+    "3,480",
+    "3,540"
+   ],
+   "answer": 3,
+   "explanation": "60 × 59 = 3,540",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 60 hours?",
+   "choices": [
+    "3,420",
+    "3,480",
+    "3,600",
+    "3,540"
+   ],
+   "answer": 2,
+   "explanation": "60 × 60 = 3,600",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 61 hours?",
+   "choices": [
+    "3,480",
+    "3,540",
+    "3,600",
+    "3,660"
+   ],
+   "answer": 3,
+   "explanation": "60 × 61 = 3,660",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 62 hours?",
+   "choices": [
+    "3,720",
+    "3,540",
+    "3,600",
+    "3,660"
+   ],
+   "answer": 0,
+   "explanation": "60 × 62 = 3,720",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 63 hours?",
+   "choices": [
+    "3,780",
+    "3,600",
+    "3,660",
+    "3,720"
+   ],
+   "answer": 0,
+   "explanation": "60 × 63 = 3,780",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 64 hours?",
+   "choices": [
+    "3,660",
+    "3,720",
+    "3,840",
+    "3,780"
+   ],
+   "answer": 2,
+   "explanation": "60 × 64 = 3,840",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 65 hours?",
+   "choices": [
+    "3,900",
+    "3,720",
+    "3,780",
+    "3,840"
+   ],
+   "answer": 0,
+   "explanation": "60 × 65 = 3,900",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 66 hours?",
+   "choices": [
+    "3,780",
+    "3,960",
+    "3,840",
+    "3,900"
+   ],
+   "answer": 1,
+   "explanation": "60 × 66 = 3,960",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 67 hours?",
+   "choices": [
+    "3,840",
+    "3,900",
+    "4,020",
+    "3,960"
+   ],
+   "answer": 2,
+   "explanation": "60 × 67 = 4,020",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 68 hours?",
+   "choices": [
+    "3,900",
+    "3,960",
+    "4,020",
+    "4,080"
+   ],
+   "answer": 3,
+   "explanation": "60 × 68 = 4,080",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 69 hours?",
+   "choices": [
+    "3,960",
+    "4,140",
+    "4,020",
+    "4,080"
+   ],
+   "answer": 1,
+   "explanation": "60 × 69 = 4,140",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 70 hours?",
+   "choices": [
+    "4,020",
+    "4,080",
+    "4,200",
+    "4,140"
+   ],
+   "answer": 2,
+   "explanation": "60 × 70 = 4,200",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 71 hours?",
+   "choices": [
+    "4,260",
+    "4,080",
+    "4,140",
+    "4,200"
+   ],
+   "answer": 0,
+   "explanation": "60 × 71 = 4,260",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 72 hours?",
+   "choices": [
+    "4,140",
+    "4,200",
+    "4,320",
+    "4,260"
+   ],
+   "answer": 2,
+   "explanation": "60 × 72 = 4,320",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 73 hours?",
+   "choices": [
+    "4,200",
+    "4,260",
+    "4,320",
+    "4,380"
+   ],
+   "answer": 3,
+   "explanation": "60 × 73 = 4,380",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 74 hours?",
+   "choices": [
+    "4,440",
+    "4,260",
+    "4,320",
+    "4,380"
+   ],
+   "answer": 0,
+   "explanation": "60 × 74 = 4,440",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 75 hours?",
+   "choices": [
+    "4,320",
+    "4,380",
+    "4,440",
+    "4,500"
+   ],
+   "answer": 3,
+   "explanation": "60 × 75 = 4,500",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 76 hours?",
+   "choices": [
+    "4,560",
+    "4,380",
+    "4,440",
+    "4,500"
+   ],
+   "answer": 0,
+   "explanation": "60 × 76 = 4,560",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 77 hours?",
+   "choices": [
+    "4,620",
+    "4,440",
+    "4,500",
+    "4,560"
+   ],
+   "answer": 0,
+   "explanation": "60 × 77 = 4,620",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 78 hours?",
+   "choices": [
+    "4,500",
+    "4,560",
+    "4,680",
+    "4,620"
+   ],
+   "answer": 2,
+   "explanation": "60 × 78 = 4,680",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 79 hours?",
+   "choices": [
+    "4,560",
+    "4,620",
+    "4,740",
+    "4,680"
+   ],
+   "answer": 2,
+   "explanation": "60 × 79 = 4,740",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 80 hours?",
+   "choices": [
+    "4,620",
+    "4,680",
+    "4,800",
+    "4,740"
+   ],
+   "answer": 2,
+   "explanation": "60 × 80 = 4,800",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 81 hours?",
+   "choices": [
+    "4,680",
+    "4,860",
+    "4,740",
+    "4,800"
+   ],
+   "answer": 1,
+   "explanation": "60 × 81 = 4,860",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 82 hours?",
+   "choices": [
+    "4,740",
+    "4,800",
+    "4,920",
+    "4,860"
+   ],
+   "answer": 2,
+   "explanation": "60 × 82 = 4,920",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 83 hours?",
+   "choices": [
+    "4,980",
+    "4,800",
+    "4,860",
+    "4,920"
+   ],
+   "answer": 0,
+   "explanation": "60 × 83 = 4,980",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 84 hours?",
+   "choices": [
+    "4,860",
+    "4,920",
+    "4,980",
+    "5,040"
+   ],
+   "answer": 3,
+   "explanation": "60 × 84 = 5,040",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 85 hours?",
+   "choices": [
+    "4,920",
+    "4,980",
+    "5,100",
+    "5,040"
+   ],
+   "answer": 2,
+   "explanation": "60 × 85 = 5,100",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 86 hours?",
+   "choices": [
+    "4,980",
+    "5,160",
+    "5,040",
+    "5,100"
+   ],
+   "answer": 1,
+   "explanation": "60 × 86 = 5,160",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 87 hours?",
+   "choices": [
+    "5,220",
+    "5,040",
+    "5,100",
+    "5,160"
+   ],
+   "answer": 0,
+   "explanation": "60 × 87 = 5,220",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 88 hours?",
+   "choices": [
+    "5,100",
+    "5,280",
+    "5,160",
+    "5,220"
+   ],
+   "answer": 1,
+   "explanation": "60 × 88 = 5,280",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 89 hours?",
+   "choices": [
+    "5,160",
+    "5,220",
+    "5,340",
+    "5,280"
+   ],
+   "answer": 2,
+   "explanation": "60 × 89 = 5,340",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 90 hours?",
+   "choices": [
+    "5,220",
+    "5,400",
+    "5,280",
+    "5,340"
+   ],
+   "answer": 1,
+   "explanation": "60 × 90 = 5,400",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 91 hours?",
+   "choices": [
+    "5,280",
+    "5,460",
+    "5,340",
+    "5,400"
+   ],
+   "answer": 1,
+   "explanation": "60 × 91 = 5,460",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 92 hours?",
+   "choices": [
+    "5,520",
+    "5,340",
+    "5,400",
+    "5,460"
+   ],
+   "answer": 0,
+   "explanation": "60 × 92 = 5,520",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 93 hours?",
+   "choices": [
+    "5,580",
+    "5,400",
+    "5,460",
+    "5,520"
+   ],
+   "answer": 0,
+   "explanation": "60 × 93 = 5,580",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 94 hours?",
+   "choices": [
+    "5,460",
+    "5,640",
+    "5,520",
+    "5,580"
+   ],
+   "answer": 1,
+   "explanation": "60 × 94 = 5,640",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 95 hours?",
+   "choices": [
+    "5,520",
+    "5,580",
+    "5,700",
+    "5,640"
+   ],
+   "answer": 2,
+   "explanation": "60 × 95 = 5,700",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 96 hours?",
+   "choices": [
+    "5,580",
+    "5,640",
+    "5,760",
+    "5,700"
+   ],
+   "answer": 2,
+   "explanation": "60 × 96 = 5,760",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 97 hours?",
+   "choices": [
+    "5,640",
+    "5,700",
+    "5,760",
+    "5,820"
+   ],
+   "answer": 3,
+   "explanation": "60 × 97 = 5,820",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 98 hours?",
+   "choices": [
+    "5,700",
+    "5,760",
+    "5,820",
+    "5,880"
+   ],
+   "answer": 3,
+   "explanation": "60 × 98 = 5,880",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 99 hours?",
+   "choices": [
+    "5,760",
+    "5,820",
+    "5,880",
+    "5,940"
+   ],
+   "answer": 3,
+   "explanation": "60 × 99 = 5,940",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 100 hours?",
+   "choices": [
+    "5,820",
+    "5,880",
+    "5,940",
+    "6,000"
+   ],
+   "answer": 3,
+   "explanation": "60 × 100 = 6,000",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 101 hours?",
+   "choices": [
+    "5,880",
+    "5,940",
+    "6,000",
+    "6,060"
+   ],
+   "answer": 3,
+   "explanation": "60 × 101 = 6,060",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 102 hours?",
+   "choices": [
+    "6,120",
+    "5,940",
+    "6,000",
+    "6,060"
+   ],
+   "answer": 0,
+   "explanation": "60 × 102 = 6,120",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 103 hours?",
+   "choices": [
+    "6,000",
+    "6,180",
+    "6,060",
+    "6,120"
+   ],
+   "answer": 1,
+   "explanation": "60 × 103 = 6,180",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 104 hours?",
+   "choices": [
+    "6,060",
+    "6,240",
+    "6,120",
+    "6,180"
+   ],
+   "answer": 1,
+   "explanation": "60 × 104 = 6,240",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 105 hours?",
+   "choices": [
+    "6,120",
+    "6,180",
+    "6,300",
+    "6,240"
+   ],
+   "answer": 2,
+   "explanation": "60 × 105 = 6,300",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 106 hours?",
+   "choices": [
+    "6,180",
+    "6,240",
+    "6,360",
+    "6,300"
+   ],
+   "answer": 2,
+   "explanation": "60 × 106 = 6,360",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 107 hours?",
+   "choices": [
+    "6,240",
+    "6,300",
+    "6,420",
+    "6,360"
+   ],
+   "answer": 2,
+   "explanation": "60 × 107 = 6,420",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 108 hours?",
+   "choices": [
+    "6,300",
+    "6,480",
+    "6,360",
+    "6,420"
+   ],
+   "answer": 1,
+   "explanation": "60 × 108 = 6,480",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 109 hours?",
+   "choices": [
+    "6,540",
+    "6,360",
+    "6,420",
+    "6,480"
+   ],
+   "answer": 0,
+   "explanation": "60 × 109 = 6,540",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 110 hours?",
+   "choices": [
+    "6,600",
+    "6,420",
+    "6,480",
+    "6,540"
+   ],
+   "answer": 0,
+   "explanation": "60 × 110 = 6,600",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 111 hours?",
+   "choices": [
+    "6,480",
+    "6,660",
+    "6,540",
+    "6,600"
+   ],
+   "answer": 1,
+   "explanation": "60 × 111 = 6,660",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 112 hours?",
+   "choices": [
+    "6,540",
+    "6,600",
+    "6,720",
+    "6,660"
+   ],
+   "answer": 2,
+   "explanation": "60 × 112 = 6,720",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 113 hours?",
+   "choices": [
+    "6,600",
+    "6,780",
+    "6,660",
+    "6,720"
+   ],
+   "answer": 1,
+   "explanation": "60 × 113 = 6,780",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 114 hours?",
+   "choices": [
+    "6,840",
+    "6,660",
+    "6,720",
+    "6,780"
+   ],
+   "answer": 0,
+   "explanation": "60 × 114 = 6,840",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 115 hours?",
+   "choices": [
+    "6,720",
+    "6,780",
+    "6,900",
+    "6,840"
+   ],
+   "answer": 2,
+   "explanation": "60 × 115 = 6,900",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 116 hours?",
+   "choices": [
+    "6,780",
+    "6,960",
+    "6,840",
+    "6,900"
+   ],
+   "answer": 1,
+   "explanation": "60 × 116 = 6,960",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 117 hours?",
+   "choices": [
+    "6,840",
+    "7,020",
+    "6,900",
+    "6,960"
+   ],
+   "answer": 1,
+   "explanation": "60 × 117 = 7,020",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 118 hours?",
+   "choices": [
+    "7,080",
+    "6,900",
+    "6,960",
+    "7,020"
+   ],
+   "answer": 0,
+   "explanation": "60 × 118 = 7,080",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 119 hours?",
+   "choices": [
+    "6,960",
+    "7,020",
+    "7,140",
+    "7,080"
+   ],
+   "answer": 2,
+   "explanation": "60 × 119 = 7,140",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 120 hours?",
+   "choices": [
+    "7,020",
+    "7,080",
+    "7,200",
+    "7,140"
+   ],
+   "answer": 2,
+   "explanation": "60 × 120 = 7,200",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 121 hours?",
+   "choices": [
+    "7,080",
+    "7,140",
+    "7,200",
+    "7,260"
+   ],
+   "answer": 3,
+   "explanation": "60 × 121 = 7,260",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 122 hours?",
+   "choices": [
+    "7,140",
+    "7,320",
+    "7,200",
+    "7,260"
+   ],
+   "answer": 1,
+   "explanation": "60 × 122 = 7,320",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 123 hours?",
+   "choices": [
+    "7,200",
+    "7,260",
+    "7,380",
+    "7,320"
+   ],
+   "answer": 2,
+   "explanation": "60 × 123 = 7,380",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 124 hours?",
+   "choices": [
+    "7,260",
+    "7,320",
+    "7,440",
+    "7,380"
+   ],
+   "answer": 2,
+   "explanation": "60 × 124 = 7,440",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 125 hours?",
+   "choices": [
+    "7,320",
+    "7,500",
+    "7,380",
+    "7,440"
+   ],
+   "answer": 1,
+   "explanation": "60 × 125 = 7,500",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 126 hours?",
+   "choices": [
+    "7,560",
+    "7,380",
+    "7,440",
+    "7,500"
+   ],
+   "answer": 0,
+   "explanation": "60 × 126 = 7,560",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 127 hours?",
+   "choices": [
+    "7,440",
+    "7,500",
+    "7,560",
+    "7,620"
+   ],
+   "answer": 3,
+   "explanation": "60 × 127 = 7,620",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 128 hours?",
+   "choices": [
+    "7,500",
+    "7,560",
+    "7,620",
+    "7,680"
+   ],
+   "answer": 3,
+   "explanation": "60 × 128 = 7,680",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 129 hours?",
+   "choices": [
+    "7,560",
+    "7,740",
+    "7,620",
+    "7,680"
+   ],
+   "answer": 1,
+   "explanation": "60 × 129 = 7,740",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 130 hours?",
+   "choices": [
+    "7,800",
+    "7,620",
+    "7,680",
+    "7,740"
+   ],
+   "answer": 0,
+   "explanation": "60 × 130 = 7,800",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 131 hours?",
+   "choices": [
+    "7,860",
+    "7,680",
+    "7,740",
+    "7,800"
+   ],
+   "answer": 0,
+   "explanation": "60 × 131 = 7,860",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 132 hours?",
+   "choices": [
+    "7,920",
+    "7,740",
+    "7,800",
+    "7,860"
+   ],
+   "answer": 0,
+   "explanation": "60 × 132 = 7,920",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 133 hours?",
+   "choices": [
+    "7,800",
+    "7,860",
+    "7,980",
+    "7,920"
+   ],
+   "answer": 2,
+   "explanation": "60 × 133 = 7,980",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 134 hours?",
+   "choices": [
+    "7,860",
+    "7,920",
+    "7,980",
+    "8,040"
+   ],
+   "answer": 3,
+   "explanation": "60 × 134 = 8,040",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 135 hours?",
+   "choices": [
+    "8,100",
+    "7,920",
+    "7,980",
+    "8,040"
+   ],
+   "answer": 0,
+   "explanation": "60 × 135 = 8,100",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 136 hours?",
+   "choices": [
+    "7,980",
+    "8,040",
+    "8,160",
+    "8,100"
+   ],
+   "answer": 2,
+   "explanation": "60 × 136 = 8,160",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 137 hours?",
+   "choices": [
+    "8,220",
+    "8,040",
+    "8,100",
+    "8,160"
+   ],
+   "answer": 0,
+   "explanation": "60 × 137 = 8,220",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 138 hours?",
+   "choices": [
+    "8,100",
+    "8,160",
+    "8,220",
+    "8,280"
+   ],
+   "answer": 3,
+   "explanation": "60 × 138 = 8,280",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 139 hours?",
+   "choices": [
+    "8,160",
+    "8,220",
+    "8,280",
+    "8,340"
+   ],
+   "answer": 3,
+   "explanation": "60 × 139 = 8,340",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 140 hours?",
+   "choices": [
+    "8,220",
+    "8,280",
+    "8,400",
+    "8,340"
+   ],
+   "answer": 2,
+   "explanation": "60 × 140 = 8,400",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 141 hours?",
+   "choices": [
+    "8,460",
+    "8,280",
+    "8,340",
+    "8,400"
+   ],
+   "answer": 0,
+   "explanation": "60 × 141 = 8,460",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 142 hours?",
+   "choices": [
+    "8,340",
+    "8,400",
+    "8,520",
+    "8,460"
+   ],
+   "answer": 2,
+   "explanation": "60 × 142 = 8,520",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 143 hours?",
+   "choices": [
+    "8,400",
+    "8,580",
+    "8,460",
+    "8,520"
+   ],
+   "answer": 1,
+   "explanation": "60 × 143 = 8,580",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 144 hours?",
+   "choices": [
+    "8,460",
+    "8,520",
+    "8,580",
+    "8,640"
+   ],
+   "answer": 3,
+   "explanation": "60 × 144 = 8,640",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 145 hours?",
+   "choices": [
+    "8,700",
+    "8,520",
+    "8,580",
+    "8,640"
+   ],
+   "answer": 0,
+   "explanation": "60 × 145 = 8,700",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 146 hours?",
+   "choices": [
+    "8,580",
+    "8,640",
+    "8,700",
+    "8,760"
+   ],
+   "answer": 3,
+   "explanation": "60 × 146 = 8,760",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 147 hours?",
+   "choices": [
+    "8,640",
+    "8,820",
+    "8,700",
+    "8,760"
+   ],
+   "answer": 1,
+   "explanation": "60 × 147 = 8,820",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 148 hours?",
+   "choices": [
+    "8,700",
+    "8,880",
+    "8,760",
+    "8,820"
+   ],
+   "answer": 1,
+   "explanation": "60 × 148 = 8,880",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 149 hours?",
+   "choices": [
+    "8,760",
+    "8,940",
+    "8,820",
+    "8,880"
+   ],
+   "answer": 1,
+   "explanation": "60 × 149 = 8,940",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 150 hours?",
+   "choices": [
+    "9,000",
+    "8,820",
+    "8,880",
+    "8,940"
+   ],
+   "answer": 0,
+   "explanation": "60 × 150 = 9,000",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 151 hours?",
+   "choices": [
+    "8,880",
+    "9,060",
+    "8,940",
+    "9,000"
+   ],
+   "answer": 1,
+   "explanation": "60 × 151 = 9,060",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 152 hours?",
+   "choices": [
+    "9,120",
+    "8,940",
+    "9,000",
+    "9,060"
+   ],
+   "answer": 0,
+   "explanation": "60 × 152 = 9,120",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 153 hours?",
+   "choices": [
+    "9,000",
+    "9,060",
+    "9,120",
+    "9,180"
+   ],
+   "answer": 3,
+   "explanation": "60 × 153 = 9,180",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 154 hours?",
+   "choices": [
+    "9,060",
+    "9,240",
+    "9,120",
+    "9,180"
+   ],
+   "answer": 1,
+   "explanation": "60 × 154 = 9,240",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 155 hours?",
+   "choices": [
+    "9,120",
+    "9,180",
+    "9,240",
+    "9,300"
+   ],
+   "answer": 3,
+   "explanation": "60 × 155 = 9,300",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 156 hours?",
+   "choices": [
+    "9,180",
+    "9,240",
+    "9,360",
+    "9,300"
+   ],
+   "answer": 2,
+   "explanation": "60 × 156 = 9,360",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 157 hours?",
+   "choices": [
+    "9,240",
+    "9,300",
+    "9,420",
+    "9,360"
+   ],
+   "answer": 2,
+   "explanation": "60 × 157 = 9,420",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 158 hours?",
+   "choices": [
+    "9,300",
+    "9,480",
+    "9,360",
+    "9,420"
+   ],
+   "answer": 1,
+   "explanation": "60 × 158 = 9,480",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 159 hours?",
+   "choices": [
+    "9,360",
+    "9,540",
+    "9,420",
+    "9,480"
+   ],
+   "answer": 1,
+   "explanation": "60 × 159 = 9,540",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 160 hours?",
+   "choices": [
+    "9,420",
+    "9,480",
+    "9,540",
+    "9,600"
+   ],
+   "answer": 3,
+   "explanation": "60 × 160 = 9,600",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 161 hours?",
+   "choices": [
+    "9,480",
+    "9,540",
+    "9,660",
+    "9,600"
+   ],
+   "answer": 2,
+   "explanation": "60 × 161 = 9,660",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 162 hours?",
+   "choices": [
+    "9,720",
+    "9,540",
+    "9,600",
+    "9,660"
+   ],
+   "answer": 0,
+   "explanation": "60 × 162 = 9,720",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 163 hours?",
+   "choices": [
+    "9,600",
+    "9,660",
+    "9,720",
+    "9,780"
+   ],
+   "answer": 3,
+   "explanation": "60 × 163 = 9,780",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 164 hours?",
+   "choices": [
+    "9,660",
+    "9,840",
+    "9,720",
+    "9,780"
+   ],
+   "answer": 1,
+   "explanation": "60 × 164 = 9,840",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 165 hours?",
+   "choices": [
+    "9,900",
+    "9,720",
+    "9,780",
+    "9,840"
+   ],
+   "answer": 0,
+   "explanation": "60 × 165 = 9,900",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 166 hours?",
+   "choices": [
+    "9,780",
+    "9,840",
+    "9,960",
+    "9,900"
+   ],
+   "answer": 2,
+   "explanation": "60 × 166 = 9,960",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 167 hours?",
+   "choices": [
+    "9,840",
+    "10,020",
+    "9,900",
+    "9,960"
+   ],
+   "answer": 1,
+   "explanation": "60 × 167 = 10,020",
+   "source": "Minutes per hour"
+  },
+  {
+   "question": "How many minutes are in 168 hours?",
+   "choices": [
+    "10,080",
+    "9,900",
+    "9,960",
+    "10,020"
+   ],
+   "answer": 0,
+   "explanation": "60 × 168 = 10,080",
+   "source": "Minutes per hour"
+  }
+ ]
+}

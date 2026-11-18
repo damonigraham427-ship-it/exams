@@ -1,0 +1,1204 @@
+{
+ "questions": [
+  {
+   "question": "How many minutes is 1% of 52 weeks (364 days)?",
+   "choices": [
+    "10,483.2",
+    "15,724.8",
+    "20,966.4",
+    "5,241.6"
+   ],
+   "answer": 3,
+   "explanation": "1% of 524,160 = 5,241.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 2% of 52 weeks (364 days)?",
+   "choices": [
+    "10,483.2",
+    "5,241.6",
+    "15,724.8",
+    "20,966.4"
+   ],
+   "answer": 0,
+   "explanation": "2% of 524,160 = 10,483.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 3% of 52 weeks (364 days)?",
+   "choices": [
+    "5,241.6",
+    "10,483.2",
+    "20,966.4",
+    "15,724.8"
+   ],
+   "answer": 3,
+   "explanation": "3% of 524,160 = 15,724.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 4% of 52 weeks (364 days)?",
+   "choices": [
+    "5,241.6",
+    "20,966.4",
+    "10,483.2",
+    "15,724.8"
+   ],
+   "answer": 1,
+   "explanation": "4% of 524,160 = 20,966.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 5% of 52 weeks (364 days)?",
+   "choices": [
+    "10,483.2",
+    "15,724.8",
+    "20,966.4",
+    "26,208"
+   ],
+   "answer": 3,
+   "explanation": "5% of 524,160 = 26,208",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 6% of 52 weeks (364 days)?",
+   "choices": [
+    "15,724.8",
+    "31,449.6",
+    "20,966.4",
+    "26,208"
+   ],
+   "answer": 1,
+   "explanation": "6% of 524,160 = 31,449.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 7% of 52 weeks (364 days)?",
+   "choices": [
+    "20,966.4",
+    "36,691.2",
+    "26,208",
+    "31,449.6"
+   ],
+   "answer": 1,
+   "explanation": "7% of 524,160 = 36,691.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 8% of 52 weeks (364 days)?",
+   "choices": [
+    "26,208",
+    "41,932.8",
+    "31,449.6",
+    "36,691.2"
+   ],
+   "answer": 1,
+   "explanation": "8% of 524,160 = 41,932.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 9% of 52 weeks (364 days)?",
+   "choices": [
+    "31,449.6",
+    "36,691.2",
+    "41,932.8",
+    "47,174.4"
+   ],
+   "answer": 3,
+   "explanation": "9% of 524,160 = 47,174.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 10% of 52 weeks (364 days)?",
+   "choices": [
+    "36,691.2",
+    "41,932.8",
+    "52,416",
+    "47,174.4"
+   ],
+   "answer": 2,
+   "explanation": "10% of 524,160 = 52,416",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 11% of 52 weeks (364 days)?",
+   "choices": [
+    "41,932.8",
+    "57,657.6",
+    "47,174.4",
+    "52,416"
+   ],
+   "answer": 1,
+   "explanation": "11% of 524,160 = 57,657.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 12% of 52 weeks (364 days)?",
+   "choices": [
+    "47,174.4",
+    "62,899.2",
+    "52,416",
+    "57,657.6"
+   ],
+   "answer": 1,
+   "explanation": "12% of 524,160 = 62,899.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 13% of 52 weeks (364 days)?",
+   "choices": [
+    "52,416",
+    "68,140.8",
+    "57,657.6",
+    "62,899.2"
+   ],
+   "answer": 1,
+   "explanation": "13% of 524,160 = 68,140.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 14% of 52 weeks (364 days)?",
+   "choices": [
+    "57,657.6",
+    "62,899.2",
+    "68,140.8",
+    "73,382.4"
+   ],
+   "answer": 3,
+   "explanation": "14% of 524,160 = 73,382.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 15% of 52 weeks (364 days)?",
+   "choices": [
+    "62,899.2",
+    "68,140.8",
+    "73,382.4",
+    "78,624"
+   ],
+   "answer": 3,
+   "explanation": "15% of 524,160 = 78,624",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 16% of 52 weeks (364 days)?",
+   "choices": [
+    "68,140.8",
+    "73,382.4",
+    "78,624",
+    "83,865.6"
+   ],
+   "answer": 3,
+   "explanation": "16% of 524,160 = 83,865.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 17% of 52 weeks (364 days)?",
+   "choices": [
+    "73,382.4",
+    "78,624",
+    "83,865.6",
+    "89,107.2"
+   ],
+   "answer": 3,
+   "explanation": "17% of 524,160 = 89,107.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 18% of 52 weeks (364 days)?",
+   "choices": [
+    "94,348.8",
+    "78,624",
+    "83,865.6",
+    "89,107.2"
+   ],
+   "answer": 0,
+   "explanation": "18% of 524,160 = 94,348.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 19% of 52 weeks (364 days)?",
+   "choices": [
+    "83,865.6",
+    "99,590.4",
+    "89,107.2",
+    "94,348.8"
+   ],
+   "answer": 1,
+   "explanation": "19% of 524,160 = 99,590.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 20% of 52 weeks (364 days)?",
+   "choices": [
+    "89,107.2",
+    "94,348.8",
+    "99,590.4",
+    "104,832"
+   ],
+   "answer": 3,
+   "explanation": "20% of 524,160 = 104,832",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 21% of 52 weeks (364 days)?",
+   "choices": [
+    "94,348.8",
+    "110,073.6",
+    "99,590.4",
+    "104,832"
+   ],
+   "answer": 1,
+   "explanation": "21% of 524,160 = 110,073.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 22% of 52 weeks (364 days)?",
+   "choices": [
+    "99,590.4",
+    "104,832",
+    "110,073.6",
+    "115,315.2"
+   ],
+   "answer": 3,
+   "explanation": "22% of 524,160 = 115,315.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 23% of 52 weeks (364 days)?",
+   "choices": [
+    "104,832",
+    "110,073.6",
+    "120,556.8",
+    "115,315.2"
+   ],
+   "answer": 2,
+   "explanation": "23% of 524,160 = 120,556.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 24% of 52 weeks (364 days)?",
+   "choices": [
+    "110,073.6",
+    "115,315.2",
+    "125,798.4",
+    "120,556.8"
+   ],
+   "answer": 2,
+   "explanation": "24% of 524,160 = 125,798.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 25% of 52 weeks (364 days)?",
+   "choices": [
+    "115,315.2",
+    "120,556.8",
+    "125,798.4",
+    "131,040"
+   ],
+   "answer": 3,
+   "explanation": "25% of 524,160 = 131,040",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 26% of 52 weeks (364 days)?",
+   "choices": [
+    "120,556.8",
+    "125,798.4",
+    "131,040",
+    "136,281.6"
+   ],
+   "answer": 3,
+   "explanation": "26% of 524,160 = 136,281.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 27% of 52 weeks (364 days)?",
+   "choices": [
+    "141,523.2",
+    "125,798.4",
+    "131,040",
+    "136,281.6"
+   ],
+   "answer": 0,
+   "explanation": "27% of 524,160 = 141,523.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 28% of 52 weeks (364 days)?",
+   "choices": [
+    "131,040",
+    "136,281.6",
+    "141,523.2",
+    "146,764.8"
+   ],
+   "answer": 3,
+   "explanation": "28% of 524,160 = 146,764.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 29% of 52 weeks (364 days)?",
+   "choices": [
+    "136,281.6",
+    "152,006.4",
+    "141,523.2",
+    "146,764.8"
+   ],
+   "answer": 1,
+   "explanation": "29% of 524,160 = 152,006.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 30% of 52 weeks (364 days)?",
+   "choices": [
+    "141,523.2",
+    "146,764.8",
+    "157,248",
+    "152,006.4"
+   ],
+   "answer": 2,
+   "explanation": "30% of 524,160 = 157,248",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 31% of 52 weeks (364 days)?",
+   "choices": [
+    "146,764.8",
+    "152,006.4",
+    "162,489.6",
+    "157,248"
+   ],
+   "answer": 2,
+   "explanation": "31% of 524,160 = 162,489.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 32% of 52 weeks (364 days)?",
+   "choices": [
+    "152,006.4",
+    "167,731.2",
+    "157,248",
+    "162,489.6"
+   ],
+   "answer": 1,
+   "explanation": "32% of 524,160 = 167,731.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 33% of 52 weeks (364 days)?",
+   "choices": [
+    "172,972.8",
+    "157,248",
+    "162,489.6",
+    "167,731.2"
+   ],
+   "answer": 0,
+   "explanation": "33% of 524,160 = 172,972.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 34% of 52 weeks (364 days)?",
+   "choices": [
+    "162,489.6",
+    "167,731.2",
+    "172,972.8",
+    "178,214.4"
+   ],
+   "answer": 3,
+   "explanation": "34% of 524,160 = 178,214.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 35% of 52 weeks (364 days)?",
+   "choices": [
+    "167,731.2",
+    "183,456",
+    "172,972.8",
+    "178,214.4"
+   ],
+   "answer": 1,
+   "explanation": "35% of 524,160 = 183,456",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 36% of 52 weeks (364 days)?",
+   "choices": [
+    "172,972.8",
+    "178,214.4",
+    "183,456",
+    "188,697.6"
+   ],
+   "answer": 3,
+   "explanation": "36% of 524,160 = 188,697.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 37% of 52 weeks (364 days)?",
+   "choices": [
+    "178,214.4",
+    "183,456",
+    "193,939.2",
+    "188,697.6"
+   ],
+   "answer": 2,
+   "explanation": "37% of 524,160 = 193,939.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 38% of 52 weeks (364 days)?",
+   "choices": [
+    "183,456",
+    "199,180.8",
+    "188,697.6",
+    "193,939.2"
+   ],
+   "answer": 1,
+   "explanation": "38% of 524,160 = 199,180.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 39% of 52 weeks (364 days)?",
+   "choices": [
+    "188,697.6",
+    "193,939.2",
+    "199,180.8",
+    "204,422.4"
+   ],
+   "answer": 3,
+   "explanation": "39% of 524,160 = 204,422.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 40% of 52 weeks (364 days)?",
+   "choices": [
+    "193,939.2",
+    "209,664",
+    "199,180.8",
+    "204,422.4"
+   ],
+   "answer": 1,
+   "explanation": "40% of 524,160 = 209,664",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 41% of 52 weeks (364 days)?",
+   "choices": [
+    "214,905.6",
+    "199,180.8",
+    "204,422.4",
+    "209,664"
+   ],
+   "answer": 0,
+   "explanation": "41% of 524,160 = 214,905.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 42% of 52 weeks (364 days)?",
+   "choices": [
+    "220,147.2",
+    "204,422.4",
+    "209,664",
+    "214,905.6"
+   ],
+   "answer": 0,
+   "explanation": "42% of 524,160 = 220,147.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 43% of 52 weeks (364 days)?",
+   "choices": [
+    "225,388.8",
+    "209,664",
+    "214,905.6",
+    "220,147.2"
+   ],
+   "answer": 0,
+   "explanation": "43% of 524,160 = 225,388.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 44% of 52 weeks (364 days)?",
+   "choices": [
+    "214,905.6",
+    "220,147.2",
+    "225,388.8",
+    "230,630.4"
+   ],
+   "answer": 3,
+   "explanation": "44% of 524,160 = 230,630.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 45% of 52 weeks (364 days)?",
+   "choices": [
+    "220,147.2",
+    "225,388.8",
+    "230,630.4",
+    "235,872"
+   ],
+   "answer": 3,
+   "explanation": "45% of 524,160 = 235,872",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 46% of 52 weeks (364 days)?",
+   "choices": [
+    "241,113.6",
+    "225,388.8",
+    "230,630.4",
+    "235,872"
+   ],
+   "answer": 0,
+   "explanation": "46% of 524,160 = 241,113.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 47% of 52 weeks (364 days)?",
+   "choices": [
+    "230,630.4",
+    "235,872",
+    "246,355.2",
+    "241,113.6"
+   ],
+   "answer": 2,
+   "explanation": "47% of 524,160 = 246,355.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 48% of 52 weeks (364 days)?",
+   "choices": [
+    "235,872",
+    "241,113.6",
+    "251,596.8",
+    "246,355.2"
+   ],
+   "answer": 2,
+   "explanation": "48% of 524,160 = 251,596.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 49% of 52 weeks (364 days)?",
+   "choices": [
+    "241,113.6",
+    "256,838.4",
+    "246,355.2",
+    "251,596.8"
+   ],
+   "answer": 1,
+   "explanation": "49% of 524,160 = 256,838.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 50% of 52 weeks (364 days)?",
+   "choices": [
+    "246,355.2",
+    "251,596.8",
+    "262,080",
+    "256,838.4"
+   ],
+   "answer": 2,
+   "explanation": "50% of 524,160 = 262,080",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 51% of 52 weeks (364 days)?",
+   "choices": [
+    "251,596.8",
+    "256,838.4",
+    "267,321.6",
+    "262,080"
+   ],
+   "answer": 2,
+   "explanation": "51% of 524,160 = 267,321.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 52% of 52 weeks (364 days)?",
+   "choices": [
+    "272,563.2",
+    "256,838.4",
+    "262,080",
+    "267,321.6"
+   ],
+   "answer": 0,
+   "explanation": "52% of 524,160 = 272,563.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 53% of 52 weeks (364 days)?",
+   "choices": [
+    "262,080",
+    "267,321.6",
+    "272,563.2",
+    "277,804.8"
+   ],
+   "answer": 3,
+   "explanation": "53% of 524,160 = 277,804.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 54% of 52 weeks (364 days)?",
+   "choices": [
+    "283,046.4",
+    "267,321.6",
+    "272,563.2",
+    "277,804.8"
+   ],
+   "answer": 0,
+   "explanation": "54% of 524,160 = 283,046.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 55% of 52 weeks (364 days)?",
+   "choices": [
+    "272,563.2",
+    "277,804.8",
+    "283,046.4",
+    "288,288"
+   ],
+   "answer": 3,
+   "explanation": "55% of 524,160 = 288,288",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 56% of 52 weeks (364 days)?",
+   "choices": [
+    "277,804.8",
+    "293,529.6",
+    "283,046.4",
+    "288,288"
+   ],
+   "answer": 1,
+   "explanation": "56% of 524,160 = 293,529.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 57% of 52 weeks (364 days)?",
+   "choices": [
+    "283,046.4",
+    "288,288",
+    "298,771.2",
+    "293,529.6"
+   ],
+   "answer": 2,
+   "explanation": "57% of 524,160 = 298,771.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 58% of 52 weeks (364 days)?",
+   "choices": [
+    "288,288",
+    "293,529.6",
+    "298,771.2",
+    "304,012.8"
+   ],
+   "answer": 3,
+   "explanation": "58% of 524,160 = 304,012.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 59% of 52 weeks (364 days)?",
+   "choices": [
+    "293,529.6",
+    "309,254.4",
+    "298,771.2",
+    "304,012.8"
+   ],
+   "answer": 1,
+   "explanation": "59% of 524,160 = 309,254.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 60% of 52 weeks (364 days)?",
+   "choices": [
+    "314,496",
+    "298,771.2",
+    "304,012.8",
+    "309,254.4"
+   ],
+   "answer": 0,
+   "explanation": "60% of 524,160 = 314,496",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 61% of 52 weeks (364 days)?",
+   "choices": [
+    "319,737.6",
+    "304,012.8",
+    "309,254.4",
+    "314,496"
+   ],
+   "answer": 0,
+   "explanation": "61% of 524,160 = 319,737.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 62% of 52 weeks (364 days)?",
+   "choices": [
+    "324,979.2",
+    "309,254.4",
+    "314,496",
+    "319,737.6"
+   ],
+   "answer": 0,
+   "explanation": "62% of 524,160 = 324,979.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 63% of 52 weeks (364 days)?",
+   "choices": [
+    "314,496",
+    "319,737.6",
+    "330,220.8",
+    "324,979.2"
+   ],
+   "answer": 2,
+   "explanation": "63% of 524,160 = 330,220.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 64% of 52 weeks (364 days)?",
+   "choices": [
+    "319,737.6",
+    "335,462.4",
+    "324,979.2",
+    "330,220.8"
+   ],
+   "answer": 1,
+   "explanation": "64% of 524,160 = 335,462.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 65% of 52 weeks (364 days)?",
+   "choices": [
+    "340,704",
+    "324,979.2",
+    "330,220.8",
+    "335,462.4"
+   ],
+   "answer": 0,
+   "explanation": "65% of 524,160 = 340,704",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 66% of 52 weeks (364 days)?",
+   "choices": [
+    "330,220.8",
+    "345,945.6",
+    "335,462.4",
+    "340,704"
+   ],
+   "answer": 1,
+   "explanation": "66% of 524,160 = 345,945.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 67% of 52 weeks (364 days)?",
+   "choices": [
+    "335,462.4",
+    "340,704",
+    "351,187.2",
+    "345,945.6"
+   ],
+   "answer": 2,
+   "explanation": "67% of 524,160 = 351,187.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 68% of 52 weeks (364 days)?",
+   "choices": [
+    "340,704",
+    "356,428.8",
+    "345,945.6",
+    "351,187.2"
+   ],
+   "answer": 1,
+   "explanation": "68% of 524,160 = 356,428.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 69% of 52 weeks (364 days)?",
+   "choices": [
+    "361,670.4",
+    "345,945.6",
+    "351,187.2",
+    "356,428.8"
+   ],
+   "answer": 0,
+   "explanation": "69% of 524,160 = 361,670.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 70% of 52 weeks (364 days)?",
+   "choices": [
+    "351,187.2",
+    "356,428.8",
+    "361,670.4",
+    "366,912"
+   ],
+   "answer": 3,
+   "explanation": "70% of 524,160 = 366,912",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 71% of 52 weeks (364 days)?",
+   "choices": [
+    "356,428.8",
+    "361,670.4",
+    "372,153.6",
+    "366,912"
+   ],
+   "answer": 2,
+   "explanation": "71% of 524,160 = 372,153.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 72% of 52 weeks (364 days)?",
+   "choices": [
+    "361,670.4",
+    "366,912",
+    "372,153.6",
+    "377,395.2"
+   ],
+   "answer": 3,
+   "explanation": "72% of 524,160 = 377,395.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 73% of 52 weeks (364 days)?",
+   "choices": [
+    "382,636.8",
+    "366,912",
+    "372,153.6",
+    "377,395.2"
+   ],
+   "answer": 0,
+   "explanation": "73% of 524,160 = 382,636.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 74% of 52 weeks (364 days)?",
+   "choices": [
+    "372,153.6",
+    "387,878.4",
+    "377,395.2",
+    "382,636.8"
+   ],
+   "answer": 1,
+   "explanation": "74% of 524,160 = 387,878.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 75% of 52 weeks (364 days)?",
+   "choices": [
+    "377,395.2",
+    "382,636.8",
+    "387,878.4",
+    "393,120"
+   ],
+   "answer": 3,
+   "explanation": "75% of 524,160 = 393,120",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 76% of 52 weeks (364 days)?",
+   "choices": [
+    "382,636.8",
+    "387,878.4",
+    "393,120",
+    "398,361.6"
+   ],
+   "answer": 3,
+   "explanation": "76% of 524,160 = 398,361.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 77% of 52 weeks (364 days)?",
+   "choices": [
+    "387,878.4",
+    "403,603.2",
+    "393,120",
+    "398,361.6"
+   ],
+   "answer": 1,
+   "explanation": "77% of 524,160 = 403,603.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 78% of 52 weeks (364 days)?",
+   "choices": [
+    "408,844.8",
+    "393,120",
+    "398,361.6",
+    "403,603.2"
+   ],
+   "answer": 0,
+   "explanation": "78% of 524,160 = 408,844.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 79% of 52 weeks (364 days)?",
+   "choices": [
+    "398,361.6",
+    "403,603.2",
+    "408,844.8",
+    "414,086.4"
+   ],
+   "answer": 3,
+   "explanation": "79% of 524,160 = 414,086.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 80% of 52 weeks (364 days)?",
+   "choices": [
+    "403,603.2",
+    "408,844.8",
+    "419,328",
+    "414,086.4"
+   ],
+   "answer": 2,
+   "explanation": "80% of 524,160 = 419,328",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 81% of 52 weeks (364 days)?",
+   "choices": [
+    "424,569.6",
+    "408,844.8",
+    "414,086.4",
+    "419,328"
+   ],
+   "answer": 0,
+   "explanation": "81% of 524,160 = 424,569.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 82% of 52 weeks (364 days)?",
+   "choices": [
+    "414,086.4",
+    "429,811.2",
+    "419,328",
+    "424,569.6"
+   ],
+   "answer": 1,
+   "explanation": "82% of 524,160 = 429,811.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 83% of 52 weeks (364 days)?",
+   "choices": [
+    "419,328",
+    "424,569.6",
+    "435,052.8",
+    "429,811.2"
+   ],
+   "answer": 2,
+   "explanation": "83% of 524,160 = 435,052.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 84% of 52 weeks (364 days)?",
+   "choices": [
+    "424,569.6",
+    "440,294.4",
+    "429,811.2",
+    "435,052.8"
+   ],
+   "answer": 1,
+   "explanation": "84% of 524,160 = 440,294.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 85% of 52 weeks (364 days)?",
+   "choices": [
+    "429,811.2",
+    "445,536",
+    "435,052.8",
+    "440,294.4"
+   ],
+   "answer": 1,
+   "explanation": "85% of 524,160 = 445,536",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 86% of 52 weeks (364 days)?",
+   "choices": [
+    "435,052.8",
+    "450,777.6",
+    "440,294.4",
+    "445,536"
+   ],
+   "answer": 1,
+   "explanation": "86% of 524,160 = 450,777.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 87% of 52 weeks (364 days)?",
+   "choices": [
+    "440,294.4",
+    "456,019.2",
+    "445,536",
+    "450,777.6"
+   ],
+   "answer": 1,
+   "explanation": "87% of 524,160 = 456,019.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 88% of 52 weeks (364 days)?",
+   "choices": [
+    "445,536",
+    "450,777.6",
+    "461,260.8",
+    "456,019.2"
+   ],
+   "answer": 2,
+   "explanation": "88% of 524,160 = 461,260.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 89% of 52 weeks (364 days)?",
+   "choices": [
+    "466,502.4",
+    "450,777.6",
+    "456,019.2",
+    "461,260.8"
+   ],
+   "answer": 0,
+   "explanation": "89% of 524,160 = 466,502.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 90% of 52 weeks (364 days)?",
+   "choices": [
+    "456,019.2",
+    "471,744",
+    "461,260.8",
+    "466,502.4"
+   ],
+   "answer": 1,
+   "explanation": "90% of 524,160 = 471,744",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 91% of 52 weeks (364 days)?",
+   "choices": [
+    "461,260.8",
+    "476,985.6",
+    "466,502.4",
+    "471,744"
+   ],
+   "answer": 1,
+   "explanation": "91% of 524,160 = 476,985.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 92% of 52 weeks (364 days)?",
+   "choices": [
+    "482,227.2",
+    "466,502.4",
+    "471,744",
+    "476,985.6"
+   ],
+   "answer": 0,
+   "explanation": "92% of 524,160 = 482,227.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 93% of 52 weeks (364 days)?",
+   "choices": [
+    "471,744",
+    "476,985.6",
+    "487,468.8",
+    "482,227.2"
+   ],
+   "answer": 2,
+   "explanation": "93% of 524,160 = 487,468.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 94% of 52 weeks (364 days)?",
+   "choices": [
+    "476,985.6",
+    "482,227.2",
+    "487,468.8",
+    "492,710.4"
+   ],
+   "answer": 3,
+   "explanation": "94% of 524,160 = 492,710.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 95% of 52 weeks (364 days)?",
+   "choices": [
+    "482,227.2",
+    "487,468.8",
+    "497,952",
+    "492,710.4"
+   ],
+   "answer": 2,
+   "explanation": "95% of 524,160 = 497,952",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 96% of 52 weeks (364 days)?",
+   "choices": [
+    "487,468.8",
+    "492,710.4",
+    "503,193.6",
+    "497,952"
+   ],
+   "answer": 2,
+   "explanation": "96% of 524,160 = 503,193.6",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 97% of 52 weeks (364 days)?",
+   "choices": [
+    "508,435.2",
+    "492,710.4",
+    "497,952",
+    "503,193.6"
+   ],
+   "answer": 0,
+   "explanation": "97% of 524,160 = 508,435.2",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 98% of 52 weeks (364 days)?",
+   "choices": [
+    "497,952",
+    "513,676.8",
+    "503,193.6",
+    "508,435.2"
+   ],
+   "answer": 1,
+   "explanation": "98% of 524,160 = 513,676.8",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 99% of 52 weeks (364 days)?",
+   "choices": [
+    "503,193.6",
+    "508,435.2",
+    "518,918.4",
+    "513,676.8"
+   ],
+   "answer": 2,
+   "explanation": "99% of 524,160 = 518,918.4",
+   "source": "52 Weeks 364 Days"
+  },
+  {
+   "question": "How many minutes is 100% of 52 weeks (364 days)?",
+   "choices": [
+    "508,435.2",
+    "513,676.8",
+    "518,918.4",
+    "524,160"
+   ],
+   "answer": 3,
+   "explanation": "100% of 524,160 = 524,160",
+   "source": "52 Weeks 364 Days"
+  }
+ ]
+}

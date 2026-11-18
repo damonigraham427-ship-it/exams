@@ -1,0 +1,2020 @@
+{
+ "questions": [
+  {
+   "question": "How many seconds are in 1 hour?",
+   "choices": [
+    "3,600",
+    "7,200",
+    "10,800",
+    "14,400"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 1 = 3,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 2 hours?",
+   "choices": [
+    "3,600",
+    "10,800",
+    "14,400",
+    "7,200"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 2 = 7,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 3 hours?",
+   "choices": [
+    "3,600",
+    "7,200",
+    "10,800",
+    "14,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 3 = 10,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 4 hours?",
+   "choices": [
+    "3,600",
+    "14,400",
+    "7,200",
+    "10,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 4 = 14,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 5 hours?",
+   "choices": [
+    "7,200",
+    "10,800",
+    "18,000",
+    "14,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 5 = 18,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 6 hours?",
+   "choices": [
+    "21,600",
+    "10,800",
+    "14,400",
+    "18,000"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 6 = 21,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 7 hours?",
+   "choices": [
+    "14,400",
+    "18,000",
+    "21,600",
+    "25,200"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 7 = 25,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 8 hours?",
+   "choices": [
+    "28,800",
+    "18,000",
+    "21,600",
+    "25,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 8 = 28,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 9 hours?",
+   "choices": [
+    "21,600",
+    "32,400",
+    "25,200",
+    "28,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 9 = 32,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 10 hours?",
+   "choices": [
+    "25,200",
+    "36,000",
+    "28,800",
+    "32,400"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 10 = 36,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 11 hours?",
+   "choices": [
+    "28,800",
+    "32,400",
+    "39,600",
+    "36,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 11 = 39,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 12 hours?",
+   "choices": [
+    "32,400",
+    "36,000",
+    "39,600",
+    "43,200"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 12 = 43,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 13 hours?",
+   "choices": [
+    "36,000",
+    "46,800",
+    "39,600",
+    "43,200"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 13 = 46,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 14 hours?",
+   "choices": [
+    "50,400",
+    "39,600",
+    "43,200",
+    "46,800"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 14 = 50,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 15 hours?",
+   "choices": [
+    "54,000",
+    "43,200",
+    "46,800",
+    "50,400"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 15 = 54,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 16 hours?",
+   "choices": [
+    "46,800",
+    "50,400",
+    "57,600",
+    "54,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 16 = 57,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 17 hours?",
+   "choices": [
+    "50,400",
+    "61,200",
+    "54,000",
+    "57,600"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 17 = 61,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 18 hours?",
+   "choices": [
+    "54,000",
+    "57,600",
+    "64,800",
+    "61,200"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 18 = 64,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 19 hours?",
+   "choices": [
+    "57,600",
+    "61,200",
+    "64,800",
+    "68,400"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 19 = 68,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 20 hours?",
+   "choices": [
+    "61,200",
+    "64,800",
+    "68,400",
+    "72,000"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 20 = 72,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 21 hours?",
+   "choices": [
+    "64,800",
+    "68,400",
+    "72,000",
+    "75,600"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 21 = 75,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 22 hours?",
+   "choices": [
+    "68,400",
+    "72,000",
+    "79,200",
+    "75,600"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 22 = 79,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 23 hours?",
+   "choices": [
+    "82,800",
+    "72,000",
+    "75,600",
+    "79,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 23 = 82,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 24 hours?",
+   "choices": [
+    "75,600",
+    "86,400",
+    "79,200",
+    "82,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 24 = 86,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 25 hours?",
+   "choices": [
+    "90,000",
+    "79,200",
+    "82,800",
+    "86,400"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 25 = 90,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 26 hours?",
+   "choices": [
+    "82,800",
+    "86,400",
+    "93,600",
+    "90,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 26 = 93,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 27 hours?",
+   "choices": [
+    "86,400",
+    "97,200",
+    "90,000",
+    "93,600"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 27 = 97,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 28 hours?",
+   "choices": [
+    "100,800",
+    "90,000",
+    "93,600",
+    "97,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 28 = 100,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 29 hours?",
+   "choices": [
+    "93,600",
+    "97,200",
+    "104,400",
+    "100,800"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 29 = 104,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 30 hours?",
+   "choices": [
+    "97,200",
+    "100,800",
+    "108,000",
+    "104,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 30 = 108,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 31 hours?",
+   "choices": [
+    "100,800",
+    "104,400",
+    "111,600",
+    "108,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 31 = 111,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 32 hours?",
+   "choices": [
+    "104,400",
+    "108,000",
+    "115,200",
+    "111,600"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 32 = 115,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 33 hours?",
+   "choices": [
+    "118,800",
+    "108,000",
+    "111,600",
+    "115,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 33 = 118,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 34 hours?",
+   "choices": [
+    "111,600",
+    "115,200",
+    "122,400",
+    "118,800"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 34 = 122,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 35 hours?",
+   "choices": [
+    "115,200",
+    "118,800",
+    "126,000",
+    "122,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 35 = 126,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 36 hours?",
+   "choices": [
+    "118,800",
+    "129,600",
+    "122,400",
+    "126,000"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 36 = 129,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 37 hours?",
+   "choices": [
+    "122,400",
+    "126,000",
+    "129,600",
+    "133,200"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 37 = 133,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 38 hours?",
+   "choices": [
+    "126,000",
+    "136,800",
+    "129,600",
+    "133,200"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 38 = 136,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 39 hours?",
+   "choices": [
+    "129,600",
+    "133,200",
+    "140,400",
+    "136,800"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 39 = 140,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 40 hours?",
+   "choices": [
+    "133,200",
+    "136,800",
+    "144,000",
+    "140,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 40 = 144,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 41 hours?",
+   "choices": [
+    "136,800",
+    "147,600",
+    "140,400",
+    "144,000"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 41 = 147,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 42 hours?",
+   "choices": [
+    "140,400",
+    "151,200",
+    "144,000",
+    "147,600"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 42 = 151,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 43 hours?",
+   "choices": [
+    "144,000",
+    "147,600",
+    "154,800",
+    "151,200"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 43 = 154,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 44 hours?",
+   "choices": [
+    "147,600",
+    "158,400",
+    "151,200",
+    "154,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 44 = 158,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 45 hours?",
+   "choices": [
+    "151,200",
+    "154,800",
+    "158,400",
+    "162,000"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 45 = 162,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 46 hours?",
+   "choices": [
+    "154,800",
+    "165,600",
+    "158,400",
+    "162,000"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 46 = 165,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 47 hours?",
+   "choices": [
+    "158,400",
+    "162,000",
+    "169,200",
+    "165,600"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 47 = 169,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 48 hours?",
+   "choices": [
+    "172,800",
+    "162,000",
+    "165,600",
+    "169,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 48 = 172,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 49 hours?",
+   "choices": [
+    "176,400",
+    "165,600",
+    "169,200",
+    "172,800"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 49 = 176,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 50 hours?",
+   "choices": [
+    "169,200",
+    "172,800",
+    "180,000",
+    "176,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 50 = 180,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 51 hours?",
+   "choices": [
+    "172,800",
+    "176,400",
+    "183,600",
+    "180,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 51 = 183,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 52 hours?",
+   "choices": [
+    "176,400",
+    "180,000",
+    "187,200",
+    "183,600"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 52 = 187,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 53 hours?",
+   "choices": [
+    "180,000",
+    "183,600",
+    "187,200",
+    "190,800"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 53 = 190,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 54 hours?",
+   "choices": [
+    "183,600",
+    "194,400",
+    "187,200",
+    "190,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 54 = 194,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 55 hours?",
+   "choices": [
+    "187,200",
+    "198,000",
+    "190,800",
+    "194,400"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 55 = 198,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 56 hours?",
+   "choices": [
+    "190,800",
+    "194,400",
+    "201,600",
+    "198,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 56 = 201,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 57 hours?",
+   "choices": [
+    "194,400",
+    "198,000",
+    "201,600",
+    "205,200"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 57 = 205,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 58 hours?",
+   "choices": [
+    "208,800",
+    "198,000",
+    "201,600",
+    "205,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 58 = 208,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 59 hours?",
+   "choices": [
+    "201,600",
+    "205,200",
+    "212,400",
+    "208,800"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 59 = 212,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 60 hours?",
+   "choices": [
+    "205,200",
+    "208,800",
+    "216,000",
+    "212,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 60 = 216,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 61 hours?",
+   "choices": [
+    "219,600",
+    "208,800",
+    "212,400",
+    "216,000"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 61 = 219,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 62 hours?",
+   "choices": [
+    "212,400",
+    "223,200",
+    "216,000",
+    "219,600"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 62 = 223,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 63 hours?",
+   "choices": [
+    "216,000",
+    "219,600",
+    "226,800",
+    "223,200"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 63 = 226,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 64 hours?",
+   "choices": [
+    "219,600",
+    "223,200",
+    "230,400",
+    "226,800"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 64 = 230,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 65 hours?",
+   "choices": [
+    "223,200",
+    "226,800",
+    "230,400",
+    "234,000"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 65 = 234,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 66 hours?",
+   "choices": [
+    "226,800",
+    "230,400",
+    "237,600",
+    "234,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 66 = 237,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 67 hours?",
+   "choices": [
+    "230,400",
+    "234,000",
+    "237,600",
+    "241,200"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 67 = 241,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 68 hours?",
+   "choices": [
+    "244,800",
+    "234,000",
+    "237,600",
+    "241,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 68 = 244,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 69 hours?",
+   "choices": [
+    "237,600",
+    "248,400",
+    "241,200",
+    "244,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 69 = 248,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 70 hours?",
+   "choices": [
+    "241,200",
+    "252,000",
+    "244,800",
+    "248,400"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 70 = 252,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 71 hours?",
+   "choices": [
+    "244,800",
+    "248,400",
+    "252,000",
+    "255,600"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 71 = 255,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 72 hours?",
+   "choices": [
+    "248,400",
+    "259,200",
+    "252,000",
+    "255,600"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 72 = 259,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 73 hours?",
+   "choices": [
+    "252,000",
+    "255,600",
+    "262,800",
+    "259,200"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 73 = 262,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 74 hours?",
+   "choices": [
+    "266,400",
+    "255,600",
+    "259,200",
+    "262,800"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 74 = 266,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 75 hours?",
+   "choices": [
+    "259,200",
+    "262,800",
+    "270,000",
+    "266,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 75 = 270,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 76 hours?",
+   "choices": [
+    "273,600",
+    "262,800",
+    "266,400",
+    "270,000"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 76 = 273,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 77 hours?",
+   "choices": [
+    "277,200",
+    "266,400",
+    "270,000",
+    "273,600"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 77 = 277,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 78 hours?",
+   "choices": [
+    "270,000",
+    "280,800",
+    "273,600",
+    "277,200"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 78 = 280,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 79 hours?",
+   "choices": [
+    "284,400",
+    "273,600",
+    "277,200",
+    "280,800"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 79 = 284,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 80 hours?",
+   "choices": [
+    "277,200",
+    "288,000",
+    "280,800",
+    "284,400"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 80 = 288,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 81 hours?",
+   "choices": [
+    "280,800",
+    "284,400",
+    "291,600",
+    "288,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 81 = 291,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 82 hours?",
+   "choices": [
+    "284,400",
+    "295,200",
+    "288,000",
+    "291,600"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 82 = 295,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 83 hours?",
+   "choices": [
+    "288,000",
+    "291,600",
+    "295,200",
+    "298,800"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 83 = 298,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 84 hours?",
+   "choices": [
+    "291,600",
+    "295,200",
+    "298,800",
+    "302,400"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 84 = 302,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 85 hours?",
+   "choices": [
+    "306,000",
+    "295,200",
+    "298,800",
+    "302,400"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 85 = 306,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 86 hours?",
+   "choices": [
+    "298,800",
+    "302,400",
+    "306,000",
+    "309,600"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 86 = 309,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 87 hours?",
+   "choices": [
+    "302,400",
+    "313,200",
+    "306,000",
+    "309,600"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 87 = 313,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 88 hours?",
+   "choices": [
+    "306,000",
+    "316,800",
+    "309,600",
+    "313,200"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 88 = 316,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 89 hours?",
+   "choices": [
+    "309,600",
+    "320,400",
+    "313,200",
+    "316,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 89 = 320,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 90 hours?",
+   "choices": [
+    "313,200",
+    "316,800",
+    "320,400",
+    "324,000"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 90 = 324,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 91 hours?",
+   "choices": [
+    "316,800",
+    "320,400",
+    "327,600",
+    "324,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 91 = 327,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 92 hours?",
+   "choices": [
+    "320,400",
+    "324,000",
+    "331,200",
+    "327,600"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 92 = 331,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 93 hours?",
+   "choices": [
+    "324,000",
+    "334,800",
+    "327,600",
+    "331,200"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 93 = 334,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 94 hours?",
+   "choices": [
+    "338,400",
+    "327,600",
+    "331,200",
+    "334,800"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 94 = 338,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 95 hours?",
+   "choices": [
+    "331,200",
+    "334,800",
+    "342,000",
+    "338,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 95 = 342,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 96 hours?",
+   "choices": [
+    "345,600",
+    "334,800",
+    "338,400",
+    "342,000"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 96 = 345,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 97 hours?",
+   "choices": [
+    "338,400",
+    "349,200",
+    "342,000",
+    "345,600"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 97 = 349,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 98 hours?",
+   "choices": [
+    "352,800",
+    "342,000",
+    "345,600",
+    "349,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 98 = 352,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 99 hours?",
+   "choices": [
+    "345,600",
+    "349,200",
+    "356,400",
+    "352,800"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 99 = 356,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 100 hours?",
+   "choices": [
+    "349,200",
+    "352,800",
+    "360,000",
+    "356,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 100 = 360,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 101 hours?",
+   "choices": [
+    "363,600",
+    "352,800",
+    "356,400",
+    "360,000"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 101 = 363,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 102 hours?",
+   "choices": [
+    "356,400",
+    "360,000",
+    "363,600",
+    "367,200"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 102 = 367,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 103 hours?",
+   "choices": [
+    "370,800",
+    "360,000",
+    "363,600",
+    "367,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 103 = 370,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 104 hours?",
+   "choices": [
+    "374,400",
+    "363,600",
+    "367,200",
+    "370,800"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 104 = 374,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 105 hours?",
+   "choices": [
+    "367,200",
+    "370,800",
+    "378,000",
+    "374,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 105 = 378,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 106 hours?",
+   "choices": [
+    "370,800",
+    "381,600",
+    "374,400",
+    "378,000"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 106 = 381,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 107 hours?",
+   "choices": [
+    "385,200",
+    "374,400",
+    "378,000",
+    "381,600"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 107 = 385,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 108 hours?",
+   "choices": [
+    "378,000",
+    "388,800",
+    "381,600",
+    "385,200"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 108 = 388,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 109 hours?",
+   "choices": [
+    "381,600",
+    "392,400",
+    "385,200",
+    "388,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 109 = 392,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 110 hours?",
+   "choices": [
+    "385,200",
+    "396,000",
+    "388,800",
+    "392,400"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 110 = 396,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 111 hours?",
+   "choices": [
+    "388,800",
+    "392,400",
+    "396,000",
+    "399,600"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 111 = 399,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 112 hours?",
+   "choices": [
+    "392,400",
+    "396,000",
+    "403,200",
+    "399,600"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 112 = 403,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 113 hours?",
+   "choices": [
+    "406,800",
+    "396,000",
+    "399,600",
+    "403,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 113 = 406,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 114 hours?",
+   "choices": [
+    "399,600",
+    "410,400",
+    "403,200",
+    "406,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 114 = 410,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 115 hours?",
+   "choices": [
+    "403,200",
+    "406,800",
+    "414,000",
+    "410,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 115 = 414,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 116 hours?",
+   "choices": [
+    "406,800",
+    "417,600",
+    "410,400",
+    "414,000"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 116 = 417,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 117 hours?",
+   "choices": [
+    "421,200",
+    "410,400",
+    "414,000",
+    "417,600"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 117 = 421,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 118 hours?",
+   "choices": [
+    "424,800",
+    "414,000",
+    "417,600",
+    "421,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 118 = 424,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 119 hours?",
+   "choices": [
+    "417,600",
+    "421,200",
+    "428,400",
+    "424,800"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 119 = 428,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 120 hours?",
+   "choices": [
+    "432,000",
+    "421,200",
+    "424,800",
+    "428,400"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 120 = 432,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 121 hours?",
+   "choices": [
+    "424,800",
+    "435,600",
+    "428,400",
+    "432,000"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 121 = 435,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 122 hours?",
+   "choices": [
+    "439,200",
+    "428,400",
+    "432,000",
+    "435,600"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 122 = 439,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 123 hours?",
+   "choices": [
+    "432,000",
+    "435,600",
+    "442,800",
+    "439,200"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 123 = 442,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 124 hours?",
+   "choices": [
+    "435,600",
+    "439,200",
+    "442,800",
+    "446,400"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 124 = 446,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 125 hours?",
+   "choices": [
+    "439,200",
+    "450,000",
+    "442,800",
+    "446,400"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 125 = 450,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 126 hours?",
+   "choices": [
+    "442,800",
+    "446,400",
+    "450,000",
+    "453,600"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 126 = 453,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 127 hours?",
+   "choices": [
+    "446,400",
+    "450,000",
+    "457,200",
+    "453,600"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 127 = 457,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 128 hours?",
+   "choices": [
+    "450,000",
+    "460,800",
+    "453,600",
+    "457,200"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 128 = 460,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 129 hours?",
+   "choices": [
+    "453,600",
+    "457,200",
+    "464,400",
+    "460,800"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 129 = 464,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 130 hours?",
+   "choices": [
+    "457,200",
+    "468,000",
+    "460,800",
+    "464,400"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 130 = 468,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 131 hours?",
+   "choices": [
+    "471,600",
+    "460,800",
+    "464,400",
+    "468,000"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 131 = 471,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 132 hours?",
+   "choices": [
+    "464,400",
+    "475,200",
+    "468,000",
+    "471,600"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 132 = 475,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 133 hours?",
+   "choices": [
+    "478,800",
+    "468,000",
+    "471,600",
+    "475,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 133 = 478,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 134 hours?",
+   "choices": [
+    "471,600",
+    "482,400",
+    "475,200",
+    "478,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 134 = 482,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 135 hours?",
+   "choices": [
+    "475,200",
+    "478,800",
+    "486,000",
+    "482,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 135 = 486,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 136 hours?",
+   "choices": [
+    "489,600",
+    "478,800",
+    "482,400",
+    "486,000"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 136 = 489,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 137 hours?",
+   "choices": [
+    "493,200",
+    "482,400",
+    "486,000",
+    "489,600"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 137 = 493,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 138 hours?",
+   "choices": [
+    "486,000",
+    "489,600",
+    "493,200",
+    "496,800"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 138 = 496,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 139 hours?",
+   "choices": [
+    "500,400",
+    "489,600",
+    "493,200",
+    "496,800"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 139 = 500,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 140 hours?",
+   "choices": [
+    "504,000",
+    "493,200",
+    "496,800",
+    "500,400"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 140 = 504,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 141 hours?",
+   "choices": [
+    "496,800",
+    "500,400",
+    "507,600",
+    "504,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 141 = 507,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 142 hours?",
+   "choices": [
+    "500,400",
+    "504,000",
+    "511,200",
+    "507,600"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 142 = 511,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 143 hours?",
+   "choices": [
+    "504,000",
+    "507,600",
+    "511,200",
+    "514,800"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 143 = 514,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 144 hours?",
+   "choices": [
+    "507,600",
+    "518,400",
+    "511,200",
+    "514,800"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 144 = 518,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 145 hours?",
+   "choices": [
+    "511,200",
+    "514,800",
+    "522,000",
+    "518,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 145 = 522,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 146 hours?",
+   "choices": [
+    "514,800",
+    "518,400",
+    "525,600",
+    "522,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 146 = 525,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 147 hours?",
+   "choices": [
+    "529,200",
+    "518,400",
+    "522,000",
+    "525,600"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 147 = 529,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 148 hours?",
+   "choices": [
+    "522,000",
+    "525,600",
+    "529,200",
+    "532,800"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 148 = 532,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 149 hours?",
+   "choices": [
+    "536,400",
+    "525,600",
+    "529,200",
+    "532,800"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 149 = 536,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 150 hours?",
+   "choices": [
+    "529,200",
+    "532,800",
+    "536,400",
+    "540,000"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 150 = 540,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 151 hours?",
+   "choices": [
+    "532,800",
+    "536,400",
+    "540,000",
+    "543,600"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 151 = 543,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 152 hours?",
+   "choices": [
+    "547,200",
+    "536,400",
+    "540,000",
+    "543,600"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 152 = 547,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 153 hours?",
+   "choices": [
+    "540,000",
+    "550,800",
+    "543,600",
+    "547,200"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 153 = 550,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 154 hours?",
+   "choices": [
+    "543,600",
+    "547,200",
+    "550,800",
+    "554,400"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 154 = 554,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 155 hours?",
+   "choices": [
+    "558,000",
+    "547,200",
+    "550,800",
+    "554,400"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 155 = 558,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 156 hours?",
+   "choices": [
+    "550,800",
+    "561,600",
+    "554,400",
+    "558,000"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 156 = 561,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 157 hours?",
+   "choices": [
+    "554,400",
+    "558,000",
+    "561,600",
+    "565,200"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 157 = 565,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 158 hours?",
+   "choices": [
+    "568,800",
+    "558,000",
+    "561,600",
+    "565,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 158 = 568,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 159 hours?",
+   "choices": [
+    "561,600",
+    "565,200",
+    "572,400",
+    "568,800"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 159 = 572,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 160 hours?",
+   "choices": [
+    "565,200",
+    "568,800",
+    "576,000",
+    "572,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 160 = 576,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 161 hours?",
+   "choices": [
+    "568,800",
+    "572,400",
+    "579,600",
+    "576,000"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 161 = 579,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 162 hours?",
+   "choices": [
+    "572,400",
+    "583,200",
+    "576,000",
+    "579,600"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 162 = 583,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 163 hours?",
+   "choices": [
+    "576,000",
+    "586,800",
+    "579,600",
+    "583,200"
+   ],
+   "answer": 1,
+   "explanation": "3600 × 163 = 586,800",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 164 hours?",
+   "choices": [
+    "579,600",
+    "583,200",
+    "586,800",
+    "590,400"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 164 = 590,400",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 165 hours?",
+   "choices": [
+    "583,200",
+    "586,800",
+    "594,000",
+    "590,400"
+   ],
+   "answer": 2,
+   "explanation": "3600 × 165 = 594,000",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 166 hours?",
+   "choices": [
+    "586,800",
+    "590,400",
+    "594,000",
+    "597,600"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 166 = 597,600",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 167 hours?",
+   "choices": [
+    "590,400",
+    "594,000",
+    "597,600",
+    "601,200"
+   ],
+   "answer": 3,
+   "explanation": "3600 × 167 = 601,200",
+   "source": "Seconds per hour"
+  },
+  {
+   "question": "How many seconds are in 168 hours?",
+   "choices": [
+    "604,800",
+    "594,000",
+    "597,600",
+    "601,200"
+   ],
+   "answer": 0,
+   "explanation": "3600 × 168 = 604,800",
+   "source": "Seconds per hour"
+  }
+ ]
+}
