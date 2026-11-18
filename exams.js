@@ -140,28 +140,22 @@ function buildCards() {
       s.textContent = 'Not built yet';
       card.appendChild(s);
     } else {
-      const a = document.createElement('a');
-      a.className = 'start-btn';
-      a.href = 'exam.html?exam=' + encodeURIComponent(e.file);
-      a.textContent = 'Start exam';
-      card.appendChild(a);
-
-      if (e.draw) {
-        const cv = document.createElement('a');
-        cv.className = 'start-btn alt';
-        cv.href = 'exam.html?exam=' + encodeURIComponent(e.file) + '&mode=coverage';
-        cv.textContent = 'Coverage exam';
-        card.appendChild(cv);
+if (e.draw) {
+        const m10 = document.createElement('a');
+        m10.className = 'start-btn alt';
+        m10.href = 'exam.html?exam=' + encodeURIComponent(e.file) + '&mode=meta10';
+        m10.textContent = 'Meta 10% exam';
+        card.appendChild(m10);
         try {
-          const prog3 = JSON.parse(localStorage.getItem('examProgress') || '{}');
-          const cp = prog3[e.file + '#coverage'];
-          if (cp && cp.idx !== undefined && cp.total) {
-            const cpp = document.createElement('p');
-            cpp.className = 'history';
-            cpp.textContent = 'Coverage in progress \u2014 question ' + (cp.idx + 1) + ' of ' + cp.total;
-            card.appendChild(cpp);
+          const prog5 = JSON.parse(localStorage.getItem('examProgress') || '{}');
+          const mp10 = prog5[e.file + '#meta10'];
+          if (mp10 && mp10.idx !== undefined && mp10.total) {
+            const mpp10 = document.createElement('p');
+            mpp10.className = 'history';
+            mpp10.textContent = 'Meta 10 in progress \u2014 question ' + (mp10.idx + 1) + ' of ' + mp10.total;
+            card.appendChild(mpp10);
           }
-        } catch (err) { /* no saved coverage progress */ }
+        } catch (err) { /* no saved meta10 progress */ }
       }
 
       if (e.draw) {
@@ -182,24 +176,6 @@ function buildCards() {
         } catch (err) { /* no saved meta progress */ }
       }
 
-      if (e.draw) {
-        const m10 = document.createElement('a');
-        m10.className = 'start-btn alt';
-        m10.href = 'exam.html?exam=' + encodeURIComponent(e.file) + '&mode=meta10';
-        m10.textContent = 'Meta 10% exam';
-        card.appendChild(m10);
-        try {
-          const prog5 = JSON.parse(localStorage.getItem('examProgress') || '{}');
-          const mp10 = prog5[e.file + '#meta10'];
-          if (mp10 && mp10.idx !== undefined && mp10.total) {
-            const mpp10 = document.createElement('p');
-            mpp10.className = 'history';
-            mpp10.textContent = 'Meta 10 in progress \u2014 question ' + (mp10.idx + 1) + ' of ' + mp10.total;
-            card.appendChild(mpp10);
-          }
-        } catch (err) { /* no saved meta10 progress */ }
-      }
-
       if (e.redundancy) {
         const r = document.createElement('a');
         r.className = 'start-btn alt';
@@ -218,7 +194,31 @@ function buildCards() {
         } catch (err) { /* no saved redundancy progress */ }
       }
 
-      try {
+if (e.draw) {
+        const cv = document.createElement('a');
+        cv.className = 'start-btn alt';
+        cv.href = 'exam.html?exam=' + encodeURIComponent(e.file) + '&mode=coverage';
+        cv.textContent = 'Coverage exam';
+        card.appendChild(cv);
+        try {
+          const prog3 = JSON.parse(localStorage.getItem('examProgress') || '{}');
+          const cp = prog3[e.file + '#coverage'];
+          if (cp && cp.idx !== undefined && cp.total) {
+            const cpp = document.createElement('p');
+            cpp.className = 'history';
+            cpp.textContent = 'Coverage in progress \u2014 question ' + (cp.idx + 1) + ' of ' + cp.total;
+            card.appendChild(cpp);
+          }
+        } catch (err) { /* no saved coverage progress */ }
+      }
+
+            const a = document.createElement('a');
+      a.className = 'start-btn';
+      a.href = 'exam.html?exam=' + encodeURIComponent(e.file);
+      a.textContent = 'Start exam';
+      card.appendChild(a);
+
+            try {
         const prog = JSON.parse(localStorage.getItem('examProgress') || '{}');
         const p = prog[e.file];
         if (p && p.idx !== undefined && p.total) {
