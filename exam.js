@@ -30,7 +30,7 @@ Promise.all([
   exam = data;
   if (data.title) { examTitle = data.title; document.getElementById('exam-title').textContent = examTitle; }
   const pool = data.questions;
-  isRedund = !!(wantRedund && entry && entry.draw);
+  isRedund = !!(wantRedund && entry && Array.isArray(entry.redundancy) && entry.redundancy.length);
   if (isRedund) {
     storageKey = file + '#redundancy';
     examTitle = examTitle + ' \u2014 Redundancy';
@@ -40,25 +40,18 @@ Promise.all([
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
     const p = all[storageKey];
     if (isRedund) {
-      const drawN = Math.min(entry.draw, pool.length);
+      const picks = entry.redundancy.filter(i => i >= 0 && i < pool.length);
+      const drawN = picks.length;
       let restored = false;
       if (p && Array.isArray(p.order) && p.order.length === drawN && p.total === drawN &&
-          p.order.every(i => i >= 0 && i < pool.length) && p.idx < drawN) {
+          p.order.every(i => picks.indexOf(i) !== -1) && p.idx < drawN) {
         runOrder = p.order;
         idx = p.idx; score = p.score || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         restored = true;
       }
-      if (!restored) {
-        const picks = [];
-        for (let b = 0; b < drawN; b++) {
-          const lo = Math.floor(b * pool.length / drawN);
-          const hi = Math.floor((b + 1) * pool.length / drawN);
-          picks.push(lo + Math.floor(Math.random() * Math.max(1, hi - lo)));
-        }
-        runOrder = shuffleIdx(picks.length).map(i => picks[i]);
-      }
+      if (!restored) runOrder = shuffleIdx(drawN).map(i => picks[i]);
       exam = Object.assign({}, data, { questions: runOrder.map(i => pool[i]) });
     } else if (entry && entry.draw) {
       const drawN = Math.min(entry.draw, pool.length);

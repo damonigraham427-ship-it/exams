@@ -146,7 +146,7 @@ function buildCards() {
       a.textContent = 'Start exam';
       card.appendChild(a);
 
-      if (e.draw) {
+      if (e.redundancy) {
         const r = document.createElement('a');
         r.className = 'start-btn alt';
         r.href = 'exam.html?exam=' + encodeURIComponent(e.file) + '&mode=redundancy';
