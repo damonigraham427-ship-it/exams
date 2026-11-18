@@ -85,7 +85,7 @@
               totWrong += r.s.wrong || 0;
               totReview += r.s.review || 0;
             }
-            var name = '<a href="exam.html?file=' + encodeURIComponent(r.exam.file) + '">' + esc(shortTitle(r.exam)) + '</a>';
+            var name = '<a href="exam.html?exam=' + encodeURIComponent(r.exam.file) + '">' + esc(shortTitle(r.exam)) + '</a>';
             var sub = '';
             if (r.s.inProgress) sub = '<span class="check-sub">In progress \u2014 question ' + r.s.inProgress + ' of ' + r.s.inProgressTotal + '</span>';
             else if (r.s.date) sub = '<span class="check-sub">Last: ' + esc(new Date(r.s.date).toLocaleDateString()) + '</span>';
