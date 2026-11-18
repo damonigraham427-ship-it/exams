@@ -511,6 +511,35 @@
     94,
     99
    ]
+  },
+  {
+   "file": "hour-hours-per-week.json",
+   "title": "60 Minutes Equals an Hour — Hours per week",
+   "note": "20 questions",
+   "category": "60 Minutes Equals an Hour",
+   "draw": 20,
+   "redundancy": [
+    2,
+    4,
+    7,
+    9,
+    12,
+    15,
+    17,
+    20,
+    22,
+    25,
+    28,
+    30,
+    33,
+    35,
+    38,
+    41,
+    43,
+    46,
+    48,
+    51
+   ]
   }
  ]
 }
