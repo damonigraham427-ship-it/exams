@@ -574,8 +574,8 @@
    "category": "Workout Elements",
    "file": "workout-reference-weight.json",
    "title": "Workout Elements — Reference Weight",
-   "placeholder": true,
-   "chapter": "Reference Weight"
+   "chapter": "Reference Weight",
+   "notes": true
   },
   {
    "category": "Workout Elements",
