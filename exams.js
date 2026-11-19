@@ -138,7 +138,13 @@ function buildCards() {
       card.appendChild(p);
     }
 
-    if (e.placeholder) {
+    if (e.notes) {
+      const na = document.createElement('a');
+      na.className = 'start-btn';
+      na.href = 'notes.html?notes=' + encodeURIComponent(e.file);
+      na.textContent = 'Open list';
+      card.appendChild(na);
+    } else if (e.placeholder) {
       const s = document.createElement('span');
       s.className = 'not-built';
       s.textContent = 'Not built yet';

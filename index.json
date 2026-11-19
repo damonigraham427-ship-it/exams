@@ -576,6 +576,13 @@
    "title": "Workout Elements — Priority Weight",
    "placeholder": true,
    "chapter": "Priority Weight"
+  },
+  {
+   "category": "Workout Elements",
+   "chapter": "Static List",
+   "file": "workout-static-list.json",
+   "title": "Workout Elements — Static List",
+   "notes": true
   }
  ]
 }

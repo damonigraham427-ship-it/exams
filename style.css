@@ -54,3 +54,7 @@ button.choice.wrong { background: #fee2e2; border-color: #dc2626; }
 
 /* Redundancy exam button: secondary slot beside Start */
 .start-btn.alt { background: #fff; color: #111827; border: 2px solid #111827; margin-left: 0.5rem; padding: 0.45rem 1rem; }
+
+#notes-list li { margin: 0.35em 0; }
+.note-del { margin-left: 0.6em; }
+#note-input { padding: 0.4em; max-width: 90%; }
