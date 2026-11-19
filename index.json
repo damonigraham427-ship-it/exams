@@ -652,7 +652,7 @@
       "chapter": "Upper Body",
       "file": "upperbody-biceps.json",
       "title": "Upper Body — Biceps",
-      "notes": true
+      "ladder": true
     },
     {
       "category": "Workout Elements",
