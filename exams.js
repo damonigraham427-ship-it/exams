@@ -33,12 +33,39 @@ function setView() {
   }
   const cl = document.getElementById('checklist-link');
   if (cl) {
+    const testsIn = list => list.some(e => !e.notes && !e.placeholder);
     if (view === 'categories') {
+      cl.hidden = false;
       cl.href = 'checklist.html';
       cl.textContent = 'Checklist — attempts, correct, wrong, needs review';
+    } else if (view === 'chapters') {
+      const inCat = allExams.filter(e => (e.category || 'General') === selCategory);
+      if (testsIn(inCat)) {
+        cl.hidden = false;
+        cl.href = 'checklist.html?cat=' + encodeURIComponent(selCategory);
+        cl.textContent = 'Checklist — ' + selCategory;
+      } else {
+        cl.hidden = true;
+      }
+    } else if (selChapter === 'Other') {
+      const inCat = allExams.filter(e => (e.category || 'General') === selCategory);
+      if (testsIn(inCat)) {
+        cl.hidden = false;
+        cl.href = 'checklist.html?cat=' + encodeURIComponent(selCategory);
+        cl.textContent = 'Checklist — ' + selCategory;
+      } else {
+        cl.hidden = true;
+      }
     } else {
-      cl.href = 'checklist.html?cat=' + encodeURIComponent(selCategory);
-      cl.textContent = 'Checklist — ' + selCategory;
+      const inCh = allExams.filter(e => (e.category || 'General') === selCategory &&
+        (e.chapter === undefined ? 'Other' : String(e.chapter)) === String(selChapter));
+      if (testsIn(inCh)) {
+        cl.hidden = false;
+        cl.href = 'checklist.html?cat=' + encodeURIComponent(selCategory) + '&ch=' + encodeURIComponent(selChapter);
+        cl.textContent = 'Checklist — ' + selCategory + ' / ' + chapterLabel(selChapter);
+      } else {
+        cl.hidden = true;
+      }
     }
   }
 }

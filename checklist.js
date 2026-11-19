@@ -10,6 +10,10 @@
     });
   }
 
+  function chapterLabel(ch) {
+    return /^\d+$/.test(String(ch)) ? 'Chapter ' + ch : String(ch);
+  }
+
   function shortTitle(exam) {
     var t = exam.title || exam.file;
     var cat = exam.category || '';
@@ -94,20 +98,32 @@
       }
       document.getElementById('check-title').textContent = 'Checklist — ' + selCat;
 
+      var selCh = null;
+      try { selCh = new URLSearchParams(location.search).get('ch'); } catch (e) { selCh = null; }
+      var onlyCh = null;
+      if (selCh && selCh !== 'Other') {
+        byCat[selCat].chapters.forEach(function (ch) { if (String(ch) === selCh) onlyCh = ch; });
+      }
+      if (onlyCh !== null) {
+        document.getElementById('check-title').textContent = 'Checklist — ' + selCat + ' / ' + chapterLabel(onlyCh);
+        if (nav) nav.innerHTML += ' · <a href="checklist.html?cat=' + encodeURIComponent(selCat) + '">All of ' + esc(selCat) + '</a>';
+      }
+
       [selCat].forEach(function (cat) {
         var h = document.createElement('h2');
         h.className = 'check-cat';
         h.textContent = cat;
         root.appendChild(h);
 
-        byCat[cat].chapters.forEach(function (ch) {
+        var chList = (onlyCh !== null && cat === selCat) ? [onlyCh] : byCat[cat].chapters;
+        chList.forEach(function (ch) {
           var list = byCat[cat].byCh[ch];
           var rows = list.map(function (e) { return { exam: e, s: statsFor(e) }; });
           var doneCount = rows.filter(function (r) { return r.s.attempts > 0; }).length;
 
           var h3 = document.createElement('h3');
           h3.className = 'check-ch';
-          h3.textContent = (ch === '' ? 'Exams' : 'Chapter ' + ch) + ' \u2014 ' + doneCount + ' of ' + list.length + ' attempted';
+          h3.textContent = (ch === '' ? 'Exams' : chapterLabel(ch)) + ' \u2014 ' + doneCount + ' of ' + list.length + ' attempted';
           root.appendChild(h3);
 
           var table = document.createElement('table');
