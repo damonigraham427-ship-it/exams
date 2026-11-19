@@ -5,6 +5,10 @@ let view = 'categories';
 let selCategory = null;
 let selChapter = null;
 
+function chapterLabel(ch) {
+  return /^\d+$/.test(ch) ? 'Chapter ' + ch : ch;
+}
+
 function setView() {
   document.getElementById('level-categories').hidden = view !== 'categories';
   document.getElementById('level-chapters').hidden = view !== 'chapters';
@@ -25,7 +29,7 @@ function setView() {
   } else {
     back.hidden = false;
     back.textContent = '\u2190 ' + selCategory;
-    crumb.textContent = 'Exams / ' + selCategory + ' / Chapter ' + selChapter;
+    crumb.textContent = 'Exams / ' + selCategory + ' / ' + chapterLabel(selChapter);
   }
 }
 
@@ -85,7 +89,7 @@ function renderChapters() {
   });
   chs.forEach((ch, i) => {
     const n = inCat.filter(e => (e.chapter === undefined ? 'Other' : String(e.chapter)) === ch).length;
-    const label = ch === 'Other' ? 'Other' : 'Chapter ' + ch;
+    const label = chapterLabel(ch);
     wrap.appendChild(navCard(label, n + (n === 1 ? ' exam' : ' exams'), PALETTE[i % PALETTE.length], () => {
       selChapter = ch;
       cards.forEach(card => {
