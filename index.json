@@ -572,10 +572,10 @@
   },
   {
    "category": "Workout Elements",
-   "file": "workout-priority-weight.json",
-   "title": "Workout Elements — Priority Weight",
+   "file": "workout-reference-weight.json",
+   "title": "Workout Elements — Reference Weight",
    "placeholder": true,
-   "chapter": "Priority Weight"
+   "chapter": "Reference Weight"
   },
   {
    "category": "Workout Elements",
