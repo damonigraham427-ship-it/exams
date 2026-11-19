@@ -64,3 +64,5 @@ button.choice.wrong { background: #fee2e2; border-color: #dc2626; }
 .ladder-steps { list-style: none; padding: 0; margin: 0; }
 .ladder-row { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.4rem 0; border-bottom: 1px solid #e2e8f0; }
 .ladder-date { font: inherit; padding: 0.3rem; }
+.ladder-empty { color: #64748b; padding: 0.4rem 0; }
+.ladder-add input { padding: 0.4em; max-width: 90%; margin-right: 0.5rem; }
