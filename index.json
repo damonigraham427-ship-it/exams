@@ -603,7 +603,7 @@
       "chapter": "Upper Body",
       "file": "upperbody-shoulders.json",
       "title": "Upper Body — Shoulders",
-      "notes": true
+      "ladder": true
     },
     {
       "category": "Workout Elements",

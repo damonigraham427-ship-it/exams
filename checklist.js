@@ -50,7 +50,7 @@
   fetch('index.json', { cache: 'no-store' })
     .then(function (r) { return r.json(); })
     .then(function (data) {
-      var exams = (data.exams || []).filter(function (e) { return !e.placeholder && !e.notes; });
+      var exams = (data.exams || []).filter(function (e) { return !e.placeholder && !e.notes && !e.ladder; });
       var root = document.getElementById('checklist');
       if (!exams.length) { document.getElementById('empty').hidden = false; return; }
 

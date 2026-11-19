@@ -33,7 +33,7 @@ function setView() {
   }
   const cl = document.getElementById('checklist-link');
   if (cl) {
-    const testsIn = list => list.some(e => !e.notes && !e.placeholder);
+    const testsIn = list => list.some(e => !e.notes && !e.placeholder && !e.ladder);
     if (view === 'categories') {
       cl.hidden = false;
       cl.href = 'checklist.html';
@@ -175,7 +175,13 @@ function buildCards() {
       card.appendChild(p);
     }
 
-    if (e.notes) {
+    if (e.ladder) {
+      const la = document.createElement('a');
+      la.className = 'start-btn';
+      la.href = 'ladder.html?ladder=' + encodeURIComponent(e.file);
+      la.textContent = 'Open list';
+      card.appendChild(la);
+    } else if (e.notes) {
       const na = document.createElement('a');
       na.className = 'start-btn';
       na.href = 'notes.html?notes=' + encodeURIComponent(e.file);

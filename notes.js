@@ -60,6 +60,10 @@ if (!file) {
     try { stored = JSON.parse(localStorage.getItem(storeKey) || 'null'); } catch (err) { stored = null; }
     if (Array.isArray(stored)) {
       notes = stored;
+      if (data && Array.isArray(data.notes)) {
+        data.notes.forEach(function (n) { if (notes.indexOf(n) === -1) notes.push(n); });
+        save();
+      }
     } else if (data && Array.isArray(data.notes)) {
       notes = data.notes.slice();
     }
