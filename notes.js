@@ -49,8 +49,8 @@ if (!file) {
   document.getElementById('no-notes').hidden = false;
 } else {
   Promise.all([
-    fetch('index.json').then(r => r.json()).catch(() => null),
-    fetch(file).then(r => r.json()).catch(() => null)
+    fetch('index.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
+    fetch(file, { cache: 'no-store' }).then(r => r.json()).catch(() => null)
   ]).then(([index, data]) => {
     if (index && Array.isArray(index.exams)) {
       const entry = index.exams.find(e => e.file === file);

@@ -31,6 +31,16 @@ function setView() {
     back.textContent = '\u2190 ' + selCategory;
     crumb.textContent = 'Exams / ' + selCategory + ' / ' + chapterLabel(selChapter);
   }
+  const cl = document.getElementById('checklist-link');
+  if (cl) {
+    if (view === 'categories') {
+      cl.href = 'checklist.html';
+      cl.textContent = 'Checklist — attempts, correct, wrong, needs review';
+    } else {
+      cl.href = 'checklist.html?cat=' + encodeURIComponent(selCategory);
+      cl.textContent = 'Checklist — ' + selCategory;
+    }
+  }
 }
 
 function navCard(label, sub, color, onclick) {
@@ -260,7 +270,7 @@ if (e.draw) {
   });
 }
 
-fetch('index.json')
+fetch('index.json', { cache: 'no-store' })
   .then(r => r.json())
   .then(data => {
     allExams = data.exams || [];

@@ -158,8 +158,8 @@ function shuffleIdx(n) {
 }
 
 Promise.all([
-  fetch('index.json').then(r => r.json()).catch(() => null),
-  fetch(file).then(r => r.json())
+  fetch('index.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
+  fetch(file, { cache: 'no-store' }).then(r => r.json())
 ]).then(([idxData, data]) => {
   entry = ((idxData && idxData.exams) || []).find(e => e.file === file) || null;
   if (entry) examTitle = entry.title;

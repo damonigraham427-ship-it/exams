@@ -43,7 +43,7 @@
     };
   }
 
-  fetch('index.json')
+  fetch('index.json', { cache: 'no-store' })
     .then(function (r) { return r.json(); })
     .then(function (data) {
       var exams = (data.exams || []).filter(function (e) { return !e.placeholder && !e.notes; });
@@ -63,7 +63,38 @@
 
       var totExams = 0, totAttempted = 0, totAttempts = 0, totCorrect = 0, totWrong = 0, totReview = 0;
 
-      cats.forEach(function (cat) {
+      var selCat = null;
+      try { selCat = new URLSearchParams(location.search).get('cat'); } catch (e) { selCat = null; }
+      var nav = document.getElementById('cat-nav');
+      if (nav) {
+        nav.innerHTML = cats.map(function (c) {
+          var link = '<a href="checklist.html?cat=' + encodeURIComponent(c) + '">' + esc(c) + '</a>';
+          return c === selCat ? '<strong>' + link + '</strong>' : link;
+        }).join(' · ');
+      }
+      if (!selCat || cats.indexOf(selCat) === -1) {
+        // Subject picker: one checklist per subject, never combined.
+        cats.forEach(function (cat) {
+          var list = [];
+          byCat[cat].chapters.forEach(function (ch) { list = list.concat(byCat[cat].byCh[ch]); });
+          var attempted = list.filter(function (e) { return statsFor(e).attempts > 0; }).length;
+          var h = document.createElement('h2');
+          h.className = 'check-cat';
+          var a = document.createElement('a');
+          a.href = 'checklist.html?cat=' + encodeURIComponent(cat);
+          a.textContent = cat;
+          h.appendChild(a);
+          root.appendChild(h);
+          var p = document.createElement('p');
+          p.textContent = list.length + ' tests · ' + attempted + ' attempted';
+          root.appendChild(p);
+        });
+        document.getElementById('totals').textContent = 'Pick a subject. Each checklist covers one subject only.';
+        return;
+      }
+      document.getElementById('check-title').textContent = 'Checklist — ' + selCat;
+
+      [selCat].forEach(function (cat) {
         var h = document.createElement('h2');
         h.className = 'check-cat';
         h.textContent = cat;
