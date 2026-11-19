@@ -583,6 +583,13 @@
    "file": "workout-static-list.json",
    "title": "Workout Elements — Static List",
    "notes": true
+  },
+  {
+   "category": "Workout Elements",
+   "chapter": "Pump Circumference",
+   "file": "workout-pump-circumference.json",
+   "title": "Workout Elements — Pump Circumference",
+   "notes": true
   }
  ]
 }
