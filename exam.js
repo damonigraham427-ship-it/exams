@@ -1,6 +1,7 @@
 const params = new URLSearchParams(location.search);
 const file = params.get('exam');
 const wantMode = params.get('mode');
+const topicParam = params.get('topic');
 let storageKey = file;
 let isRedund = false;
 let isCoverage = false;
@@ -167,6 +168,12 @@ Promise.all([
   exam = data;
   if (data.title) { examTitle = data.title; document.getElementById('exam-title').textContent = examTitle; }
   const pool = data.questions;
+  const isTopic = !!(topicParam && pool.some(q => q.topic === topicParam));
+  if (isTopic) {
+    storageKey = file + '#topic:' + topicParam;
+    examTitle = examTitle + ' \u2014 Topic: ' + topicParam;
+    document.getElementById('exam-title').textContent = examTitle;
+  }
   isRedund = !!(wantMode === 'redundancy' && entry && Array.isArray(entry.redundancy) && entry.redundancy.length);
   isCoverage = !!(wantMode === 'coverage' && entry && entry.draw);
   isMeta = !!(wantMode === 'meta' && entry && entry.draw);
@@ -191,7 +198,15 @@ Promise.all([
   try {
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
     const p = all[storageKey];
-    if (isMeta10) {
+    if (isTopic) {
+      const tqs = pool.filter(q => q.topic === topicParam);
+      exam = Object.assign({}, data, { questions: tqs });
+      if (p && p.total === tqs.length && p.idx < tqs.length) {
+        idx = p.idx; score = p.score || 0;
+        (p.answers || []).forEach((a, i) => { answers[i] = a; });
+        (p.flagged || []).forEach(i => flagged.add(i));
+      }
+    } else if (isMeta10) {
       const blockQs = buildBlockQuestions(pool);
       let restored = false;
       if (p && Array.isArray(p.order) && p.order.length === blockQs.length && p.total === blockQs.length &&
@@ -317,6 +332,11 @@ function show() {
   document.getElementById('progress').textContent = 'Question ' + (idx + 1) + ' of ' + exam.questions.length;
   document.getElementById('question-text').textContent = q.question;
   document.getElementById('source-line').textContent = q.source ? 'Deck: ' + q.source : '';
+  const tb = document.getElementById('topic-bar');
+  if (tb) {
+    if (q.topic) { tb.hidden = false; tb.textContent = 'Topic: ' + q.topic + (entry && entry.chapter ? ' \u00B7 Chapter ' + entry.chapter : ''); }
+    else tb.hidden = true;
+  }
   document.getElementById('feedback').textContent = '';
   document.getElementById('next-btn').hidden = true;
   refreshFlagBtn();

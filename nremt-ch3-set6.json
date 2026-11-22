@@ -10,7 +10,9 @@
    ],
    "answer": 2,
    "explanation": "The defense claims the plaintiff's own conduct contributed to the injuries he is suing over.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "contributory negligence",
+   "topic_n": 31
   },
   {
    "question": "At trial, an ambulance service argues that a trauma patient who was not wearing a seat belt and was intoxicated helped cause the severity of his own injuries, so damages should be reduced or barred. This argument is an example of what?",
@@ -22,7 +24,9 @@
    ],
    "answer": 3,
    "explanation": "The defendant is asserting that the plaintiff's conduct contributed to his own injuries or damages.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "contributory negligence",
+   "topic_n": 31
   },
   {
    "question": "A diabetic patient sues after a hypoglycemia call, and the defense presents evidence that she repeatedly skipped insulin and ignored discharge instructions before the call. The defense is best described as what?",
@@ -34,7 +38,9 @@
    ],
    "answer": 0,
    "explanation": "The defense is built on the plaintiff's own conduct contributing to the harm claimed in the lawsuit.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "contributory negligence",
+   "topic_n": 31
   },
   {
    "question": "Two years after a difficult airway call, an EMT is ordered to appear at a law office, is sworn in by a court reporter, and answers oral questions from the plaintiff's attorney while a transcript is made. What is this proceeding called?",
@@ -46,7 +52,9 @@
    ],
    "answer": 3,
    "explanation": "A deposition is oral questioning of a party or witness under oath during discovery.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "depositions",
+   "topic_n": 32
   },
   {
    "question": "During discovery in a lawsuit against your agency, your partner gives sworn oral testimony outside the courtroom and later learns his answers conflict with the run report. What type of testimony has he given?",
@@ -58,7 +66,9 @@
    ],
    "answer": 3,
    "explanation": "Sworn oral answers given in discovery, before trial, are a deposition.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "depositions",
+   "topic_n": 32
   },
   {
    "question": "A plaintiff's attorney wants to ask the treating paramedic questions under oath before trial to learn what she saw on scene, rather than sending written questions. What should the attorney schedule?",
@@ -70,7 +80,9 @@
    ],
    "answer": 3,
    "explanation": "Oral questions under oath are depositions; written questions would be interrogatories.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "depositions",
+   "topic_n": 32
   },
   {
    "question": "A jury finds an ambulance service negligent after a patient falls from an unsecured stretcher and awards money for her hospital bills, lost wages, and pain and suffering. What are these damages called?",
@@ -82,7 +94,9 @@
    ],
    "answer": 3,
    "explanation": "Compensatory damages are intended to restore the plaintiff for the losses caused by the incident.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "compensatory damages",
+   "topic_n": 33
   },
   {
    "question": "After a wrongful-death verdict, a jury awards a family money for lost future earnings and loss of companionship, with no amount meant to punish the agency. These awards are best classified as what?",
@@ -94,7 +108,9 @@
    ],
    "answer": 3,
    "explanation": "Awards that compensate for actual economic and noneconomic loss, rather than punish, are compensatory damages.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "compensatory damages",
+   "topic_n": 33
   },
   {
    "question": "A judge explains that one part of a verdict repays the plaintiff's medical expenses and lost income, while a separate part punishes willful misconduct. The repayment part is what type of damages?",
@@ -106,7 +122,9 @@
    ],
    "answer": 1,
    "explanation": "The portion intended to make the plaintiff whole for losses is compensatory; the punishment portion would be punitive damages.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "compensatory damages",
+   "topic_n": 33
   },
   {
    "question": "A competent adult with a minor ankle injury clearly refuses transport, but the crew straps him to the stretcher and takes him to the hospital anyway because 'policy says everyone goes.' What tort has the crew most likely committed?",
@@ -118,7 +136,9 @@
    ],
    "answer": 3,
    "explanation": "Confining and transporting a person without legal authority or his consent is false imprisonment.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "false imprisonment",
+   "topic_n": 34
   },
   {
    "question": "An alert patient demands to be let out of the ambulance at a red light. The crew, with no involuntary hold and no sign the patient is a danger, locks the doors and continues to the hospital. This confinement is best described as what?",
@@ -130,7 +150,9 @@
    ],
    "answer": 0,
    "explanation": "The patient was confined without legal authority or consent, which defines false imprisonment.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "false imprisonment",
+   "topic_n": 34
   },
   {
    "question": "Which situation most clearly risks a false imprisonment claim? A) Transporting an unconscious trauma patient under implied consent B) Restraining a competent patient who has refused care and has decision-making capacity C) Transporting a patient on a valid involuntary psychiatric hold",
@@ -142,7 +164,9 @@
    ],
    "answer": 2,
    "explanation": "Only the competent refusing patient is being confined without consent or legal authority; the other two have legal justification.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "false imprisonment",
+   "topic_n": 34
   },
   {
    "question": "A crew delays on scene for 25 minutes with a STEMI patient who then suffers extensive heart damage that cardiologists testify would have been much smaller with prompt transport. The link between the delay and the damage is which element of negligence?",
@@ -154,7 +178,9 @@
    ],
    "answer": 2,
    "explanation": "Proximate causation is the proof that the breach of duty caused the patient's harm.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "proximate causation",
+   "topic_n": 35
   },
   {
    "question": "An EMT fails to give oxygen to a hypoxic patient, but expert testimony shows the patient died instantly from an unrelated massive stroke that oxygen could not have affected. Which element will the plaintiff most likely fail to prove?",
@@ -166,7 +192,9 @@
    ],
    "answer": 3,
    "explanation": "Without a causal connection between the breach and the death, proximate causation is not established.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "proximate causation",
+   "topic_n": 35
   },
   {
    "question": "A paramedic does not restrain a delirious patient who has twice tried to exit the moving ambulance; the patient opens the door, falls out, and is killed. A jury could find the failure to restrain was what of the death?",
@@ -178,7 +206,9 @@
    ],
    "answer": 1,
    "explanation": "The foreseeable harm flowed directly from the breach of the duty to restrain, satisfying proximate causation.",
-   "source": "Quiz-Style Slides — Set 6"
+   "source": "Quiz-Style Slides — Set 6",
+   "topic": "proximate causation",
+   "topic_n": 35
   },
   {
    "question": "Which term is defined as: A legal defense that may be raised when the defendant thinks that the conduct of the plaintiff somehow contributed to any injuries or damages that were sustained by the plaintiff.",
@@ -190,7 +220,9 @@
    ],
    "answer": 0,
    "explanation": "contributory negligence: A legal defense that may be raised when the defendant thinks that the conduct of the plaintiff somehow contributed to any injuries or damages that were sustained by the plaintiff.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "contributory negligence",
+   "topic_n": 31
   },
   {
    "question": "What does the term \"contributory negligence\" mean?",
@@ -202,7 +234,9 @@
    ],
    "answer": 3,
    "explanation": "contributory negligence: A legal defense that may be raised when the defendant thinks that the conduct of the plaintiff somehow contributed to any injuries or damages that were sustained by the plaintiff.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "contributory negligence",
+   "topic_n": 31
   },
   {
    "question": "A man suffered a stroke while driving and drifted onto a sidewalk. Responders mistook him for intoxicated, the first ambulance left without him, and his treatment was delayed. He sued only for the worsening caused by the delay, and the defense argued that his failure to control his high blood pressure made him partly at fault for his own outcome. What does this case illustrate about that defense?",
@@ -214,7 +248,9 @@
    ],
    "answer": 0,
    "explanation": "Conduct that merely triggers the need for aid cannot be used as a contributory negligence defense; the care after arrival is what counts.",
-   "source": "Flashcard Case Studies — Set 6"
+   "source": "Flashcard Case Studies — Set 6",
+   "topic": "contributory negligence",
+   "topic_n": 31
   },
   {
    "question": "A psychiatrist's patient died of an AIDS-related illness after refusing medication, demanding that no notes be taken, abusing alcohol and drugs, and ignoring advice to seek HIV treatment for three years. A jury awarded the patient's estate $850,000, but the trial court never instructed the jury on contributory negligence. What lesson should an EMT take from this case?",
@@ -226,7 +262,9 @@
    ],
    "answer": 1,
    "explanation": "A patient's own refusal of recommended care may support a contributory negligence defense, which makes careful refusal documentation essential.",
-   "source": "Flashcard Case Studies — Set 6"
+   "source": "Flashcard Case Studies — Set 6",
+   "topic": "contributory negligence",
+   "topic_n": 31
   },
   {
    "question": "Which term is defined as: Oral questions asked of parties and witnesses under oath.",
@@ -238,7 +276,9 @@
    ],
    "answer": 0,
    "explanation": "depositions: Oral questions asked of parties and witnesses under oath.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "depositions",
+   "topic_n": 32
   },
   {
    "question": "What does the term \"depositions\" mean?",
@@ -250,7 +290,9 @@
    ],
    "answer": 1,
    "explanation": "depositions: Oral questions asked of parties and witnesses under oath.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "depositions",
+   "topic_n": 32
   },
   {
    "question": "An EMT attempted to resuscitate a 66-year-old woman in cardiac arrest, and the family later alleged he intubated her esophagus instead of her trachea, causing her death. The appellate court decided the case largely on the facts the EMT gave under oath before trial, describing how he prepared the patient and visualized the airway. What is the key lesson about that sworn testimony?",
@@ -262,7 +304,9 @@
    ],
    "answer": 2,
    "explanation": "Deposition testimony is sworn evidence, and any conflict with the run report undermines the provider's credibility.",
-   "source": "Flashcard Case Studies — Set 6"
+   "source": "Flashcard Case Studies — Set 6",
+   "topic": "depositions",
+   "topic_n": 32
   },
   {
    "question": "Two paramedics transported a 330-pound patient from a hospital to a nursing facility when the gurney tipped on a sidewalk turn and the patient fell face down, dying weeks later. Both crew members gave sworn testimony describing the straps, the sidewalk, and how the patient shifted his weight, and the court resolved the case on that record without a trial. What does this show about depositions?",
@@ -274,7 +318,9 @@
    ],
    "answer": 2,
    "explanation": "Sworn deposition testimony can supply the entire factual record on which an EMS case is resolved before trial.",
-   "source": "Flashcard Case Studies — Set 6"
+   "source": "Flashcard Case Studies — Set 6",
+   "topic": "depositions",
+   "topic_n": 32
   },
   {
    "question": "Which term is defined as: Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
@@ -286,7 +332,9 @@
    ],
    "answer": 3,
    "explanation": "compensatory damages: Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "compensatory damages",
+   "topic_n": 33
   },
   {
    "question": "What does the term \"compensatory damages\" mean?",
@@ -298,7 +346,9 @@
    ],
    "answer": 2,
    "explanation": "compensatory damages: Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "compensatory damages",
+   "topic_n": 33
   },
   {
    "question": "A 20-year-old woman collapsed at home about a week after giving birth prematurely. Paramedics intubated her, hospital staff found the tube incorrectly placed, and she died the same day. A jury awarded $6 million, itemized as $1.68 million for pain and suffering, $873,193 for lost future earnings, and $2 million to her child for loss of services and companionship. How are these damages best described?",
@@ -310,7 +360,9 @@
    ],
    "answer": 3,
    "explanation": "Each item compensates an actual loss from the death, which is the purpose of compensatory damages.",
-   "source": "Flashcard Case Studies — Set 6"
+   "source": "Flashcard Case Studies — Set 6",
+   "topic": "compensatory damages",
+   "topic_n": 33
   },
   {
    "question": "An 81-year-old woman was being transported from a doctor's appointment back to her nursing home when her unsecured wheelchair slid during a hard brake and she was pressed against a metal barrier, suffering leg fractures that required surgery and a major loss of mobility. A jury awarded her $2.45 million. What lesson does this case teach about non-emergency transports?",
@@ -322,7 +374,9 @@
    ],
    "answer": 3,
    "explanation": "The award compensated her injury, surgery, and lost mobility, and routine transports carry the same liability as emergency calls.",
-   "source": "Flashcard Case Studies — Set 6"
+   "source": "Flashcard Case Studies — Set 6",
+   "topic": "compensatory damages",
+   "topic_n": 33
   },
   {
    "question": "Which term is defined as: The confinement of a person without legal authority or the person's consent.",
@@ -334,7 +388,9 @@
    ],
    "answer": 3,
    "explanation": "false imprisonment: The confinement of a person without legal authority or the person's consent.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "false imprisonment",
+   "topic_n": 34
   },
   {
    "question": "What does the term \"false imprisonment\" mean?",
@@ -346,7 +402,9 @@
    ],
    "answer": 0,
    "explanation": "false imprisonment: The confinement of a person without legal authority or the person's consent.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "false imprisonment",
+   "topic_n": 34
   },
   {
    "question": "A man with chest pain at work felt fine, worried about cost, and tried to refuse further care. Firefighters and ambulance personnel tackled him, strapped him to a gurney when he tried to walk away, and transported him against his will; at the hospital a doctor found nothing wrong. A federal judge let his false imprisonment claim go to a jury. Why?",
@@ -358,7 +416,9 @@
    ],
    "answer": 2,
    "explanation": "He was confined and transported without legal authority and without his consent, which is the core of false imprisonment.",
-   "source": "Flashcard Case Studies — Set 6"
+   "source": "Flashcard Case Studies — Set 6",
+   "topic": "false imprisonment",
+   "topic_n": 34
   },
   {
    "question": "A 29-year-old woman came to a hospital during a severe asthma attack, refused intubation, and tried to leave. Staff apprehended her, placed her in four-point restraints, and intubated her about 45 minutes later over her vigorous objections. The state's highest court held the jury instructions on refusal and false imprisonment were erroneous. What principle does this case establish?",
@@ -370,7 +430,9 @@
    ],
    "answer": 2,
    "explanation": "A competent patient's refusal cannot simply be overridden in an emergency; confinement without consent is false imprisonment.",
-   "source": "Flashcard Case Studies — Set 6"
+   "source": "Flashcard Case Studies — Set 6",
+   "topic": "false imprisonment",
+   "topic_n": 34
   },
   {
    "question": "Which term is defined as: When a person who has a duty abuses it, and causes harm to another individual, the EMT, the agency, and/or the medical director may be sued for negligence.",
@@ -382,7 +444,9 @@
    ],
    "answer": 1,
    "explanation": "proximate causation: When a person who has a duty abuses it, and causes harm to another individual, the EMT, the agency, and/or the medical director may be sued for negligence.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "proximate causation",
+   "topic_n": 35
   },
   {
    "question": "What does the term \"proximate causation\" mean?",
@@ -394,7 +458,9 @@
    ],
    "answer": 1,
    "explanation": "proximate causation: When a person who has a duty abuses it, and causes harm to another individual, the EMT, the agency, and/or the medical director may be sued for negligence.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "proximate causation",
+   "topic_n": 35
   },
   {
    "question": "City 911 dispatchers twice refused to send an ambulance to a woman in labor. She was seriously injured in a car crash while being driven to the hospital, and her baby died after delivery. She sued the city for negligence, but the state supreme court ruled against her. Why did the claim fail?",
@@ -406,7 +472,9 @@
    ],
    "answer": 3,
    "explanation": "Causation is a separate element of negligence that the plaintiff must prove, apart from duty and breach.",
-   "source": "Flashcard Case Studies — Set 6"
+   "source": "Flashcard Case Studies — Set 6",
+   "topic": "proximate causation",
+   "topic_n": 35
   },
   {
    "question": "A patient with a psychological disorder repeatedly tried to leave a moving ambulance, unbuckled her stretcher belts, and said she would jump. The paramedics used talk-down techniques but did not physically restrain her; she opened the rear door, jumped, and died. A jury found for the family, and the appeals court rejected the agency's argument on proximate cause. What does this case teach?",
@@ -418,7 +486,9 @@
    ],
    "answer": 1,
    "explanation": "The court treated the failure to restrain as a proximate cause because the harm was foreseeable and flowed directly from the breach.",
-   "source": "Flashcard Case Studies — Set 6"
+   "source": "Flashcard Case Studies — Set 6",
+   "topic": "proximate causation",
+   "topic_n": 35
   }
  ]
 }

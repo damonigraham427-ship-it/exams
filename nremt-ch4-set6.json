@@ -10,7 +10,9 @@
    ],
    "answer": 0,
    "explanation": "mission-critical communications: Any communications where disruption will result in the failure of the mission at hand.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "mission-critical communications",
+   "topic_n": 31
   },
   {
    "question": "What does the term \"mission-critical communications\" mean?",
@@ -22,7 +24,9 @@
    ],
    "answer": 1,
    "explanation": "mission-critical communications: Any communications where disruption will result in the failure of the mission at hand.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "mission-critical communications",
+   "topic_n": 31
   },
   {
    "question": "Which term is defined as: An assigned frequency or frequencies that are used to carry voice and/or data communications.",
@@ -34,7 +38,9 @@
    ],
    "answer": 3,
    "explanation": "channel: An assigned frequency or frequencies that are used to carry voice and/or data communications.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "channel",
+   "topic_n": 32
   },
   {
    "question": "What does the term \"channel\" mean?",
@@ -46,7 +52,9 @@
    ],
    "answer": 3,
    "explanation": "channel: An assigned frequency or frequencies that are used to carry voice and/or data communications.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "channel",
+   "topic_n": 32
   },
   {
    "question": "Which term is defined as: A special base station radio that receives messages and signals on one frequency and then automatically retransmits them on a second frequency.",
@@ -58,7 +66,9 @@
    ],
    "answer": 3,
    "explanation": "repeater: A special base station radio that receives messages and signals on one frequency and then automatically retransmits them on a second frequency.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "repeater",
+   "topic_n": 33
   },
   {
    "question": "What does the term \"repeater\" mean?",
@@ -70,7 +80,9 @@
    ],
    "answer": 3,
    "explanation": "repeater: A special base station radio that receives messages and signals on one frequency and then automatically retransmits them on a second frequency.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "repeater",
+   "topic_n": 33
   },
   {
    "question": "Which term is defined as: The picture an individual has in his or her head of “what’s going on” in a given situation.",
@@ -82,7 +94,9 @@
    ],
    "answer": 0,
    "explanation": "mental model: The picture an individual has in his or her head of “what’s going on” in a given situation.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "mental model",
+   "topic_n": 34
   },
   {
    "question": "What does the term \"mental model\" mean?",
@@ -94,7 +108,9 @@
    ],
    "answer": 1,
    "explanation": "mental model: The picture an individual has in his or her head of “what’s going on” in a given situation.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "mental model",
+   "topic_n": 34
   },
   {
    "question": "Which term is defined as: When one person imposes his or her beliefs, values, and practices on another because he or she believes his or her ideals are superior.",
@@ -106,7 +122,9 @@
    ],
    "answer": 0,
    "explanation": "cultural imposition: When one person imposes his or her beliefs, values, and practices on another because he or she believes his or her ideals are superior.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "cultural imposition",
+   "topic_n": 35
   },
   {
    "question": "What does the term \"cultural imposition\" mean?",
@@ -118,7 +136,9 @@
    ],
    "answer": 3,
    "explanation": "cultural imposition: When one person imposes his or her beliefs, values, and practices on another because he or she believes his or her ideals are superior.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "cultural imposition",
+   "topic_n": 35
   },
   {
    "question": "Which term is defined as: VHF and UHF channels that the Federal Communications Commission has designated exclusively for EMS use.",
@@ -130,7 +150,9 @@
    ],
    "answer": 2,
    "explanation": "MED channels: VHF and UHF channels that the Federal Communications Commission has designated exclusively for EMS use.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "MED channels",
+   "topic_n": 36
   },
   {
    "question": "What does the term \"MED channels\" mean?",
@@ -142,7 +164,9 @@
    ],
    "answer": 3,
    "explanation": "MED channels: VHF and UHF channels that the Federal Communications Commission has designated exclusively for EMS use.",
-   "source": "Flashcard Slides — Set 6"
+   "source": "Flashcard Slides — Set 6",
+   "topic": "MED channels",
+   "topic_n": 36
   }
  ]
 }

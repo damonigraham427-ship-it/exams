@@ -10,7 +10,9 @@
    ],
    "answer": 2,
    "explanation": "scanner: A radio receiver that searches or scans across several frequencies until the message is completed; the process is then repeated.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "scanner",
+   "topic_n": 7
   },
   {
    "question": "What does the term \"scanner\" mean?",
@@ -22,7 +24,9 @@
    ],
    "answer": 3,
    "explanation": "scanner: A radio receiver that searches or scans across several frequencies until the message is completed; the process is then repeated.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "scanner",
+   "topic_n": 7
   },
   {
    "question": "Which term is defined as: The recorded portion of the EMT’s patient interaction, either written or electronic. This becomes part of the patient's permanent medical record.",
@@ -34,7 +38,9 @@
    ],
    "answer": 0,
    "explanation": "documentation: The recorded portion of the EMT’s patient interaction, either written or electronic. This becomes part of the patient's permanent medical record.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "documentation",
+   "topic_n": 8
   },
   {
    "question": "What does the term \"documentation\" mean?",
@@ -46,7 +52,9 @@
    ],
    "answer": 0,
    "explanation": "documentation: The recorded portion of the EMT’s patient interaction, either written or electronic. This becomes part of the patient's permanent medical record.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "documentation",
+   "topic_n": 8
   },
   {
    "question": "Which term is defined as: Single-frequency radio; transmissions can occur in either direction but not simultaneously; when one party transmits, the other can only receive, and the party that is transmitting is unable to receive.",
@@ -58,7 +66,9 @@
    ],
    "answer": 3,
    "explanation": "simplex: Single-frequency radio; transmissions can occur in either direction but not simultaneously; when one party transmits, the other can only receive, and the party that is transmitting is unable to receive.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "simplex",
+   "topic_n": 9
   },
   {
    "question": "What does the term \"simplex\" mean?",
@@ -70,7 +80,9 @@
    ],
    "answer": 2,
    "explanation": "simplex: Single-frequency radio; transmissions can occur in either direction but not simultaneously; when one party transmits, the other can only receive, and the party that is transmitting is unable to receive.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "simplex",
+   "topic_n": 9
   },
   {
    "question": "Which term is defined as: A trusting relationship that you build with your patient.",
@@ -82,7 +94,9 @@
    ],
    "answer": 2,
    "explanation": "rapport: A trusting relationship that you build with your patient.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "rapport",
+   "topic_n": 10
   },
   {
    "question": "What does the term \"rapport\" mean?",
@@ -94,7 +108,9 @@
    ],
    "answer": 0,
    "explanation": "rapport: A trusting relationship that you build with your patient.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "rapport",
+   "topic_n": 10
   },
   {
    "question": "Which term is defined as: Radio frequencies between 30 and 300 MHz; this spectrum is further divided into high and low bands.",
@@ -106,7 +122,9 @@
    ],
    "answer": 1,
    "explanation": "VHF: Radio frequencies between 30 and 300 MHz; this spectrum is further divided into high and low bands.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "VHF",
+   "topic_n": 11
   },
   {
    "question": "What does the term \"VHF\" mean?",
@@ -118,7 +136,9 @@
    ],
    "answer": 0,
    "explanation": "VHF: Radio frequencies between 30 and 300 MHz; this spectrum is further divided into high and low bands.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "VHF",
+   "topic_n": 11
   },
   {
    "question": "Which term is defined as: Radio frequencies between 300 and 3,000 MHz.",
@@ -130,7 +150,9 @@
    ],
    "answer": 1,
    "explanation": "UHF: Radio frequencies between 300 and 3,000 MHz.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "UHF",
+   "topic_n": 12
   },
   {
    "question": "What does the term \"UHF\" mean?",
@@ -142,7 +164,9 @@
    ],
    "answer": 1,
    "explanation": "UHF: Radio frequencies between 300 and 3,000 MHz.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "UHF",
+   "topic_n": 12
   }
  ]
 }

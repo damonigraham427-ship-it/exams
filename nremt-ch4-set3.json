@@ -10,7 +10,9 @@
    ],
    "answer": 2,
    "explanation": "cellular telephone: A low-power portable radio that communicates through an interconnected series of repeater stations called cells.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "cellular telephone",
+   "topic_n": 13
   },
   {
    "question": "What does the term \"cellular telephone\" mean?",
@@ -22,7 +24,9 @@
    ],
    "answer": 2,
    "explanation": "cellular telephone: A low-power portable radio that communicates through an interconnected series of repeater stations called cells.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "cellular telephone",
+   "topic_n": 13
   },
   {
    "question": "Which term is defined as: A communication system that uses voice-over-Internet Protocol (VoIP) technology to allow multiple agencies to share data, voice, and other forms of communication in a disaster or emergency situation.",
@@ -34,7 +38,9 @@
    ],
    "answer": 0,
    "explanation": "interoperable communications system: A communication system that uses voice-over-Internet Protocol (VoIP) technology to allow multiple agencies to share data, voice, and other forms of communication in a disaster or emergency situation.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "interoperable communications system",
+   "topic_n": 14
   },
   {
    "question": "What does the term \"interoperable communications system\" mean?",
@@ -46,7 +52,9 @@
    ],
    "answer": 1,
    "explanation": "interoperable communications system: A communication system that uses voice-over-Internet Protocol (VoIP) technology to allow multiple agencies to share data, voice, and other forms of communication in a disaster or emergency situation.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "interoperable communications system",
+   "topic_n": 14
   },
   {
    "question": "Which term is defined as: The ability to understand and manage one’s own emotions and properly respond to the emotions of others.",
@@ -58,7 +66,9 @@
    ],
    "answer": 1,
    "explanation": "emotional intelligence: The ability to understand and manage one’s own emotions and properly respond to the emotions of others.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "emotional intelligence",
+   "topic_n": 15
   },
   {
    "question": "What does the term \"emotional intelligence\" mean?",
@@ -70,7 +80,9 @@
    ],
    "answer": 3,
    "explanation": "emotional intelligence: The ability to understand and manage one’s own emotions and properly respond to the emotions of others.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "emotional intelligence",
+   "topic_n": 15
   },
   {
    "question": "Which term is defined as: A system that allows EMS providers to access relevant health data (eg, past medical problems, medications, allergies, end-of-life decisions), avoid duplicating unnecessary tests, and ensure that the information needed to provide care is available.",
@@ -82,7 +94,9 @@
    ],
    "answer": 3,
    "explanation": "health information exchange: A system that allows EMS providers to access relevant health data (eg, past medical problems, medications, allergies, end-of-life decisions), avoid duplicating unnecessary tests, and ensure that the information needed to provide care is available.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "health information exchange",
+   "topic_n": 16
   },
   {
    "question": "What does the term \"health information exchange\" mean?",
@@ -94,7 +108,9 @@
    ],
    "answer": 3,
    "explanation": "health information exchange: A system that allows EMS providers to access relevant health data (eg, past medical problems, medications, allergies, end-of-life decisions), avoid duplicating unnecessary tests, and ensure that the information needed to provide care is available.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "health information exchange",
+   "topic_n": 16
   },
   {
    "question": "Which term is defined as: The legal document used to record all patient care activities. This report has direct patient care functions and administrative and quality control functions.",
@@ -106,7 +122,9 @@
    ],
    "answer": 3,
    "explanation": "patient care report: The legal document used to record all patient care activities. This report has direct patient care functions and administrative and quality control functions.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "patient care report",
+   "topic_n": 17
   },
   {
    "question": "What does the term \"patient care report\" mean?",
@@ -118,7 +136,9 @@
    ],
    "answer": 1,
    "explanation": "patient care report: The legal document used to record all patient care activities. This report has direct patient care functions and administrative and quality control functions.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "patient care report",
+   "topic_n": 17
   },
   {
    "question": "Which term is defined as: Any radio hardware containing a transmitter and receiver that is located in a fixed place.",
@@ -130,7 +150,9 @@
    ],
    "answer": 0,
    "explanation": "base station: Any radio hardware containing a transmitter and receiver that is located in a fixed place.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "base station",
+   "topic_n": 18
   },
   {
    "question": "What does the term \"base station\" mean?",
@@ -142,7 +164,9 @@
    ],
    "answer": 2,
    "explanation": "base station: Any radio hardware containing a transmitter and receiver that is located in a fixed place.",
-   "source": "Flashcard Slides — Set 3"
+   "source": "Flashcard Slides — Set 3",
+   "topic": "base station",
+   "topic_n": 18
   }
  ]
 }

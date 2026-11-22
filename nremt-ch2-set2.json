@@ -10,7 +10,9 @@
    ],
    "answer": 3,
    "explanation": "HIV attacks the immune cells themselves, leaving the body unable to fight infections and some cancers.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "human immunodeficiency virus",
+   "topic_n": 7
   },
   {
    "question": "After a needlestick from a used IV catheter, an EMT is sent for baseline testing for the virus that causes AIDS. Which virus is occupational health testing for?",
@@ -22,7 +24,9 @@
    ],
    "answer": 3,
    "explanation": "HIV is the virus that causes AIDS, and it is the bloodborne virus checked after a sharps exposure.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "human immunodeficiency virus",
+   "topic_n": 7
   },
   {
    "question": "A patient with advanced HIV is transported with pneumonia that a healthy person would normally fight off. The pneumonia is dangerous mainly because which virus has damaged his immune defenses?",
@@ -34,7 +38,9 @@
    ],
    "answer": 3,
    "explanation": "HIV weakens the immune system over time, so ordinary infections can become life-threatening.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "human immunodeficiency virus",
+   "topic_n": 7
   },
   {
    "question": "After a call, your partner asks what made the patient sick. You explain that a microscopic organism capable of causing disease in a susceptible host was responsible. That organism is called what?",
@@ -46,7 +52,9 @@
    ],
    "answer": 0,
    "explanation": "A pathogen is by definition a microorganism that can cause disease in a susceptible host.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "pathogen",
+   "topic_n": 8
   },
   {
    "question": "A nursing home reports several residents ill after a virus spread through the dining hall. In the incident report, that virus is documented as which type of agent?",
@@ -58,7 +66,9 @@
    ],
    "answer": 1,
    "explanation": "The virus is the disease-causing microorganism in this outbreak, which is exactly what pathogen means.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "pathogen",
+   "topic_n": 8
   },
   {
    "question": "During decon, an EMT asks why the ambulance must be disinfected after every patient, not just visibly sick ones. The answer is to kill any disease-causing microorganism that may be present. That microorganism is a what?",
@@ -70,7 +80,9 @@
    ],
    "answer": 3,
    "explanation": "Disinfection targets pathogens — microorganisms capable of causing disease — whether or not illness is obvious.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "pathogen",
+   "topic_n": 8
   },
   {
    "question": "An EMT develops a MRSA skin infection after her bare forearm, with broken skin from a scrape, pressed against a patient's infected wound during a lift. Which mode of transmission is this?",
@@ -82,7 +94,9 @@
    ],
    "answer": 1,
    "explanation": "The infection passed by physical skin-to-skin contact with infectious material — direct contact transmission.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "direct contact",
+   "topic_n": 9
   },
   {
    "question": "A paramedic's ungloved hand touches a patient's bloody laceration while controlling bleeding. If the patient carries hepatitis B, the paramedic's risk came through which route?",
@@ -94,7 +108,9 @@
    ],
    "answer": 0,
    "explanation": "Physical contact with the patient's blood is transmission by direct contact.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "direct contact",
+   "topic_n": 9
   },
   {
    "question": "Two wrestlers share a mat, and one gives the other a herpes skin infection through skin-to-skin contact during a match. EMS documents the transmission route as what?",
@@ -106,7 +122,9 @@
    ],
    "answer": 0,
    "explanation": "The virus moved from person to person by physical contact, the definition of direct contact.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "direct contact",
+   "topic_n": 9
   },
   {
    "question": "Blood from a trauma patient splashes into an EMT's eyes. She feels fine and has no symptoms, but the hospital still sends her to occupational health. What has she had, by definition?",
@@ -118,7 +136,9 @@
    ],
    "answer": 0,
    "explanation": "Contact with blood or body fluids with the potential to develop disease is an exposure, even before any illness appears.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "exposure",
+   "topic_n": 10
   },
   {
    "question": "A firefighter breathes dust at a collapse where a patient later tests positive for tuberculosis. He is not sick, but he must be tested and followed. What term describes his situation?",
@@ -130,7 +150,9 @@
    ],
    "answer": 0,
    "explanation": "He had contact with airborne particles that could cause disease — an exposure requiring follow-up.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "exposure",
+   "topic_n": 10
   },
   {
    "question": "After a needlestick, a paramedic completes an incident report, gets baseline blood tests, and is offered follow-up care. This whole process is triggered by which event?",
@@ -142,7 +164,9 @@
    ],
    "answer": 0,
    "explanation": "The needlestick created contact with blood and a potential for disease, which is an exposure.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "exposure",
+   "topic_n": 10
   },
   {
    "question": "Between patients, a crew wipes down the stretcher, changes gloves, washes hands, and bags contaminated trash before the next call. Together, these steps are known as what?",
@@ -154,7 +178,9 @@
    ],
    "answer": 1,
    "explanation": "These are procedures done specifically to reduce transmission of infection among patients and health care personnel.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "infection control",
+   "topic_n": 11
   },
   {
    "question": "A new EMT asks why the service has written rules for glove use, sharps containers, and cleaning the rig. The officer explains the rules exist to cut the spread of disease between patients and crews. What are these rules called?",
@@ -166,7 +192,9 @@
    ],
    "answer": 2,
    "explanation": "Standardized steps that reduce infection transmission are infection control procedures.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "infection control",
+   "topic_n": 11
   },
   {
    "question": "After transporting a patient with influenza, the crew disinfects all contact surfaces and launders the linens before returning to service. This routine is part of which practice?",
@@ -178,7 +206,9 @@
    ],
    "answer": 1,
    "explanation": "Cleaning and disinfecting after a contagious patient is a core infection control procedure.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "infection control",
+   "topic_n": 11
   },
   {
    "question": "After three years of back-to-back traumatic calls with no break, a paramedic feels constantly exhausted, dreads every shift, and cannot sleep — yet there was no single bad call. What is this pattern called?",
@@ -190,7 +220,9 @@
    ],
    "answer": 2,
    "explanation": "The symptoms built up from prolonged, repeated stress over time rather than one incident.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "cumulative stress reactions",
+   "topic_n": 12
   },
   {
    "question": "A veteran EMT notices growing irritability, loss of appetite, and trouble concentrating after months of overtime and difficult calls piling up. His chief recognizes the slow buildup as what?",
@@ -202,7 +234,9 @@
    ],
    "answer": 3,
    "explanation": "Prolonged or excessive stress accumulating over time produces cumulative stress reactions.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "cumulative stress reactions",
+   "topic_n": 12
   },
   {
    "question": "Unlike a reaction to one horrific scene, an EMT's burnout develops gradually over a year of relentless call volume and staffing shortages. Which type of stress reaction is this?",
@@ -214,7 +248,9 @@
    ],
    "answer": 2,
    "explanation": "It results from stress that is prolonged and excessive, accumulating call after call.",
-   "source": "Quiz-Style Slides — Set 2"
+   "source": "Quiz-Style Slides — Set 2",
+   "topic": "cumulative stress reactions",
+   "topic_n": 12
   },
   {
    "question": "Which term is defined as: Acquired immunodeficiency syndrome (AIDS) is caused by HIV, which damages the cells in the body's immune system so that the body is unable to fight infection or certain cancers.",
@@ -226,7 +262,9 @@
    ],
    "answer": 0,
    "explanation": "human immunodeficiency virus: Acquired immunodeficiency syndrome (AIDS) is caused by HIV, which damages the cells in the body's immune system so that the body is unable to fight infection or certain cancers.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "human immunodeficiency virus",
+   "topic_n": 7
   },
   {
    "question": "What does the term \"human immunodeficiency virus\" mean?",
@@ -238,7 +276,9 @@
    ],
    "answer": 1,
    "explanation": "human immunodeficiency virus: Acquired immunodeficiency syndrome (AIDS) is caused by HIV, which damages the cells in the body's immune system so that the body is unable to fight infection or certain cancers.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "human immunodeficiency virus",
+   "topic_n": 7
   },
   {
    "question": "In 1984, Indiana teenager Ryan White, who had hemophilia, was diagnosed with AIDS after receiving a contaminated factor VIII blood product. Doctors said he posed no casual-contact risk, yet he was barred from his middle school in 1985 and had to fight in court to attend. What does this case teach an EMT about caring for a patient with HIV?",
@@ -250,7 +290,9 @@
    ],
    "answer": 1,
    "explanation": "HIV spreads through blood, not casual contact, so standard precautions and respect are the correct response on every call.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "human immunodeficiency virus",
+   "topic_n": 7
   },
   {
    "question": "In rural Scott County, Indiana, a county that had seen about five HIV cases in the previous decade saw an explosive outbreak in 2015 among people injecting the painkiller Opana ER with shared syringes; 188 cases were confirmed by April 2016, and over 90% of patients also had hepatitis C. What should an EMT take from this outbreak?",
@@ -262,7 +304,9 @@
    ],
    "answer": 3,
    "explanation": "HIV can spread silently through shared syringes and blood, so every sharps exposure must be treated as a risk and reported at once.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "human immunodeficiency virus",
+   "topic_n": 7
   },
   {
    "question": "Which term is defined as: A microorganism that is capable of causing disease in a susceptible host.",
@@ -274,7 +318,9 @@
    ],
    "answer": 0,
    "explanation": "pathogen: A microorganism that is capable of causing disease in a susceptible host.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "pathogen",
+   "topic_n": 8
   },
   {
    "question": "What does the term \"pathogen\" mean?",
@@ -286,7 +332,9 @@
    ],
    "answer": 0,
    "explanation": "pathogen: A microorganism that is capable of causing disease in a susceptible host.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "pathogen",
+   "topic_n": 8
   },
   {
    "question": "In 1976, 221 attendees of an American Legion convention at a Philadelphia hotel fell ill with pneumonia and 34 died. CDC investigator Joseph McDade identified a previously unknown bacterium, Legionella pneumophila, traced to the hotel's cooling tower. What is the main lesson of this investigation for an EMT?",
@@ -298,7 +346,9 @@
    ],
    "answer": 1,
    "explanation": "A brand-new pathogen caused the outbreak before anyone knew it existed, so unexplained illness clusters must be treated as infectious.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "pathogen",
+   "topic_n": 8
   },
   {
    "question": "Thomas Eric Duncan arrived in Dallas from Liberia in September 2014 and became the first Ebola case diagnosed in the United States; he died on October 8, 2014. His recent travel from an outbreak region was a key fact in recognizing the danger. What practice does this case highlight for EMS crews?",
@@ -310,7 +360,9 @@
    ],
    "answer": 2,
    "explanation": "A single imported case can bring an overseas pathogen into a US emergency department without warning, so travel history must be asked early.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "pathogen",
+   "topic_n": 8
   },
   {
    "question": "Which term is defined as: Exposure or transmission of a communicable disease from one person to another by physical contact.",
@@ -322,7 +374,9 @@
    ],
    "answer": 1,
    "explanation": "direct contact: Exposure or transmission of a communicable disease from one person to another by physical contact.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "direct contact",
+   "topic_n": 9
   },
   {
    "question": "What does the term \"direct contact\" mean?",
@@ -334,7 +388,9 @@
    ],
    "answer": 1,
    "explanation": "direct contact: Exposure or transmission of a communicable disease from one person to another by physical contact.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "direct contact",
+   "topic_n": 9
   },
   {
    "question": "During the 2003 season, five St. Louis Rams players developed MRSA infections, and every infection started at a turf-burn abrasion, mostly in linemen and linebackers; investigators blamed skin-to-skin contact, shared towels, and communal whirlpools. What precaution does this case stress for an EMT?",
@@ -346,7 +402,9 @@
    ],
    "answer": 0,
    "explanation": "MRSA moved between players through skin-to-skin contact at open abrasions — textbook direct contact transmission.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "direct contact",
+   "topic_n": 9
   },
   {
    "question": "In Dallas in 2014, ICU nurses Nina Pham and Amber Vinson were infected with Ebola after caring for patient Thomas Eric Duncan; Vinson had inserted catheters, drawn blood, and handled heavy body-fluid exposure. What does their infection demonstrate about PPE?",
@@ -358,7 +416,9 @@
    ],
    "answer": 2,
    "explanation": "The nurses were infected through direct contact with infectious body fluids, so complete PPE and correct removal sequence are essential.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "direct contact",
+   "topic_n": 9
   },
   {
    "question": "Which term is defined as: A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
@@ -370,7 +430,9 @@
    ],
    "answer": 0,
    "explanation": "exposure: A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "exposure",
+   "topic_n": 10
   },
   {
    "question": "What does the term \"exposure\" mean?",
@@ -382,7 +444,9 @@
    ],
    "answer": 2,
    "explanation": "exposure: A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "exposure",
+   "topic_n": 10
   },
   {
    "question": "In 2001, an anthrax letter sent to Senator Daschle passed through Washington, DC's Brentwood mail facility before it was opened. Postal workers Thomas Morris Jr. and Joseph Curseen Jr. died of inhalation anthrax without ever opening the letter, and nearly 1,900 employees received full 60-day antibiotic courses. What does this case teach about an exposure?",
@@ -394,7 +458,9 @@
    ],
    "answer": 0,
    "explanation": "The Brentwood workers were exposed without being patients at first, and exposure alone triggered testing, antibiotics, and monitoring.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "exposure",
+   "topic_n": 10
   },
   {
    "question": "Through February 2020, Kirkland, Washington firefighters answered about 30 medical calls at a nursing home where COVID-19 was spreading, up from 7 calls the month before, without knowing the virus was inside. On February 29 the city quarantined 25 firefighters and 2 police officers, and roughly a third of the department ended up in quarantine or isolation. What is the key staffing lesson?",
@@ -406,7 +472,9 @@
    ],
    "answer": 0,
    "explanation": "Repeated routine calls created repeated exposures before anyone knew the pathogen was there, sidelining much of the department.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "exposure",
+   "topic_n": 10
   },
   {
    "question": "Which term is defined as: Procedures to reduce transmission of infection among patients and health care personnel.",
@@ -418,7 +486,9 @@
    ],
    "answer": 3,
    "explanation": "infection control: Procedures to reduce transmission of infection among patients and health care personnel.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "infection control",
+   "topic_n": 11
   },
   {
    "question": "What does the term \"infection control\" mean?",
@@ -430,7 +500,9 @@
    ],
    "answer": 0,
    "explanation": "infection control: Procedures to reduce transmission of infection among patients and health care personnel.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "infection control",
+   "topic_n": 11
   },
   {
    "question": "At Vienna General Hospital in 1847, mothers in the doctors' clinic died of childbed fever at far higher rates than in the midwives' clinic. Ignaz Semmelweis ordered handwashing in chlorinated lime solution after autopsy work, and mortality fell from 18.3% in April to 2.2% in June and 1.2% in July. What does this founding case establish?",
@@ -442,7 +514,9 @@
    ],
    "answer": 0,
    "explanation": "One simple procedure — disinfecting hands between patients — cut deaths dramatically: the founding demonstration of infection control.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "infection control",
+   "topic_n": 11
   },
   {
    "question": "At the Endoscopy Center of Southern Nevada in 2008, staff reused syringes and single-dose medication vials between patients. About 50,000 patients were notified and urged to test for hepatitis C, hepatitis B, and HIV, and nine hepatitis C infections were genetically confirmed as clinic-linked. What rule does this case make absolute?",
@@ -454,7 +528,9 @@
    ],
    "answer": 3,
    "explanation": "Skipping basic infection control procedures turned a routine clinic into one of the largest exposure events in US history.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "infection control",
+   "topic_n": 11
   },
   {
    "question": "Which term is defined as: Prolonged or excessive stress.",
@@ -466,7 +542,9 @@
    ],
    "answer": 3,
    "explanation": "cumulative stress reactions: Prolonged or excessive stress.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "cumulative stress reactions",
+   "topic_n": 12
   },
   {
    "question": "What does the term \"cumulative stress reactions\" mean?",
@@ -478,7 +556,9 @@
    ],
    "answer": 2,
    "explanation": "cumulative stress reactions: Prolonged or excessive stress.",
-   "source": "Flashcard Slides — Set 2"
+   "source": "Flashcard Slides — Set 2",
+   "topic": "cumulative stress reactions",
+   "topic_n": 12
   },
   {
    "question": "After the September 11, 2001 attacks, FDNY screened 8,487 firefighters; 76% reported at least one PTSD symptom, about 12% met criteria for elevated PTSD risk, and a follow-up study found nearly half of probable PTSD cases were delayed onset, appearing 3–4 years later. What should responders and their departments take from this?",
@@ -490,7 +570,9 @@
    ],
    "answer": 3,
    "explanation": "Months of recovery work on top of losing 343 coworkers produced stress reactions that kept emerging for years.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "cumulative stress reactions",
+   "topic_n": 12
   },
   {
    "question": "CDC surveyed New Orleans police officers and firefighters 7–13 weeks after Hurricane Katrina struck in August 2005. Of 525 firefighters, 22% reported PTSD symptoms and 27% reported major depressive symptoms, and many responders had also lost their own homes in the flooding. What operational lesson does this support?",
@@ -502,7 +584,9 @@
    ],
    "answer": 2,
    "explanation": "Weeks of disaster duty while personally displaced is prolonged, excessive stress — the recipe for cumulative stress reactions.",
-   "source": "Flashcard Case Studies — Set 2"
+   "source": "Flashcard Case Studies — Set 2",
+   "topic": "cumulative stress reactions",
+   "topic_n": 12
   }
  ]
 }

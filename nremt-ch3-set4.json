@@ -10,7 +10,9 @@
    ],
    "answer": 3,
    "explanation": "Decomposition of body tissues is a definitive sign of death, so resuscitation is not indicated.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "putrefaction",
+   "topic_n": 19
   },
   {
    "question": "A caller reports a terrible smell from a vacant house for two weeks. Inside, crews find a deceased person whose tissues are breaking down and liquefying. What is this process called?",
@@ -22,7 +24,9 @@
    ],
    "answer": 0,
    "explanation": "The breakdown and decomposition of body tissues after death is putrefaction.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "putrefaction",
+   "topic_n": 19
   },
   {
    "question": "Which patient should an EMT recognize as obviously dead without beginning resuscitation: one who is cold and stiff, or one whose body is decomposing with tissue breakdown?",
@@ -34,7 +38,9 @@
    ],
    "answer": 0,
    "explanation": "Putrefaction is listed among the definitive signs of death that justify withholding resuscitation.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "putrefaction",
+   "topic_n": 19
   },
   {
    "question": "Your class is discussing the Tuskegee study, Quinlan, and Schiavo as examples of moral questions about consent, research, and end-of-life care in medicine. What field of study covers these issues?",
@@ -46,7 +52,9 @@
    ],
    "answer": 3,
    "explanation": "Bioethics is the study of ethics related to issues that arise in health care, and all three cases are landmark examples.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "bioethics",
+   "topic_n": 20
   },
   {
    "question": "A hospital forms a committee to weigh whether continuing life support for a patient with no chance of recovery is morally right, separate from what is legally allowed. What is this committee studying?",
@@ -58,7 +66,9 @@
    ],
    "answer": 2,
    "explanation": "Applying ethical principles to a health-care dilemma is bioethics, distinct from the purely legal analysis.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "bioethics",
+   "topic_n": 20
   },
   {
    "question": "An EMT asks why Henrietta Lacks' cells raised questions about consent and fairness in research decades later. Those questions belong to which discipline?",
@@ -70,7 +80,9 @@
    ],
    "answer": 2,
    "explanation": "Questions of right and wrong in research and treatment are the subject matter of bioethics.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "bioethics",
+   "topic_n": 20
   },
   {
    "question": "A 68-year-old with a gangrenous toe is alert, explains back to you that refusing amputation could kill her, and calmly refuses transport twice. Her son insists she is 'not thinking straight.' How should you classify her?",
@@ -82,7 +94,9 @@
    ],
    "answer": 1,
    "explanation": "She understands her condition and the consequences and reasons rationally about her own well-being, so she is competent and may refuse.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "competent",
+   "topic_n": 21
   },
   {
    "question": "An EMT wants to override a patient's refusal because the patient chose the option the crew considers unwise. The patient is oriented, understands the risks, and gives consistent reasons. What is the patient's status?",
@@ -94,7 +108,9 @@
    ],
    "answer": 2,
    "explanation": "Competence is the ability to make rational decisions about personal well-being, not agreement with the provider's recommendation.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "competent",
+   "topic_n": 21
   },
   {
    "question": "Which patient is competent to refuse care: a severely intoxicated man who cannot state where he is, or an alert woman with quadriplegia who articulately refuses a feeding tube?",
@@ -106,7 +122,9 @@
    ],
    "answer": 2,
    "explanation": "The woman can process information and decide rationally about her well-being; intoxication that prevents understanding removes that ability.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "competent",
+   "topic_n": 21
   },
   {
    "question": "A competent patient consents to an IV but grabs your wrist and says 'no blood draw' as you reach for a tourniquet a second time. You draw blood anyway for the hospital. What tort have you committed?",
@@ -118,7 +136,9 @@
    ],
    "answer": 2,
    "explanation": "Providing care and touching a patient without consent — here, after an express refusal — is battery.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "battery",
+   "topic_n": 22
   },
   {
    "question": "An unconscious crash victim's wallet card states she refuses blood transfusion under any circumstances. The crew, knowing of the card, transfuses her en route. Legally, this is best described as what?",
@@ -130,7 +150,9 @@
    ],
    "answer": 3,
    "explanation": "Malette v. Shulman held that treatment given against a known refusal is an unlawful touching, which is battery.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "battery",
+   "topic_n": 22
   },
   {
    "question": "A patient agreed to splinting of the left arm. While he is distracted, an EMT also cuts open and examines his uninjured right arm over his objection. The extra examination is an example of what?",
@@ -142,7 +164,9 @@
    ],
    "answer": 3,
    "explanation": "Touching beyond the scope of consent, over objection, is unlawfully touching a patient — battery.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "battery",
+   "topic_n": 22
   },
   {
    "question": "Dispatch sends you to a man clutching his chest, pale and sweating, three minutes from your station. The care he needs — assessment, oxygen, aspirin, and rapid transport — is best defined as what?",
@@ -154,7 +178,9 @@
    ],
    "answer": 0,
    "explanation": "Immediate care or treatment for an acute presentation is emergency medical care.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "emergency medical care",
+   "topic_n": 23
   },
   {
    "question": "A walk-in patient with crushing chest pain is told at a hospital desk to sit and wait for insurance verification before anyone examines him. Which EMTALA principle about emergency medical care is violated?",
@@ -166,7 +192,9 @@
    ],
    "answer": 0,
    "explanation": "EMTALA requires immediate screening and stabilizing care before payment questions, which is the guarantee behind emergency medical care.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "emergency medical care",
+   "topic_n": 23
   },
   {
    "question": "An infant in respiratory distress arrives at your ambulance bay while you are restocking. What does your duty to provide emergency medical care require first?",
@@ -178,7 +206,9 @@
    ],
    "answer": 2,
    "explanation": "Emergency medical care means immediate care or treatment — assess and stabilize the breathing emergency at once.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "emergency medical care",
+   "topic_n": 23
   },
   {
    "question": "Police have a combative patient handcuffed face-down on the pavement with an officer's weight on his back, and he suddenly goes quiet. What is the restraint called, and what must you do first?",
@@ -190,7 +220,9 @@
    ],
    "answer": 2,
    "explanation": "Holding a person so he cannot initiate physical action is forcible restraint, and sudden quiet in a prone restrained patient demands immediate repositioning and airway assessment.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "forcible restraint",
+   "topic_n": 24
   },
   {
    "question": "Your crew must stop a violent patient from striking anyone while you prepare sedation. Two providers hold his arms and legs so he cannot move at all. What technique are they using?",
@@ -202,7 +234,9 @@
    ],
    "answer": 3,
    "explanation": "Physically preventing an individual from initiating any physical action is forcible restraint.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "forcible restraint",
+   "topic_n": 24
   },
   {
    "question": "After restraining a patient, which practice keeps forcible restraint safest: leaving him prone and hog-tied for transport, or moving him supine or seated with continuous breathing monitoring?",
@@ -214,7 +248,9 @@
    ],
    "answer": 0,
    "explanation": "Prone, prolonged forcible restraint has caused repeated asphyxia deaths; repositioning and monitoring are the safeguards.",
-   "source": "Quiz-Style Slides — Set 4"
+   "source": "Quiz-Style Slides — Set 4",
+   "topic": "forcible restraint",
+   "topic_n": 24
   },
   {
    "question": "Which term is defined as: Decomposition of body tissues; a definitive sign of death.",
@@ -226,7 +262,9 @@
    ],
    "answer": 2,
    "explanation": "putrefaction: Decomposition of body tissues; a definitive sign of death.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "putrefaction",
+   "topic_n": 19
   },
   {
    "question": "What does the term \"putrefaction\" mean?",
@@ -238,7 +276,9 @@
    ],
    "answer": 2,
    "explanation": "putrefaction: Decomposition of body tissues; a definitive sign of death.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "putrefaction",
+   "topic_n": 19
   },
   {
    "question": "In Orlando in 2008, two-year-old Caylee Anthony was not reported missing for about 31 days; her grandmother told 911 the trunk of the mother's car smelled like a dead body, and the child's skeletal remains were later found in advanced decomposition. What does this case teach an EMT who finds a body in that condition?",
@@ -250,7 +290,9 @@
    ],
    "answer": 0,
    "explanation": "Decomposition (putrefaction) is a definitive sign of death: withhold resuscitation, preserve the scene, and notify law enforcement and the medical examiner.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "putrefaction",
+   "topic_n": 19
   },
   {
    "question": "In 1977 a forensic anthropologist examined a relatively intact body in formal clothing from a disturbed Tennessee grave and estimated death within the past year — but the man was Colonel William Shy, killed in 1864, whose airtight cast-iron coffin and embalming had largely prevented decomposition for 113 years. What lesson does this hold for an EMT judging a body at a scene?",
@@ -262,7 +304,9 @@
    ],
    "answer": 1,
    "explanation": "Environment can dramatically slow or speed decomposition, so use putrefaction as a sign of death, never as a timeline.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "putrefaction",
+   "topic_n": 19
   },
   {
    "question": "Which term is defined as: The study of ethics related to issues that arise in health care.",
@@ -274,7 +318,9 @@
    ],
    "answer": 2,
    "explanation": "bioethics: The study of ethics related to issues that arise in health care.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "bioethics",
+   "topic_n": 20
   },
   {
    "question": "What does the term \"bioethics\" mean?",
@@ -286,7 +332,9 @@
    ],
    "answer": 2,
    "explanation": "bioethics: The study of ethics related to issues that arise in health care.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "bioethics",
+   "topic_n": 20
   },
   {
    "question": "From 1932 to 1972, the U.S. Public Health Service studied 600 Black men in Alabama — 399 with syphilis — without informed consent, and withheld treatment even after penicillin became the standard cure in the 1940s. What is the central bioethics lesson of the Tuskegee study for providers today?",
@@ -298,7 +346,9 @@
    ],
    "answer": 2,
    "explanation": "Tuskegee is the defining American bioethics failure: a health-care study built on deception and deliberately withheld care.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "bioethics",
+   "topic_n": 20
   },
   {
    "question": "In 1951, tumor tissue was taken from Henrietta Lacks during cervical cancer treatment at Johns Hopkins and given to a researcher without her knowledge or consent; her cells became the immortal HeLa line used worldwide, and her family learned of it only in the 1970s. What principle does her case establish for patient care?",
@@ -310,7 +360,9 @@
    ],
    "answer": 2,
    "explanation": "The Lacks case is a central bioethics study of consent, tissue ownership, and fairness in health-care research.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "bioethics",
+   "topic_n": 20
   },
   {
    "question": "Which term is defined as: Able to make rational decisions about personal well-being.",
@@ -322,7 +374,9 @@
    ],
    "answer": 3,
    "explanation": "competent: Able to make rational decisions about personal well-being.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "competent",
+   "topic_n": 21
   },
   {
    "question": "What does the term \"competent\" mean?",
@@ -334,7 +388,9 @@
    ],
    "answer": 0,
    "explanation": "competent: Able to make rational decisions about personal well-being.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "competent",
+   "topic_n": 21
   },
   {
    "question": "Donald 'Dax' Cowart, 25, was burned over about 65% of his body in a 1973 propane explosion and repeatedly demanded that painful burn treatment stop and he be allowed to die; providers treated him for 14 months anyway, relying on his mother's consent, even after a psychiatrist affirmed his capacity to decide. What does his case teach about assessing competence?",
@@ -346,7 +402,9 @@
    ],
    "answer": 2,
    "explanation": "Competence is the ability to make rational decisions about one's own well-being — severe pain and an unwise-seeming refusal do not erase it.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "competent",
+   "topic_n": 21
   },
   {
    "question": "Elizabeth Bouvia, 28, had severe cerebral palsy and quadriplegia when hospital staff inserted a nasogastric feeding tube against her will; in 1986 a California court found she was intelligent and mentally competent, understood the consequences of refusing the tube, and ordered it removed. What rule for EMTs follows from her case?",
@@ -358,7 +416,9 @@
    ],
    "answer": 1,
    "explanation": "The court protected Bouvia's refusal precisely because she was competent — able to make rational decisions about her own well-being.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "competent",
+   "topic_n": 21
   },
   {
    "question": "Which term is defined as: Unlawfully touching a patient or providing emergency care without consent.",
@@ -370,7 +430,9 @@
    ],
    "answer": 1,
    "explanation": "battery: Unlawfully touching a patient or providing emergency care without consent.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "battery",
+   "topic_n": 22
   },
   {
    "question": "What does the term \"battery\" mean?",
@@ -382,7 +444,9 @@
    ],
    "answer": 2,
    "explanation": "battery: Unlawfully touching a patient or providing emergency care without consent.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "battery",
+   "topic_n": 22
   },
   {
    "question": "Mary Schloendorff was admitted to a New York hospital in 1908 and consented only to an examination under ether, expressly declining surgery; while she was anesthetized, surgeons removed a tumor anyway, and Judge Cardozo later wrote that every adult of sound mind has the right to determine what shall be done with his own body. What does this case establish about consent?",
@@ -394,7 +458,9 @@
    ],
    "answer": 0,
    "explanation": "Schloendorff is the foundation of medical battery law: operating without the patient's consent is an unlawful touching, however well intended.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "battery",
+   "topic_n": 22
   },
   {
    "question": "Georgette Malette arrived unconscious after a severe 1979 car crash carrying a signed Jehovah's Witness card refusing blood transfusion under any circumstances; her doctor transfused her anyway to save her life, and a Canadian court awarded her $20,000 for battery. What should an EMT do with this lesson on scene?",
@@ -406,7 +472,9 @@
    ],
    "answer": 2,
    "explanation": "Malette v. Shulman held that transfusing against a known refusal is battery — life-saving intent does not excuse the unlawful touching.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "battery",
+   "topic_n": 22
   },
   {
    "question": "Which term is defined as: Immediate care or treatment.",
@@ -418,7 +486,9 @@
    ],
    "answer": 0,
    "explanation": "emergency medical care: Immediate care or treatment.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "emergency medical care",
+   "topic_n": 23
   },
   {
    "question": "What does the term \"emergency medical care\" mean?",
@@ -430,7 +500,9 @@
    ],
    "answer": 2,
    "explanation": "emergency medical care: Immediate care or treatment.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "emergency medical care",
+   "topic_n": 23
   },
   {
    "question": "In 1959, four-month-old Darien Manlove, with diarrhea and a fever above 102 degrees, was brought to a hospital emergency ward; the nurse did not examine him or take his temperature and turned the family away because the child was under private doctors' care, and he died that afternoon of bronchial pneumonia. What duty does this case place on emergency providers?",
@@ -442,7 +514,9 @@
    ],
    "answer": 1,
    "explanation": "Manlove held that a hospital holding out emergency services may be liable for refusing treatment in an unmistakable emergency.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "emergency medical care",
+   "topic_n": 23
   },
   {
    "question": "Congress enacted EMTALA in 1986 after emergency departments were found refusing to treat indigent and uninsured patients or transferring them inappropriately — 'patient dumping'; the law requires Medicare-participating hospitals to screen anyone who comes to the emergency department and to stabilize an emergency condition or arrange an appropriate transfer. What does EMTALA require of you on an emergency call?",
@@ -454,7 +528,9 @@
    ],
    "answer": 3,
    "explanation": "EMTALA guarantees emergency medical care in practice: immediate screening and stabilization first, payment questions later.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "emergency medical care",
+   "topic_n": 23
   },
   {
    "question": "Which term is defined as: The act of physically preventing an individual from initiating any physical action.",
@@ -466,7 +542,9 @@
    ],
    "answer": 3,
    "explanation": "forcible restraint: The act of physically preventing an individual from initiating any physical action.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "forcible restraint",
+   "topic_n": 24
   },
   {
    "question": "What does the term \"forcible restraint\" mean?",
@@ -478,7 +556,9 @@
    ],
    "answer": 1,
    "explanation": "forcible restraint: The act of physically preventing an individual from initiating any physical action.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "forcible restraint",
+   "topic_n": 24
   },
   {
    "question": "In Aurora, Colorado in 2019, Elijah McClain, 23, was forcibly restrained by police including a carotid hold; paramedics then gave him 500 mg of ketamine — a dose for a much heavier person than his roughly 143 pounds — without a proper assessment, and he stopped breathing, arrested, and died. What must an EMT do when restraining or sedating a patient?",
@@ -490,7 +570,9 @@
    ],
    "answer": 0,
    "explanation": "McClain's death shows restraint and sedation are medical acts requiring your own assessment, weight-based dosing, and continuous monitoring.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "forcible restraint",
+   "topic_n": 24
   },
   {
    "question": "In Rochester, New York in 2020, Daniel Prude, 41, in a mental-health crisis, was handcuffed, hooded with a spit hood, and held face-down with his head pressed to the pavement for over two minutes until he stopped breathing; the medical examiner ruled his death a homicide from complications of asphyxia in the setting of physical restraint. What practice does his death demand of an EMT?",
@@ -502,7 +584,9 @@
    ],
    "answer": 2,
    "explanation": "Prude died of asphyxia during physical restraint — sudden quiet in a prone, restrained patient is a danger sign, not compliance.",
-   "source": "Flashcard Case Studies — Set 4"
+   "source": "Flashcard Case Studies — Set 4",
+   "topic": "forcible restraint",
+   "topic_n": 24
   }
  ]
 }

@@ -82,7 +82,8 @@ function renderDash() {
   const lp = total ? Math.round(100 * (mastered + learned) / total) : 0;
   $('pie-learned').setAttribute('stroke-dasharray', lp + ' ' + (100 - lp));
   $('pie-mastered').setAttribute('stroke-dasharray', mp + ' ' + (100 - mp));
-  $('pie-pct').textContent = mp + '%';
+  window._pieStats = { done: mastered + learned, mastered: mastered, pct: mp };
+  drawPieCenter();
   $('legend').innerHTML =
     '<span class="dot" style="background:#15803d"></span>Mastered: ' + mastered + '<br>' +
     '<span class="dot" style="background:#86efac"></span>Learned: ' + learned + '<br>' +
@@ -243,6 +244,14 @@ function finish(msg) {
   renderDash(); alert(msg);
 }
 
+let pieMode = 0;
+function drawPieCenter() {
+  const s = window._pieStats || { done: 0, mastered: 0, pct: 0 };
+  const el = $('pie-pct');
+  el.textContent = pieMode === 0 ? s.pct + '%' : pieMode === 1 ? s.done + ' done' : s.mastered + ' mastered';
+  el.setAttribute('font-size', pieMode === 0 ? '8' : '5.5');
+}
+$('pie-pct').onclick = () => { pieMode = (pieMode + 1) % 3; drawPieCenter(); };
 $('btn-check').onclick = startCheck;
 $('btn-learn').onclick = startLearn;
 $('btn-progress').onclick = startProgress;

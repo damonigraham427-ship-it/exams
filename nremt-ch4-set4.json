@@ -10,7 +10,9 @@
    ],
    "answer": 3,
    "explanation": "standing orders: Written documents, signed by the EMS system’s medical director, that outline specific directions, permissions, and sometimes prohibitions regarding patient care; also called protocols.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "standing orders",
+   "topic_n": 19
   },
   {
    "question": "What does the term \"standing orders\" mean?",
@@ -22,7 +24,9 @@
    ],
    "answer": 2,
    "explanation": "standing orders: Written documents, signed by the EMS system’s medical director, that outline specific directions, permissions, and sometimes prohibitions regarding patient care; also called protocols.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "standing orders",
+   "topic_n": 19
   },
   {
    "question": "Which term is defined as: The transfer of pertinent patient information and the responsibility for the patient’s care; often involving the face-to-face exchange of information when a patient is moved from one health care provider to another.",
@@ -34,7 +38,9 @@
    ],
    "answer": 2,
    "explanation": "handover: The transfer of pertinent patient information and the responsibility for the patient’s care; often involving the face-to-face exchange of information when a patient is moved from one health care provider to another.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "handover",
+   "topic_n": 20
   },
   {
    "question": "What does the term \"handover\" mean?",
@@ -46,7 +52,9 @@
    ],
    "answer": 3,
    "explanation": "handover: The transfer of pertinent patient information and the responsibility for the patient’s care; often involving the face-to-face exchange of information when a patient is moved from one health care provider to another.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "handover",
+   "topic_n": 20
   },
   {
    "question": "Which term is defined as: Anything that dampens or obscures the true meaning of a message.",
@@ -58,7 +66,9 @@
    ],
    "answer": 2,
    "explanation": "noise: Anything that dampens or obscures the true meaning of a message.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "noise",
+   "topic_n": 21
   },
   {
    "question": "What does the term \"noise\" mean?",
@@ -70,7 +80,9 @@
    ],
    "answer": 2,
    "explanation": "noise: Anything that dampens or obscures the true meaning of a message.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "noise",
+   "topic_n": 21
   },
   {
    "question": "Which term is defined as: The condition requiring the most urgent intervention as determined by the provider's assessment of the patient; this is not always the same as the chief complaint.",
@@ -82,7 +94,9 @@
    ],
    "answer": 1,
    "explanation": "chief concern: The condition requiring the most urgent intervention as determined by the provider's assessment of the patient; this is not always the same as the chief complaint.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "chief concern",
+   "topic_n": 22
   },
   {
    "question": "What does the term \"chief concern\" mean?",
@@ -94,7 +108,9 @@
    ],
    "answer": 1,
    "explanation": "chief concern: The condition requiring the most urgent intervention as determined by the provider's assessment of the patient; this is not always the same as the chief complaint.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "chief concern",
+   "topic_n": 22
   },
   {
    "question": "Which term is defined as: Questions that can be answered in short or single-word responses.",
@@ -106,7 +122,9 @@
    ],
    "answer": 2,
    "explanation": "closed-ended questions: Questions that can be answered in short or single-word responses.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "closed-ended questions",
+   "topic_n": 23
   },
   {
    "question": "What does the term \"closed-ended questions\" mean?",
@@ -118,7 +136,9 @@
    ],
    "answer": 2,
    "explanation": "closed-ended questions: Questions that can be answered in short or single-word responses.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "closed-ended questions",
+   "topic_n": 23
   },
   {
    "question": "Which term is defined as: A small computer terminal inside the ambulance that directly receives data from the dispatch center.",
@@ -130,7 +150,9 @@
    ],
    "answer": 2,
    "explanation": "mobile data terminal: A small computer terminal inside the ambulance that directly receives data from the dispatch center.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "mobile data terminal",
+   "topic_n": 24
   },
   {
    "question": "What does the term \"mobile data terminal\" mean?",
@@ -142,7 +164,9 @@
    ],
    "answer": 2,
    "explanation": "mobile data terminal: A small computer terminal inside the ambulance that directly receives data from the dispatch center.",
-   "source": "Flashcard Slides — Set 4"
+   "source": "Flashcard Slides — Set 4",
+   "topic": "mobile data terminal",
+   "topic_n": 24
   }
  ]
 }

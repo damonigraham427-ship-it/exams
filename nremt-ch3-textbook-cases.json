@@ -10,7 +10,9 @@
    ],
    "answer": 1,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: Upon arrival at the scene, your partner began assessing vital signs without talking to the patient. This demonstrates:",
@@ -22,7 +24,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: Suppose your partner had introduced himself and asked permission to examine the patient. If the patient nodded and extended his arm, this would be considered:",
@@ -34,7 +38,9 @@
    ],
    "answer": 3,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: What is the best way to care for your patient once he tells you he does not want to go to the hospital?",
@@ -46,7 +52,9 @@
    ],
    "answer": 0,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: While caring for this patient, you hear a neighbor cry for help; a child is drowning just around the corner. You and your partner leave, telling the patient you must respond to this incident and will send another ambulance for him as soon as possible. This decision is an example of:",
@@ -58,7 +66,9 @@
    ],
    "answer": 1,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: On another call that day, your patient consented to treatment and transport after you told her she could be experiencing a serious medical emergency. This is an example of:",
@@ -70,7 +80,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: What ethical challenges were you presented with during this call?",
@@ -82,7 +94,9 @@
    ],
    "answer": 1,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: If a patient says he has used heroin recently, who should you tell about this?",
@@ -94,7 +108,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (32-year-old man, severe headache): Why is it essential that you obtain consent to treat the patient once you arrive?",
@@ -106,7 +122,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (32-year-old man, severe headache): Should you assess the patient's competency or decision-making capacity once you arrive?",
@@ -118,7 +136,9 @@
    ],
    "answer": 0,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (32-year-old man, severe headache): Are you legally authorized to treat this patient? Why or why not?",
@@ -130,7 +150,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (32-year-old man, severe headache): How does informed consent differ from implied consent?",
@@ -142,7 +164,9 @@
    ],
    "answer": 3,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (32-year-old man, severe headache): What should you do when a patient refuses treatment and/or transport?",
@@ -154,7 +178,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (32-year-old man, severe headache): What questions should you ask yourself to help determine whether you can transport this patient against his will?",
@@ -166,7 +192,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (32-year-old man, severe headache): Does HIPAA affect the medical care you provide to your patients? What information are you allowed to discuss with family members, bystanders, the media, and others?",
@@ -178,7 +206,9 @@
    ],
    "answer": 3,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (32-year-old man, severe headache): How do you respond to the clerk's question in a professional manner without violating HIPAA regulations?",
@@ -190,7 +220,9 @@
    ],
    "answer": 1,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (32-year-old man, severe headache): Should you report the patient's use of illegal substances to law enforcement? Why or why not?",
@@ -202,7 +234,9 @@
    ],
    "answer": 3,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (32-year-old man, severe headache): Why is it important to have the receiving nurse sign the PCR?",
@@ -214,7 +248,9 @@
    ],
    "answer": 1,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (32-year-old man, low blood glucose): You are dispatched to 2567 Walnut Lane for a confused male, unknown medical. Upon your arrival, you and your partner find a police officer attempting to calm a 32-year-old man who is somewhat confused and very agitated. When he sees you, he says he doesn’t want your help and asks you to leave immediately. You notice a box of syringes in the kitchen. What should you do now?",
@@ -226,7 +262,9 @@
    ],
    "answer": 2,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (32-year-old man, low blood glucose): Why is it essential to adhere to the principles of patient confidentiality?",
@@ -238,7 +276,9 @@
    ],
    "answer": 2,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (32-year-old man, low blood glucose): What is the difference between informed and implied consent, and why is obtaining patient consent so important?",
@@ -250,7 +290,9 @@
    ],
    "answer": 0,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (32-year-old man, low blood glucose): In this case, is restraining the patient considered battery?",
@@ -262,7 +304,9 @@
    ],
    "answer": 3,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (32-year-old man, low blood glucose): If you had left the scene as the patient requested, what would you and your partner be accused of?",
@@ -274,7 +318,9 @@
    ],
    "answer": 1,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (32-year-old man, low blood glucose): Can you continue to restrain this patient and/or transport him to the hospital?",
@@ -286,7 +332,9 @@
    ],
    "answer": 2,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (32-year-old man, low blood glucose): What are other considerations to be addressed before you and your partner leave the scene?",
@@ -298,7 +346,9 @@
    ],
    "answer": 2,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   }
  ]
 }

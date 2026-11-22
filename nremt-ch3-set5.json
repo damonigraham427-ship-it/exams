@@ -10,7 +10,9 @@
    ],
    "answer": 3,
    "explanation": "Applied ethics is the manner in which principles of ethics are incorporated into professional conduct.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "applied ethics",
+   "topic_n": 25
   },
   {
    "question": "A paramedic discovers her partner charted a medication he never gave. Her agency's ethical standards require honesty in documentation, so she reports it to her supervisor even though it may cost her partner his job. Her action best demonstrates:",
@@ -22,7 +24,9 @@
    ],
    "answer": 3,
    "explanation": "She incorporated an ethical principle, honesty, into her actual professional conduct rather than just knowing the rule.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "applied ethics",
+   "topic_n": 25
   },
   {
    "question": "During a mass-casualty incident, a crew leader assigns the only ventilator to the patient most likely to survive instead of the first patient found. Which concept describes using ethical principles to make this professional decision?",
@@ -34,7 +38,9 @@
    ],
    "answer": 3,
    "explanation": "Triage decision-making applies ethical principles such as justice and beneficence in real professional practice.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "applied ethics",
+   "topic_n": 25
   },
   {
    "question": "Dispatch sends you to a school bus rollover with 18 injured children, several unconscious and one with uncontrolled leg bleeding. This situation, threatening the welfare of a group and requiring immediate intervention, is best defined as a(n):",
@@ -46,7 +52,9 @@
    ],
    "answer": 1,
    "explanation": "A serious situation threatening the life or welfare of a group and requiring immediate intervention is an emergency.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "emergency",
+   "topic_n": 26
   },
   {
    "question": "A nursing home loses power and heat during an ice storm, and 40 oxygen-dependent residents must be moved within hours or they will deteriorate. Even before any single patient crashes, the situation qualifies as a(n):",
@@ -58,7 +66,9 @@
    ],
    "answer": 3,
    "explanation": "The threat is to the welfare of a group of people and it requires immediate intervention, which meets the definition of an emergency.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "emergency",
+   "topic_n": 26
   },
   {
    "question": "Which of the following is the best example of an emergency as defined in your textbook?",
@@ -70,7 +80,9 @@
    ],
    "answer": 3,
    "explanation": "An obstructed airway is a serious, life-threatening situation requiring immediate intervention; routine transports and stable complaints are not.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "emergency",
+   "topic_n": 26
   },
   {
    "question": "An EMT drives the ambulance 25 mph over the posted limit on a dry, empty road with no emergency, strikes another car, and injures its driver. The plaintiff argues the speeding violation itself establishes the EMT's negligence. What legal theory is this?",
@@ -82,7 +94,9 @@
    ],
    "answer": 3,
    "explanation": "Negligence per se is the theory used when the defendant's conduct is alleged to have occurred in clear violation of a statute, here the speed limit.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "negligence per se",
+   "topic_n": 27
   },
   {
    "question": "A paramedic performs a skill that state law reserves to a higher certification level, and the patient is harmed by exactly the complication the certification law was written to prevent. The plaintiff's attorney says no separate proof of carelessness is needed because the statute was broken. This argument is:",
@@ -94,7 +108,9 @@
    ],
    "answer": 0,
    "explanation": "When conduct clearly violates a statute designed to prevent that type of harm, the violation itself can establish negligence under negligence per se.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "negligence per se",
+   "topic_n": 27
   },
   {
    "question": "In court, a plaintiff claims an ambulance crew was negligent per se. To use that theory, what must the plaintiff show about the crew's conduct?",
@@ -106,7 +122,9 @@
    ],
    "answer": 1,
    "explanation": "Negligence per se applies when the conduct of the person being sued is alleged to have occurred in clear violation of a statute.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "negligence per se",
+   "topic_n": 27
   },
   {
    "question": "You find a 24-year-old man unconscious in a crashed car with a compromised airway and no identification or family on scene. You insert an airway adjunct and begin ventilations. What legal principle permits this treatment without his consent?",
@@ -118,7 +136,9 @@
    ],
    "answer": 3,
    "explanation": "The emergency doctrine permits treatment in an emergency when the patient is incapable of granting consent, here because he is unconscious.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "emergency doctrine",
+   "topic_n": 28
   },
   {
    "question": "An intoxicated patient with a head injury drifts in and out of consciousness and cannot answer questions coherently. He needs immediate care and transport. Under what principle may the crew treat him despite his inability to consent?",
@@ -130,7 +150,9 @@
    ],
    "answer": 2,
    "explanation": "The doctrine covers patients incapable of granting consent because of altered consciousness or the effects of drugs or alcohol.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "emergency doctrine",
+   "topic_n": 28
   },
   {
    "question": "A 6-year-old is pulled from a pool, apneic and pulseless, with no parent anywhere on scene. The crew begins CPR immediately. Their authority to treat without parental consent comes from:",
@@ -142,7 +164,9 @@
    ],
    "answer": 1,
    "explanation": "The emergency doctrine permits emergency treatment when a patient cannot consent because of age and incapacity and no surrogate is available.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "emergency doctrine",
+   "topic_n": 28
   },
   {
    "question": "A patient is injured during a transport in March 2023. State law gives two years to file a negligence suit. The patient first contacts the agency's risk manager in June 2025 asking how to sue. What legal concept will most likely decide whether the case can proceed?",
@@ -154,7 +178,9 @@
    ],
    "answer": 1,
    "explanation": "The statute of limitations is the time within which a legal case must be commenced, and that two-year window has closed.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "statute of limitations",
+   "topic_n": 29
   },
   {
    "question": "An attorney tells a family, 'Your claim may be strong, but the court will never hear it because the filing deadline passed last month.' The deadline she means is the:",
@@ -166,7 +192,9 @@
    ],
    "answer": 1,
    "explanation": "The statute of limitations sets the time within which a legal case must be commenced; after it expires, courts dismiss regardless of merit.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "statute of limitations",
+   "topic_n": 29
   },
   {
    "question": "Why do EMS agencies retain run reports for many years after a call involving a young child?",
@@ -178,7 +206,9 @@
    ],
    "answer": 2,
    "explanation": "Because the time within which a case must be commenced can be paused for minors, claims from one call can be filed years later.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "statute of limitations",
+   "topic_n": 29
   },
   {
    "question": "An EMT posts on social media that a local nurse 'steals narcotics from the rig,' knowing he has no evidence it is true. The nurse is suspended while the hospital investigates. The EMT's post is an example of:",
@@ -190,7 +220,9 @@
    ],
    "answer": 0,
    "explanation": "Defamation is communicating false information about a person that damages that person's reputation or standing in the community.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "defamation",
+   "topic_n": 30
   },
   {
    "question": "After a difficult call, a paramedic tells the receiving staff, within earshot of other patients, that the patient 'is just a drug-seeking faker,' and the statement is untrue. The patient, a schoolteacher, is later shunned by coworkers who heard about it. What tort is the patient most likely to allege?",
@@ -202,7 +234,9 @@
    ],
    "answer": 0,
    "explanation": "False spoken information damaging a person's reputation is defamation; spoken defamation is slander.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "defamation",
+   "topic_n": 30
   },
   {
    "question": "Which statement by an EMT about a coworker would create the greatest defamation risk?",
@@ -214,7 +248,9 @@
    ],
    "answer": 3,
    "explanation": "A false statement of fact that damages a person's reputation and professional standing is defamation; verified reports made in good faith through proper channels are protected.",
-   "source": "Quiz-Style Slides — Set 5"
+   "source": "Quiz-Style Slides — Set 5",
+   "topic": "defamation",
+   "topic_n": 30
   },
   {
    "question": "Which term is defined as: The manner in which principles of ethics are incorporated into professional conduct.",
@@ -226,7 +262,9 @@
    ],
    "answer": 1,
    "explanation": "applied ethics: The manner in which principles of ethics are incorporated into professional conduct.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "applied ethics",
+   "topic_n": 25
   },
   {
    "question": "What does the term \"applied ethics\" mean?",
@@ -238,7 +276,9 @@
    ],
    "answer": 3,
    "explanation": "applied ethics: The manner in which principles of ethics are incorporated into professional conduct.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "applied ethics",
+   "topic_n": 25
   },
   {
    "question": "A Kentucky paramedic treats a zookeeper bitten by a breeding mamba snake. He knows antivenom is the correct treatment and gives it during the helicopter flight, saving the patient's life, even though administering it was outside his authorized scope on paper. The state EMS board investigates him for acting beyond his authorization, then dismisses the investigation. What is the main lesson of this case for EMS providers?",
@@ -250,7 +290,9 @@
    ],
    "answer": 2,
    "explanation": "Document everything and be ready to defend a life-first decision to your medical director and board.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "applied ethics",
+   "topic_n": 25
   },
   {
    "question": "A crew is treating a 10-year-old in continuous status epilepticus whose seizure has already lasted 10 minutes. The child's mother, herself a physician, refuses the protocol benzodiazepine because the child previously suffered respiratory arrest from that drug. The crew faces a 20-minute transport and a time-critical seizure that risks permanent brain injury if untreated. What should the crew do?",
@@ -262,7 +304,9 @@
    ],
    "answer": 2,
    "explanation": "When a refusal conflicts with a time-critical protocol, involve medical control early and document the competing risks you weighed.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "applied ethics",
+   "topic_n": 25
   },
   {
    "question": "Which term is defined as: A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention.",
@@ -274,7 +318,9 @@
    ],
    "answer": 1,
    "explanation": "emergency: A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "emergency",
+   "topic_n": 26
   },
   {
    "question": "What does the term \"emergency\" mean?",
@@ -286,7 +332,9 @@
    ],
    "answer": 2,
    "explanation": "emergency: A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "emergency",
+   "topic_n": 26
   },
   {
    "question": "Two bombs explode near the finish line of the Boston Marathon in 2013, killing 3 spectators and wounding more than 260 people, many with traumatic amputations. Medical tent volunteers and EMS crews provide rapid tourniquet use and fast transport, and no one who reached a hospital alive died. In a blast or mass-shooting emergency like this one, what comes first?",
@@ -298,7 +346,9 @@
    ],
    "answer": 0,
    "explanation": "In blast and mass-shooting emergencies, immediate hemorrhage control comes before almost everything else in the primary assessment.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "emergency",
+   "topic_n": 26
   },
   {
    "question": "An EF-5 tornado strikes Joplin, Missouri in 2011, killing more than 160 people and injuring about 1,300. The local hospital takes a direct hit, and its staff evacuate all 183 patients in about 90 minutes while roughly 100 EMS units arrive from seven states. What should EMS providers take from this event?",
@@ -310,7 +360,9 @@
    ],
    "answer": 0,
    "explanation": "Know your mutual-aid and hospital-evacuation plans; your own receiving facility may be part of the disaster.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "emergency",
+   "topic_n": 26
   },
   {
    "question": "Which term is defined as: A theory that may be used when the conduct of the person being sued is alleged to have occurred in clear violation of a statute.",
@@ -322,7 +374,9 @@
    ],
    "answer": 1,
    "explanation": "negligence per se: A theory that may be used when the conduct of the person being sued is alleged to have occurred in clear violation of a statute.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "negligence per se",
+   "topic_n": 27
   },
   {
    "question": "What does the term \"negligence per se\" mean?",
@@ -334,7 +388,9 @@
    ],
    "answer": 3,
    "explanation": "negligence per se: A theory that may be used when the conduct of the person being sued is alleged to have occurred in clear violation of a statute.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "negligence per se",
+   "topic_n": 27
   },
   {
    "question": "On a dark night in 1915, a car collides with a horse-drawn buggy, killing its driver. The buggy was being driven without the lights New York's Highway Law required after dark. The trial judge told jurors the missing lights were only some evidence of negligence, but the Court of Appeals reversed, holding the unexcused omission of the statutory lights was negligence in itself. What principle does this case establish for an ambulance operator?",
@@ -346,7 +402,9 @@
    ],
    "answer": 3,
    "explanation": "A clear, unexcused statutory violation can establish negligence as a matter of law rather than serving as mere evidence.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "negligence per se",
+   "topic_n": 27
   },
   {
    "question": "A New York statute requires pedestrians on a roadway to walk on the left, facing traffic. Two pedestrians instead walk on the right side because the left side carries very heavy Sunday-night traffic, and they are struck by a car. The driver argues their statutory violation bars their recovery as a matter of law, but the Court of Appeals refuses. Why did the violation not establish negligence per se?",
@@ -358,7 +416,9 @@
    ],
    "answer": 2,
    "explanation": "Negligence per se has a limit: a violation is excused when compliance would create the very danger the statute aimed to prevent.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "negligence per se",
+   "topic_n": 27
   },
   {
    "question": "Which term is defined as: The principle of law that permits a health care provider to treat a patient in an emergency situation when the patient is incapable of granting consent because of an altered level of consciousness, disability, the effects of drugs or alcohol, or the patient's age.",
@@ -370,7 +430,9 @@
    ],
    "answer": 3,
    "explanation": "emergency doctrine: The principle of law that permits a health care provider to treat a patient in an emergency situation when the patient is incapable of granting consent because of an altered level of consciousness, disability, the effects of drugs or alcohol, or the patient's age.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "emergency doctrine",
+   "topic_n": 28
   },
   {
    "question": "What does the term \"emergency doctrine\" mean?",
@@ -382,7 +444,9 @@
    ],
    "answer": 3,
    "explanation": "emergency doctrine: The principle of law that permits a health care provider to treat a patient in an emergency situation when the patient is incapable of granting consent because of an altered level of consciousness, disability, the effects of drugs or alcohol, or the patient's age.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "emergency doctrine",
+   "topic_n": 28
   },
   {
    "question": "A 15-year-old boy is run over by a train car, crushing and mangling his left foot. Five physicians agree immediate amputation is necessary to save his life. The boy is unconscious and no parent or relative is available to consent, so the surgeons amputate without it, and the Michigan Supreme Court upholds a verdict for the doctors. What should an EMT take from this case?",
@@ -394,7 +458,9 @@
    ],
    "answer": 2,
    "explanation": "In a life-threatening emergency with an incapacitated patient and no surrogate available, treat and document the emergency and your attempts to reach family.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "emergency doctrine",
+   "topic_n": 28
   },
   {
    "question": "A 57-year-old Jehovah's Witness arrives unconscious after a severe car crash. She carries a signed card stating she refuses blood transfusions under any circumstances. Believing a transfusion is necessary to save her life, her physician gives blood anyway, and she recovers. The Ontario Court of Appeal upholds a $20,000 battery judgment against the physician. What does this case teach EMS providers?",
@@ -406,7 +472,9 @@
    ],
    "answer": 2,
    "explanation": "The emergency doctrine assumes a patient would consent, and that assumption is destroyed by a known refusal.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "emergency doctrine",
+   "topic_n": 28
   },
   {
    "question": "Which term is defined as: The time within which a legal case must be commenced.",
@@ -418,7 +486,9 @@
    ],
    "answer": 2,
    "explanation": "statute of limitations: The time within which a legal case must be commenced.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "statute of limitations",
+   "topic_n": 29
   },
   {
    "question": "What does the term \"statute of limitations\" mean?",
@@ -430,7 +500,9 @@
    ],
    "answer": 1,
    "explanation": "statute of limitations: The time within which a legal case must be commenced.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "statute of limitations",
+   "topic_n": 29
   },
   {
    "question": "A VA hospital treats a veteran's infected leg with neomycin in 1968, and he develops hearing loss. In January 1969 a private physician tells him the hearing loss was highly possibly caused by the neomycin. He does not file his Federal Tort Claims Act suit until 1972, arguing the clock started only when he learned in 1971 that the treatment was improper. The Supreme Court holds his claim is time-barred. When did his filing clock start?",
@@ -442,7 +514,9 @@
    ],
    "answer": 1,
    "explanation": "Deadlines run from when an injury and its cause are known, not from when a lawyer confirms negligence.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "statute of limitations",
+   "topic_n": 29
   },
   {
    "question": "A woman dies of injuries from a car crash on February 20, 2021, and her sister alleges the county EMS agency unreasonably delayed treating her. The sister does not file her complaint until November 13, 2024. Delaware law requires health care negligence actions to be brought within two years of the injury, and in February 2025 the court dismisses the case. What decided this EMS case?",
@@ -454,7 +528,9 @@
    ],
    "answer": 3,
    "explanation": "Patients and families have a hard filing deadline, so run reports must stand on their own when claims arrive long after the call.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "statute of limitations",
+   "topic_n": 29
   },
   {
    "question": "Which term is defined as: The communication of false information about a person that is damaging to that person's reputation or standing in the community.",
@@ -466,7 +542,9 @@
    ],
    "answer": 0,
    "explanation": "defamation: The communication of false information about a person that is damaging to that person's reputation or standing in the community.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "defamation",
+   "topic_n": 30
   },
   {
    "question": "What does the term \"defamation\" mean?",
@@ -478,7 +556,9 @@
    ],
    "answer": 3,
    "explanation": "defamation: The communication of false information about a person that is damaging to that person's reputation or standing in the community.",
-   "source": "Flashcard Slides — Set 5"
+   "source": "Flashcard Slides — Set 5",
+   "topic": "defamation",
+   "topic_n": 30
   },
   {
    "question": "An EMT handles a disputed non-emergency ambulance transport for a physician's patient. The physician sends identical seven-page complaint letters about the EMT, headed 'Abuse of Authority,' to the state governor and a member of Congress. The EMT sues the physician for defamation, but Maryland's highest court holds the letters were absolutely privileged. What is the lesson for EMS providers?",
@@ -490,7 +570,9 @@
    ],
    "answer": 3,
    "explanation": "Complaints made through official channels may be privileged; the protection disappears outside those channels or with malice.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "defamation",
+   "topic_n": 30
   },
   {
    "question": "A patient claims an ambulance call report defamed her because it noted her anxiety, yelling, and aggressiveness and that she sometimes becomes violent. The court finds the report was not published to outsiders and was not defamatory because it recorded the paramedic's good-faith observations of her behavior on the call. What charting practice does this case support?",
@@ -502,7 +584,9 @@
    ],
    "answer": 0,
    "explanation": "Chart only what you observe, in neutral behavioral terms; a factual, good-faith run report is the best defense against a defamation claim.",
-   "source": "Flashcard Case Studies — Set 5"
+   "source": "Flashcard Case Studies — Set 5",
+   "topic": "defamation",
+   "topic_n": 30
   }
  ]
 }

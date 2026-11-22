@@ -10,7 +10,9 @@
    ],
    "answer": 3,
    "explanation": "The symptoms are a delayed reaction to a prior incident, appearing and persisting long after the event itself.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "posttraumatic stress disorder",
+   "topic_n": 1
   },
   {
    "question": "A paramedic who treated victims of a mass shooting two years ago reports intrusive memories, emotional numbness, and trouble sleeping that have never fully gone away despite peer support. What condition should be suspected?",
@@ -22,7 +24,9 @@
    ],
    "answer": 3,
    "explanation": "Unresolved reactions tied to an earlier traumatic incident that involved harm and threat of harm point to PTSD.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "posttraumatic stress disorder",
+   "topic_n": 1
   },
   {
    "question": "During a routine physical, a firefighter mentions that ever since a building collapse early in his career he has flashbacks when he hears a PASS alarm and has started drinking to sleep. What delayed stress reaction is this?",
@@ -34,7 +38,9 @@
    ],
    "answer": 0,
    "explanation": "Flashbacks and avoidance surfacing long after a life-threatening incident are hallmarks of PTSD.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "posttraumatic stress disorder",
+   "topic_n": 1
   },
   {
    "question": "A veteran EMT notices that over the past year she has stopped introducing herself to patients, feels irritated by minor complaints, and no longer feels anything when a patient cries. Her empathy has slowly drained away. What is this called?",
@@ -46,7 +52,9 @@
    ],
    "answer": 1,
    "explanation": "The gradual loss of compassion after repeated exposure to others' suffering is the defining feature of compassion fatigue.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "compassion fatigue",
+   "topic_n": 2
   },
   {
    "question": "After months of back-to-back overdose and cardiac arrest calls, a paramedic tells his partner, 'I used to care about these people. Now I just go through the motions.' What stress disorder is developing?",
@@ -58,7 +66,9 @@
    ],
    "answer": 0,
    "explanation": "Caring capacity erodes gradually with cumulative exposure, which is compassion fatigue rather than a single-incident reaction.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "compassion fatigue",
+   "topic_n": 2
   },
   {
    "question": "A charge nurse reviewing survey results finds her long-serving EMS crews score lower on empathy measures every year they stay in the field. What phenomenon do the surveys describe?",
@@ -70,7 +80,9 @@
    ],
    "answer": 2,
    "explanation": "Compassion fatigue builds over time with years of caregiving, and studies show it rises with experience.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "compassion fatigue",
+   "topic_n": 2
   },
   {
    "question": "An EMT who was energized by busy shifts last year now dreads the tones, has stomach aches before work, and snaps at her family after hard calls. The job's demands have become a harmful burden rather than a challenge. What type of stress response is she showing?",
@@ -82,7 +94,9 @@
    ],
    "answer": 3,
    "explanation": "Her response to the stressor is negative and damaging, which is distress rather than beneficial eustress.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "distress",
+   "topic_n": 3
   },
   {
    "question": "After a week of short staffing and mandatory overtime, a paramedic reports headaches, poor sleep, and a feeling of being overwhelmed that is hurting his performance. What is this negative response to a stressor called?",
@@ -94,7 +108,9 @@
    ],
    "answer": 3,
    "explanation": "The stressor is producing a harmful, negative response in the provider, the definition of distress.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "distress",
+   "topic_n": 3
   },
   {
    "question": "Two EMTs work the same difficult pediatric call. One feels focused and motivated afterward; the other feels shaky, tearful, and unable to concentrate for the rest of the shift. Which EMT is experiencing distress?",
@@ -106,7 +122,9 @@
    ],
    "answer": 1,
    "explanation": "Distress is the negative response to a stressor; the same event can produce eustress in one person and distress in another.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "distress",
+   "topic_n": 3
   },
   {
    "question": "After a call, an EMT realizes the patient's blood got into a cut on her hand. She fills out an exposure report and calls the one person in her department responsible for verifying the exposure and contacting the hospital for the source patient's test results. Who is she calling?",
@@ -118,7 +136,9 @@
    ],
    "answer": 1,
    "explanation": "Managing exposures and infection control follow-up for the department is the designated officer's assigned role.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "designated officer",
+   "topic_n": 4
   },
   {
    "question": "A hospital diagnoses a transported patient with meningitis two days after the call and must notify the transporting EMS agency. Under the Ryan White notification process, the hospital communicates with which person at the agency?",
@@ -130,7 +150,9 @@
    ],
    "answer": 1,
    "explanation": "The designated officer is the department's official point of contact for exposure notification and infection control.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "designated officer",
+   "topic_n": 4
   },
   {
    "question": "Your department is writing its exposure control plan and must name the individual who will track crew exposures, arrange postexposure follow-up, and serve as liaison with medical facilities. What position must be named?",
@@ -142,7 +164,9 @@
    ],
    "answer": 0,
    "explanation": "Federal law and OSHA practice place exposure management and infection control responsibility on a named designated officer.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "designated officer",
+   "topic_n": 4
   },
   {
    "question": "Your crew is dispatched to a nursing home where 14 residents developed vomiting and diarrhea a day after the same catered lunch. The suspected route of spread is a contaminated meal. What type of transmission is this?",
@@ -154,7 +178,9 @@
    ],
    "answer": 3,
    "explanation": "Illness caused by an organism contaminating food is foodborne transmission.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "foodborne transmission",
+   "topic_n": 5
   },
   {
    "question": "At a summer camp, dozens of children become ill with bloody diarrhea after eating undercooked burgers at a cookout. Investigators trace the bacteria to the ground beef. How was the organism transmitted?",
@@ -166,7 +192,9 @@
    ],
    "answer": 1,
    "explanation": "The pathogen reached the patients through contaminated food, the definition of foodborne transmission.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "foodborne transmission",
+   "topic_n": 5
   },
   {
    "question": "A city issues a boil-water order after E. coli is found in the municipal supply, and your station begins running calls for dehydrated elderly patients with gastroenteritis. What transmission route is involved?",
@@ -178,7 +206,9 @@
    ],
    "answer": 1,
    "explanation": "The definition covers contamination of food or water with a disease-causing organism.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "foodborne transmission",
+   "topic_n": 5
   },
   {
    "question": "An EMT starts a station routine of exercising on shift, keeping regular sleep hours on days off, getting an annual physical, and attending a peer support night each month. What concept is she practicing?",
@@ -190,7 +220,9 @@
    ],
    "answer": 2,
    "explanation": "Wellness is the active pursuit of good health, and her routine deliberately pursues physical and mental health.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "wellness",
+   "topic_n": 6
   },
   {
    "question": "Your department replaces a punitive fitness test with voluntary health screenings, nutrition coaching, and on-duty workout time, aiming to keep crews healthy across a whole career. What is the program's focus?",
@@ -202,7 +234,9 @@
    ],
    "answer": 0,
    "explanation": "The program actively pursues a state of good health rather than just treating illness or injury.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "wellness",
+   "topic_n": 6
   },
   {
    "question": "A paramedic who smokes decides to quit, joins a cessation program, and tracks his blood pressure monthly with the department nurse. Which idea best describes what he is doing?",
@@ -214,7 +248,9 @@
    ],
    "answer": 1,
    "explanation": "Quitting smoking and monitoring his health are deliberate actions in pursuit of good health, which is wellness.",
-   "source": "Quiz-Style Slides — Set 1"
+   "source": "Quiz-Style Slides — Set 1",
+   "topic": "wellness",
+   "topic_n": 6
   },
   {
    "question": "Which term is defined as: A delayed stress reaction to a prior incident. Often the result of one or more unresolved issues concerning the incident, and may relate to an incident that involved physical harm or the threat of physical harm.",
@@ -226,7 +262,9 @@
    ],
    "answer": 1,
    "explanation": "posttraumatic stress disorder: A delayed stress reaction to a prior incident. Often the result of one or more unresolved issues concerning the incident, and may relate to an incident that involved physical harm or the threat of physical harm.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "posttraumatic stress disorder",
+   "topic_n": 1
   },
   {
    "question": "What does the term \"posttraumatic stress disorder\" mean?",
@@ -238,7 +276,9 @@
    ],
    "answer": 1,
    "explanation": "posttraumatic stress disorder: A delayed stress reaction to a prior incident. Often the result of one or more unresolved issues concerning the incident, and may relate to an incident that involved physical harm or the threat of physical harm.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "posttraumatic stress disorder",
+   "topic_n": 1
   },
   {
    "question": "After the September 11, 2001 attacks, FDNY firefighters and EMS responders worked rescue and recovery at Ground Zero. Federal monitoring later found nearly 20% of responders were diagnosed with World Trade Center-related PTSD, and about half of the mental health disorders did not appear until 11 to 13 years after the exposure. What does this case illustrate about PTSD in responders?",
@@ -250,7 +290,9 @@
    ],
    "answer": 3,
    "explanation": "PTSD is a delayed stress reaction; symptoms may emerge years after the traumatic incident.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "posttraumatic stress disorder",
+   "topic_n": 1
   },
   {
    "question": "Two bombs exploded near the Boston Marathon finish line on April 15, 2013, killing 3 spectators and wounding more than 260 people. Medical tent volunteers and responders treated severe blast injuries, including many amputations. Ten years later, responders still described intrusive thoughts, nightmares, and anxiety, and a hospital support group was treating classic PTSD symptoms. What is the main lesson of this case?",
@@ -262,7 +304,9 @@
    ],
    "answer": 3,
    "explanation": "PTSD is a delayed, persistent reaction that can follow even a single well-handled incident.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "posttraumatic stress disorder",
+   "topic_n": 1
   },
   {
    "question": "Which term is defined as: A stress disorder characterized by gradual lessening of compassion over time.",
@@ -274,7 +318,9 @@
    ],
    "answer": 2,
    "explanation": "compassion fatigue: A stress disorder characterized by gradual lessening of compassion over time.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "compassion fatigue",
+   "topic_n": 2
   },
   {
    "question": "What does the term \"compassion fatigue\" mean?",
@@ -286,7 +332,9 @@
    ],
    "answer": 2,
    "explanation": "compassion fatigue: A stress disorder characterized by gradual lessening of compassion over time.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "compassion fatigue",
+   "topic_n": 2
   },
   {
    "question": "During the COVID-19 pandemic, a Spanish study of 506 healthcare professionals used the ProQOL scale to measure professional quality of life after months of caring for dying patients. It found 60.4% of respondents had high levels of compassion fatigue and another 33.6% had moderate levels. What pattern does this case show?",
@@ -298,7 +346,9 @@
    ],
    "answer": 0,
    "explanation": "Compassion fatigue is the gradual lessening of compassion over time with sustained caregiving.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "compassion fatigue",
+   "topic_n": 2
   },
   {
    "question": "A New Zealand journal review of international evidence on compassion fatigue in paramedics found that its prevalence increases the longer a provider spends in the role. Job satisfaction, education, and regular monitoring of mental health were identified as key protectors. Based on this case, what should an EMS agency do?",
@@ -310,7 +360,9 @@
    ],
    "answer": 0,
    "explanation": "Compassion steadily lessens across a caregiving career, so ongoing monitoring and workload management are key defenses.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "compassion fatigue",
+   "topic_n": 2
   },
   {
    "question": "Which term is defined as: A negative response to a stressor.",
@@ -322,7 +374,9 @@
    ],
    "answer": 0,
    "explanation": "distress: A negative response to a stressor.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "distress",
+   "topic_n": 3
   },
   {
    "question": "What does the term \"distress\" mean?",
@@ -334,7 +388,9 @@
    ],
    "answer": 1,
    "explanation": "distress: A negative response to a stressor.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "distress",
+   "topic_n": 3
   },
   {
    "question": "Beyond Blue's 'Answering the Call' survey collected responses from 21,014 current and former Australian police and emergency services personnel. One in three employees reported high or very high psychological distress, and employees with more than 10 years of service were almost twice as likely to experience it. What is the main lesson for EMS agencies?",
@@ -346,7 +402,9 @@
    ],
    "answer": 0,
    "explanation": "Distress, the negative response to stressors, builds with cumulative exposure over a career.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "distress",
+   "topic_n": 3
   },
   {
    "question": "After the April 19, 1995 bombing of the Murrah Federal Building in Oklahoma City, which killed 168 people, researchers interviewed 255 survivors about six months later. They found 45% had a postdisaster psychiatric disorder, while many others were distressed and hyperaroused without meeting criteria for an illness. What should providers expect after a critical incident?",
@@ -358,7 +416,9 @@
    ],
    "answer": 2,
    "explanation": "Distress affects far more people than those who develop a formal disorder after an incident.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "distress",
+   "topic_n": 3
   },
   {
    "question": "Which term is defined as: The individual in the department who is charged with the responsibility of managing exposures and infection control.",
@@ -370,7 +430,9 @@
    ],
    "answer": 0,
    "explanation": "designated officer: The individual in the department who is charged with the responsibility of managing exposures and infection control.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "designated officer",
+   "topic_n": 4
   },
   {
    "question": "What does the term \"designated officer\" mean?",
@@ -382,7 +444,9 @@
    ],
    "answer": 0,
    "explanation": "designated officer: The individual in the department who is charged with the responsibility of managing exposures and infection control.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "designated officer",
+   "topic_n": 4
   },
   {
    "question": "Congress passed the Ryan White CARE Act in 1990. Its responder provisions required emergency response employers to name a designated officer for exposure questions, and hospitals were required to tell that officer whether a source patient had a listed infectious disease. Why does this designated officer role matter?",
@@ -394,7 +458,9 @@
    ],
    "answer": 1,
    "explanation": "Exposure follow-up runs through the designated officer, the person charged with managing exposures and infection control.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "designated officer",
+   "topic_n": 4
   },
   {
    "question": "CDC interim Ebola guidance for EMS systems and 911 centers states that any provider whose skin or mucous membranes contact a suspected Ebola patient's fluids should act immediately, and directs the provider to report the exposure to a supervisor or designated infection control officer as soon as possible. What should the exposed EMT do?",
@@ -406,7 +472,9 @@
    ],
    "answer": 0,
    "explanation": "After any exposure: stop, wash, and notify the designated officer immediately, not at the end of shift.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "designated officer",
+   "topic_n": 4
   },
   {
    "question": "Which term is defined as: The contamination of food or water with an organism that can cause disease.",
@@ -418,7 +486,9 @@
    ],
    "answer": 2,
    "explanation": "foodborne transmission: The contamination of food or water with an organism that can cause disease.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "foodborne transmission",
+   "topic_n": 5
   },
   {
    "question": "What does the term \"foodborne transmission\" mean?",
@@ -430,7 +500,9 @@
    ],
    "answer": 3,
    "explanation": "foodborne transmission: The contamination of food or water with an organism that can cause disease.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "foodborne transmission",
+   "topic_n": 5
   },
   {
    "question": "In 1993, E. coli O157:H7 in undercooked hamburger patties from Jack in the Box restaurants sickened 732 people across four western states. Four children died and 178 people were left with permanent injury, including kidney and brain damage. What is the key lesson for EMTs from this outbreak?",
@@ -442,7 +514,9 @@
    ],
    "answer": 0,
    "explanation": "Contaminated food is a classic vehicle for foodborne transmission, and clusters are the clue that links cases into an outbreak.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "foodborne transmission",
+   "topic_n": 5
   },
   {
    "question": "In 2011, Listeria monocytogenes on whole cantaloupes from Jensen Farms in Colorado infected 147 people in 28 states. Thirty-three people died, most of them elderly, and one pregnant patient miscarriage. CDC called it the deadliest US foodborne outbreak in decades. What should EMTs keep in mind from this case?",
@@ -454,7 +528,9 @@
    ],
    "answer": 2,
    "explanation": "A single contaminated food item distributed nationally shows how far foodborne transmission can reach before it is detected.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "foodborne transmission",
+   "topic_n": 5
   },
   {
    "question": "Which term is defined as: The active pursuit of a state of good health.",
@@ -466,7 +542,9 @@
    ],
    "answer": 0,
    "explanation": "wellness: The active pursuit of a state of good health.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "wellness",
+   "topic_n": 6
   },
   {
    "question": "What does the term \"wellness\" mean?",
@@ -478,7 +556,9 @@
    ],
    "answer": 1,
    "explanation": "wellness: The active pursuit of a state of good health.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "wellness",
+   "topic_n": 6
   },
   {
    "question": "In 1997 the IAFF and IAFC launched the Fire Service Joint Labor Management Wellness-Fitness Initiative, built together by ten metropolitan departments and their unions, including FDNY, Seattle, Phoenix, and LA County. The program is mandatory in structure but non-punitive, covering medical exams, fitness, rehabilitation, and behavioral health. What makes this wellness model work?",
@@ -490,7 +570,9 @@
    ],
    "answer": 0,
    "explanation": "Wellness is the active pursuit of good health, best pursued as an organized, non-punitive system.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "wellness",
+   "topic_n": 6
   },
   {
    "question": "NFPA counted 62 on-duty firefighter deaths in the United States in 2024. Overexertion and strain caused 40 of them, and 30 of those were heart attacks; US Fire Administration guidance notes sudden cardiac events account for nearly 45% of firefighter line-of-duty deaths in recent years. What is the main lesson of these statistics?",
@@ -502,7 +584,9 @@
    ],
    "answer": 1,
    "explanation": "The leading killer of firefighters is a health condition, which is why wellness, the active pursuit of good health, is a safety program.",
-   "source": "Flashcard Case Studies — Set 1"
+   "source": "Flashcard Case Studies — Set 1",
+   "topic": "wellness",
+   "topic_n": 6
   }
  ]
 }

@@ -10,7 +10,9 @@
    ],
    "answer": 3,
    "explanation": "False, damaging information about a person communicated by spoken word to third parties is slander.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "slander",
+   "topic_n": 46
   },
   {
    "question": "A supervisor writes a false statement in a memo claiming an EMT stole narcotics. A second supervisor only repeats the same false claim out loud at a staff meeting. Which supervisor's statement is slander?",
@@ -22,7 +24,9 @@
    ],
    "answer": 0,
    "explanation": "Slander is the spoken form of defamation; the written memo would be libel instead.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "slander",
+   "topic_n": 46
   },
   {
    "question": "During a heated call review, an EMT calls his partner 'a complete idiot' in front of the crew, but makes no false claim about the partner's care or conduct. Why is this less likely to be successful slander than accusing the partner of faking run reports?",
@@ -34,7 +38,9 @@
    ],
    "answer": 0,
    "explanation": "Slander covers false, damaging factual information spoken about a person; a bare insult with no false factual claim does not meet the definition.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "slander",
+   "topic_n": 46
   },
   {
    "question": "A competent 68-year-old signs a written document stating she does not want to be placed on a ventilator or receive tube feeding if she becomes unable to make decisions. What is this document called?",
@@ -46,7 +52,9 @@
    ],
    "answer": 1,
    "explanation": "A written document specifying treatment for a competent patient who later cannot decide is a health care directive, also called an advance directive or living will.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "health care directive",
+   "topic_n": 47
   },
   {
    "question": "Your crew finds an unresponsive patient in a nursing home. Staff hand you a signed living will stating the patient refused artificial nutrition and hydration if in a persistent vegetative state. How should this document be treated?",
@@ -58,7 +66,9 @@
    ],
    "answer": 2,
    "explanation": "The living will is a health care directive: the patient's own written treatment instructions, made while competent, for exactly this situation.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "health care directive",
+   "topic_n": 47
   },
   {
    "question": "A patient's son demands you ignore his mother's signed directive refusing resuscitation attempts because 'she changed her mind last week,' but he has no documentation. What is the controlling document until medical direction rules otherwise?",
@@ -70,7 +80,9 @@
    ],
    "answer": 2,
    "explanation": "The signed health care directive is the patient's written specification of her treatment wishes; an undocumented verbal claim does not by itself replace it.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "health care directive",
+   "topic_n": 47
   },
   {
    "question": "Before starting an IV and giving a medication, an EMT explains what the drug is for, its common side effects, the risk of an allergic reaction, and the option of refusing transport care, and the competent patient agrees. What type of consent has been obtained?",
@@ -82,7 +94,9 @@
    ],
    "answer": 0,
    "explanation": "Permission given by a competent patient after risks, benefits, and alternatives have been explained is informed consent.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "informed consent",
+   "topic_n": 48
   },
   {
    "question": "A competent patient signs a transport consent form in the ambulance bay, but no one has told him anything about the treatment planned, its risks, or his alternatives. Why is this consent legally weak?",
@@ -94,7 +108,9 @@
    ],
    "answer": 1,
    "explanation": "Consent is only informed when the competent patient first receives an explanation of the potential risks, benefits, and alternatives.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "informed consent",
+   "topic_n": 48
   },
   {
    "question": "A patient with chest pain says, 'Just take me in, don't explain anything.' The crew explains the risk of sudden death from refusing the cardiac monitor and aspirin, and the patient then accepts both. The crew's explanation was required to establish what?",
@@ -106,7 +122,9 @@
    ],
    "answer": 2,
    "explanation": "Explaining material risks, benefits, and alternatives before the competent patient gives permission is what makes the consent informed.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "informed consent",
+   "topic_n": 48
   },
   {
    "question": "You arrive at a residence where family found a man in bed unresponsive. He is cold, pulseless, apneic, and his jaw and arms cannot be moved because the muscles are stiff. Under protocol, resuscitation is withheld. What definitive sign of death did you find?",
@@ -118,7 +136,9 @@
    ],
    "answer": 3,
    "explanation": "Stiffening of the body muscles after death is rigor mortis, a definitive sign of death.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "rigor mortis",
+   "topic_n": 49
   },
   {
    "question": "An EMT documents a patient who is obviously dead with 'muscles stiff throughout the body' at 14:00. A detective later asks why that note matters. What is the best answer?",
@@ -130,7 +150,9 @@
    ],
    "answer": 2,
    "explanation": "Rigor mortis is the postmortem stiffening of muscles, and its stage is used with other signs to estimate when death occurred.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "rigor mortis",
+   "topic_n": 49
   },
   {
    "question": "Which patient presentation is rigor mortis rather than a living patient with muscle spasm?",
@@ -142,7 +164,9 @@
    ],
    "answer": 3,
    "explanation": "Rigor mortis is a definitive sign of death: postmortem muscle stiffening in a patient with no vital signs, not a treatable spasm in a living patient.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "rigor mortis",
+   "topic_n": 49
   },
   {
    "question": "A competent adult with a sprained ankle looks at the splint and says, 'Go ahead, put it on, and yes, take me to the hospital.' What type of consent has the patient given?",
@@ -154,7 +178,9 @@
    ],
    "answer": 1,
    "explanation": "The patient gave verbal authorization for care and transport, which is expressed consent.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "expressed consent",
+   "topic_n": 50
   },
   {
    "question": "A competent patient with chest pain cannot speak comfortably, but when the EMT asks, 'May I put this oxygen mask on you?' the patient nods and leans forward so it can be placed. What type of consent is this?",
@@ -166,7 +192,9 @@
    ],
    "answer": 0,
    "explanation": "A clear nonverbal authorization, a nod and cooperative movement in response to a direct question, is expressed consent.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "expressed consent",
+   "topic_n": 50
   },
   {
    "question": "An EMT asks a competent patient, 'Can I start an IV in your arm?' The patient holds out her arm toward the EMT and says nothing, but a bystander says, 'She doesn't want that.' What should the EMT do before starting the IV?",
@@ -178,7 +206,9 @@
    ],
    "answer": 1,
    "explanation": "Expressed consent must come from the patient herself, verbally or nonverbally; a conflicting third-party statement means the EMT must confirm her authorization directly.",
-   "source": "Quiz-Style Slides — Set 9"
+   "source": "Quiz-Style Slides — Set 9",
+   "topic": "expressed consent",
+   "topic_n": 50
   },
   {
    "question": "Which term is defined as: False and damaging information about a person that is communicated by spoken word.",
@@ -190,7 +220,9 @@
    ],
    "answer": 3,
    "explanation": "slander: False and damaging information about a person that is communicated by spoken word.",
-   "source": "Flashcard Slides — Set 9"
+   "source": "Flashcard Slides — Set 9",
+   "topic": "slander",
+   "topic_n": 46
   },
   {
    "question": "What does the term \"slander\" mean?",
@@ -202,7 +234,9 @@
    ],
    "answer": 0,
    "explanation": "slander: False and damaging information about a person that is communicated by spoken word.",
-   "source": "Flashcard Slides — Set 9"
+   "source": "Flashcard Slides — Set 9",
+   "topic": "slander",
+   "topic_n": 46
   },
   {
    "question": "A registered nurse was fired over allegations of inadequate patient care and falsified records, which she denied. Her manager then made false statements about her aloud at a meeting in another employee's presence and in front of other nurses, and a jury awarded her $800,000 in compensatory damages plus $750,000 in punitive damages. What lesson does this case hold for EMS providers?",
@@ -214,7 +248,9 @@
    ],
    "answer": 1,
    "explanation": "Spoken statements about a coworker, heard by third parties, are slander and can produce a major damages award.",
-   "source": "Flashcard Case Studies — Set 9"
+   "source": "Flashcard Case Studies — Set 9",
+   "topic": "slander",
+   "topic_n": 46
   },
   {
    "question": "After a school shooting that killed 20 first-graders and 6 adults, a broadcaster repeatedly stated on his show that the massacre was a hoax and the grieving families were 'crisis actors.' The families sued, and a jury ordered him to pay $965 million. What does this case illustrate about spoken statements?",
@@ -226,7 +262,9 @@
    ],
    "answer": 2,
    "explanation": "False statements delivered by spoken word to a wide audience are slander, and the damages can be enormous.",
-   "source": "Flashcard Case Studies — Set 9"
+   "source": "Flashcard Case Studies — Set 9",
+   "topic": "slander",
+   "topic_n": 46
   },
   {
    "question": "Which term is defined as: A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
@@ -238,7 +276,9 @@
    ],
    "answer": 2,
    "explanation": "health care directive: A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
-   "source": "Flashcard Slides — Set 9"
+   "source": "Flashcard Slides — Set 9",
+   "topic": "health care directive",
+   "topic_n": 47
   },
   {
    "question": "What does the term \"health care directive\" mean?",
@@ -250,7 +290,9 @@
    ],
    "answer": 2,
    "explanation": "health care directive: A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
-   "source": "Flashcard Slides — Set 9"
+   "source": "Flashcard Slides — Set 9",
+   "topic": "health care directive",
+   "topic_n": 47
   },
   {
    "question": "A young woman was left in a persistent vegetative state after a car crash, sustained by a feeding tube. She had no living will. Her parents asked the hospital to withdraw the tube, but the state required clear and convincing evidence of her own wishes, and the dispute reached the U.S. Supreme Court. What is the main lesson for field providers?",
@@ -262,7 +304,9 @@
    ],
    "answer": 0,
    "explanation": "Without a health care directive, proving an incapacitated patient's wishes can take years of litigation.",
-   "source": "Flashcard Case Studies — Set 9"
+   "source": "Flashcard Case Studies — Set 9",
+   "topic": "health care directive",
+   "topic_n": 47
   },
   {
    "question": "A 26-year-old woman collapsed, suffered cardiac arrest, and remained in a persistent vegetative state with a feeding tube for 15 years. She had no advance directive or surrogate designation, so her husband became her guardian, and he and her parents fought for years in court — reaching the governor, Congress, and the President — over removing the tube. What should EMS crews take from this case?",
@@ -274,7 +318,9 @@
    ],
    "answer": 0,
    "explanation": "With no written directive, the patient's own wishes had to be guessed at through years of court and political fights.",
-   "source": "Flashcard Case Studies — Set 9"
+   "source": "Flashcard Case Studies — Set 9",
+   "topic": "health care directive",
+   "topic_n": 47
   },
   {
    "question": "Which term is defined as: Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
@@ -286,7 +332,9 @@
    ],
    "answer": 1,
    "explanation": "informed consent: Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
-   "source": "Flashcard Slides — Set 9"
+   "source": "Flashcard Slides — Set 9",
+   "topic": "informed consent",
+   "topic_n": 48
   },
   {
    "question": "What does the term \"informed consent\" mean?",
@@ -298,7 +346,9 @@
    ],
    "answer": 0,
    "explanation": "informed consent: Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
-   "source": "Flashcard Slides — Set 9"
+   "source": "Flashcard Slides — Set 9",
+   "topic": "informed consent",
+   "topic_n": 48
   },
   {
    "question": "A patient underwent an X-ray study of the aorta and was left with permanent paralysis of his lower legs. He claimed neither he nor his family had been told the details or risks of the procedure, and a jury awarded him $250,000. The appeal in his case coined the term 'informed consent.' What rule came out of it?",
@@ -310,7 +360,9 @@
    ],
    "answer": 3,
    "explanation": "Permission given without disclosure of the facts needed for an intelligent decision is not informed consent.",
-   "source": "Flashcard Case Studies — Set 9"
+   "source": "Flashcard Case Studies — Set 9",
+   "topic": "informed consent",
+   "topic_n": 48
   },
   {
    "question": "A 19-year-old agreed to back surgery for a suspected ruptured disc. His surgeon did not disclose the roughly 1% risk of paralysis, later testifying he did not want to deter the patient from having the operation. The patient was left paralyzed, and the appeals court set a 'prudent patient' standard for disclosure. What does this case require of providers?",
@@ -322,7 +374,9 @@
    ],
    "answer": 2,
    "explanation": "Consent is not informed when a material risk is deliberately withheld from the patient.",
-   "source": "Flashcard Case Studies — Set 9"
+   "source": "Flashcard Case Studies — Set 9",
+   "topic": "informed consent",
+   "topic_n": 48
   },
   {
    "question": "Which term is defined as: Stiffening of the body muscles; a definitive sign of death.",
@@ -334,7 +388,9 @@
    ],
    "answer": 1,
    "explanation": "rigor mortis: Stiffening of the body muscles; a definitive sign of death.",
-   "source": "Flashcard Slides — Set 9"
+   "source": "Flashcard Slides — Set 9",
+   "topic": "rigor mortis",
+   "topic_n": 49
   },
   {
    "question": "What does the term \"rigor mortis\" mean?",
@@ -346,7 +402,9 @@
    ],
    "answer": 2,
    "explanation": "rigor mortis: Stiffening of the body muscles; a definitive sign of death.",
-   "source": "Flashcard Slides — Set 9"
+   "source": "Flashcard Slides — Set 9",
+   "topic": "rigor mortis",
+   "topic_n": 49
   },
   {
    "question": "Shortly before 7:00 a.m., a man was found lying facedown in a yard, cold, stiff, and pulseless. The responding paramedic testified the man was not breathing, had no pulse, and had obvious rigor mortis, and the court allowed that testimony as an observation a paramedic is trained to make when determining death. What does this case establish for EMTs?",
@@ -358,7 +416,9 @@
    ],
    "answer": 1,
    "explanation": "Recognizing postmortem muscle stiffening as a sign of death is squarely within EMT training and practice.",
-   "source": "Flashcard Case Studies — Set 9"
+   "source": "Flashcard Case Studies — Set 9",
+   "topic": "rigor mortis",
+   "topic_n": 49
   },
   {
    "question": "A man was found stabbed to death. His girlfriend claimed an intruder had killed him only minutes before she contacted police, but the coroner, arriving eight to ten minutes after police confirmed the death, found rigor mortis had set in and the body was very stiff, suggesting death two to three hours earlier. Her account collapsed and she was convicted. What is the documentation lesson?",
@@ -370,7 +430,9 @@
    ],
    "answer": 2,
    "explanation": "The stage of rigor observed on scene is evidence that can fix the time of death and break a false timeline.",
-   "source": "Flashcard Case Studies — Set 9"
+   "source": "Flashcard Case Studies — Set 9",
+   "topic": "rigor mortis",
+   "topic_n": 49
   },
   {
    "question": "Which term is defined as: A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
@@ -382,7 +444,9 @@
    ],
    "answer": 3,
    "explanation": "expressed consent: A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
-   "source": "Flashcard Slides — Set 9"
+   "source": "Flashcard Slides — Set 9",
+   "topic": "expressed consent",
+   "topic_n": 50
   },
   {
    "question": "What does the term \"expressed consent\" mean?",
@@ -394,7 +458,9 @@
    ],
    "answer": 0,
    "explanation": "expressed consent: A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
-   "source": "Flashcard Slides — Set 9"
+   "source": "Flashcard Slides — Set 9",
+   "topic": "expressed consent",
+   "topic_n": 50
   },
   {
    "question": "An immigrant passenger stood in line with about 200 other women, watched a ship's surgeon examine arms and vaccinate those without a vaccination mark, and when her turn came she held up her arm without objection and accepted the vaccination. She later sued, but the court held her behavior indicated consent. What does this case teach about expressed consent?",
@@ -406,7 +472,9 @@
    ],
    "answer": 0,
    "explanation": "Expressed consent can be nonverbal: a provider may be guided by the patient's overt acts and outward manifestations.",
-   "source": "Flashcard Case Studies — Set 9"
+   "source": "Flashcard Case Studies — Set 9",
+   "topic": "expressed consent",
+   "topic_n": 50
   },
   {
    "question": "A patient consented to surgery on her right ear to remove a polyp and diseased bone. While she was under anesthesia, the surgeon found her left ear in worse condition and operated on that ear instead. The state supreme court held the unauthorized operation was an assault and battery. What limit on consent does this case set?",
@@ -418,7 +486,9 @@
    ],
    "answer": 2,
    "explanation": "Consent to one ear and one operation did not authorize surgery on the other ear.",
-   "source": "Flashcard Case Studies — Set 9"
+   "source": "Flashcard Case Studies — Set 9",
+   "topic": "expressed consent",
+   "topic_n": 50
   }
  ]
 }

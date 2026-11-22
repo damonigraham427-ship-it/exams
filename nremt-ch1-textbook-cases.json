@@ -10,7 +10,9 @@
    ],
    "answer": 1,
    "explanation": "Book's printed key: National Highway Traffic Safety Administration.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: Which of the phases of being an emergency health care provider is continuous?",
@@ -22,7 +24,9 @@
    ],
    "answer": 0,
    "explanation": "Book's printed key: Continuing medical education.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: This act of legislation protects people with disabilities from being denied access to programs and services that are provided by state or local governments.",
@@ -34,7 +38,9 @@
    ],
    "answer": 3,
    "explanation": "Book's printed key: Americans with Disabilities Act.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: What is the primary role of the EMT?",
@@ -46,7 +52,9 @@
    ],
    "answer": 2,
    "explanation": "Book's printed key: Ensure personal safety.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: Which of the following is an example of secondary prevention?",
@@ -58,7 +66,9 @@
    ],
    "answer": 2,
    "explanation": "Book's printed key: Teaching pool safety when finding someone who slipped and fell near a pool by running.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: The roles and responsibilities of an EMT include all of the following EXCEPT:",
@@ -70,7 +80,9 @@
    ],
    "answer": 2,
    "explanation": "Book's printed key: providing legal advice to patients.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: An example of teamwork and diplomacy is:",
@@ -82,7 +94,9 @@
    ],
    "answer": 1,
    "explanation": "Book's printed key: being able to communicate while giving respect to the listener.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: Professional attributes include which of the following?",
@@ -94,7 +108,9 @@
    ],
    "answer": 2,
    "explanation": "Book's printed key: Honest behavior; a clean, well-groomed persona; respecting others.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: What is continuous quality improvement (CQI) and how is it used to help ensure the safety of patients?",
@@ -106,7 +122,9 @@
    ],
    "answer": 2,
    "explanation": "Book's printed key: Continuous quality improvement is a circular system of continuous internal and external reviews and audits of all aspects of an EMS system. By looking at all the components of an EMS system, the CQI process seeks to identify areas that need improvement and enables the problems to be resolved through remediation and training rather than through punitive measures.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: Why is EMS research a vital part in the evolution of patient management?",
@@ -118,7 +136,9 @@
    ],
    "answer": 0,
    "explanation": "Book's printed key: Research provides data that identify treatments that are beneficial and/or lifesaving for trauma patients and those that are not. Participation in EMS research empowers the EMT to help shape the future of trauma care.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (48-year-old woman, back pain): Does this patient need any treatment at the scene that can be provided by an EMT?",
@@ -130,7 +150,9 @@
    ],
    "answer": 2,
    "explanation": "There is no immediate treatment an EMT can provide for this patient, so the call is treated as an emergency until a qualified assessment distinguishes emergent from nonemergent, with reassessment, comfort measures, and safe, comfortable transport.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (48-year-old woman, back pain): How do the National Scope of Practice Model and the National EMS Education Standards affect your ability to assess and treat a patient?",
@@ -142,7 +164,9 @@
    ],
    "answer": 0,
    "explanation": "The National Scope of Practice Model and the National EMS Education Standards together form the framework from which each state's scope of practice is developed, determining provider roles where they serve.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (48-year-old woman, back pain): How do your roles and responsibilities as an EMT compare to those of other EMS provider certification/licensure levels?",
@@ -154,7 +178,9 @@
    ],
    "answer": 3,
    "explanation": "Every level shares the fundamental roles of safe, effective emergency care and transport, but education and scope grow by level, from EMR through EMT and AEMT to the paramedic's broadest scope.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (48-year-old woman, back pain): How is patient care integrated across health systems when a patient is transported to the hospital?",
@@ -166,7 +192,9 @@
    ],
    "answer": 1,
    "explanation": "Integrated care means communicating scene and history information to receiving staff, beginning with prenotification before arrival, then a verbal report followed by a detailed written report.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (48-year-old woman, back pain): What is the purpose of reviewing an EMS call?",
@@ -178,7 +206,9 @@
    ],
    "answer": 2,
    "explanation": "Call review gives feedback on patient care, and formal CQI is designed to ensure safe, effective patient care is consistently provided by all providers in the system.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (48-year-old woman, back pain): What safety concerns apply to this call and what are some ways to address those concerns?",
@@ -190,7 +220,9 @@
    ],
    "answer": 0,
    "explanation": "Safety concerns arise in every phase of the call: safe transport with proper restraints and caution in traffic, proper lifting and moving, continuing education, and verifying directions and medical orders by repeating them back.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study: During a cardiac arrest resuscitation, the patient's daughter arrives on scene confused and very upset. How can you help the patient’s daughter, and what should you do or say?",
@@ -202,7 +234,9 @@
    ],
    "answer": 3,
    "explanation": "The daughter should be told honestly and in plain language what happened and what is being done, with compassion and support such as riding along when it does not interfere with care.",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study: A newly certified EMT is dispatched with a paramedic partner to a possible heart attack that becomes a CPR-in-progress call. In the overall scheme of prehospital medicine, what are the primary roles and responsibilities of an EMT?",
@@ -214,7 +248,9 @@
    ],
    "answer": 1,
    "explanation": "The EMT's primary roles are personal and scene safety, patient assessment, BLS care within scope, safe lifting, moving, and transport, communication and documentation, and assisting ALS providers under local protocol.",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study: After teamwork restores the patient's rhythm and he is intubated with an IV established, the crew prepares him for transport. What are some considerations for successful patient management during transport?",
@@ -226,7 +262,9 @@
    ],
    "answer": 0,
    "explanation": "Successful transport management means continued airway reassessment and tube confirmation, rhythm and vital-sign monitoring, medications as directed, early hospital notification, and a safely belted family member up front.",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study: A single cardiac arrest call sets the whole system in motion, from the daughter's 9-1-1 call through dispatch, police and fire first response, and the ambulance crew. What are the components of a people-centered EMS system?",
@@ -238,7 +276,9 @@
    ],
    "answer": 2,
    "explanation": "A people-centered EMS system is built around the patient and links 9-1-1 access, dispatch, first responders, EMTs and paramedics, and hospital care with medical oversight, protocols, quality improvement, and prevention.",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study: On arrival, a police officer's CPR and a firefighter's AED shock have restored the patient's carotid pulse, but he remains unconscious and is not breathing adequately. What are your immediate concerns regarding patient care, and what are your overall responsibilities as an EMT?",
@@ -250,7 +290,9 @@
    ],
    "answer": 1,
    "explanation": "With a pulse restored but the patient still unconscious and not breathing adequately, the priorities are airway, ventilation, rhythm and pulse monitoring, and readiness for re-arrest, with the EMT providing BLS and assisting the paramedic's ALS care.",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   }
  ]
 }

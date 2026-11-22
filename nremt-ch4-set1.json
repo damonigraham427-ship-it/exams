@@ -10,7 +10,9 @@
    ],
    "answer": 1,
    "explanation": "Federal Communications Commission: The federal agency that has jurisdiction over interstate and international telephone and telegraph services; it allocates and licenses radio frequencies, assigns radio call signs, and approves equipment for radio use.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "Federal Communications Commission",
+   "topic_n": 1
   },
   {
    "question": "What does the term \"Federal Communications Commission\" mean?",
@@ -22,7 +24,9 @@
    ],
    "answer": 3,
    "explanation": "Federal Communications Commission: The federal agency that has jurisdiction over interstate and international telephone and telegraph services; it allocates and licenses radio frequencies, assigns radio call signs, and approves equipment for radio use.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "Federal Communications Commission",
+   "topic_n": 1
   },
   {
    "question": "Which term is defined as: Verbal and nonverbal communication techniques that encourage patients to express their feelings and achieve a positive relationship.",
@@ -34,7 +38,9 @@
    ],
    "answer": 1,
    "explanation": "therapeutic communication: Verbal and nonverbal communication techniques that encourage patients to express their feelings and achieve a positive relationship.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "therapeutic communication",
+   "topic_n": 2
   },
   {
    "question": "What does the term \"therapeutic communication\" mean?",
@@ -46,7 +52,9 @@
    ],
    "answer": 3,
    "explanation": "therapeutic communication: Verbal and nonverbal communication techniques that encourage patients to express their feelings and achieve a positive relationship.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "therapeutic communication",
+   "topic_n": 2
   },
   {
    "question": "Which term is defined as: The ability to transmit audio and data signals through the use of more than one communications channel.",
@@ -58,7 +66,9 @@
    ],
    "answer": 0,
    "explanation": "multiplex: The ability to transmit audio and data signals through the use of more than one communications channel.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "multiplex",
+   "topic_n": 3
   },
   {
    "question": "What does the term \"multiplex\" mean?",
@@ -70,7 +80,9 @@
    ],
    "answer": 2,
    "explanation": "multiplex: The ability to transmit audio and data signals through the use of more than one communications channel.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "multiplex",
+   "topic_n": 3
   },
   {
    "question": "Which term is defined as: The ability to transmit and receive simultaneously.",
@@ -82,7 +94,9 @@
    ],
    "answer": 1,
    "explanation": "duplex: The ability to transmit and receive simultaneously.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "duplex",
+   "topic_n": 4
   },
   {
    "question": "What does the term \"duplex\" mean?",
@@ -94,7 +108,9 @@
    ],
    "answer": 1,
    "explanation": "duplex: The ability to transmit and receive simultaneously.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "duplex",
+   "topic_n": 4
   },
   {
    "question": "Which term is defined as: Telecommunication systems that allow a computer to maximize utilization of a group of frequencies.",
@@ -106,7 +122,9 @@
    ],
    "answer": 1,
    "explanation": "trunking: Telecommunication systems that allow a computer to maximize utilization of a group of frequencies.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "trunking",
+   "topic_n": 5
   },
   {
    "question": "What does the term \"trunking\" mean?",
@@ -118,7 +136,9 @@
    ],
    "answer": 3,
    "explanation": "trunking: Telecommunication systems that allow a computer to maximize utilization of a group of frequencies.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "trunking",
+   "topic_n": 5
   },
   {
    "question": "Which term is defined as: The use of a radio signal and a voice or digital message that is transmitted to pagers (“beepers”) or a mobile data terminal.",
@@ -130,7 +150,9 @@
    ],
    "answer": 3,
    "explanation": "paging: The use of a radio signal and a voice or digital message that is transmitted to pagers (“beepers”) or a mobile data terminal.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "paging",
+   "topic_n": 6
   },
   {
    "question": "What does the term \"paging\" mean?",
@@ -142,7 +164,9 @@
    ],
    "answer": 0,
    "explanation": "paging: The use of a radio signal and a voice or digital message that is transmitted to pagers (“beepers”) or a mobile data terminal.",
-   "source": "Flashcard Slides — Set 1"
+   "source": "Flashcard Slides — Set 1",
+   "topic": "paging",
+   "topic_n": 6
   }
  ]
 }

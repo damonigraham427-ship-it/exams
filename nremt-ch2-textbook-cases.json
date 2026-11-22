@@ -10,7 +10,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: If your partner becomes infected with this patient’s illness, what type of transmission would this occur through?",
@@ -22,7 +24,9 @@
    ],
    "answer": 3,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: Because your partner did not use standard precautions, he has potentially been exposed to an infectious disease. What should he do?",
@@ -34,7 +38,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: On the basis of your partner’s actions, what is he most likely experiencing?",
@@ -46,7 +52,9 @@
    ],
    "answer": 1,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: Which of the following signs and symptoms are NOT usually associated with stress?",
@@ -58,7 +66,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: How can you help your partner to manage his stress?",
@@ -70,7 +80,9 @@
    ],
    "answer": 3,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: Which of the following is NOT a recommended way to manage stress?",
@@ -82,7 +94,9 @@
    ],
    "answer": 0,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: What are the long-term physical effects of stress?",
@@ -94,7 +108,9 @@
    ],
    "answer": 3,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: What are the long-term psychological effects of stress?",
@@ -106,7 +122,9 @@
    ],
    "answer": 0,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Assessment in Action: Discuss the implications of your partner’s actions in this scenario.",
@@ -118,7 +136,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed answer key.",
-   "source": "Textbook — Assessment in Action"
+   "source": "Textbook — Assessment in Action",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (4-year-old girl in cardiac arrest): How can you psychologically prepare yourself for this call?",
@@ -130,7 +150,9 @@
    ],
    "answer": 3,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (4-year-old girl in cardiac arrest): What is stress? How does it manifest?",
@@ -142,7 +164,9 @@
    ],
    "answer": 3,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (4-year-old girl in cardiac arrest): What phase of the stress response are you experiencing right now?",
@@ -154,7 +178,9 @@
    ],
    "answer": 0,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (4-year-old girl in cardiac arrest): How should you respond to the mother?",
@@ -166,7 +192,9 @@
    ],
    "answer": 0,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (4-year-old girl in cardiac arrest): What stage of the grieving process is the mother experiencing?",
@@ -178,7 +206,9 @@
    ],
    "answer": 0,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (4-year-old girl in cardiac arrest): How can poorly managed stress affect your physical well-being?",
@@ -190,7 +220,9 @@
    ],
    "answer": 3,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (4-year-old girl in cardiac arrest): How can you mitigate the stress associated with the job?",
@@ -202,7 +234,9 @@
    ],
    "answer": 2,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (4-year-old girl in cardiac arrest): Does death of a child affect an EMT differently than death of an adult? If so, how?",
@@ -214,7 +248,9 @@
    ],
    "answer": 1,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "YOU are the Provider (4-year-old girl in cardiac arrest): How can you help your partner?",
@@ -226,7 +262,9 @@
    ],
    "answer": 1,
    "explanation": "From the book's printed YOU are the Provider summary.",
-   "source": "Textbook — YOU are the Provider"
+   "source": "Textbook — YOU are the Provider",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (EMT with delayed stress after a school bus MCI): What can you do to help yourself?",
@@ -238,7 +276,9 @@
    ],
    "answer": 2,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (EMT with delayed stress after a school bus MCI): What are other signs and symptoms of ineffectively handled stress?",
@@ -250,7 +290,9 @@
    ],
    "answer": 3,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (EMT with delayed stress after a school bus MCI): What are other proven methods for decreasing the adverse effects of stress overall?",
@@ -262,7 +304,9 @@
    ],
    "answer": 2,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (EMT with delayed stress after a school bus MCI): How can poorly managed stress affect your job performance and overall career longevity?",
@@ -274,7 +318,9 @@
    ],
    "answer": 3,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (EMT with delayed stress after a school bus MCI): What are some of the factors that influence the reaction of a patient or family members to the stresses of an illness or injury?",
@@ -286,7 +332,9 @@
    ],
    "answer": 0,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   },
   {
    "question": "Navigate Case Study (EMT with delayed stress after a school bus MCI): What kinds of situations will you now be more aware of as having a higher level of stress for you and your coworkers?",
@@ -298,7 +346,9 @@
    ],
    "answer": 3,
    "explanation": "Answer written from the chapter (no printed key).",
-   "source": "Textbook — Navigate Case Study"
+   "source": "Textbook — Navigate Case Study",
+   "topic": null,
+   "topic_n": null
   }
  ]
 }

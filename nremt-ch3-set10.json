@@ -10,7 +10,9 @@
    ],
    "answer": 0,
    "explanation": "The crew failed to provide the accepted level of emergency care expected of a person with their training and profession.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "standard of care",
+   "topic_n": 51
   },
   {
    "question": "Your medical director asks why a new EMT must follow the system's written protocols instead of improvising care he saw online. The best answer is that protocols reflect what?",
@@ -22,7 +24,9 @@
    ],
    "answer": 1,
    "explanation": "Protocols state the written, accepted level of care for the profession, written so patients are not exposed to unreasonable risk or harm.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "standard of care",
+   "topic_n": 51
   },
   {
    "question": "At trial, an expert testifies about what a reasonably trained paramedic would have done for a chest-pain patient in the same circumstances. What is the expert describing?",
@@ -34,7 +38,9 @@
    ],
    "answer": 1,
    "explanation": "Liability is judged against the care expected by reason of training and profession, not against the individual provider's personal habits.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "standard of care",
+   "topic_n": 51
   },
   {
    "question": "A competent, alert 40-year-old with a fractured leg refuses transport after you explain the risks of bleeding and infection, and he repeats that he understands and still refuses. What principle requires you to honor that refusal?",
@@ -46,7 +52,9 @@
    ],
    "answer": 3,
    "explanation": "A competent patient has the right to make informed choices about his own health care, including refusing transport.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "patient autonomy",
+   "topic_n": 52
   },
   {
    "question": "An EMT begins an IV on a competent patient who has just said, 'No needles, I do not want that.' Continuing anyway most directly violates what?",
@@ -58,7 +66,9 @@
    ],
    "answer": 2,
    "explanation": "Treatment imposed after a competent patient has made an informed refusal overrides the patient's right to decide about his own care.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "patient autonomy",
+   "topic_n": 52
   },
   {
    "question": "A patient with decision-making capacity chooses a treatment option you think is second-best after hearing the risks, benefits, and alternatives. What should you do?",
@@ -70,7 +80,9 @@
    ],
    "answer": 1,
    "explanation": "Autonomy means the informed choice belongs to the patient, not to the provider who would choose differently.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "patient autonomy",
+   "topic_n": 52
   },
   {
    "question": "You find a patient with no pulse or breathing whose purple-red discoloration is fixed across the front of the chest and face, yet the body is lying on its back. What is this discoloration called?",
@@ -82,7 +94,9 @@
    ],
    "answer": 3,
    "explanation": "Blood settling to the lowest point of the body causes the discoloration, and its fixed pattern here shows the body was face down earlier.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "dependent lividity",
+   "topic_n": 53
   },
   {
    "question": "A deceased patient found supine has fixed lividity only on the left side of the body. What should the EMT conclude and do?",
@@ -94,7 +108,9 @@
    ],
    "answer": 1,
    "explanation": "Fixed dependent lividity on the left side means blood settled while the patient lay on that side, so the body was moved after it fixed.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "dependent lividity",
+   "topic_n": 53
   },
   {
    "question": "Which finding is a definitive sign of death that lets an EMT, with protocol and medical direction, decide not to start CPR?",
@@ -106,7 +122,9 @@
    ],
    "answer": 1,
    "explanation": "Dependent lividity is listed as a definitive sign of death because blood has settled to the lowest point of the body after circulation stopped.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "dependent lividity",
+   "topic_n": 53
   },
   {
    "question": "An unconscious patient's wife hands you a signed document she executed with him years ago naming her to make his medical decisions now that he cannot. What is this document?",
@@ -118,7 +136,9 @@
    ],
    "answer": 2,
    "explanation": "It is an advance directive in which a competent adult appointed another individual to make treatment decisions if he became unable to do so.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "health care proxy",
+   "topic_n": 54
   },
   {
    "question": "A patient with capacity tells you his son, not his daughter, is his appointed decision-maker if he becomes unable to decide, and the paperwork names the son. The daughter demands you follow her instructions instead. Whose decisions control if he loses capacity?",
@@ -130,7 +150,9 @@
    ],
    "answer": 1,
    "explanation": "The proxy appoints a specific individual to decide when the patient cannot; other family members do not override the appointed agent.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "health care proxy",
+   "topic_n": 54
   },
   {
    "question": "Two adult children argue at the bedside of their unresponsive mother, and neither can produce any advance directive or proxy paperwork. What is the EMT's best action?",
@@ -142,7 +164,9 @@
    ],
    "answer": 3,
    "explanation": "Without an appointed proxy, the crew should provide emergency care and transport rather than letting an unverified family dispute delay treatment.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "health care proxy",
+   "topic_n": 54
   },
   {
    "question": "An off-duty EMT stops at a crash, holds pressure on a bleeding wound in good faith, and makes an honest error in care. A lawsuit follows. What most likely protects her?",
@@ -154,7 +178,9 @@
    ],
    "answer": 1,
    "explanation": "These statutes protect citizens from liability for errors and omissions in good faith emergency care, absent gross, wanton, or willful negligence.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "Good Samaritan laws",
+   "topic_n": 55
   },
   {
    "question": "A volunteer responder at a scene deliberately ignores obvious signs of a tension pneumothorax, jokes that the patient can wait, and provides no care at all out of indifference. Why might Good Samaritan protection fail?",
@@ -166,7 +192,9 @@
    ],
    "answer": 3,
    "explanation": "The statutes do not protect wanton, gross, or willful negligence, and indifference to an obvious life threat can meet that standard.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "Good Samaritan laws",
+   "topic_n": 55
   },
   {
    "question": "Which responder is acting outside the usual scope of Good Samaritan protection?",
@@ -178,7 +206,9 @@
    ],
    "answer": 0,
    "explanation": "Good Samaritan statutes protect unpaid, good faith emergency help, not care given for compensation or as part of regular in-hospital duties.",
-   "source": "Quiz-Style Slides — Set 10"
+   "source": "Quiz-Style Slides — Set 10",
+   "topic": "Good Samaritan laws",
+   "topic_n": 55
   },
   {
    "question": "Which term is defined as: Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
@@ -190,7 +220,9 @@
    ],
    "answer": 3,
    "explanation": "standard of care: Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
-   "source": "Flashcard Slides — Set 10"
+   "source": "Flashcard Slides — Set 10",
+   "topic": "standard of care",
+   "topic_n": 51
   },
   {
    "question": "What does the term \"standard of care\" mean?",
@@ -202,7 +234,9 @@
    ],
    "answer": 3,
    "explanation": "standard of care: Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
-   "source": "Flashcard Slides — Set 10"
+   "source": "Flashcard Slides — Set 10",
+   "topic": "standard of care",
+   "topic_n": 51
   },
   {
    "question": "A paramedic gives only a truncated evaluation to a man during a police encounter, missing what a full assessment would have found; the man dies, and a court later calls the brief evaluation an extreme departure from accepted care. What does this case teach the EMT?",
@@ -214,7 +248,9 @@
    ],
    "answer": 2,
    "explanation": "A complete assessment is owed even when police control the person; a truncated evaluation breaches the standard of care.",
-   "source": "Flashcard Case Studies — Set 10"
+   "source": "Flashcard Case Studies — Set 10",
+   "topic": "standard of care",
+   "topic_n": 51
   },
   {
    "question": "Paramedics treating a restrained 23-year-old give 500 mg of ketamine without basic checks such as taking a pulse; experts say the dose was too high for his roughly 143 pounds, and he suffers cardiac arrest and dies. What should the paramedics have done?",
@@ -226,7 +262,9 @@
    ],
    "answer": 0,
    "explanation": "Your own assessment and verified weight-based dosing are required; a police diagnosis never replaces your medical evaluation.",
-   "source": "Flashcard Case Studies — Set 10"
+   "source": "Flashcard Case Studies — Set 10",
+   "topic": "standard of care",
+   "topic_n": 51
   },
   {
    "question": "Which term is defined as: The right of a patient to make informed choices regarding his or her health care.",
@@ -238,7 +276,9 @@
    ],
    "answer": 1,
    "explanation": "patient autonomy: The right of a patient to make informed choices regarding his or her health care.",
-   "source": "Flashcard Slides — Set 10"
+   "source": "Flashcard Slides — Set 10",
+   "topic": "patient autonomy",
+   "topic_n": 52
   },
   {
    "question": "What does the term \"patient autonomy\" mean?",
@@ -250,7 +290,9 @@
    ],
    "answer": 1,
    "explanation": "patient autonomy: The right of a patient to make informed choices regarding his or her health care.",
-   "source": "Flashcard Slides — Set 10"
+   "source": "Flashcard Slides — Set 10",
+   "topic": "patient autonomy",
+   "topic_n": 52
   },
   {
    "question": "A patient agrees to an examination under anesthesia but expressly refuses surgery if a tumor is found; surgeons remove a fibroid tumor anyway while she is asleep. What rule does this classic case establish for the EMT?",
@@ -262,7 +304,9 @@
    ],
    "answer": 1,
    "explanation": "A competent patient's consent has limits, and treatment beyond them violates the patient's right to decide.",
-   "source": "Flashcard Case Studies — Set 10"
+   "source": "Flashcard Case Studies — Set 10",
+   "topic": "patient autonomy",
+   "topic_n": 52
   },
   {
    "question": "A competent adult with severe cerebral palsy and quadriplegia has a feeding tube inserted and maintained against her will to keep her alive; a court orders the tube removed. What principle controls the outcome?",
@@ -274,7 +318,9 @@
    ],
    "answer": 1,
    "explanation": "A competent patient may refuse any treatment, even life-sustaining treatment, and that refusal must be honored.",
-   "source": "Flashcard Case Studies — Set 10"
+   "source": "Flashcard Case Studies — Set 10",
+   "topic": "patient autonomy",
+   "topic_n": 52
   },
   {
    "question": "Which term is defined as: Blood settling to the lowest point of the body, causing discoloration of the skin; a definitive sign of death.",
@@ -286,7 +332,9 @@
    ],
    "answer": 2,
    "explanation": "dependent lividity: Blood settling to the lowest point of the body, causing discoloration of the skin; a definitive sign of death.",
-   "source": "Flashcard Slides — Set 10"
+   "source": "Flashcard Slides — Set 10",
+   "topic": "dependent lividity",
+   "topic_n": 53
   },
   {
    "question": "What does the term \"dependent lividity\" mean?",
@@ -298,7 +346,9 @@
    ],
    "answer": 2,
    "explanation": "dependent lividity: Blood settling to the lowest point of the body, causing discoloration of the skin; a definitive sign of death.",
-   "source": "Flashcard Slides — Set 10"
+   "source": "Flashcard Slides — Set 10",
+   "topic": "dependent lividity",
+   "topic_n": 53
   },
   {
    "question": "An 18-year-old's body is found buried on its right side, but her autopsy shows lividity present and fixed on the front surface of the body, except where pressure was applied. What should responders take from this finding?",
@@ -310,7 +360,9 @@
    ],
    "answer": 3,
    "explanation": "Fixed frontal lividity showed the body lay face down for hours; a pattern that contradicts the found position must be preserved and documented.",
-   "source": "Flashcard Case Studies — Set 10"
+   "source": "Flashcard Case Studies — Set 10",
+   "topic": "dependent lividity",
+   "topic_n": 53
   },
   {
    "question": "At a shooting scene, an EMT finds a boy cold and stiff on a bed with dependent lividity on the back of his body, the backs of both arms, and the lower extremities hanging off the bed, while the second victim is still warm. What does the lividity tell the EMT?",
@@ -322,7 +374,9 @@
    ],
    "answer": 1,
    "explanation": "The settling pattern matched the position the body was found in, confirming he had been dead in that position for some time.",
-   "source": "Flashcard Case Studies — Set 10"
+   "source": "Flashcard Case Studies — Set 10",
+   "topic": "dependent lividity",
+   "topic_n": 53
   },
   {
    "question": "Which term is defined as: A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
@@ -334,7 +388,9 @@
    ],
    "answer": 1,
    "explanation": "health care proxy: A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
-   "source": "Flashcard Slides — Set 10"
+   "source": "Flashcard Slides — Set 10",
+   "topic": "health care proxy",
+   "topic_n": 54
   },
   {
    "question": "What does the term \"health care proxy\" mean?",
@@ -346,7 +402,9 @@
    ],
    "answer": 3,
    "explanation": "health care proxy: A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
-   "source": "Flashcard Slides — Set 10"
+   "source": "Flashcard Slides — Set 10",
+   "topic": "health care proxy",
+   "topic_n": 54
   },
   {
    "question": "An 86-year-old woman lies in a persistent vegetative state on a ventilator for over a year; the hospital wants the ventilator stopped as nonbeneficial, but her husband and decision-maker insists she would have wanted life maintained, and a court keeps him as decision-maker. Where does this kind of dispute belong?",
@@ -358,7 +416,9 @@
    ],
    "answer": 2,
    "explanation": "The appointed decision-maker's authority is protected; disagreements with the team are resolved by the facility and courts, not the crew.",
-   "source": "Flashcard Case Studies — Set 10"
+   "source": "Flashcard Case Studies — Set 10",
+   "topic": "health care proxy",
+   "topic_n": 54
   },
   {
    "question": "A woman enters a permanent vegetative state with no written advance directive and no appointed decision-maker; her husband and parents then spend seven years in court fighting over her feeding tube. What should EMS crews do differently on calls like this?",
@@ -370,7 +430,9 @@
    ],
    "answer": 0,
    "explanation": "Because she never appointed a decision-maker while competent, courts spent years deciding who spoke for her.",
-   "source": "Flashcard Case Studies — Set 10"
+   "source": "Flashcard Case Studies — Set 10",
+   "topic": "health care proxy",
+   "topic_n": 54
   },
   {
    "question": "Which term is defined as: Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
@@ -382,7 +444,9 @@
    ],
    "answer": 3,
    "explanation": "Good Samaritan laws: Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
-   "source": "Flashcard Slides — Set 10"
+   "source": "Flashcard Slides — Set 10",
+   "topic": "Good Samaritan laws",
+   "topic_n": 55
   },
   {
    "question": "What does the term \"Good Samaritan laws\" mean?",
@@ -394,7 +458,9 @@
    ],
    "answer": 1,
    "explanation": "Good Samaritan laws: Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
-   "source": "Flashcard Slides — Set 10"
+   "source": "Flashcard Slides — Set 10",
+   "topic": "Good Samaritan laws",
+   "topic_n": 55
   },
   {
    "question": "After a car crashes into a light pole at about 45 mph, a bystander who fears the car will catch fire pulls her friend from the front passenger seat; the friend is left permanently paralyzed, and a court holds the Good Samaritan statute covered only emergency medical care, which the bystander did not claim to have rendered. What is the lesson for responders?",
@@ -406,7 +472,9 @@
    ],
    "answer": 3,
    "explanation": "Good Samaritan protection covers good faith emergency care as the statute defines it, not every helpful act at a scene.",
-   "source": "Flashcard Case Studies — Set 10"
+   "source": "Flashcard Case Studies — Set 10",
+   "topic": "Good Samaritan laws",
+   "topic_n": 55
   },
   {
    "question": "A 21-year-old dies of cardiac arrest after an acute asthma attack, and his family sues the responding paramedic and EMT for willful and grossly negligent care; a court grants the responders immunity after finding the evidence did not establish willful or gross negligence. What line decides this kind of case?",
@@ -418,7 +486,9 @@
    ],
    "answer": 0,
    "explanation": "Immunity held because the alleged errors, even if negligent, did not rise to the gross or willful level the statute carves out.",
-   "source": "Flashcard Case Studies — Set 10"
+   "source": "Flashcard Case Studies — Set 10",
+   "topic": "Good Samaritan laws",
+   "topic_n": 55
   }
  ]
 }
