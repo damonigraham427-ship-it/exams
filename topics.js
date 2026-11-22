@@ -1,6 +1,9 @@
 // Topics page — per-chapter circle (ALEKS-style): slice = set (topic group),
-// dark = mastered topics, light = learning, pale = ready. Topic status comes from
-// the latest finished attempt per exam file on this device (examHistory).
+// dark = mastered topics, light = learning, pale = ready.
+// Interaction: moving around the circle lights the slice under the pointer and
+// the center shows that slice's % in its color; only the active slice's topics
+// are shown (in the panel under the circle). Tap/click locks a slice open.
+// Topic status comes from the latest finished attempt per exam file (examHistory).
 (function () {
   var PALETTE = ['#2563eb', '#0891b2', '#059669', '#65a30d', '#d97706', '#dc2626', '#7c3aed', '#db2777', '#0d9488', '#475569', '#9333ea'];
   var STATUS = {
@@ -111,7 +114,6 @@
   }
 
   function buildChapter(groups, ch) {
-    // Build topic model per group
     groups.forEach(function (g, gi) {
       g.color = PALETTE[gi % PALETTE.length];
       g.name = shortTitle(g.entry);
@@ -136,15 +138,16 @@
         var attempted = (hist[g.entry.file] || []).length > 0;
         g.topics = [{ name: 'All textbook case questions', n: g.questions.length, topic_n: 0, status: attempted ? 'Learning' : 'Ready to Learn', flagged: 0, all: true }];
       }
+      g.counts = { 'Mastered': 0, 'Learning': 0, 'Ready to Learn': 0 };
+      g.topics.forEach(function (t) { g.counts[t.status]++; });
+      g.done = g.counts['Mastered'] + g.counts['Learning'];
+      g.pct = g.topics.length ? Math.round(100 * g.done / g.topics.length) : 0;
     });
 
     var totalTopics = groups.reduce(function (s, g) { return s + g.topics.length; }, 0);
     var realTopics = groups.reduce(function (s, g) { return s + (g.isTextbook ? 0 : g.topics.length); }, 0);
     var doneTopics = 0, masteredTopics = 0;
-    groups.forEach(function (g) { if (g.isTextbook) return; g.topics.forEach(function (t) {
-      if (t.status === 'Mastered') { masteredTopics++; doneTopics++; }
-      else if (t.status === 'Learning') doneTopics++;
-    }); });
+    groups.forEach(function (g) { if (g.isTextbook) return; doneTopics += g.done; masteredTopics += g.counts['Mastered']; });
 
     // Up next: first Learning topic, else first Ready topic
     var up = null;
@@ -166,14 +169,11 @@
     var parts = [];
     groups.forEach(function (g, gi) {
       var span = totalTopics ? (Math.PI * 2) * (g.topics.length / totalTopics) : 0;
-      var counts = { 'Mastered': 0, 'Learning': 0, 'Ready to Learn': 0 };
-      g.topics.forEach(function (t) { counts[t.status]++; });
-      g.counts = counts;
       var order = [['Mastered', g.color], ['Learning', tint(g.color, 0.45)], ['Ready to Learn', tint(g.color, 0.82)]];
       var cur = a;
       order.forEach(function (o) {
-        if (!counts[o[0]]) return;
-        var sub = span * (counts[o[0]] / g.topics.length);
+        if (!g.counts[o[0]]) return;
+        var sub = span * (g.counts[o[0]] / g.topics.length);
         parts.push('<path d="' + wedge(CX, CY, R, cur, cur + sub) + '" fill="' + o[1] + '" stroke="#fff" stroke-width="2" data-group="' + gi + '"><title>' + esc(g.name) + '</title></path>');
         cur += sub;
       });
@@ -181,38 +181,52 @@
     });
     parts.push('<circle cx="' + CX + '" cy="' + CY + '" r="80" fill="#fff" stroke="#cbd5e1" stroke-width="2" id="tp-center-bg"></circle>');
     parts.push('<text id="tp-center-num" x="' + CX + '" y="' + (CY - 2) + '" text-anchor="middle" font-size="40" font-weight="700" fill="#0f172a"></text>');
-    parts.push('<text id="tp-center-lab" x="' + CX + '" y="' + (CY + 24) + '" text-anchor="middle" font-size="15" fill="#475569"></text>');
+    parts.push('<text id="tp-center-lab" x="' + CX + '" y="' + (CY + 24) + '" text-anchor="middle" font-size="14" fill="#475569"></text>');
     svg.innerHTML = parts.join('');
-    var selected = -1, mi = 0;
-    function scopeModes() {
-      if (selected < 0) return { total: realTopics, modes: [
-        [doneTopics, 'topics done'], [masteredTopics, 'mastered'],
-        [(realTopics ? Math.round(100 * doneTopics / realTopics) : 0) + '%', 'done']] };
-      var g = groups[selected], c = g.counts;
-      var done = c['Mastered'] + c['Learning'], tot = g.topics.length;
-      return { total: tot, modes: [
-        [done, 'topics done'], [c['Mastered'], 'mastered'],
-        [(tot ? Math.round(100 * done / tot) : 0) + '%', 'done']] };
-    }
+
+    // Interaction state: preview = slice under the pointer; locked = tapped slice.
+    var preview = -1, locked = -1, mi = 0;
+    function active() { return preview >= 0 ? preview : locked; }
+
     function drawCenter() {
-      var sm = scopeModes();
-      document.getElementById('tp-center-num').textContent = sm.modes[mi][0];
-      document.getElementById('tp-center-lab').textContent = sm.modes[mi][1] + ' of ' + sm.total + ' topics';
+      var num = document.getElementById('tp-center-num');
+      var lab = document.getElementById('tp-center-lab');
+      var gi = active();
+      if (gi >= 0) {
+        var g = groups[gi];
+        num.textContent = g.pct + '%';
+        num.setAttribute('fill', g.color);
+        lab.textContent = g.name;
+        return;
+      }
+      num.setAttribute('fill', '#0f172a');
+      var modes = [
+        [doneTopics, 'topics done'],
+        [masteredTopics, 'mastered'],
+        [(realTopics ? Math.round(100 * doneTopics / realTopics) : 0) + '%', 'done']
+      ];
+      num.textContent = modes[mi][0];
+      lab.textContent = modes[mi][1] + ' of ' + realTopics + ' topics';
     }
+
     function renderDetail() {
       var box = document.getElementById('tp-detail');
-      if (selected < 0) {
+      var gi = active();
+      if (gi < 0) {
         var mc = 0, lc = 0, rc = 0;
         groups.forEach(function (g) { if (g.isTextbook) return; mc += g.counts['Mastered']; lc += g.counts['Learning']; rc += g.counts['Ready to Learn']; });
         box.innerHTML = '<p class="tp-detail-head">Whole chapter</p>' +
           '<p class="tp-detail-counts"><span style="color:#15803d">Mastered ' + mc + '</span> \u00B7 <span style="color:#f59e0b">Learning ' + lc + '</span> \u00B7 <span style="color:#2563eb">Ready ' + rc + '</span></p>' +
-          '<p class="tp-detail-hint">Tap a slice to see that set\u2019s topics.</p>';
+          '<p class="tp-detail-hint">Move around the circle \u2014 only the section you touch shows its topics.</p>';
         return;
       }
-      var g = groups[selected], c = g.counts;
+      var g = groups[gi], c = g.counts;
       var html = '<p class="tp-detail-head"><span class="tp-chip-color" style="background:' + g.color + '"></span> ' + esc(g.name) +
-        ' <button type="button" class="tp-reset" id="tp-reset">Whole chapter</button></p>' +
-        '<p class="tp-detail-counts"><span style="color:#15803d">Mastered ' + c['Mastered'] + '</span> \u00B7 <span style="color:#f59e0b">Learning ' + c['Learning'] + '</span> \u00B7 <span style="color:#2563eb">Ready ' + c['Ready to Learn'] + '</span></p>';
+        (locked >= 0 ? ' <button type="button" class="tp-reset" id="tp-reset">Whole chapter</button>' : '') + '</p>' +
+        '<p class="tp-detail-counts"><span style="color:' + g.color + ';font-weight:700">' + g.pct + '% done</span> \u00B7 <span style="color:#15803d">Mastered ' + c['Mastered'] + '</span> \u00B7 <span style="color:#f59e0b">Learning ' + c['Learning'] + '</span> \u00B7 <span style="color:#2563eb">Ready ' + c['Ready to Learn'] + '</span></p>';
+      if (!g.isTextbook) {
+        html += '<div class="tp-topic-row"><span class="tp-topic-name">Full set exam</span><span class="tp-topic-meta">every topic in this set</span><a class="tp-practice" href="exam.html?exam=' + encodeURIComponent(g.entry.file) + '">Start</a></div>';
+      }
       ['Mastered', 'Learning', 'Ready to Learn'].forEach(function (st) {
         var ts = g.topics.filter(function (x) { return x.status === st; });
         if (!ts.length) return;
@@ -224,78 +238,40 @@
       });
       box.innerHTML = html;
       var rb = document.getElementById('tp-reset');
-      if (rb) rb.addEventListener('click', function () { selectGroup(-1, false); });
+      if (rb) rb.addEventListener('click', function () { locked = -1; preview = -1; draw(); });
     }
-    function selectGroup(gi, scroll) {
-      selected = (gi === selected) ? -1 : gi;
-      mi = 0;
+
+    function draw() {
+      var gi = active();
       svg.querySelectorAll('path[data-group]').forEach(function (p) {
-        p.style.opacity = (selected < 0 || +p.getAttribute('data-group') === selected) ? '1' : '0.3';
+        p.style.opacity = (gi < 0 || +p.getAttribute('data-group') === gi) ? '1' : '0.3';
       });
-      groups.forEach(function (g, i) {
-        var head = document.getElementById('tp-group-' + i);
-        if (head) head.classList.toggle('tp-selected', i === selected);
-      });
-      drawCenter(); renderDetail();
-      if (selected >= 0) {
-        if (groups[selected]._body) groups[selected]._body.hidden = false;
-        if (scroll) document.getElementById('tp-group-' + selected).scrollIntoView({ block: 'start' });
-      }
+      drawCenter();
+      renderDetail();
     }
-    drawCenter(); renderDetail();
+
+    function sliceFromEvent(ev) {
+      var t = ev.target;
+      if (t && t.getAttribute && t.getAttribute('data-group') !== null) return +t.getAttribute('data-group');
+      return -2; // center or background
+    }
+    svg.addEventListener('pointermove', function (ev) {
+      var gi = sliceFromEvent(ev);
+      if (gi >= 0 && gi !== preview) { preview = gi; draw(); }
+    });
+    svg.addEventListener('pointerleave', function () {
+      if (preview >= 0) { preview = -1; draw(); }
+    });
     svg.addEventListener('click', function (ev) {
       if (ev.target.id === 'tp-center-bg' || ev.target.id === 'tp-center-num' || ev.target.id === 'tp-center-lab') {
-        mi = (mi + 1) % 3; drawCenter(); return;
+        if (active() >= 0) { locked = -1; preview = -1; draw(); }
+        else { mi = (mi + 1) % 3; drawCenter(); }
+        return;
       }
-      var gi = ev.target.getAttribute && ev.target.getAttribute('data-group');
-      if (gi !== null && gi !== undefined) selectGroup(+gi, true);
+      var gi = sliceFromEvent(ev);
+      if (gi >= 0) { locked = (locked === gi) ? -1 : gi; preview = -1; draw(); }
     });
 
-    // List
-    var list = document.getElementById('tp-list');
-    list.innerHTML = '';
-    groups.forEach(function (g, gi) {
-      var counts = { 'Mastered': 0, 'Learning': 0, 'Ready to Learn': 0 };
-      g.topics.forEach(function (t) { counts[t.status]++; });
-      var head = document.createElement('button');
-      head.type = 'button';
-      head.className = 'tp-group-head';
-      head.id = 'tp-group-' + gi;
-      head.innerHTML = '<span class="tp-chip-color" style="background:' + g.color + '"></span>' +
-        '<span class="tp-group-name">' + esc(g.name) + '</span>' +
-        '<span class="tp-group-counts">' + g.topics.length + ' topics \u00B7 ' + counts['Mastered'] + ' mastered \u00B7 ' + counts['Learning'] + ' learning \u00B7 ' + counts['Ready to Learn'] + ' ready</span>';
-      var body = document.createElement('div');
-      body.className = 'tp-group-body';
-      body.hidden = true;
-      if (!g.isTextbook) {
-        var full = document.createElement('div');
-        full.className = 'tp-topic-row';
-        full.innerHTML = '<span class="tp-topic-name">Full set exam</span><span class="tp-topic-meta">every topic in this set</span><a class="tp-practice" href="exam.html?exam=' + encodeURIComponent(g.entry.file) + '">Start</a>';
-        body.appendChild(full);
-      }
-      g.topics.forEach(function (t) {
-        var row = document.createElement('div');
-        row.className = 'tp-topic-row';
-        var href = 'exam.html?exam=' + encodeURIComponent(g.entry.file) + (t.all ? '' : '&topic=' + encodeURIComponent(t.name));
-        row.innerHTML = '<span class="tp-topic-name">' + esc(t.name) + (t.flagged ? ' <span class="tp-flag">\u2605 ' + t.flagged + '</span>' : '') + '</span>' +
-          '<span class="tp-topic-meta"><span class="tp-status" style="color:' + STATUS[t.status] + '">' + t.status + '</span> \u00B7 ' + t.n + ' questions</span>' +
-          '<a class="tp-practice" href="' + href + '">Practice</a>';
-        body.appendChild(row);
-      });
-      head.addEventListener('click', function () { toggleGroup(gi, false); selectGroup(gi, false); });
-      list.appendChild(head);
-      list.appendChild(body);
-      g._body = body;
-    });
-    // Open the group holding Up Next, else the first group
-    var openIdx = up ? groups.indexOf(up.g) : 0;
-    if (groups[openIdx]) groups[openIdx]._body.hidden = false;
-
-    function toggleGroup(gi, scroll) {
-      var g = groups[gi];
-      if (!g || !g._body) return;
-      g._body.hidden = !g._body.hidden;
-      if (scroll && !g._body.hidden) document.getElementById('tp-group-' + gi).scrollIntoView({ block: 'start' });
-    }
+    draw();
   }
 })();
