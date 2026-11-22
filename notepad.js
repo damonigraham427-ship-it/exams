@@ -74,6 +74,13 @@
   var h1 = document.querySelector('h1');
   var pTitle = (picker[examParam] && picker[examParam].title) || examParam;
   if (h1) h1.textContent = 'Notepad \u2014 ' + pTitle;
+  if (h1 && !(picker[examParam] && picker[examParam].title)) {
+    // No attempts yet for this exam: take the pretty title from the registry.
+    fetch('index.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (idx) {
+      var e = (idx.exams || []).filter(function (x) { return x.file === examParam; })[0];
+      if (e && e.title) h1.textContent = 'Notepad \u2014 ' + e.title;
+    }).catch(function () {});
+  }
   var countsEl = document.getElementById('np-counts');
   var allLink = document.createElement('a');
   allLink.href = 'notepad.html'; allLink.textContent = 'All exams';
