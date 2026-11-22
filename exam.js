@@ -2,6 +2,9 @@ const params = new URLSearchParams(location.search);
 const file = params.get('exam');
 const wantMode = params.get('mode');
 const topicParam = params.get('topic');
+// This exam's own Notepad / Quality pads
+document.querySelectorAll('a[href="notepad.html"]').forEach(function (a) { a.href = 'notepad.html?exam=' + encodeURIComponent(file); });
+document.querySelectorAll('a[href="quality.html"]').forEach(function (a) { a.href = 'quality.html?exam=' + encodeURIComponent(file); });
 let storageKey = file;
 let isRedund = false;
 let isCoverage = false;

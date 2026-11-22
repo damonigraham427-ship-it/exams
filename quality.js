@@ -9,6 +9,20 @@
   var cleared = {};
   try { cleared = JSON.parse(localStorage.getItem('qualityCleared') || '{}'); } catch (e) { cleared = {}; }
 
+  // Per-exam scoping: ?exam=<file> shows only that exam's pad (its full-set
+  // attempt plus its topic runs). No param: a picker of exams that have entries.
+  var examParam = new URLSearchParams(location.search).get('exam');
+  function baseOf(key) { return key.split('#topic:')[0]; }
+  var picker = {}; // base file -> {title, count}
+  function notePicker(examKey, title, count) {
+    var b = baseOf(examKey);
+    var p = picker[b] || (picker[b] = { title: '', count: 0 });
+    if (examKey === b && title) p.title = title;
+    if (!p.title && title) p.title = title.replace(/ \u2014 Topic: .*$/, '');
+    p.count += count;
+  }
+
+
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
@@ -21,6 +35,7 @@
   Object.keys(hist).forEach(function (examKey) {
     var attempts = hist[examKey];
     if (!Array.isArray(attempts) || !attempts.length) return;
+    if (examParam && baseOf(examKey) !== examParam) return;
     var latest = attempts[0];
     var gone = (cleared[examKey] && cleared[examKey].ts === latest.ts) ? cleared[examKey].questions : [];
     var entries = (latest.quality || [])
@@ -29,9 +44,33 @@
       .map(function (m) {
         return { examKey: examKey, ts: latest.ts, n: m.n, question: m.question, source: m.source || '', correct: m.correct, explanation: m.explanation || '', result: m.result || '' };
       });
-    if (entries.length) groups.push({ title: latest.title || examKey, entries: entries });
+    if (entries.length) { groups.push({ title: latest.title || examKey, entries: entries }); notePicker(examKey, latest.title || examKey, entries.length); }
   });
   groups.sort(function (a, b) { return a.title < b.title ? -1 : 1; });
+
+  if (!examParam) {
+    // Picker: each exam has its own pad — link into it, nothing aggregated here.
+    var sb = document.getElementById('send-btn'); if (sb) sb.parentElement.hidden = true;
+    var fl = document.querySelector('.np-filters'); if (fl) fl.hidden = true;
+    document.getElementById('qr-empty').hidden = true;
+    var bases = Object.keys(picker).sort();
+    var tot = 0; bases.forEach(function (b) { tot += picker[b].count; });
+    document.getElementById('qr-counts').textContent = tot
+      ? 'Each exam has its own quality review. Pick an exam:'
+      : 'Nothing here yet. Flag a question while you answer, or finish an exam, and it shows up in that exam\'s pad.';
+    document.getElementById('quality').innerHTML = bases.map(function (b) {
+      return '<p><a href="quality.html?exam=' + encodeURIComponent(b) + '">' + esc(picker[b].title || b) + '</a> \u2014 ' + picker[b].count + ' questions</p>';
+    }).join('');
+    return;
+  }
+  var h1 = document.querySelector('h1');
+  var pTitle = (picker[examParam] && picker[examParam].title) || examParam;
+  if (h1) h1.textContent = 'Quality review \u2014 ' + pTitle;
+  var countsEl = document.getElementById('qr-counts');
+  var allLink = document.createElement('a');
+  allLink.href = 'quality.html'; allLink.textContent = 'All exams';
+  countsEl.parentElement.insertBefore(allLink, countsEl);
+
 
   var total = 0;
   groups.forEach(function (g) { total += g.entries.length; });

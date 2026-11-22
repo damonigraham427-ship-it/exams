@@ -250,6 +250,7 @@
       var html = '<p class="tp-detail-head"><span class="tp-chip-color" style="background:' + g.color + '"></span> ' + esc(g.name) +
         (locked >= 0 ? ' <button type="button" class="tp-reset" id="tp-reset">Whole chapter</button>' : '') + '</p>' +
         '<p class="tp-detail-counts"><span style="color:' + g.color + ';font-weight:700">' + g.pct + '% done</span> \u00B7 <span style="color:#15803d">Mastered ' + c['Mastered'] + '</span> \u00B7 <span style="color:#f59e0b">Learning ' + c['Learning'] + '</span> \u00B7 <span style="color:#2563eb">Ready ' + c['Ready to Learn'] + '</span></p>';
+      html += '<p class="tp-detail-counts"><a class="tp-practice" href="notepad.html?exam=' + encodeURIComponent(g.entry.file) + '">This set\'s Notepad</a> \u00B7 <a class="tp-practice" href="quality.html?exam=' + encodeURIComponent(g.entry.file) + '">This set\'s Quality review</a></p>';
       if (!g.isTextbook) {
         html += '<div class="tp-topic-row"><span class="tp-topic-name">Full set exam</span><span class="tp-topic-meta">every topic in this set</span><a class="tp-practice" href="exam.html?exam=' + encodeURIComponent(g.entry.file) + '">Start</a></div>';
       }
