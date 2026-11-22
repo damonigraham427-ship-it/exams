@@ -101,3 +101,13 @@ button.choice.wrong { background: #fee2e2; border-color: #dc2626; }
 .tp-topic-meta { color: #475569; margin-left: auto; text-align: right; }
 .tp-status { font-weight: 700; }
 .tp-practice { flex: 0 0 auto; background: #2563eb; color: #fff; font-weight: 700; text-decoration: none; padding: 0.45rem 0.9rem; border-radius: 8px; }
+
+/* Interactive circle: selection + detail panel */
+#tp-pie path[data-group] { cursor: pointer; transition: opacity 0.15s ease; }
+.tp-group-head.tp-selected { border-color: #2563eb; box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25); }
+#tp-detail { background: #fff; border: 2px solid #cbd5e1; border-radius: 10px; padding: 0.8rem 1rem; margin-top: 0.6rem; }
+.tp-detail-head { font-weight: 700; display: flex; align-items: center; gap: 0.5rem; margin: 0.2rem 0; }
+.tp-detail-counts { margin: 0.2rem 0; font-weight: 600; }
+.tp-detail-hint { color: #64748b; margin: 0.2rem 0; }
+.tp-detail-group { font-weight: 700; margin: 0.7rem 0 0.2rem; }
+.tp-reset { margin-left: auto; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; padding: 0.3rem 0.7rem; font: inherit; font-weight: 600; cursor: pointer; }

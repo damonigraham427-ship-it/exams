@@ -168,6 +168,7 @@
       var span = totalTopics ? (Math.PI * 2) * (g.topics.length / totalTopics) : 0;
       var counts = { 'Mastered': 0, 'Learning': 0, 'Ready to Learn': 0 };
       g.topics.forEach(function (t) { counts[t.status]++; });
+      g.counts = counts;
       var order = [['Mastered', g.color], ['Learning', tint(g.color, 0.45)], ['Ready to Learn', tint(g.color, 0.82)]];
       var cur = a;
       order.forEach(function (o) {
@@ -182,23 +183,72 @@
     parts.push('<text id="tp-center-num" x="' + CX + '" y="' + (CY - 2) + '" text-anchor="middle" font-size="40" font-weight="700" fill="#0f172a"></text>');
     parts.push('<text id="tp-center-lab" x="' + CX + '" y="' + (CY + 24) + '" text-anchor="middle" font-size="15" fill="#475569"></text>');
     svg.innerHTML = parts.join('');
-    var modes = [
-      [doneTopics, 'topics done'],
-      [masteredTopics, 'mastered'],
-      [(realTopics ? Math.round(100 * doneTopics / realTopics) : 0) + '%', 'done']
-    ];
-    var mi = 0;
-    function drawCenter() {
-      document.getElementById('tp-center-num').textContent = modes[mi][0];
-      document.getElementById('tp-center-lab').textContent = modes[mi][1] + ' of ' + realTopics + ' topics';
+    var selected = -1, mi = 0;
+    function scopeModes() {
+      if (selected < 0) return { total: realTopics, modes: [
+        [doneTopics, 'topics done'], [masteredTopics, 'mastered'],
+        [(realTopics ? Math.round(100 * doneTopics / realTopics) : 0) + '%', 'done']] };
+      var g = groups[selected], c = g.counts;
+      var done = c['Mastered'] + c['Learning'], tot = g.topics.length;
+      return { total: tot, modes: [
+        [done, 'topics done'], [c['Mastered'], 'mastered'],
+        [(tot ? Math.round(100 * done / tot) : 0) + '%', 'done']] };
     }
-    drawCenter();
+    function drawCenter() {
+      var sm = scopeModes();
+      document.getElementById('tp-center-num').textContent = sm.modes[mi][0];
+      document.getElementById('tp-center-lab').textContent = sm.modes[mi][1] + ' of ' + sm.total + ' topics';
+    }
+    function renderDetail() {
+      var box = document.getElementById('tp-detail');
+      if (selected < 0) {
+        var mc = 0, lc = 0, rc = 0;
+        groups.forEach(function (g) { if (g.isTextbook) return; mc += g.counts['Mastered']; lc += g.counts['Learning']; rc += g.counts['Ready to Learn']; });
+        box.innerHTML = '<p class="tp-detail-head">Whole chapter</p>' +
+          '<p class="tp-detail-counts"><span style="color:#15803d">Mastered ' + mc + '</span> \u00B7 <span style="color:#f59e0b">Learning ' + lc + '</span> \u00B7 <span style="color:#2563eb">Ready ' + rc + '</span></p>' +
+          '<p class="tp-detail-hint">Tap a slice to see that set\u2019s topics.</p>';
+        return;
+      }
+      var g = groups[selected], c = g.counts;
+      var html = '<p class="tp-detail-head"><span class="tp-chip-color" style="background:' + g.color + '"></span> ' + esc(g.name) +
+        ' <button type="button" class="tp-reset" id="tp-reset">Whole chapter</button></p>' +
+        '<p class="tp-detail-counts"><span style="color:#15803d">Mastered ' + c['Mastered'] + '</span> \u00B7 <span style="color:#f59e0b">Learning ' + c['Learning'] + '</span> \u00B7 <span style="color:#2563eb">Ready ' + c['Ready to Learn'] + '</span></p>';
+      ['Mastered', 'Learning', 'Ready to Learn'].forEach(function (st) {
+        var ts = g.topics.filter(function (x) { return x.status === st; });
+        if (!ts.length) return;
+        html += '<p class="tp-detail-group" style="color:' + STATUS[st] + '">' + st + '</p>';
+        ts.forEach(function (x) {
+          var href = 'exam.html?exam=' + encodeURIComponent(g.entry.file) + (x.all ? '' : '&topic=' + encodeURIComponent(x.name));
+          html += '<div class="tp-topic-row"><span class="tp-topic-name">' + esc(x.name) + (x.flagged ? ' <span class="tp-flag">\u2605 ' + x.flagged + '</span>' : '') + '</span><span class="tp-topic-meta">' + x.n + ' questions</span><a class="tp-practice" href="' + href + '">Practice</a></div>';
+        });
+      });
+      box.innerHTML = html;
+      var rb = document.getElementById('tp-reset');
+      if (rb) rb.addEventListener('click', function () { selectGroup(-1, false); });
+    }
+    function selectGroup(gi, scroll) {
+      selected = (gi === selected) ? -1 : gi;
+      mi = 0;
+      svg.querySelectorAll('path[data-group]').forEach(function (p) {
+        p.style.opacity = (selected < 0 || +p.getAttribute('data-group') === selected) ? '1' : '0.3';
+      });
+      groups.forEach(function (g, i) {
+        var head = document.getElementById('tp-group-' + i);
+        if (head) head.classList.toggle('tp-selected', i === selected);
+      });
+      drawCenter(); renderDetail();
+      if (selected >= 0) {
+        if (groups[selected]._body) groups[selected]._body.hidden = false;
+        if (scroll) document.getElementById('tp-group-' + selected).scrollIntoView({ block: 'start' });
+      }
+    }
+    drawCenter(); renderDetail();
     svg.addEventListener('click', function (ev) {
       if (ev.target.id === 'tp-center-bg' || ev.target.id === 'tp-center-num' || ev.target.id === 'tp-center-lab') {
-        mi = (mi + 1) % modes.length; drawCenter(); return;
+        mi = (mi + 1) % 3; drawCenter(); return;
       }
       var gi = ev.target.getAttribute && ev.target.getAttribute('data-group');
-      if (gi !== null && gi !== undefined) toggleGroup(+gi, true);
+      if (gi !== null && gi !== undefined) selectGroup(+gi, true);
     });
 
     // List
@@ -232,7 +282,7 @@
           '<a class="tp-practice" href="' + href + '">Practice</a>';
         body.appendChild(row);
       });
-      head.addEventListener('click', function () { toggleGroup(gi, false); });
+      head.addEventListener('click', function () { toggleGroup(gi, false); selectGroup(gi, false); });
       list.appendChild(head);
       list.appendChild(body);
       g._body = body;
