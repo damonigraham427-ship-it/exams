@@ -355,6 +355,7 @@ function show() {
   }
   document.getElementById('feedback').textContent = '';
   document.getElementById('next-btn').hidden = true;
+  document.getElementById('back-btn').hidden = idx === 0;
   refreshFlagBtn();
   refreshQualityBtn();
   const box = document.getElementById('choices');
@@ -473,8 +474,15 @@ document.getElementById('quality-btn').onclick = () => {
 };
 document.getElementById('next-btn').onclick = () => {
   idx++;
-  if (idx < exam.questions.length) { show(); saveProgress(); return; }
+  if (idx < exam.questions.length) { show(); renderAnswered(); saveProgress(); return; }
   finish();
+};
+document.getElementById('back-btn').onclick = () => {
+  if (idx === 0) return;
+  idx--;
+  show();
+  renderAnswered();
+  saveProgress();
 };
 document.getElementById('retry-btn').onclick = () => { clearProgress(); location.reload(); };
 function missedText() {
