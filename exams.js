@@ -75,6 +75,11 @@ function renderCategories() {
         setView();
       }));
     }
+    if (c === '60 Minutes Equals an Hour') {
+      wrap.appendChild(navCard('60 Minutes Equals an Hour \u2014 Tiers', 'tier circle \u00B7 status by 5% tier', PALETTE[(i + 1) % PALETTE.length], () => {
+        location.href = 'hour-topics.html';
+      }));
+    }
   });
 }
 
