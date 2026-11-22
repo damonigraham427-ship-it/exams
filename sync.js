@@ -24,7 +24,11 @@
   var btn = document.getElementById('sync-btn');
   function setStatus(t) { statusEl.textContent = t; }
   function syncedText() { return 'Synced \u2713' + (userEmail ? ' \u00B7 ' + userEmail : ''); }
-  function hashStr(x) { var h = 0; for (var i = 0; i < x.length; i++) { h = ((h * 31) + x.charCodeAt(i)) | 0; } return String(h); }
+  function canon(x) {
+    if (x === null || typeof x !== 'object') return JSON.stringify(x);
+    if (Array.isArray(x)) return '[' + x.map(canon).join(',') + ']';
+    return '{' + Object.keys(x).sort().map(function (k) { return JSON.stringify(k) + ':' + canon(x[k]); }).join(',') + '}';
+  }
 
   var SDK = [
     'https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js',
@@ -166,26 +170,20 @@
       btn.onclick = function () { auth.signOut(); };
       db.collection('users').doc(uid).get().then(function (snap) {
         var remote = snap.exists ? (snap.data().state || {}) : {};
-        var before = JSON.stringify(collectState());
-        var merged = mergeState(collectState(), remote);
-        var changed = JSON.stringify(merged) !== before;
-        applyState(merged);
+        var local = collectState();
+        var merged = mergeState(local, remote);
+        // Firestore does not preserve map key order, so compare canonically:
+        // only real content differences count, never key order alone.
+        var changed = canon(merged) !== canon(local);
         userEmail = user.email || '';
         if (!changed) { setStatus(syncedText()); push(); return; }
-        // Upload the merged state FIRST (immediately, not debounced), then
-        // refresh the page at most once per merged state so the page shows
-        // the merged data. The old order (reload before upload) looped.
+        applyState(merged);
+        // Upload the merged state back so the cloud copy converges. No page
+        // reload: the merged data is in storage and every page the user
+        // opens next reads it fresh.
         setStatus('Sync: syncing…');
-        pushNow().then(function () {
-          setStatus(syncedText());
-          var h = hashStr(JSON.stringify(merged));
-          var seen = null;
-          try { seen = sessionStorage.getItem('syncMergedHash'); } catch (e) {}
-          if (seen !== h) {
-            try { sessionStorage.setItem('syncMergedHash', h); } catch (e) {}
-            setTimeout(function () { location.reload(); }, 300);
-          }
-        }).catch(function () { setStatus('Sync: save failed, will retry'); });
+        pushNow().then(function () { setStatus(syncedText()); })
+          .catch(function () { setStatus('Sync: save failed, will retry'); });
       }).catch(function () { setStatus('Sync: could not load cloud data'); });
     });
   });
