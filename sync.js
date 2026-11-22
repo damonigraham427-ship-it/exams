@@ -23,6 +23,8 @@
   var statusEl = document.getElementById('sync-status');
   var btn = document.getElementById('sync-btn');
   function setStatus(t) { statusEl.textContent = t; }
+  function syncedText() { return 'Synced \u2713' + (userEmail ? ' \u00B7 ' + userEmail : ''); }
+  function hashStr(x) { var h = 0; for (var i = 0; i < x.length; i++) { h = ((h * 31) + x.charCodeAt(i)) | 0; } return String(h); }
 
   var SDK = [
     'https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js',
@@ -38,7 +40,7 @@
     document.head.appendChild(s);
   }
 
-  var auth = null, db = null, uid = null, applying = false, pushTimer = null;
+  var auth = null, db = null, uid = null, applying = false, pushTimer = null, userEmail = '';
   var origSet = localStorage.setItem.bind(localStorage);
 
   function isSyncKey(k) {
@@ -118,13 +120,16 @@
     Object.keys(st).forEach(function (k) { origSet(k, JSON.stringify(st[k])); });
     applying = false;
   }
+  function pushNow() {
+    return db.collection('users').doc(uid).set({ state: collectState(), updatedAt: Date.now() });
+  }
   function push() {
     if (!uid || applying) return;
     clearTimeout(pushTimer);
     pushTimer = setTimeout(function () {
       setStatus('Sync: saving…');
-      db.collection('users').doc(uid).set({ state: collectState(), updatedAt: Date.now() })
-        .then(function () { setStatus('Synced ✓'); })
+      pushNow()
+        .then(function () { setStatus(syncedText()); })
         .catch(function () { setStatus('Sync: save failed, will retry'); });
     }, 1200);
   }
@@ -163,13 +168,24 @@
         var remote = snap.exists ? (snap.data().state || {}) : {};
         var before = JSON.stringify(collectState());
         var merged = mergeState(collectState(), remote);
+        var changed = JSON.stringify(merged) !== before;
         applyState(merged);
-        setStatus('Synced ✓ · ' + (user.email || 'signed in'));
-        push();
-        // Pages render from localStorage at load; refresh once if the merge
-        // actually changed this device's data (merges are idempotent, so the
-        // reload lands on equal data and does not loop).
-        if (JSON.stringify(merged) !== before) setTimeout(function () { location.reload(); }, 350);
+        userEmail = user.email || '';
+        if (!changed) { setStatus(syncedText()); push(); return; }
+        // Upload the merged state FIRST (immediately, not debounced), then
+        // refresh the page at most once per merged state so the page shows
+        // the merged data. The old order (reload before upload) looped.
+        setStatus('Sync: syncing…');
+        pushNow().then(function () {
+          setStatus(syncedText());
+          var h = hashStr(JSON.stringify(merged));
+          var seen = null;
+          try { seen = sessionStorage.getItem('syncMergedHash'); } catch (e) {}
+          if (seen !== h) {
+            try { sessionStorage.setItem('syncMergedHash', h); } catch (e) {}
+            setTimeout(function () { location.reload(); }, 300);
+          }
+        }).catch(function () { setStatus('Sync: save failed, will retry'); });
       }).catch(function () { setStatus('Sync: could not load cloud data'); });
     });
   });
