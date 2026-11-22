@@ -11,7 +11,9 @@ let exam, examTitle = file, idx = 0, score = 0;
 const answers = [];
 let lastMissed = [];
 let lastFlagged = [];
+let lastQuality = [];
 const flagged = new Set();
+const quality = new Set();
 let entry = null;
 let runOrder = null;
 
@@ -205,6 +207,7 @@ Promise.all([
         idx = p.idx; score = p.score || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
+        (p.quality || []).forEach(i => quality.add(i));
       }
     } else if (isMeta10) {
       const blockQs = buildBlockQuestions(pool);
@@ -215,6 +218,7 @@ Promise.all([
         idx = p.idx; score = p.score || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
+        (p.quality || []).forEach(i => quality.add(i));
         restored = true;
       }
       if (!restored) runOrder = shuffleIdx(blockQs.length);
@@ -228,6 +232,7 @@ Promise.all([
         idx = p.idx; score = p.score || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
+        (p.quality || []).forEach(i => quality.add(i));
         restored = true;
       }
       if (!restored) runOrder = shuffleIdx(metaQs.length);
@@ -242,6 +247,7 @@ Promise.all([
         idx = p.idx; score = p.score || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
+        (p.quality || []).forEach(i => quality.add(i));
         restored = true;
       }
       if (!restored) runOrder = shuffleIdx(drawN).map(i => picks[i]);
@@ -255,6 +261,7 @@ Promise.all([
         idx = p.idx; score = p.score || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
+        (p.quality || []).forEach(i => quality.add(i));
         restored = true;
       }
       if (!restored) {
@@ -276,6 +283,7 @@ Promise.all([
         idx = p.idx; score = p.score || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
+        (p.quality || []).forEach(i => quality.add(i));
         restored = true;
       }
       if (!restored) runOrder = shuffleIdx(pool.length).slice(0, drawN);
@@ -284,6 +292,7 @@ Promise.all([
       idx = p.idx; score = p.score || 0;
       (p.answers || []).forEach((a, i) => { answers[i] = a; });
       (p.flagged || []).forEach(i => flagged.add(i));
+      (p.quality || []).forEach(i => quality.add(i));
     }
   } catch (e) { /* no saved progress */ }
   show();
@@ -297,11 +306,18 @@ function refreshFlagBtn() {
   btn.classList.toggle('flagged-on', on);
 }
 
+function refreshQualityBtn() {
+  const btn = document.getElementById('quality-btn');
+  const on = quality.has(idx);
+  btn.textContent = on ? '\u2691 In quality review' : '\u2691 Quality review';
+  btn.classList.toggle('quality-on', on);
+}
+
 const PKEY = 'examProgress';
 function saveProgress() {
   try {
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
-    const rec = { idx: idx, answers: answers, flagged: [...flagged], score: score, total: exam.questions.length, ts: Date.now() };
+    const rec = { idx: idx, answers: answers, flagged: [...flagged], quality: [...quality], score: score, total: exam.questions.length, ts: Date.now() };
     if (runOrder) rec.order = runOrder;
     all[storageKey] = rec;
     localStorage.setItem(PKEY, JSON.stringify(all));
@@ -340,6 +356,7 @@ function show() {
   document.getElementById('feedback').textContent = '';
   document.getElementById('next-btn').hidden = true;
   refreshFlagBtn();
+  refreshQualityBtn();
   const box = document.getElementById('choices');
   box.innerHTML = '';
   q.choices.forEach((c, i) => {
@@ -414,10 +431,30 @@ function finish() {
   });
   document.getElementById('no-flagged').hidden = lastFlagged.length !== 0;
 
+  lastQuality = [...quality].sort((a, b) => a - b).map(i => {
+    const q = exam.questions[i];
+    return {
+      n: i + 1,
+      question: q.question,
+      source: q.source || '',
+      correct: q.choices[q.answer],
+      explanation: q.explanation || '',
+      result: answers[i] === q.answer ? 'answered correctly' : 'answered incorrectly'
+    };
+  });
+  const qlist = document.getElementById('quality-list');
+  qlist.innerHTML = '';
+  lastQuality.forEach(m => {
+    const li = document.createElement('li');
+    li.textContent = m.question + ' — Correct: ' + m.correct + ' · You ' + m.result + (m.source ? ' · Deck: ' + m.source : '') + (m.explanation ? ' · ' + m.explanation : '');
+    qlist.appendChild(li);
+  });
+  document.getElementById('no-quality').hidden = lastQuality.length !== 0;
+
   try {
     const all = JSON.parse(localStorage.getItem('examHistory') || '{}');
     if (!Array.isArray(all[storageKey])) all[storageKey] = [];
-    all[storageKey].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, missed: lastMissed, flagged: lastFlagged });
+    all[storageKey].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, missed: lastMissed, flagged: lastFlagged, quality: lastQuality });
     all[storageKey] = all[storageKey].slice(0, 20);
     localStorage.setItem('examHistory', JSON.stringify(all));
   } catch (e) { /* storage unavailable; results still shown on screen */ }
@@ -426,6 +463,12 @@ function finish() {
 document.getElementById('flag-btn').onclick = () => {
   if (flagged.has(idx)) flagged.delete(idx); else flagged.add(idx);
   refreshFlagBtn();
+  refreshQualityBtn();
+  saveProgress();
+};
+document.getElementById('quality-btn').onclick = () => {
+  if (quality.has(idx)) quality.delete(idx); else quality.add(idx);
+  refreshQualityBtn();
   saveProgress();
 };
 document.getElementById('next-btn').onclick = () => {
