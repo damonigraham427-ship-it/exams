@@ -181,7 +181,7 @@
    "source": "Quiz-Style Slides — Set 9"
   },
   {
-   "question": "Which term is defined as: slander",
+   "question": "Which term is defined as: False and damaging information about a person that is communicated by spoken word.",
    "choices": [
     "chain of evidence",
     "bioethics",
@@ -189,19 +189,19 @@
     "slander"
    ],
    "answer": 3,
-   "explanation": "slander: slander",
+   "explanation": "slander: False and damaging information about a person that is communicated by spoken word.",
    "source": "Flashcard Slides — Set 9"
   },
   {
    "question": "What does the term \"slander\" mean?",
    "choices": [
-    "slander",
-    "kidnapping",
-    "in loco parentis",
-    "expressed consent"
+    "False and damaging information about a person that is communicated by spoken word.",
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
+    "Refers to the legal responsibility of a person or organization to take on some of the functions and responsibilities of a parent.",
+    "A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport."
    ],
    "answer": 0,
-   "explanation": "slander: slander",
+   "explanation": "slander: False and damaging information about a person that is communicated by spoken word.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -229,7 +229,7 @@
    "source": "Flashcard Case Studies — Set 9"
   },
   {
-   "question": "Which term is defined as: health care directive",
+   "question": "Which term is defined as: A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
    "choices": [
     "false imprisonment",
     "negligence",
@@ -237,19 +237,19 @@
     "Good Samaritan laws"
    ],
    "answer": 2,
-   "explanation": "health care directive: health care directive",
+   "explanation": "health care directive: A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
    "source": "Flashcard Slides — Set 9"
   },
   {
    "question": "What does the term \"health care directive\" mean?",
    "choices": [
-    "emancipated minor",
-    "dependent lividity",
-    "health care directive",
-    "duty to act"
+    "A person who is under the legal age in a given state but, because of other circumstances, is legally considered an adult.",
+    "Blood settling to the lowest point of the body, causing discoloration of the skin; a definitive sign of death.",
+    "A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
+    "A medicolegal term relating to certain personnel who either by statute or by function have a responsibility to provide care."
    ],
    "answer": 2,
-   "explanation": "health care directive: health care directive",
+   "explanation": "health care directive: A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -277,7 +277,7 @@
    "source": "Flashcard Case Studies — Set 9"
   },
   {
-   "question": "Which term is defined as: informed consent",
+   "question": "Which term is defined as: Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
    "choices": [
     "health care directive",
     "informed consent",
@@ -285,19 +285,19 @@
     "false imprisonment"
    ],
    "answer": 1,
-   "explanation": "informed consent: informed consent",
+   "explanation": "informed consent: Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
    "source": "Flashcard Slides — Set 9"
   },
   {
    "question": "What does the term \"informed consent\" mean?",
    "choices": [
-    "informed consent",
-    "medicolegal",
-    "patient care documentation (patient care report)",
-    "Good Samaritan laws"
+    "Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
+    "A term relating to medical jurisprudence (law) or forensic medicine.",
+    "The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
+    "Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence."
    ],
    "answer": 0,
-   "explanation": "informed consent: informed consent",
+   "explanation": "informed consent: Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -325,7 +325,7 @@
    "source": "Flashcard Case Studies — Set 9"
   },
   {
-   "question": "Which term is defined as: rigor mortis",
+   "question": "Which term is defined as: Stiffening of the body muscles; a definitive sign of death.",
    "choices": [
     "breach of confidentiality",
     "rigor mortis",
@@ -333,19 +333,19 @@
     "morality"
    ],
    "answer": 1,
-   "explanation": "rigor mortis: rigor mortis",
+   "explanation": "rigor mortis: Stiffening of the body muscles; a definitive sign of death.",
    "source": "Flashcard Slides — Set 9"
   },
   {
    "question": "What does the term \"rigor mortis\" mean?",
    "choices": [
-    "health care proxy",
-    "patient care documentation (patient care report)",
-    "rigor mortis",
-    "Health Insurance Portability and Accountability Act (HIPAA)"
+    "A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
+    "The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
+    "Stiffening of the body muscles; a definitive sign of death.",
+    "The federal law, enacted in 1996, that protects the privacy and security of a patient's health information and limits how EMS personnel may use or share it."
    ],
    "answer": 2,
-   "explanation": "rigor mortis: rigor mortis",
+   "explanation": "rigor mortis: Stiffening of the body muscles; a definitive sign of death.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -373,7 +373,7 @@
    "source": "Flashcard Case Studies — Set 9"
   },
   {
-   "question": "Which term is defined as: expressed consent",
+   "question": "Which term is defined as: A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
    "choices": [
     "slander",
     "health care directive",
@@ -381,19 +381,19 @@
     "expressed consent"
    ],
    "answer": 3,
-   "explanation": "expressed consent: expressed consent",
+   "explanation": "expressed consent: A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
    "source": "Flashcard Slides — Set 9"
   },
   {
    "question": "What does the term \"expressed consent\" mean?",
    "choices": [
-    "expressed consent",
-    "emergency doctrine",
-    "applied ethics",
-    "ethics"
+    "A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
+    "The principle of law that permits a health care provider to treat a patient in an emergency situation when the patient is incapable of granting consent because of an altered level of consciousness, disability, the effects of drugs or alcohol, or the patient's age.",
+    "The manner in which principles of ethics are incorporated into professional conduct.",
+    "The philosophy of right and wrong, of moral duties, and of ideal professional behavior."
    ],
    "answer": 0,
-   "explanation": "expressed consent: expressed consent",
+   "explanation": "expressed consent: A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
    "source": "Flashcard Slides — Set 9"
   },
   {

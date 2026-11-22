@@ -217,7 +217,7 @@
    "source": "Quiz-Style Slides — Set 2"
   },
   {
-   "question": "Which term is defined as: governmental immunity",
+   "question": "Which term is defined as: Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider.",
    "choices": [
     "slander",
     "governmental immunity",
@@ -225,19 +225,19 @@
     "decision-making capacity"
    ],
    "answer": 1,
-   "explanation": "governmental immunity: governmental immunity",
+   "explanation": "governmental immunity: Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"governmental immunity\" mean?",
    "choices": [
-    "standard of care",
-    "breach of confidentiality",
-    "interrogatories",
-    "governmental immunity"
+    "Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
+    "Disclosure of information without proper authorization.",
+    "Written questions that the defense and plaintiff send to one another.",
+    "Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider."
    ],
    "answer": 3,
-   "explanation": "governmental immunity: governmental immunity",
+   "explanation": "governmental immunity: Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -265,7 +265,7 @@
    "source": "Flashcard Case Studies — Set 2"
   },
   {
-   "question": "Which term is defined as: libel",
+   "question": "Which term is defined as: False and damaging information about a person that is communicated in writing.",
    "choices": [
     "emergency doctrine",
     "libel",
@@ -273,19 +273,19 @@
     "torts"
    ],
    "answer": 1,
-   "explanation": "libel: libel",
+   "explanation": "libel: False and damaging information about a person that is communicated in writing.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"libel\" mean?",
    "choices": [
-    "statute of limitations",
-    "libel",
-    "consent",
-    "applied ethics"
+    "The time within which a legal case must be commenced.",
+    "False and damaging information about a person that is communicated in writing.",
+    "Permission to render care.",
+    "The manner in which principles of ethics are incorporated into professional conduct."
    ],
    "answer": 1,
-   "explanation": "libel: libel",
+   "explanation": "libel: False and damaging information about a person that is communicated in writing.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -313,7 +313,7 @@
    "source": "Flashcard Case Studies — Set 2"
   },
   {
-   "question": "Which term is defined as: assault",
+   "question": "Which term is defined as: Unlawfully placing a patient in fear of bodily harm.",
    "choices": [
     "assault",
     "dependent lividity",
@@ -321,19 +321,19 @@
     "chain of evidence"
    ],
    "answer": 0,
-   "explanation": "assault: assault",
+   "explanation": "assault: Unlawfully placing a patient in fear of bodily harm.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"assault\" mean?",
    "choices": [
-    "assault",
-    "implied consent",
-    "emergency medical care",
-    "health care directive"
+    "Unlawfully placing a patient in fear of bodily harm.",
+    "Type of consent in which a patient who is unable to give consent is given treatment under the legal assumption that he or she would want treatment.",
+    "Immediate care or treatment.",
+    "A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will."
    ],
    "answer": 0,
-   "explanation": "assault: assault",
+   "explanation": "assault: Unlawfully placing a patient in fear of bodily harm.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -361,7 +361,7 @@
    "source": "Flashcard Case Studies — Set 2"
   },
   {
-   "question": "Which term is defined as: discovery",
+   "question": "Which term is defined as: The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases.",
    "choices": [
     "discovery",
     "emergency",
@@ -369,19 +369,19 @@
     "medicolegal"
    ],
    "answer": 0,
-   "explanation": "discovery: discovery",
+   "explanation": "discovery: The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"discovery\" mean?",
    "choices": [
-    "health care proxy",
-    "res ipsa loquitur",
-    "compensatory damages",
-    "discovery"
+    "A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
+    "When the EMT or an EMS system is held liable even when the plaintiff is unable to clearly demonstrate how an injury occurred.",
+    "Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
+    "The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases."
    ],
    "answer": 3,
-   "explanation": "discovery: discovery",
+   "explanation": "discovery: The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -409,7 +409,7 @@
    "source": "Flashcard Case Studies — Set 2"
   },
   {
-   "question": "Which term is defined as: negligence",
+   "question": "Which term is defined as: Failure to provide the same care that a person with similar training would provide.",
    "choices": [
     "patient autonomy",
     "negligence",
@@ -417,19 +417,19 @@
     "assault"
    ],
    "answer": 1,
-   "explanation": "negligence: negligence",
+   "explanation": "negligence: Failure to provide the same care that a person with similar training would provide.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"negligence\" mean?",
    "choices": [
-    "negligence",
-    "durable power of attorney for health care",
-    "torts",
-    "health care directive"
+    "Failure to provide the same care that a person with similar training would provide.",
+    "A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
+    "Wrongful acts that give rise to a civil lawsuit.",
+    "A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will."
    ],
    "answer": 0,
-   "explanation": "negligence: negligence",
+   "explanation": "negligence: Failure to provide the same care that a person with similar training would provide.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -457,7 +457,7 @@
    "source": "Flashcard Case Studies — Set 2"
   },
   {
-   "question": "Which term is defined as: kidnapping",
+   "question": "Which term is defined as: The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
    "choices": [
     "kidnapping",
     "emergency doctrine",
@@ -465,19 +465,19 @@
     "scope of practice"
    ],
    "answer": 0,
-   "explanation": "kidnapping: kidnapping",
+   "explanation": "kidnapping: The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"kidnapping\" mean?",
    "choices": [
-    "kidnapping",
-    "false imprisonment",
-    "morality",
-    "decision-making capacity"
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
+    "The confinement of a person without legal authority or the person's consent.",
+    "A code of conduct that can be defined by society, religion, or a person, affecting character, conduct, and conscience.",
+    "Ability to understand and process information and make a choice regarding appropriate medical care."
    ],
    "answer": 0,
-   "explanation": "kidnapping: kidnapping",
+   "explanation": "kidnapping: The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
    "source": "Flashcard Slides — Set 2"
   },
   {

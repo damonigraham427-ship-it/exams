@@ -181,7 +181,7 @@
    "source": "Quiz-Style Slides — Set 7"
   },
   {
-   "question": "Which term is defined as: do not resuscitate order",
+   "question": "Which term is defined as: Written documentation by a physician giving permission to medical personnel not to attempt resuscitation in the event of cardiac arrest.",
    "choices": [
     "health care directive",
     "health care proxy",
@@ -189,19 +189,19 @@
     "do not resuscitate order"
    ],
    "answer": 3,
-   "explanation": "do not resuscitate order: do not resuscitate order",
+   "explanation": "do not resuscitate order: Written documentation by a physician giving permission to medical personnel not to attempt resuscitation in the event of cardiac arrest.",
    "source": "Flashcard Slides — Set 7"
   },
   {
    "question": "What does the term \"do not resuscitate order\" mean?",
    "choices": [
-    "mandatory reporting",
-    "do not resuscitate order",
-    "patient autonomy",
-    "contributory negligence"
+    "The legal duty of an EMT to notify the appropriate authorities in specific situations, such as suspected child or elder abuse or neglect, injuries caused by weapons or crimes, and attempted suicide.",
+    "Written documentation by a physician giving permission to medical personnel not to attempt resuscitation in the event of cardiac arrest.",
+    "The right of a patient to make informed choices regarding his or her health care.",
+    "A legal defense that may be raised when the defendant thinks that the conduct of the plaintiff somehow contributed to any injuries or damages that were sustained by the plaintiff."
    ],
    "answer": 1,
-   "explanation": "do not resuscitate order: do not resuscitate order",
+   "explanation": "do not resuscitate order: Written documentation by a physician giving permission to medical personnel not to attempt resuscitation in the event of cardiac arrest.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -229,7 +229,7 @@
    "source": "Flashcard Case Studies — Set 7"
   },
   {
-   "question": "Which term is defined as: breach of confidentiality",
+   "question": "Which term is defined as: Disclosure of information without proper authorization.",
    "choices": [
     "breach of confidentiality",
     "health care directive",
@@ -237,19 +237,19 @@
     "emergency"
    ],
    "answer": 0,
-   "explanation": "breach of confidentiality: breach of confidentiality",
+   "explanation": "breach of confidentiality: Disclosure of information without proper authorization.",
    "source": "Flashcard Slides — Set 7"
   },
   {
    "question": "What does the term \"breach of confidentiality\" mean?",
    "choices": [
-    "breach of confidentiality",
-    "patient autonomy",
-    "medicolegal",
-    "kidnapping"
+    "Disclosure of information without proper authorization.",
+    "The right of a patient to make informed choices regarding his or her health care.",
+    "A term relating to medical jurisprudence (law) or forensic medicine.",
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will."
    ],
    "answer": 0,
-   "explanation": "breach of confidentiality: breach of confidentiality",
+   "explanation": "breach of confidentiality: Disclosure of information without proper authorization.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -277,7 +277,7 @@
    "source": "Flashcard Case Studies — Set 7"
   },
   {
-   "question": "Which term is defined as: protected health information",
+   "question": "Which term is defined as: Any information about health status, provision of health care, or payment for health care that can be linked to an individual.",
    "choices": [
     "battery",
     "ethics",
@@ -285,19 +285,19 @@
     "protected health information"
    ],
    "answer": 3,
-   "explanation": "protected health information: protected health information",
+   "explanation": "protected health information: Any information about health status, provision of health care, or payment for health care that can be linked to an individual.",
    "source": "Flashcard Slides — Set 7"
   },
   {
    "question": "What does the term \"protected health information\" mean?",
    "choices": [
-    "medicolegal",
-    "negligence",
-    "protected health information",
-    "ethics"
+    "A term relating to medical jurisprudence (law) or forensic medicine.",
+    "Failure to provide the same care that a person with similar training would provide.",
+    "Any information about health status, provision of health care, or payment for health care that can be linked to an individual.",
+    "The philosophy of right and wrong, of moral duties, and of ideal professional behavior."
    ],
    "answer": 2,
-   "explanation": "protected health information: protected health information",
+   "explanation": "protected health information: Any information about health status, provision of health care, or payment for health care that can be linked to an individual.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -325,7 +325,7 @@
    "source": "Flashcard Case Studies — Set 7"
   },
   {
-   "question": "Which term is defined as: scope of practice",
+   "question": "Which term is defined as: Most commonly defined by state law; outlines the care that the EMT is able to provide for the patient.",
    "choices": [
     "scope of practice",
     "rigor mortis",
@@ -333,19 +333,19 @@
     "chain of evidence"
    ],
    "answer": 0,
-   "explanation": "scope of practice: scope of practice",
+   "explanation": "scope of practice: Most commonly defined by state law; outlines the care that the EMT is able to provide for the patient.",
    "source": "Flashcard Slides — Set 7"
   },
   {
    "question": "What does the term \"scope of practice\" mean?",
    "choices": [
-    "scope of practice",
-    "emancipated minor",
-    "emergency medical care",
-    "breach of confidentiality"
+    "Most commonly defined by state law; outlines the care that the EMT is able to provide for the patient.",
+    "A person who is under the legal age in a given state but, because of other circumstances, is legally considered an adult.",
+    "Immediate care or treatment.",
+    "Disclosure of information without proper authorization."
    ],
    "answer": 0,
-   "explanation": "scope of practice: scope of practice",
+   "explanation": "scope of practice: Most commonly defined by state law; outlines the care that the EMT is able to provide for the patient.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -373,7 +373,7 @@
    "source": "Flashcard Case Studies — Set 7"
   },
   {
-   "question": "Which term is defined as: algor mortis",
+   "question": "Which term is defined as: Cooling of the body after death until it matches the ambient temperature.",
    "choices": [
     "chain of evidence",
     "algor mortis",
@@ -381,19 +381,19 @@
     "contributory negligence"
    ],
    "answer": 1,
-   "explanation": "algor mortis: algor mortis",
+   "explanation": "algor mortis: Cooling of the body after death until it matches the ambient temperature.",
    "source": "Flashcard Slides — Set 7"
   },
   {
    "question": "What does the term \"algor mortis\" mean?",
    "choices": [
-    "algor mortis",
-    "patient care documentation (patient care report)",
-    "bioethics",
-    "informed consent"
+    "Cooling of the body after death until it matches the ambient temperature.",
+    "The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
+    "The study of ethics related to issues that arise in health care.",
+    "Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained."
    ],
    "answer": 0,
-   "explanation": "algor mortis: algor mortis",
+   "explanation": "algor mortis: Cooling of the body after death until it matches the ambient temperature.",
    "source": "Flashcard Slides — Set 7"
   },
   {

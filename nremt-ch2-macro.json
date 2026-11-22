@@ -25,7 +25,7 @@
    "source": "Flashcard Case Studies — Set 5"
   },
   {
-   "question": "Which term is defined as: sharps safety",
+   "question": "Which term is defined as: Handling needles and other sharps carefully and disposing of them properly; careless handling of sharps is the usual route by which HIV and hepatitis are spread in health care settings.",
    "choices": [
     "tuberculosis",
     "sharps safety",
@@ -33,31 +33,31 @@
     "cover"
    ],
    "answer": 1,
-   "explanation": "sharps safety: sharps safety",
+   "explanation": "sharps safety: Handling needles and other sharps carefully and disposing of them properly; careless handling of sharps is the usual route by which HIV and hepatitis are spread in health care settings.",
    "source": "Flashcard Slides — Set 9"
   },
   {
    "question": "What does the term \"indirect contact\" mean?",
    "choices": [
-    "indirect contact",
-    "designated officer",
-    "immune",
-    "contamination"
+    "Exposure or transmission of disease from one person to another by contact with a contaminated object.",
+    "The individual in the department who is charged with the responsibility of managing exposures and infection control.",
+    "The body's ability to protect itself from acquiring a disease.",
+    "The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body."
    ],
    "answer": 0,
-   "explanation": "indirect contact: indirect contact",
+   "explanation": "indirect contact: Exposure or transmission of disease from one person to another by contact with a contaminated object.",
    "source": "Flashcard Slides — Set 5"
   },
   {
    "question": "What does the term \"exposure\" mean?",
    "choices": [
-    "infection control",
-    "posttraumatic stress disorder",
-    "exposure",
-    "acute stress reactions"
+    "Procedures to reduce transmission of infection among patients and health care personnel.",
+    "A delayed stress reaction to a prior incident. Often the result of one or more unresolved issues concerning the incident, and may relate to an incident that involved physical harm or the threat of physical harm.",
+    "A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
+    "Reactions to stress that occur during a stressful situation."
    ],
    "answer": 2,
-   "explanation": "exposure: exposure",
+   "explanation": "exposure: A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -145,7 +145,7 @@
    "source": "Quiz-Style Slides — Set 4"
   },
   {
-   "question": "Which term is defined as: ambulance decontamination",
+   "question": "Which term is defined as: Cleaning and disinfecting the ambulance and its equipment after a call, including allowing disinfected surfaces to air dry unless otherwise indicated in the product directions, so the unit is safe for the next patient.",
    "choices": [
     "aerosol-generating procedure",
     "ambulance decontamination",
@@ -153,7 +153,7 @@
     "tuberculosis"
    ],
    "answer": 1,
-   "explanation": "ambulance decontamination: ambulance decontamination",
+   "explanation": "ambulance decontamination: Cleaning and disinfecting the ambulance and its equipment after a call, including allowing disinfected surfaces to air dry unless otherwise indicated in the product directions, so the unit is safe for the next patient.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -181,7 +181,7 @@
    "source": "Flashcard Case Studies — Set 6"
   },
   {
-   "question": "Which term is defined as: structural fire hazards",
+   "question": "Which term is defined as: What are the hazards at a structure fire that include possible building collapse, high heat, smoke and toxic gases, and oxygen-deficient air, and that require EMTs to stage at a safe distance and stay clear until the fire department declares the scene safe.",
    "choices": [
     "concealment",
     "contamination",
@@ -189,7 +189,7 @@
     "structural fire hazards"
    ],
    "answer": 3,
-   "explanation": "structural fire hazards: structural fire hazards",
+   "explanation": "structural fire hazards: What are the hazards at a structure fire that include possible building collapse, high heat, smoke and toxic gases, and oxygen-deficient air, and that require EMTs to stage at a safe distance and stay clear until the fire department declares the scene safe.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -205,7 +205,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: substance abuse",
+   "question": "Which term is defined as: The misuse of drugs or alcohol by a provider, on or off duty, that endangers the provider, coworkers, and patients; among EMS personnel, its most serious consequence is substandard or inappropriate patient care.",
    "choices": [
     "substance abuse",
     "infectious disease",
@@ -213,7 +213,7 @@
     "posttraumatic stress disorder"
    ],
    "answer": 0,
-   "explanation": "substance abuse: substance abuse",
+   "explanation": "substance abuse: The misuse of drugs or alcohol by a provider, on or off duty, that endangers the provider, coworkers, and patients; among EMS personnel, its most serious consequence is substandard or inappropriate patient care.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -231,13 +231,13 @@
   {
    "question": "What does the term \"ambulance decontamination\" mean?",
    "choices": [
-    "critical incident stress debriefing",
-    "exposure",
-    "Centers for Disease Control and Prevention",
-    "ambulance decontamination"
+    "The formal, structured group debriefing held 24 to 72 hours after a critical incident, as part of critical incident stress management (CISM), in which the responders involved discuss the incident and their reactions to it.",
+    "A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
+    "The primary federal agency that conducts and supports public health activities in the United States.",
+    "Cleaning and disinfecting the ambulance and its equipment after a call, including allowing disinfected surfaces to air dry unless otherwise indicated in the product directions, so the unit is safe for the next patient."
    ],
    "answer": 3,
-   "explanation": "ambulance decontamination: ambulance decontamination",
+   "explanation": "ambulance decontamination: Cleaning and disinfecting the ambulance and its equipment after a call, including allowing disinfected surfaces to air dry unless otherwise indicated in the product directions, so the unit is safe for the next patient.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -255,13 +255,13 @@
   {
    "question": "What does the term \"communicable disease\" mean?",
    "choices": [
-    "infection",
-    "communicable disease",
-    "burnout",
-    "syphilis"
+    "The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
+    "A disease that can be spread from one person or species to another.",
+    "A combination of exhaustion, cynicism, and reduced performance resulting from long-term job stresses.",
+    "A sexually transmitted infectious disease caused by the bacterium Treponema pallidum; unlike many infections, it confers no protection from reinfection after exposure, so a treated person can catch it again."
    ],
    "answer": 1,
-   "explanation": "communicable disease: communicable disease",
+   "explanation": "communicable disease: A disease that can be spread from one person or species to another.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -279,13 +279,13 @@
   {
    "question": "What does the term \"resilience\" mean?",
    "choices": [
-    "Occupational Safety and Health Administration",
-    "resilience",
-    "personal protective equipment",
-    "posttraumatic stress disorder"
+    "The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
+    "The capacity of an individual to cope with and recover from distress.",
+    "Protective equipment that blocks exposure to a pathogen or a hazardous material.",
+    "A delayed stress reaction to a prior incident. Often the result of one or more unresolved issues concerning the incident, and may relate to an incident that involved physical harm or the threat of physical harm."
    ],
    "answer": 1,
-   "explanation": "resilience: resilience",
+   "explanation": "resilience: The capacity of an individual to cope with and recover from distress.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -337,7 +337,7 @@
    "source": "Quiz-Style Slides — Set 4"
   },
   {
-   "question": "Which term is defined as: eustress",
+   "question": "Which term is defined as: A beneficial response to a stressor.",
    "choices": [
     "wellness",
     "quid pro quo",
@@ -345,7 +345,7 @@
     "eustress"
    ],
    "answer": 3,
-   "explanation": "eustress: eustress",
+   "explanation": "eustress: A beneficial response to a stressor.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -457,7 +457,7 @@
    "source": "Quiz-Style Slides — Set 1"
   },
   {
-   "question": "Which term is defined as: hand washing",
+   "question": "Which term is defined as: The simplest, yet most effective, method of preventing the spread of infectious disease: washing the hands in between patient contacts.",
    "choices": [
     "structural fire hazards",
     "exposure",
@@ -465,7 +465,7 @@
     "personal protective equipment"
    ],
    "answer": 2,
-   "explanation": "hand washing: hand washing",
+   "explanation": "hand washing: The simplest, yet most effective, method of preventing the spread of infectious disease: washing the hands in between patient contacts.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -565,7 +565,7 @@
    "source": "Quiz-Style Slides — Set 9"
   },
   {
-   "question": "Which term is defined as: communicable disease",
+   "question": "Which term is defined as: A disease that can be spread from one person or species to another.",
    "choices": [
     "vector-borne transmission",
     "general adaptation syndrome",
@@ -573,11 +573,11 @@
     "communicable disease"
    ],
    "answer": 3,
-   "explanation": "communicable disease: communicable disease",
+   "explanation": "communicable disease: A disease that can be spread from one person or species to another.",
    "source": "Flashcard Slides — Set 3"
   },
   {
-   "question": "Which term is defined as: infection",
+   "question": "Which term is defined as: The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
    "choices": [
     "bloodborne pathogens",
     "cold-weather clothing layers",
@@ -585,11 +585,11 @@
     "infection control"
    ],
    "answer": 2,
-   "explanation": "infection: infection",
+   "explanation": "infection: The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
    "source": "Flashcard Slides — Set 5"
   },
   {
-   "question": "Which term is defined as: infection control",
+   "question": "Which term is defined as: Procedures to reduce transmission of infection among patients and health care personnel.",
    "choices": [
     "airborne transmission",
     "quid pro quo",
@@ -597,23 +597,23 @@
     "infection control"
    ],
    "answer": 3,
-   "explanation": "infection control: infection control",
+   "explanation": "infection control: Procedures to reduce transmission of infection among patients and health care personnel.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"immune\" mean?",
    "choices": [
-    "immune",
-    "burnout",
-    "concealment",
-    "eustress"
+    "The body's ability to protect itself from acquiring a disease.",
+    "A combination of exhaustion, cynicism, and reduced performance resulting from long-term job stresses.",
+    "The use of objects to limit a person's ability to see you.",
+    "A beneficial response to a stressor."
    ],
    "answer": 0,
-   "explanation": "immune: immune",
+   "explanation": "immune: The body's ability to protect itself from acquiring a disease.",
    "source": "Flashcard Slides — Set 3"
   },
   {
-   "question": "Which term is defined as: critical incident stress debriefing",
+   "question": "Which term is defined as: The formal, structured group debriefing held 24 to 72 hours after a critical incident, as part of critical incident stress management (CISM), in which the responders involved discuss the incident and their reactions to it.",
    "choices": [
     "critical incident stress debriefing",
     "resilience",
@@ -621,7 +621,7 @@
     "infection control"
    ],
    "answer": 0,
-   "explanation": "critical incident stress debriefing: critical incident stress debriefing",
+   "explanation": "critical incident stress debriefing: The formal, structured group debriefing held 24 to 72 hours after a critical incident, as part of critical incident stress management (CISM), in which the responders involved discuss the incident and their reactions to it.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -663,17 +663,17 @@
   {
    "question": "What does the term \"eye protection\" mean?",
    "choices": [
-    "eye protection",
-    "direct contact",
-    "quid pro quo",
-    "delayed stress reactions"
+    "What PPE must be worn when blood or body fluids may splash into the eyes, noting that prescription glasses do not provide adequate protection because they offer little or no side protection.",
+    "Exposure or transmission of a communicable disease from one person to another by physical contact.",
+    "What type of sexual harassment occurs when the harasser requests sexual favors in exchange for something else, such as a promotion, a job benefit, a better shift, or a favorable evaluation.",
+    "Reactions to stress that occur after a stressful situation."
    ],
    "answer": 0,
-   "explanation": "eye protection: eye protection",
+   "explanation": "eye protection: What PPE must be worn when blood or body fluids may splash into the eyes, noting that prescription glasses do not provide adequate protection because they offer little or no side protection.",
    "source": "Flashcard Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: cover",
+   "question": "Which term is defined as: The tactical use of an impenetrable barrier for protection.",
    "choices": [
     "airborne transmission",
     "cover",
@@ -681,7 +681,7 @@
     "indirect contact"
    ],
    "answer": 1,
-   "explanation": "cover: cover",
+   "explanation": "cover: The tactical use of an impenetrable barrier for protection.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -757,7 +757,7 @@
    "source": "Quiz-Style Slides — Set 4"
   },
   {
-   "question": "Which term is defined as: infectious disease",
+   "question": "Which term is defined as: A medical condition caused by the growth and spread of small, harmful organisms within the body.",
    "choices": [
     "critical incident stress debriefing",
     "infectious disease",
@@ -765,7 +765,7 @@
     "distress"
    ],
    "answer": 1,
-   "explanation": "infectious disease: infectious disease",
+   "explanation": "infectious disease: A medical condition caused by the growth and spread of small, harmful organisms within the body.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -781,7 +781,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: syphilis",
+   "question": "Which term is defined as: A sexually transmitted infectious disease caused by the bacterium Treponema pallidum; unlike many infections, it confers no protection from reinfection after exposure, so a treated person can catch it again.",
    "choices": [
     "syphilis",
     "cumulative stress reactions",
@@ -789,11 +789,11 @@
     "posttraumatic stress disorder"
    ],
    "answer": 0,
-   "explanation": "syphilis: syphilis",
+   "explanation": "syphilis: A sexually transmitted infectious disease caused by the bacterium Treponema pallidum; unlike many infections, it confers no protection from reinfection after exposure, so a treated person can catch it again.",
    "source": "Flashcard Slides — Set 9"
   },
   {
-   "question": "Which term is defined as: cumulative stress reactions",
+   "question": "Which term is defined as: Prolonged or excessive stress.",
    "choices": [
     "exposure",
     "critical incident stress debriefing",
@@ -801,19 +801,19 @@
     "cumulative stress reactions"
    ],
    "answer": 3,
-   "explanation": "cumulative stress reactions: cumulative stress reactions",
+   "explanation": "cumulative stress reactions: Prolonged or excessive stress.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"distress\" mean?",
    "choices": [
-    "airborne transmission",
-    "distress",
-    "concealment",
-    "designated officer"
+    "The spread of an organism via droplets or dust.",
+    "A negative response to a stressor.",
+    "The use of objects to limit a person's ability to see you.",
+    "The individual in the department who is charged with the responsibility of managing exposures and infection control."
    ],
    "answer": 1,
-   "explanation": "distress: distress",
+   "explanation": "distress: A negative response to a stressor.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -831,13 +831,13 @@
   {
    "question": "What does the term \"airborne transmission\" mean?",
    "choices": [
-    "foodborne transmission",
-    "tuberculosis",
-    "airborne transmission",
-    "Centers for Disease Control and Prevention"
+    "The contamination of food or water with an organism that can cause disease.",
+    "What airborne bacterial disease is caused by Mycobacterium tuberculosis, spreads when an infected person coughs or sneezes, and is indicated by a positive skin test showing exposure to the bacterium.",
+    "The spread of an organism via droplets or dust.",
+    "The primary federal agency that conducts and supports public health activities in the United States."
    ],
    "answer": 2,
-   "explanation": "airborne transmission: airborne transmission",
+   "explanation": "airborne transmission: The spread of an organism via droplets or dust.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -877,7 +877,7 @@
    "source": "Quiz-Style Slides — Set 4"
   },
   {
-   "question": "Which term is defined as: pathogen",
+   "question": "Which term is defined as: A microorganism that is capable of causing disease in a susceptible host.",
    "choices": [
     "pathogen",
     "quid pro quo",
@@ -885,23 +885,23 @@
     "bloodborne pathogens"
    ],
    "answer": 0,
-   "explanation": "pathogen: pathogen",
+   "explanation": "pathogen: A microorganism that is capable of causing disease in a susceptible host.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"posttraumatic stress disorder\" mean?",
    "choices": [
-    "delayed stress reactions",
-    "posttraumatic stress disorder",
-    "human immunodeficiency virus",
-    "transmission"
+    "Reactions to stress that occur after a stressful situation.",
+    "A delayed stress reaction to a prior incident. Often the result of one or more unresolved issues concerning the incident, and may relate to an incident that involved physical harm or the threat of physical harm.",
+    "Acquired immunodeficiency syndrome (AIDS) is caused by HIV, which damages the cells in the body's immune system so that the body is unable to fight infection or certain cancers.",
+    "The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors."
    ],
    "answer": 1,
-   "explanation": "posttraumatic stress disorder: posttraumatic stress disorder",
+   "explanation": "posttraumatic stress disorder: A delayed stress reaction to a prior incident. Often the result of one or more unresolved issues concerning the incident, and may relate to an incident that involved physical harm or the threat of physical harm.",
    "source": "Flashcard Slides — Set 1"
   },
   {
-   "question": "Which term is defined as: eye protection",
+   "question": "Which term is defined as: What PPE must be worn when blood or body fluids may splash into the eyes, noting that prescription glasses do not provide adequate protection because they offer little or no side protection.",
    "choices": [
     "bloodborne pathogens",
     "cold-weather clothing layers",
@@ -909,7 +909,7 @@
     "personal protective equipment"
    ],
    "answer": 2,
-   "explanation": "eye protection: eye protection",
+   "explanation": "eye protection: What PPE must be worn when blood or body fluids may splash into the eyes, noting that prescription glasses do not provide adequate protection because they offer little or no side protection.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -1011,13 +1011,13 @@
   {
    "question": "What does the term \"contamination\" mean?",
    "choices": [
-    "immune",
-    "exposure",
-    "contamination",
-    "foodborne transmission"
+    "The body's ability to protect itself from acquiring a disease.",
+    "A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
+    "The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body.",
+    "The contamination of food or water with an organism that can cause disease."
    ],
    "answer": 2,
-   "explanation": "contamination: contamination",
+   "explanation": "contamination: The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -1035,13 +1035,13 @@
   {
    "question": "What does the term \"infection\" mean?",
    "choices": [
-    "delayed stress reactions",
-    "Centers for Disease Control and Prevention",
-    "host",
-    "infection"
+    "Reactions to stress that occur after a stressful situation.",
+    "The primary federal agency that conducts and supports public health activities in the United States.",
+    "The organism or individual that is attacked by the infecting agent.",
+    "The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease."
    ],
    "answer": 3,
-   "explanation": "infection: infection",
+   "explanation": "infection: The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -1153,7 +1153,7 @@
    "source": "Quiz-Style Slides — Set 6"
   },
   {
-   "question": "Which term is defined as: wellness",
+   "question": "Which term is defined as: The active pursuit of a state of good health.",
    "choices": [
     "wellness",
     "eustress",
@@ -1161,7 +1161,7 @@
     "ambulance decontamination"
    ],
    "answer": 0,
-   "explanation": "wellness: wellness",
+   "explanation": "wellness: The active pursuit of a state of good health.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -1179,13 +1179,13 @@
   {
    "question": "What does the term \"direct contact\" mean?",
    "choices": [
-    "general adaptation syndrome",
-    "direct contact",
-    "substance abuse",
-    "burnout"
+    "The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
+    "Exposure or transmission of a communicable disease from one person to another by physical contact.",
+    "The misuse of drugs or alcohol by a provider, on or off duty, that endangers the provider, coworkers, and patients; among EMS personnel, its most serious consequence is substandard or inappropriate patient care.",
+    "A combination of exhaustion, cynicism, and reduced performance resulting from long-term job stresses."
    ],
    "answer": 1,
-   "explanation": "direct contact: direct contact",
+   "explanation": "direct contact: Exposure or transmission of a communicable disease from one person to another by physical contact.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -1335,17 +1335,17 @@
   {
    "question": "What does the term \"cold-weather clothing layers\" mean?",
    "choices": [
-    "delayed stress reactions",
-    "cold-weather clothing layers",
-    "infection",
-    "critical incident stress management"
+    "Reactions to stress that occur after a stressful situation.",
+    "The most effective way to preserve body heat when functioning in cold, wet weather — wearing at least three layers of clothing.",
+    "The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
+    "A process that confronts the responses to critical incidents and defuses them, directing the emergency services personnel toward physical and emotional equilibrium."
    ],
    "answer": 1,
-   "explanation": "cold-weather clothing layers: cold-weather clothing layers",
+   "explanation": "cold-weather clothing layers: The most effective way to preserve body heat when functioning in cold, wet weather — wearing at least three layers of clothing.",
    "source": "Flashcard Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: tuberculosis",
+   "question": "Which term is defined as: What airborne bacterial disease is caused by Mycobacterium tuberculosis, spreads when an infected person coughs or sneezes, and is indicated by a positive skin test showing exposure to the bacterium.",
    "choices": [
     "host",
     "tuberculosis",
@@ -1353,7 +1353,7 @@
     "ambulance decontamination"
    ],
    "answer": 1,
-   "explanation": "tuberculosis: tuberculosis",
+   "explanation": "tuberculosis: What airborne bacterial disease is caused by Mycobacterium tuberculosis, spreads when an infected person coughs or sneezes, and is indicated by a positive skin test showing exposure to the bacterium.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -1393,7 +1393,7 @@
    "source": "Flashcard Case Studies — Set 1"
   },
   {
-   "question": "Which term is defined as: direct contact",
+   "question": "Which term is defined as: Exposure or transmission of a communicable disease from one person to another by physical contact.",
    "choices": [
     "wellness",
     "direct contact",
@@ -1401,11 +1401,11 @@
     "posttraumatic stress disorder"
    ],
    "answer": 1,
-   "explanation": "direct contact: direct contact",
+   "explanation": "direct contact: Exposure or transmission of a communicable disease from one person to another by physical contact.",
    "source": "Flashcard Slides — Set 2"
   },
   {
-   "question": "Which term is defined as: burnout",
+   "question": "Which term is defined as: A combination of exhaustion, cynicism, and reduced performance resulting from long-term job stresses.",
    "choices": [
     "distress",
     "Occupational Safety and Health Administration",
@@ -1413,7 +1413,7 @@
     "burnout"
    ],
    "answer": 3,
-   "explanation": "burnout: burnout",
+   "explanation": "burnout: A combination of exhaustion, cynicism, and reduced performance resulting from long-term job stresses.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -1431,13 +1431,13 @@
   {
    "question": "What does the term \"eustress\" mean?",
    "choices": [
-    "indirect contact",
-    "eustress",
-    "Occupational Safety and Health Administration",
-    "resilience"
+    "Exposure or transmission of disease from one person to another by contact with a contaminated object.",
+    "A beneficial response to a stressor.",
+    "The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
+    "The capacity of an individual to cope with and recover from distress."
    ],
    "answer": 1,
-   "explanation": "eustress: eustress",
+   "explanation": "eustress: A beneficial response to a stressor.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -1491,17 +1491,17 @@
   {
    "question": "What does the term \"concealment\" mean?",
    "choices": [
-    "infectious disease",
-    "concealment",
-    "host",
-    "distress"
+    "A medical condition caused by the growth and spread of small, harmful organisms within the body.",
+    "The use of objects to limit a person's ability to see you.",
+    "The organism or individual that is attacked by the infecting agent.",
+    "A negative response to a stressor."
    ],
    "answer": 1,
-   "explanation": "concealment: concealment",
+   "explanation": "concealment: The use of objects to limit a person's ability to see you.",
    "source": "Flashcard Slides — Set 5"
   },
   {
-   "question": "Which term is defined as: airborne transmission",
+   "question": "Which term is defined as: The spread of an organism via droplets or dust.",
    "choices": [
     "airborne transmission",
     "substance abuse",
@@ -1509,7 +1509,7 @@
     "standard precautions"
    ],
    "answer": 0,
-   "explanation": "airborne transmission: airborne transmission",
+   "explanation": "airborne transmission: The spread of an organism via droplets or dust.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -1527,13 +1527,13 @@
   {
    "question": "What does the term \"acute stress reactions\" mean?",
    "choices": [
-    "delayed stress reactions",
-    "vehicle stabilization",
-    "acute stress reactions",
-    "cover"
+    "Reactions to stress that occur after a stressful situation.",
+    "Securing a crashed vehicle with cribbing, struts, or other supports so it cannot move, shift, or roll; it must be done to ensure the vehicle is stable before attempting to access a patient trapped inside.",
+    "Reactions to stress that occur during a stressful situation.",
+    "The tactical use of an impenetrable barrier for protection."
    ],
    "answer": 2,
-   "explanation": "acute stress reactions: acute stress reactions",
+   "explanation": "acute stress reactions: Reactions to stress that occur during a stressful situation.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -1551,13 +1551,13 @@
   {
    "question": "What does the term \"human immunodeficiency virus\" mean?",
    "choices": [
-    "eustress",
-    "human immunodeficiency virus",
-    "acute stress reactions",
-    "sharps safety"
+    "A beneficial response to a stressor.",
+    "Acquired immunodeficiency syndrome (AIDS) is caused by HIV, which damages the cells in the body's immune system so that the body is unable to fight infection or certain cancers.",
+    "Reactions to stress that occur during a stressful situation.",
+    "Handling needles and other sharps carefully and disposing of them properly; careless handling of sharps is the usual route by which HIV and hepatitis are spread in health care settings."
    ],
    "answer": 1,
-   "explanation": "human immunodeficiency virus: human immunodeficiency virus",
+   "explanation": "human immunodeficiency virus: Acquired immunodeficiency syndrome (AIDS) is caused by HIV, which damages the cells in the body's immune system so that the body is unable to fight infection or certain cancers.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -1611,13 +1611,13 @@
   {
    "question": "What does the term \"syphilis\" mean?",
    "choices": [
-    "sharps safety",
-    "syphilis",
-    "concealment",
-    "structural fire hazards"
+    "Handling needles and other sharps carefully and disposing of them properly; careless handling of sharps is the usual route by which HIV and hepatitis are spread in health care settings.",
+    "A sexually transmitted infectious disease caused by the bacterium Treponema pallidum; unlike many infections, it confers no protection from reinfection after exposure, so a treated person can catch it again.",
+    "The use of objects to limit a person's ability to see you.",
+    "What are the hazards at a structure fire that include possible building collapse, high heat, smoke and toxic gases, and oxygen-deficient air, and that require EMTs to stage at a safe distance and stay clear until the fire department declares the scene safe."
    ],
    "answer": 1,
-   "explanation": "syphilis: syphilis",
+   "explanation": "syphilis: A sexually transmitted infectious disease caused by the bacterium Treponema pallidum; unlike many infections, it confers no protection from reinfection after exposure, so a treated person can catch it again.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -1695,13 +1695,13 @@
   {
    "question": "What does the term \"wellness\" mean?",
    "choices": [
-    "direct contact",
-    "wellness",
-    "airborne transmission",
-    "eye protection"
+    "Exposure or transmission of a communicable disease from one person to another by physical contact.",
+    "The active pursuit of a state of good health.",
+    "The spread of an organism via droplets or dust.",
+    "What PPE must be worn when blood or body fluids may splash into the eyes, noting that prescription glasses do not provide adequate protection because they offer little or no side protection."
    ],
    "answer": 1,
-   "explanation": "wellness: wellness",
+   "explanation": "wellness: The active pursuit of a state of good health.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -1743,13 +1743,13 @@
   {
    "question": "What does the term \"standard precautions\" mean?",
    "choices": [
-    "bloodborne pathogens",
-    "standard precautions",
-    "delayed stress reactions",
-    "general adaptation syndrome"
+    "Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
+    "Reactions to stress that occur after a stressful situation.",
+    "The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion."
    ],
    "answer": 1,
-   "explanation": "standard precautions: standard precautions",
+   "explanation": "standard precautions: Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -1815,17 +1815,17 @@
   {
    "question": "What does the term \"critical incident stress debriefing\" mean?",
    "choices": [
-    "eustress",
-    "wellness",
-    "Occupational Safety and Health Administration",
-    "critical incident stress debriefing"
+    "A beneficial response to a stressor.",
+    "The active pursuit of a state of good health.",
+    "The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
+    "The formal, structured group debriefing held 24 to 72 hours after a critical incident, as part of critical incident stress management (CISM), in which the responders involved discuss the incident and their reactions to it."
    ],
    "answer": 3,
-   "explanation": "critical incident stress debriefing: critical incident stress debriefing",
+   "explanation": "critical incident stress debriefing: The formal, structured group debriefing held 24 to 72 hours after a critical incident, as part of critical incident stress management (CISM), in which the responders involved discuss the incident and their reactions to it.",
    "source": "Flashcard Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: contamination",
+   "question": "Which term is defined as: The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body.",
    "choices": [
     "foodborne transmission",
     "general adaptation syndrome",
@@ -1833,11 +1833,11 @@
     "human immunodeficiency virus"
    ],
    "answer": 2,
-   "explanation": "contamination: contamination",
+   "explanation": "contamination: The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body.",
    "source": "Flashcard Slides — Set 4"
   },
   {
-   "question": "Which term is defined as: exposure",
+   "question": "Which term is defined as: A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
    "choices": [
     "exposure",
     "critical incident stress debriefing",
@@ -1845,7 +1845,7 @@
     "designated officer"
    ],
    "answer": 0,
-   "explanation": "exposure: exposure",
+   "explanation": "exposure: A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -1911,13 +1911,13 @@
   {
    "question": "What does the term \"bloodborne pathogens\" mean?",
    "choices": [
-    "bloodborne pathogens",
-    "resilience",
-    "pathogen",
-    "designated officer"
+    "Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
+    "The capacity of an individual to cope with and recover from distress.",
+    "A microorganism that is capable of causing disease in a susceptible host.",
+    "The individual in the department who is charged with the responsibility of managing exposures and infection control."
    ],
    "answer": 0,
-   "explanation": "bloodborne pathogens: bloodborne pathogens",
+   "explanation": "bloodborne pathogens: Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -2005,7 +2005,7 @@
    "source": "Flashcard Case Studies — Set 2"
   },
   {
-   "question": "Which term is defined as: foodborne transmission",
+   "question": "Which term is defined as: The contamination of food or water with an organism that can cause disease.",
    "choices": [
     "infectious disease",
     "critical incident stress management",
@@ -2013,7 +2013,7 @@
     "general adaptation syndrome"
    ],
    "answer": 2,
-   "explanation": "foodborne transmission: foodborne transmission",
+   "explanation": "foodborne transmission: The contamination of food or water with an organism that can cause disease.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -2031,13 +2031,13 @@
   {
    "question": "What does the term \"hand washing\" mean?",
    "choices": [
-    "hand washing",
-    "Occupational Safety and Health Administration",
-    "quid pro quo",
-    "substance abuse"
+    "The simplest, yet most effective, method of preventing the spread of infectious disease: washing the hands in between patient contacts.",
+    "The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
+    "What type of sexual harassment occurs when the harasser requests sexual favors in exchange for something else, such as a promotion, a job benefit, a better shift, or a favorable evaluation.",
+    "The misuse of drugs or alcohol by a provider, on or off duty, that endangers the provider, coworkers, and patients; among EMS personnel, its most serious consequence is substandard or inappropriate patient care."
    ],
    "answer": 0,
-   "explanation": "hand washing: hand washing",
+   "explanation": "hand washing: The simplest, yet most effective, method of preventing the spread of infectious disease: washing the hands in between patient contacts.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -2053,7 +2053,7 @@
    "source": "Quiz-Style Slides — Set 3"
   },
   {
-   "question": "Which term is defined as: cold-weather clothing layers",
+   "question": "Which term is defined as: The most effective way to preserve body heat when functioning in cold, wet weather — wearing at least three layers of clothing.",
    "choices": [
     "syphilis",
     "cold-weather clothing layers",
@@ -2061,7 +2061,7 @@
     "delayed stress reactions"
    ],
    "answer": 1,
-   "explanation": "cold-weather clothing layers: cold-weather clothing layers",
+   "explanation": "cold-weather clothing layers: The most effective way to preserve body heat when functioning in cold, wet weather — wearing at least three layers of clothing.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -2125,7 +2125,7 @@
    "source": "Flashcard Case Studies — Set 8"
   },
   {
-   "question": "Which term is defined as: host",
+   "question": "Which term is defined as: The organism or individual that is attacked by the infecting agent.",
    "choices": [
     "airborne transmission",
     "host",
@@ -2133,7 +2133,7 @@
     "vehicle stabilization"
    ],
    "answer": 1,
-   "explanation": "host: host",
+   "explanation": "host: The organism or individual that is attacked by the infecting agent.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -2199,13 +2199,13 @@
   {
    "question": "What does the term \"infection control\" mean?",
    "choices": [
-    "infection control",
-    "sharps safety",
-    "syphilis",
-    "bloodborne pathogens"
+    "Procedures to reduce transmission of infection among patients and health care personnel.",
+    "Handling needles and other sharps carefully and disposing of them properly; careless handling of sharps is the usual route by which HIV and hepatitis are spread in health care settings.",
+    "A sexually transmitted infectious disease caused by the bacterium Treponema pallidum; unlike many infections, it confers no protection from reinfection after exposure, so a treated person can catch it again.",
+    "Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus."
    ],
    "answer": 0,
-   "explanation": "infection control: infection control",
+   "explanation": "infection control: Procedures to reduce transmission of infection among patients and health care personnel.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -2269,7 +2269,7 @@
    "source": "Quiz-Style Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: vehicle stabilization",
+   "question": "Which term is defined as: Securing a crashed vehicle with cribbing, struts, or other supports so it cannot move, shift, or roll; it must be done to ensure the vehicle is stable before attempting to access a patient trapped inside.",
    "choices": [
     "eye protection",
     "ambulance decontamination",
@@ -2277,7 +2277,7 @@
     "vehicle stabilization"
    ],
    "answer": 3,
-   "explanation": "vehicle stabilization: vehicle stabilization",
+   "explanation": "vehicle stabilization: Securing a crashed vehicle with cribbing, struts, or other supports so it cannot move, shift, or roll; it must be done to ensure the vehicle is stable before attempting to access a patient trapped inside.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -2319,13 +2319,13 @@
   {
    "question": "What does the term \"critical incident stress management\" mean?",
    "choices": [
-    "standard precautions",
-    "critical incident stress management",
-    "infection",
-    "exposure"
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
+    "A process that confronts the responses to critical incidents and defuses them, directing the emergency services personnel toward physical and emotional equilibrium.",
+    "The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
+    "A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease."
    ],
    "answer": 1,
-   "explanation": "critical incident stress management: critical incident stress management",
+   "explanation": "critical incident stress management: A process that confronts the responses to critical incidents and defuses them, directing the emergency services personnel toward physical and emotional equilibrium.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -2355,13 +2355,13 @@
   {
    "question": "What does the term \"cover\" mean?",
    "choices": [
-    "bloodborne pathogens",
-    "transmission",
-    "exposure",
-    "cover"
+    "Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
+    "The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
+    "A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
+    "The tactical use of an impenetrable barrier for protection."
    ],
    "answer": 3,
-   "explanation": "cover: cover",
+   "explanation": "cover: The tactical use of an impenetrable barrier for protection.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -2391,13 +2391,13 @@
   {
    "question": "What does the term \"general adaptation syndrome\" mean?",
    "choices": [
-    "cold-weather clothing layers",
-    "standard precautions",
-    "general adaptation syndrome",
-    "eustress"
+    "The most effective way to preserve body heat when functioning in cold, wet weather — wearing at least three layers of clothing.",
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
+    "The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
+    "A beneficial response to a stressor."
    ],
    "answer": 2,
-   "explanation": "general adaptation syndrome: general adaptation syndrome",
+   "explanation": "general adaptation syndrome: The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -2475,13 +2475,13 @@
   {
    "question": "What does the term \"host\" mean?",
    "choices": [
-    "airborne transmission",
-    "host",
-    "transmission",
-    "resilience"
+    "The spread of an organism via droplets or dust.",
+    "The organism or individual that is attacked by the infecting agent.",
+    "The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
+    "The capacity of an individual to cope with and recover from distress."
    ],
    "answer": 1,
-   "explanation": "host: host",
+   "explanation": "host: The organism or individual that is attacked by the infecting agent.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -2521,7 +2521,7 @@
    "source": "Flashcard Case Studies — Set 4"
   },
   {
-   "question": "Which term is defined as: concealment",
+   "question": "Which term is defined as: The use of objects to limit a person's ability to see you.",
    "choices": [
     "distress",
     "concealment",
@@ -2529,7 +2529,7 @@
     "infection"
    ],
    "answer": 1,
-   "explanation": "concealment: concealment",
+   "explanation": "concealment: The use of objects to limit a person's ability to see you.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -2557,7 +2557,7 @@
    "source": "Textbook — YOU are the Provider"
   },
   {
-   "question": "Which term is defined as: critical incident stress management",
+   "question": "Which term is defined as: A process that confronts the responses to critical incidents and defuses them, directing the emergency services personnel toward physical and emotional equilibrium.",
    "choices": [
     "host",
     "critical incident stress management",
@@ -2565,19 +2565,19 @@
     "concealment"
    ],
    "answer": 1,
-   "explanation": "critical incident stress management: critical incident stress management",
+   "explanation": "critical incident stress management: A process that confronts the responses to critical incidents and defuses them, directing the emergency services personnel toward physical and emotional equilibrium.",
    "source": "Flashcard Slides — Set 6"
   },
   {
    "question": "What does the term \"substance abuse\" mean?",
    "choices": [
-    "compassion fatigue",
-    "immune",
-    "substance abuse",
-    "host"
+    "A stress disorder characterized by gradual lessening of compassion over time.",
+    "The body's ability to protect itself from acquiring a disease.",
+    "The misuse of drugs or alcohol by a provider, on or off duty, that endangers the provider, coworkers, and patients; among EMS personnel, its most serious consequence is substandard or inappropriate patient care.",
+    "The organism or individual that is attacked by the infecting agent."
    ],
    "answer": 2,
-   "explanation": "substance abuse: substance abuse",
+   "explanation": "substance abuse: The misuse of drugs or alcohol by a provider, on or off duty, that endangers the provider, coworkers, and patients; among EMS personnel, its most serious consequence is substandard or inappropriate patient care.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -2653,7 +2653,7 @@
    "source": "Flashcard Case Studies — Set 2"
   },
   {
-   "question": "Which term is defined as: delayed stress reactions",
+   "question": "Which term is defined as: Reactions to stress that occur after a stressful situation.",
    "choices": [
     "delayed stress reactions",
     "critical incident stress debriefing",
@@ -2661,7 +2661,7 @@
     "standard precautions"
    ],
    "answer": 0,
-   "explanation": "delayed stress reactions: delayed stress reactions",
+   "explanation": "delayed stress reactions: Reactions to stress that occur after a stressful situation.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -2689,7 +2689,7 @@
    "source": "Quiz-Style Slides — Set 3"
   },
   {
-   "question": "Which term is defined as: Occupational Safety and Health Administration",
+   "question": "Which term is defined as: The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
    "choices": [
     "direct contact",
     "ambulance decontamination",
@@ -2697,7 +2697,7 @@
     "Occupational Safety and Health Administration"
    ],
    "answer": 3,
-   "explanation": "Occupational Safety and Health Administration: Occupational Safety and Health Administration",
+   "explanation": "Occupational Safety and Health Administration: The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -2785,7 +2785,7 @@
    "source": "Quiz-Style Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: posttraumatic stress disorder",
+   "question": "Which term is defined as: A delayed stress reaction to a prior incident. Often the result of one or more unresolved issues concerning the incident, and may relate to an incident that involved physical harm or the threat of physical harm.",
    "choices": [
     "acute stress reactions",
     "posttraumatic stress disorder",
@@ -2793,7 +2793,7 @@
     "general adaptation syndrome"
    ],
    "answer": 1,
-   "explanation": "posttraumatic stress disorder: posttraumatic stress disorder",
+   "explanation": "posttraumatic stress disorder: A delayed stress reaction to a prior incident. Often the result of one or more unresolved issues concerning the incident, and may relate to an incident that involved physical harm or the threat of physical harm.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -2809,7 +2809,7 @@
    "source": "Textbook — Assessment in Action"
   },
   {
-   "question": "Which term is defined as: human immunodeficiency virus",
+   "question": "Which term is defined as: Acquired immunodeficiency syndrome (AIDS) is caused by HIV, which damages the cells in the body's immune system so that the body is unable to fight infection or certain cancers.",
    "choices": [
     "human immunodeficiency virus",
     "cold-weather clothing layers",
@@ -2817,7 +2817,7 @@
     "eye protection"
    ],
    "answer": 0,
-   "explanation": "human immunodeficiency virus: human immunodeficiency virus",
+   "explanation": "human immunodeficiency virus: Acquired immunodeficiency syndrome (AIDS) is caused by HIV, which damages the cells in the body's immune system so that the body is unable to fight infection or certain cancers.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -2917,7 +2917,7 @@
    "source": "Quiz-Style Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: Centers for Disease Control and Prevention",
+   "question": "Which term is defined as: The primary federal agency that conducts and supports public health activities in the United States.",
    "choices": [
     "Centers for Disease Control and Prevention",
     "burnout",
@@ -2925,31 +2925,31 @@
     "critical incident stress management"
    ],
    "answer": 0,
-   "explanation": "Centers for Disease Control and Prevention: Centers for Disease Control and Prevention",
+   "explanation": "Centers for Disease Control and Prevention: The primary federal agency that conducts and supports public health activities in the United States.",
    "source": "Flashcard Slides — Set 6"
   },
   {
    "question": "What does the term \"Centers for Disease Control and Prevention\" mean?",
    "choices": [
-    "Centers for Disease Control and Prevention",
-    "quid pro quo",
-    "substance abuse",
-    "tuberculosis"
+    "The primary federal agency that conducts and supports public health activities in the United States.",
+    "What type of sexual harassment occurs when the harasser requests sexual favors in exchange for something else, such as a promotion, a job benefit, a better shift, or a favorable evaluation.",
+    "The misuse of drugs or alcohol by a provider, on or off duty, that endangers the provider, coworkers, and patients; among EMS personnel, its most serious consequence is substandard or inappropriate patient care.",
+    "What airborne bacterial disease is caused by Mycobacterium tuberculosis, spreads when an infected person coughs or sneezes, and is indicated by a positive skin test showing exposure to the bacterium."
    ],
    "answer": 0,
-   "explanation": "Centers for Disease Control and Prevention: Centers for Disease Control and Prevention",
+   "explanation": "Centers for Disease Control and Prevention: The primary federal agency that conducts and supports public health activities in the United States.",
    "source": "Flashcard Slides — Set 6"
   },
   {
    "question": "What does the term \"foodborne transmission\" mean?",
    "choices": [
-    "host",
-    "wellness",
-    "infection",
-    "foodborne transmission"
+    "The organism or individual that is attacked by the infecting agent.",
+    "The active pursuit of a state of good health.",
+    "The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
+    "The contamination of food or water with an organism that can cause disease."
    ],
    "answer": 3,
-   "explanation": "foodborne transmission: foodborne transmission",
+   "explanation": "foodborne transmission: The contamination of food or water with an organism that can cause disease.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -3015,13 +3015,13 @@
   {
    "question": "What does the term \"compassion fatigue\" mean?",
    "choices": [
-    "exposure",
-    "tuberculosis",
-    "compassion fatigue",
-    "pathogen"
+    "A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
+    "What airborne bacterial disease is caused by Mycobacterium tuberculosis, spreads when an infected person coughs or sneezes, and is indicated by a positive skin test showing exposure to the bacterium.",
+    "A stress disorder characterized by gradual lessening of compassion over time.",
+    "A microorganism that is capable of causing disease in a susceptible host."
    ],
    "answer": 2,
-   "explanation": "compassion fatigue: compassion fatigue",
+   "explanation": "compassion fatigue: A stress disorder characterized by gradual lessening of compassion over time.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -3051,13 +3051,13 @@
   {
    "question": "What does the term \"hepatitis\" mean?",
    "choices": [
-    "hepatitis",
-    "designated officer",
-    "compassion fatigue",
-    "contamination"
+    "Inflammation of the liver, usually caused by a viral infection, that causes fever, loss of appetite, nausea, intestinal upset, and often jaundice.",
+    "The individual in the department who is charged with the responsibility of managing exposures and infection control.",
+    "A stress disorder characterized by gradual lessening of compassion over time.",
+    "The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body."
    ],
    "answer": 0,
-   "explanation": "hepatitis: hepatitis",
+   "explanation": "hepatitis: Inflammation of the liver, usually caused by a viral infection, that causes fever, loss of appetite, nausea, intestinal upset, and often jaundice.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -3085,7 +3085,7 @@
    "source": "Textbook — Assessment in Action"
   },
   {
-   "question": "Which term is defined as: designated officer",
+   "question": "Which term is defined as: The individual in the department who is charged with the responsibility of managing exposures and infection control.",
    "choices": [
     "designated officer",
     "contamination",
@@ -3093,7 +3093,7 @@
     "ambulance decontamination"
    ],
    "answer": 0,
-   "explanation": "designated officer: designated officer",
+   "explanation": "designated officer: The individual in the department who is charged with the responsibility of managing exposures and infection control.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -3123,13 +3123,13 @@
   {
    "question": "What does the term \"transmission\" mean?",
    "choices": [
-    "transmission",
-    "Centers for Disease Control and Prevention",
-    "standard precautions",
-    "foodborne transmission"
+    "The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
+    "The primary federal agency that conducts and supports public health activities in the United States.",
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
+    "The contamination of food or water with an organism that can cause disease."
    ],
    "answer": 0,
-   "explanation": "transmission: transmission",
+   "explanation": "transmission: The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -3147,13 +3147,13 @@
   {
    "question": "What does the term \"vector-borne transmission\" mean?",
    "choices": [
-    "cumulative stress reactions",
-    "human immunodeficiency virus",
-    "designated officer",
-    "vector-borne transmission"
+    "Prolonged or excessive stress.",
+    "Acquired immunodeficiency syndrome (AIDS) is caused by HIV, which damages the cells in the body's immune system so that the body is unable to fight infection or certain cancers.",
+    "The individual in the department who is charged with the responsibility of managing exposures and infection control.",
+    "The use of an animal to spread an organism from one person or place to another."
    ],
    "answer": 3,
-   "explanation": "vector-borne transmission: vector-borne transmission",
+   "explanation": "vector-borne transmission: The use of an animal to spread an organism from one person or place to another.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -3205,7 +3205,7 @@
    "source": "Textbook — Assessment in Action"
   },
   {
-   "question": "Which term is defined as: indirect contact",
+   "question": "Which term is defined as: Exposure or transmission of disease from one person to another by contact with a contaminated object.",
    "choices": [
     "ambulance decontamination",
     "wellness",
@@ -3213,7 +3213,7 @@
     "delayed stress reactions"
    ],
    "answer": 2,
-   "explanation": "indirect contact: indirect contact",
+   "explanation": "indirect contact: Exposure or transmission of disease from one person to another by contact with a contaminated object.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -3243,13 +3243,13 @@
   {
    "question": "What does the term \"burnout\" mean?",
    "choices": [
-    "acute stress reactions",
-    "vehicle stabilization",
-    "burnout",
-    "eye protection"
+    "Reactions to stress that occur during a stressful situation.",
+    "Securing a crashed vehicle with cribbing, struts, or other supports so it cannot move, shift, or roll; it must be done to ensure the vehicle is stable before attempting to access a patient trapped inside.",
+    "A combination of exhaustion, cynicism, and reduced performance resulting from long-term job stresses.",
+    "What PPE must be worn when blood or body fluids may splash into the eyes, noting that prescription glasses do not provide adequate protection because they offer little or no side protection."
    ],
    "answer": 2,
-   "explanation": "burnout: burnout",
+   "explanation": "burnout: A combination of exhaustion, cynicism, and reduced performance resulting from long-term job stresses.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -3277,7 +3277,7 @@
    "source": "Flashcard Case Studies — Set 4"
   },
   {
-   "question": "Which term is defined as: standard precautions",
+   "question": "Which term is defined as: Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
    "choices": [
     "standard precautions",
     "aerosol-generating procedure",
@@ -3285,7 +3285,7 @@
     "contamination"
    ],
    "answer": 0,
-   "explanation": "standard precautions: standard precautions",
+   "explanation": "standard precautions: Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -3325,7 +3325,7 @@
    "source": "Quiz-Style Slides — Set 7"
   },
   {
-   "question": "Which term is defined as: resilience",
+   "question": "Which term is defined as: The capacity of an individual to cope with and recover from distress.",
    "choices": [
     "vector-borne transmission",
     "delayed stress reactions",
@@ -3333,7 +3333,7 @@
     "wellness"
    ],
    "answer": 2,
-   "explanation": "resilience: resilience",
+   "explanation": "resilience: The capacity of an individual to cope with and recover from distress.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -3411,13 +3411,13 @@
   {
    "question": "What does the term \"sharps safety\" mean?",
    "choices": [
-    "ambulance decontamination",
-    "hepatitis",
-    "sharps safety",
-    "syphilis"
+    "Cleaning and disinfecting the ambulance and its equipment after a call, including allowing disinfected surfaces to air dry unless otherwise indicated in the product directions, so the unit is safe for the next patient.",
+    "Inflammation of the liver, usually caused by a viral infection, that causes fever, loss of appetite, nausea, intestinal upset, and often jaundice.",
+    "Handling needles and other sharps carefully and disposing of them properly; careless handling of sharps is the usual route by which HIV and hepatitis are spread in health care settings.",
+    "A sexually transmitted infectious disease caused by the bacterium Treponema pallidum; unlike many infections, it confers no protection from reinfection after exposure, so a treated person can catch it again."
    ],
    "answer": 2,
-   "explanation": "sharps safety: sharps safety",
+   "explanation": "sharps safety: Handling needles and other sharps carefully and disposing of them properly; careless handling of sharps is the usual route by which HIV and hepatitis are spread in health care settings.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -3471,13 +3471,13 @@
   {
    "question": "What does the term \"pathogen\" mean?",
    "choices": [
-    "pathogen",
-    "designated officer",
-    "bloodborne pathogens",
-    "substance abuse"
+    "A microorganism that is capable of causing disease in a susceptible host.",
+    "The individual in the department who is charged with the responsibility of managing exposures and infection control.",
+    "Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
+    "The misuse of drugs or alcohol by a provider, on or off duty, that endangers the provider, coworkers, and patients; among EMS personnel, its most serious consequence is substandard or inappropriate patient care."
    ],
    "answer": 0,
-   "explanation": "pathogen: pathogen",
+   "explanation": "pathogen: A microorganism that is capable of causing disease in a susceptible host.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -3531,29 +3531,29 @@
   {
    "question": "What does the term \"quid pro quo\" mean?",
    "choices": [
-    "general adaptation syndrome",
-    "quid pro quo",
-    "tuberculosis",
-    "wellness"
+    "The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
+    "What type of sexual harassment occurs when the harasser requests sexual favors in exchange for something else, such as a promotion, a job benefit, a better shift, or a favorable evaluation.",
+    "What airborne bacterial disease is caused by Mycobacterium tuberculosis, spreads when an infected person coughs or sneezes, and is indicated by a positive skin test showing exposure to the bacterium.",
+    "The active pursuit of a state of good health."
    ],
    "answer": 1,
-   "explanation": "quid pro quo: quid pro quo",
+   "explanation": "quid pro quo: What type of sexual harassment occurs when the harasser requests sexual favors in exchange for something else, such as a promotion, a job benefit, a better shift, or a favorable evaluation.",
    "source": "Flashcard Slides — Set 8"
   },
   {
    "question": "What does the term \"cumulative stress reactions\" mean?",
    "choices": [
-    "eustress",
-    "immune",
-    "cumulative stress reactions",
-    "standard precautions"
+    "A beneficial response to a stressor.",
+    "The body's ability to protect itself from acquiring a disease.",
+    "Prolonged or excessive stress.",
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions."
    ],
    "answer": 2,
-   "explanation": "cumulative stress reactions: cumulative stress reactions",
+   "explanation": "cumulative stress reactions: Prolonged or excessive stress.",
    "source": "Flashcard Slides — Set 2"
   },
   {
-   "question": "Which term is defined as: vector-borne transmission",
+   "question": "Which term is defined as: The use of an animal to spread an organism from one person or place to another.",
    "choices": [
     "cover",
     "critical incident stress debriefing",
@@ -3561,7 +3561,7 @@
     "vector-borne transmission"
    ],
    "answer": 3,
-   "explanation": "vector-borne transmission: vector-borne transmission",
+   "explanation": "vector-borne transmission: The use of an animal to spread an organism from one person or place to another.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -3603,13 +3603,13 @@
   {
    "question": "What does the term \"Occupational Safety and Health Administration\" mean?",
    "choices": [
-    "cover",
-    "critical incident stress debriefing",
-    "Occupational Safety and Health Administration",
-    "hepatitis"
+    "The tactical use of an impenetrable barrier for protection.",
+    "The formal, structured group debriefing held 24 to 72 hours after a critical incident, as part of critical incident stress management (CISM), in which the responders involved discuss the incident and their reactions to it.",
+    "The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
+    "Inflammation of the liver, usually caused by a viral infection, that causes fever, loss of appetite, nausea, intestinal upset, and often jaundice."
    ],
    "answer": 2,
-   "explanation": "Occupational Safety and Health Administration: Occupational Safety and Health Administration",
+   "explanation": "Occupational Safety and Health Administration: The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -3649,7 +3649,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: quid pro quo",
+   "question": "Which term is defined as: What type of sexual harassment occurs when the harasser requests sexual favors in exchange for something else, such as a promotion, a job benefit, a better shift, or a favorable evaluation.",
    "choices": [
     "tuberculosis",
     "cold-weather clothing layers",
@@ -3657,7 +3657,7 @@
     "syphilis"
    ],
    "answer": 2,
-   "explanation": "quid pro quo: quid pro quo",
+   "explanation": "quid pro quo: What type of sexual harassment occurs when the harasser requests sexual favors in exchange for something else, such as a promotion, a job benefit, a better shift, or a favorable evaluation.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -3687,13 +3687,13 @@
   {
    "question": "What does the term \"structural fire hazards\" mean?",
    "choices": [
-    "aerosol-generating procedure",
-    "standard precautions",
-    "structural fire hazards",
-    "designated officer"
+    "Any airway manipulation that induces the production of aerosols that may present a risk for airborne transmission of pathogens, such as during CPR.",
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
+    "What are the hazards at a structure fire that include possible building collapse, high heat, smoke and toxic gases, and oxygen-deficient air, and that require EMTs to stage at a safe distance and stay clear until the fire department declares the scene safe.",
+    "The individual in the department who is charged with the responsibility of managing exposures and infection control."
    ],
    "answer": 2,
-   "explanation": "structural fire hazards: structural fire hazards",
+   "explanation": "structural fire hazards: What are the hazards at a structure fire that include possible building collapse, high heat, smoke and toxic gases, and oxygen-deficient air, and that require EMTs to stage at a safe distance and stay clear until the fire department declares the scene safe.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -3709,7 +3709,7 @@
    "source": "Quiz-Style Slides — Set 7"
   },
   {
-   "question": "Which term is defined as: distress",
+   "question": "Which term is defined as: A negative response to a stressor.",
    "choices": [
     "distress",
     "communicable disease",
@@ -3717,11 +3717,11 @@
     "aerosol-generating procedure"
    ],
    "answer": 0,
-   "explanation": "distress: distress",
+   "explanation": "distress: A negative response to a stressor.",
    "source": "Flashcard Slides — Set 1"
   },
   {
-   "question": "Which term is defined as: general adaptation syndrome",
+   "question": "Which term is defined as: The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
    "choices": [
     "general adaptation syndrome",
     "substance abuse",
@@ -3729,7 +3729,7 @@
     "vehicle stabilization"
    ],
    "answer": 0,
-   "explanation": "general adaptation syndrome: general adaptation syndrome",
+   "explanation": "general adaptation syndrome: The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -3841,7 +3841,7 @@
    "source": "Quiz-Style Slides — Set 9"
   },
   {
-   "question": "Which term is defined as: compassion fatigue",
+   "question": "Which term is defined as: A stress disorder characterized by gradual lessening of compassion over time.",
    "choices": [
     "host",
     "hepatitis",
@@ -3849,7 +3849,7 @@
     "critical incident stress management"
    ],
    "answer": 2,
-   "explanation": "compassion fatigue: compassion fatigue",
+   "explanation": "compassion fatigue: A stress disorder characterized by gradual lessening of compassion over time.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -3877,7 +3877,7 @@
    "source": "Quiz-Style Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: personal protective equipment",
+   "question": "Which term is defined as: Protective equipment that blocks exposure to a pathogen or a hazardous material.",
    "choices": [
     "bloodborne pathogens",
     "exposure",
@@ -3885,7 +3885,7 @@
     "acute stress reactions"
    ],
    "answer": 2,
-   "explanation": "personal protective equipment: personal protective equipment",
+   "explanation": "personal protective equipment: Protective equipment that blocks exposure to a pathogen or a hazardous material.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -3901,7 +3901,7 @@
    "source": "Textbook — Navigate Case Study"
   },
   {
-   "question": "Which term is defined as: hepatitis",
+   "question": "Which term is defined as: Inflammation of the liver, usually caused by a viral infection, that causes fever, loss of appetite, nausea, intestinal upset, and often jaundice.",
    "choices": [
     "eye protection",
     "hepatitis",
@@ -3909,7 +3909,7 @@
     "distress"
    ],
    "answer": 1,
-   "explanation": "hepatitis: hepatitis",
+   "explanation": "hepatitis: Inflammation of the liver, usually caused by a viral infection, that causes fever, loss of appetite, nausea, intestinal upset, and often jaundice.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -3985,7 +3985,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: aerosol-generating procedure",
+   "question": "Which term is defined as: Any airway manipulation that induces the production of aerosols that may present a risk for airborne transmission of pathogens, such as during CPR.",
    "choices": [
     "general adaptation syndrome",
     "cover",
@@ -3993,7 +3993,7 @@
     "aerosol-generating procedure"
    ],
    "answer": 3,
-   "explanation": "aerosol-generating procedure: aerosol-generating procedure",
+   "explanation": "aerosol-generating procedure: Any airway manipulation that induces the production of aerosols that may present a risk for airborne transmission of pathogens, such as during CPR.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -4045,7 +4045,7 @@
    "source": "Quiz-Style Slides — Set 1"
   },
   {
-   "question": "Which term is defined as: acute stress reactions",
+   "question": "Which term is defined as: Reactions to stress that occur during a stressful situation.",
    "choices": [
     "immune",
     "acute stress reactions",
@@ -4053,19 +4053,19 @@
     "standard precautions"
    ],
    "answer": 1,
-   "explanation": "acute stress reactions: acute stress reactions",
+   "explanation": "acute stress reactions: Reactions to stress that occur during a stressful situation.",
    "source": "Flashcard Slides — Set 5"
   },
   {
    "question": "What does the term \"aerosol-generating procedure\" mean?",
    "choices": [
-    "standard precautions",
-    "ambulance decontamination",
-    "transmission",
-    "aerosol-generating procedure"
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
+    "Cleaning and disinfecting the ambulance and its equipment after a call, including allowing disinfected surfaces to air dry unless otherwise indicated in the product directions, so the unit is safe for the next patient.",
+    "The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
+    "Any airway manipulation that induces the production of aerosols that may present a risk for airborne transmission of pathogens, such as during CPR."
    ],
    "answer": 3,
-   "explanation": "aerosol-generating procedure: aerosol-generating procedure",
+   "explanation": "aerosol-generating procedure: Any airway manipulation that induces the production of aerosols that may present a risk for airborne transmission of pathogens, such as during CPR.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -4083,13 +4083,13 @@
   {
    "question": "What does the term \"designated officer\" mean?",
    "choices": [
-    "designated officer",
-    "structural fire hazards",
-    "resilience",
-    "cold-weather clothing layers"
+    "The individual in the department who is charged with the responsibility of managing exposures and infection control.",
+    "What are the hazards at a structure fire that include possible building collapse, high heat, smoke and toxic gases, and oxygen-deficient air, and that require EMTs to stage at a safe distance and stay clear until the fire department declares the scene safe.",
+    "The capacity of an individual to cope with and recover from distress.",
+    "The most effective way to preserve body heat when functioning in cold, wet weather — wearing at least three layers of clothing."
    ],
    "answer": 0,
-   "explanation": "designated officer: designated officer",
+   "explanation": "designated officer: The individual in the department who is charged with the responsibility of managing exposures and infection control.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -4107,17 +4107,17 @@
   {
    "question": "What does the term \"personal protective equipment\" mean?",
    "choices": [
-    "distress",
-    "general adaptation syndrome",
-    "vehicle stabilization",
-    "personal protective equipment"
+    "A negative response to a stressor.",
+    "The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
+    "Securing a crashed vehicle with cribbing, struts, or other supports so it cannot move, shift, or roll; it must be done to ensure the vehicle is stable before attempting to access a patient trapped inside.",
+    "Protective equipment that blocks exposure to a pathogen or a hazardous material."
    ],
    "answer": 3,
-   "explanation": "personal protective equipment: personal protective equipment",
+   "explanation": "personal protective equipment: Protective equipment that blocks exposure to a pathogen or a hazardous material.",
    "source": "Flashcard Slides — Set 3"
   },
   {
-   "question": "Which term is defined as: bloodborne pathogens",
+   "question": "Which term is defined as: Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
    "choices": [
     "contamination",
     "transmission",
@@ -4125,7 +4125,7 @@
     "exposure"
    ],
    "answer": 2,
-   "explanation": "bloodborne pathogens: bloodborne pathogens",
+   "explanation": "bloodborne pathogens: Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -4191,13 +4191,13 @@
   {
    "question": "What does the term \"delayed stress reactions\" mean?",
    "choices": [
-    "infection",
-    "Occupational Safety and Health Administration",
-    "delayed stress reactions",
-    "standard precautions"
+    "The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
+    "The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
+    "Reactions to stress that occur after a stressful situation.",
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions."
    ],
    "answer": 2,
-   "explanation": "delayed stress reactions: delayed stress reactions",
+   "explanation": "delayed stress reactions: Reactions to stress that occur after a stressful situation.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -4215,13 +4215,13 @@
   {
    "question": "What does the term \"infectious disease\" mean?",
    "choices": [
-    "hepatitis",
-    "immune",
-    "infectious disease",
-    "direct contact"
+    "Inflammation of the liver, usually caused by a viral infection, that causes fever, loss of appetite, nausea, intestinal upset, and often jaundice.",
+    "The body's ability to protect itself from acquiring a disease.",
+    "A medical condition caused by the growth and spread of small, harmful organisms within the body.",
+    "Exposure or transmission of a communicable disease from one person to another by physical contact."
    ],
    "answer": 2,
-   "explanation": "infectious disease: infectious disease",
+   "explanation": "infectious disease: A medical condition caused by the growth and spread of small, harmful organisms within the body.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -4261,7 +4261,7 @@
    "source": "Quiz-Style Slides — Set 1"
   },
   {
-   "question": "Which term is defined as: transmission",
+   "question": "Which term is defined as: The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
    "choices": [
     "transmission",
     "structural fire hazards",
@@ -4269,7 +4269,7 @@
     "contamination"
    ],
    "answer": 0,
-   "explanation": "transmission: transmission",
+   "explanation": "transmission: The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -4299,13 +4299,13 @@
   {
    "question": "What does the term \"vehicle stabilization\" mean?",
    "choices": [
-    "vehicle stabilization",
-    "exposure",
-    "hand washing",
-    "critical incident stress management"
+    "Securing a crashed vehicle with cribbing, struts, or other supports so it cannot move, shift, or roll; it must be done to ensure the vehicle is stable before attempting to access a patient trapped inside.",
+    "A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
+    "The simplest, yet most effective, method of preventing the spread of infectious disease: washing the hands in between patient contacts.",
+    "A process that confronts the responses to critical incidents and defuses them, directing the emergency services personnel toward physical and emotional equilibrium."
    ],
    "answer": 0,
-   "explanation": "vehicle stabilization: vehicle stabilization",
+   "explanation": "vehicle stabilization: Securing a crashed vehicle with cribbing, struts, or other supports so it cannot move, shift, or roll; it must be done to ensure the vehicle is stable before attempting to access a patient trapped inside.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -4395,13 +4395,13 @@
   {
    "question": "What does the term \"tuberculosis\" mean?",
    "choices": [
-    "substance abuse",
-    "eustress",
-    "tuberculosis",
-    "hand washing"
+    "The misuse of drugs or alcohol by a provider, on or off duty, that endangers the provider, coworkers, and patients; among EMS personnel, its most serious consequence is substandard or inappropriate patient care.",
+    "A beneficial response to a stressor.",
+    "What airborne bacterial disease is caused by Mycobacterium tuberculosis, spreads when an infected person coughs or sneezes, and is indicated by a positive skin test showing exposure to the bacterium.",
+    "The simplest, yet most effective, method of preventing the spread of infectious disease: washing the hands in between patient contacts."
    ],
    "answer": 2,
-   "explanation": "tuberculosis: tuberculosis",
+   "explanation": "tuberculosis: What airborne bacterial disease is caused by Mycobacterium tuberculosis, spreads when an infected person coughs or sneezes, and is indicated by a positive skin test showing exposure to the bacterium.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -4429,7 +4429,7 @@
    "source": "Quiz-Style Slides — Set 1"
   },
   {
-   "question": "Which term is defined as: immune",
+   "question": "Which term is defined as: The body's ability to protect itself from acquiring a disease.",
    "choices": [
     "immune",
     "acute stress reactions",
@@ -4437,7 +4437,7 @@
     "hand washing"
    ],
    "answer": 0,
-   "explanation": "immune: immune",
+   "explanation": "immune: The body's ability to protect itself from acquiring a disease.",
    "source": "Flashcard Slides — Set 3"
   },
   {

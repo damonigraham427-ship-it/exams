@@ -217,7 +217,7 @@
    "source": "Quiz-Style Slides — Set 4"
   },
   {
-   "question": "Which term is defined as: transmission",
+   "question": "Which term is defined as: The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
    "choices": [
     "transmission",
     "structural fire hazards",
@@ -225,19 +225,19 @@
     "contamination"
    ],
    "answer": 0,
-   "explanation": "transmission: transmission",
+   "explanation": "transmission: The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
    "source": "Flashcard Slides — Set 4"
   },
   {
    "question": "What does the term \"transmission\" mean?",
    "choices": [
-    "transmission",
-    "Centers for Disease Control and Prevention",
-    "standard precautions",
-    "foodborne transmission"
+    "The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
+    "The primary federal agency that conducts and supports public health activities in the United States.",
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
+    "The contamination of food or water with an organism that can cause disease."
    ],
    "answer": 0,
-   "explanation": "transmission: transmission",
+   "explanation": "transmission: The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -265,7 +265,7 @@
    "source": "Flashcard Case Studies — Set 4"
   },
   {
-   "question": "Which term is defined as: contamination",
+   "question": "Which term is defined as: The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body.",
    "choices": [
     "foodborne transmission",
     "general adaptation syndrome",
@@ -273,19 +273,19 @@
     "human immunodeficiency virus"
    ],
    "answer": 2,
-   "explanation": "contamination: contamination",
+   "explanation": "contamination: The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body.",
    "source": "Flashcard Slides — Set 4"
   },
   {
    "question": "What does the term \"contamination\" mean?",
    "choices": [
-    "immune",
-    "exposure",
-    "contamination",
-    "foodborne transmission"
+    "The body's ability to protect itself from acquiring a disease.",
+    "A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
+    "The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body.",
+    "The contamination of food or water with an organism that can cause disease."
    ],
    "answer": 2,
-   "explanation": "contamination: contamination",
+   "explanation": "contamination: The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -313,7 +313,7 @@
    "source": "Flashcard Case Studies — Set 4"
   },
   {
-   "question": "Which term is defined as: delayed stress reactions",
+   "question": "Which term is defined as: Reactions to stress that occur after a stressful situation.",
    "choices": [
     "delayed stress reactions",
     "critical incident stress debriefing",
@@ -321,19 +321,19 @@
     "standard precautions"
    ],
    "answer": 0,
-   "explanation": "delayed stress reactions: delayed stress reactions",
+   "explanation": "delayed stress reactions: Reactions to stress that occur after a stressful situation.",
    "source": "Flashcard Slides — Set 4"
   },
   {
    "question": "What does the term \"delayed stress reactions\" mean?",
    "choices": [
-    "infection",
-    "Occupational Safety and Health Administration",
-    "delayed stress reactions",
-    "standard precautions"
+    "The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
+    "The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
+    "Reactions to stress that occur after a stressful situation.",
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions."
    ],
    "answer": 2,
-   "explanation": "delayed stress reactions: delayed stress reactions",
+   "explanation": "delayed stress reactions: Reactions to stress that occur after a stressful situation.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -361,7 +361,7 @@
    "source": "Flashcard Case Studies — Set 4"
   },
   {
-   "question": "Which term is defined as: cover",
+   "question": "Which term is defined as: The tactical use of an impenetrable barrier for protection.",
    "choices": [
     "airborne transmission",
     "cover",
@@ -369,19 +369,19 @@
     "indirect contact"
    ],
    "answer": 1,
-   "explanation": "cover: cover",
+   "explanation": "cover: The tactical use of an impenetrable barrier for protection.",
    "source": "Flashcard Slides — Set 4"
   },
   {
    "question": "What does the term \"cover\" mean?",
    "choices": [
-    "bloodborne pathogens",
-    "transmission",
-    "exposure",
-    "cover"
+    "Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
+    "The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
+    "A situation in which a person has had contact with blood, body fluids, tissues, or airborne particles and has the potential to develop a disease.",
+    "The tactical use of an impenetrable barrier for protection."
    ],
    "answer": 3,
-   "explanation": "cover: cover",
+   "explanation": "cover: The tactical use of an impenetrable barrier for protection.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -409,7 +409,7 @@
    "source": "Flashcard Case Studies — Set 4"
   },
   {
-   "question": "Which term is defined as: aerosol-generating procedure",
+   "question": "Which term is defined as: Any airway manipulation that induces the production of aerosols that may present a risk for airborne transmission of pathogens, such as during CPR.",
    "choices": [
     "general adaptation syndrome",
     "cover",
@@ -417,19 +417,19 @@
     "aerosol-generating procedure"
    ],
    "answer": 3,
-   "explanation": "aerosol-generating procedure: aerosol-generating procedure",
+   "explanation": "aerosol-generating procedure: Any airway manipulation that induces the production of aerosols that may present a risk for airborne transmission of pathogens, such as during CPR.",
    "source": "Flashcard Slides — Set 4"
   },
   {
    "question": "What does the term \"aerosol-generating procedure\" mean?",
    "choices": [
-    "standard precautions",
-    "ambulance decontamination",
-    "transmission",
-    "aerosol-generating procedure"
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
+    "Cleaning and disinfecting the ambulance and its equipment after a call, including allowing disinfected surfaces to air dry unless otherwise indicated in the product directions, so the unit is safe for the next patient.",
+    "The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
+    "Any airway manipulation that induces the production of aerosols that may present a risk for airborne transmission of pathogens, such as during CPR."
    ],
    "answer": 3,
-   "explanation": "aerosol-generating procedure: aerosol-generating procedure",
+   "explanation": "aerosol-generating procedure: Any airway manipulation that induces the production of aerosols that may present a risk for airborne transmission of pathogens, such as during CPR.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -457,7 +457,7 @@
    "source": "Flashcard Case Studies — Set 4"
   },
   {
-   "question": "Which term is defined as: standard precautions",
+   "question": "Which term is defined as: Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
    "choices": [
     "standard precautions",
     "aerosol-generating procedure",
@@ -465,19 +465,19 @@
     "contamination"
    ],
    "answer": 0,
-   "explanation": "standard precautions: standard precautions",
+   "explanation": "standard precautions: Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
    "source": "Flashcard Slides — Set 4"
   },
   {
    "question": "What does the term \"standard precautions\" mean?",
    "choices": [
-    "bloodborne pathogens",
-    "standard precautions",
-    "delayed stress reactions",
-    "general adaptation syndrome"
+    "Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
+    "Reactions to stress that occur after a stressful situation.",
+    "The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion."
    ],
    "answer": 1,
-   "explanation": "standard precautions: standard precautions",
+   "explanation": "standard precautions: Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
    "source": "Flashcard Slides — Set 4"
   },
   {

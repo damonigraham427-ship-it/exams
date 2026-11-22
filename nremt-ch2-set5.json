@@ -217,7 +217,7 @@
    "source": "Quiz-Style Slides — Set 5"
   },
   {
-   "question": "Which term is defined as: concealment",
+   "question": "Which term is defined as: The use of objects to limit a person's ability to see you.",
    "choices": [
     "distress",
     "concealment",
@@ -225,19 +225,19 @@
     "infection"
    ],
    "answer": 1,
-   "explanation": "concealment: concealment",
+   "explanation": "concealment: The use of objects to limit a person's ability to see you.",
    "source": "Flashcard Slides — Set 5"
   },
   {
    "question": "What does the term \"concealment\" mean?",
    "choices": [
-    "infectious disease",
-    "concealment",
-    "host",
-    "distress"
+    "A medical condition caused by the growth and spread of small, harmful organisms within the body.",
+    "The use of objects to limit a person's ability to see you.",
+    "The organism or individual that is attacked by the infecting agent.",
+    "A negative response to a stressor."
    ],
    "answer": 1,
-   "explanation": "concealment: concealment",
+   "explanation": "concealment: The use of objects to limit a person's ability to see you.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -265,7 +265,7 @@
    "source": "Flashcard Case Studies — Set 5"
   },
   {
-   "question": "Which term is defined as: airborne transmission",
+   "question": "Which term is defined as: The spread of an organism via droplets or dust.",
    "choices": [
     "airborne transmission",
     "substance abuse",
@@ -273,19 +273,19 @@
     "standard precautions"
    ],
    "answer": 0,
-   "explanation": "airborne transmission: airborne transmission",
+   "explanation": "airborne transmission: The spread of an organism via droplets or dust.",
    "source": "Flashcard Slides — Set 5"
   },
   {
    "question": "What does the term \"airborne transmission\" mean?",
    "choices": [
-    "foodborne transmission",
-    "tuberculosis",
-    "airborne transmission",
-    "Centers for Disease Control and Prevention"
+    "The contamination of food or water with an organism that can cause disease.",
+    "What airborne bacterial disease is caused by Mycobacterium tuberculosis, spreads when an infected person coughs or sneezes, and is indicated by a positive skin test showing exposure to the bacterium.",
+    "The spread of an organism via droplets or dust.",
+    "The primary federal agency that conducts and supports public health activities in the United States."
    ],
    "answer": 2,
-   "explanation": "airborne transmission: airborne transmission",
+   "explanation": "airborne transmission: The spread of an organism via droplets or dust.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -313,7 +313,7 @@
    "source": "Flashcard Case Studies — Set 5"
   },
   {
-   "question": "Which term is defined as: infection",
+   "question": "Which term is defined as: The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
    "choices": [
     "bloodborne pathogens",
     "cold-weather clothing layers",
@@ -321,19 +321,19 @@
     "infection control"
    ],
    "answer": 2,
-   "explanation": "infection: infection",
+   "explanation": "infection: The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
    "source": "Flashcard Slides — Set 5"
   },
   {
    "question": "What does the term \"infection\" mean?",
    "choices": [
-    "delayed stress reactions",
-    "Centers for Disease Control and Prevention",
-    "host",
-    "infection"
+    "Reactions to stress that occur after a stressful situation.",
+    "The primary federal agency that conducts and supports public health activities in the United States.",
+    "The organism or individual that is attacked by the infecting agent.",
+    "The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease."
    ],
    "answer": 3,
-   "explanation": "infection: infection",
+   "explanation": "infection: The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -361,7 +361,7 @@
    "source": "Flashcard Case Studies — Set 5"
   },
   {
-   "question": "Which term is defined as: acute stress reactions",
+   "question": "Which term is defined as: Reactions to stress that occur during a stressful situation.",
    "choices": [
     "immune",
     "acute stress reactions",
@@ -369,19 +369,19 @@
     "standard precautions"
    ],
    "answer": 1,
-   "explanation": "acute stress reactions: acute stress reactions",
+   "explanation": "acute stress reactions: Reactions to stress that occur during a stressful situation.",
    "source": "Flashcard Slides — Set 5"
   },
   {
    "question": "What does the term \"acute stress reactions\" mean?",
    "choices": [
-    "delayed stress reactions",
-    "vehicle stabilization",
-    "acute stress reactions",
-    "cover"
+    "Reactions to stress that occur after a stressful situation.",
+    "Securing a crashed vehicle with cribbing, struts, or other supports so it cannot move, shift, or roll; it must be done to ensure the vehicle is stable before attempting to access a patient trapped inside.",
+    "Reactions to stress that occur during a stressful situation.",
+    "The tactical use of an impenetrable barrier for protection."
    ],
    "answer": 2,
-   "explanation": "acute stress reactions: acute stress reactions",
+   "explanation": "acute stress reactions: Reactions to stress that occur during a stressful situation.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -409,7 +409,7 @@
    "source": "Flashcard Case Studies — Set 5"
   },
   {
-   "question": "Which term is defined as: indirect contact",
+   "question": "Which term is defined as: Exposure or transmission of disease from one person to another by contact with a contaminated object.",
    "choices": [
     "ambulance decontamination",
     "wellness",
@@ -417,19 +417,19 @@
     "delayed stress reactions"
    ],
    "answer": 2,
-   "explanation": "indirect contact: indirect contact",
+   "explanation": "indirect contact: Exposure or transmission of disease from one person to another by contact with a contaminated object.",
    "source": "Flashcard Slides — Set 5"
   },
   {
    "question": "What does the term \"indirect contact\" mean?",
    "choices": [
-    "indirect contact",
-    "designated officer",
-    "immune",
-    "contamination"
+    "Exposure or transmission of disease from one person to another by contact with a contaminated object.",
+    "The individual in the department who is charged with the responsibility of managing exposures and infection control.",
+    "The body's ability to protect itself from acquiring a disease.",
+    "The presence of infectious organisms on or in objects such as dressings, water, food, needles, wounds, or a patient's body."
    ],
    "answer": 0,
-   "explanation": "indirect contact: indirect contact",
+   "explanation": "indirect contact: Exposure or transmission of disease from one person to another by contact with a contaminated object.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -457,7 +457,7 @@
    "source": "Flashcard Case Studies — Set 5"
   },
   {
-   "question": "Which term is defined as: general adaptation syndrome",
+   "question": "Which term is defined as: The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
    "choices": [
     "general adaptation syndrome",
     "substance abuse",
@@ -465,19 +465,19 @@
     "vehicle stabilization"
    ],
    "answer": 0,
-   "explanation": "general adaptation syndrome: general adaptation syndrome",
+   "explanation": "general adaptation syndrome: The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
    "source": "Flashcard Slides — Set 5"
   },
   {
    "question": "What does the term \"general adaptation syndrome\" mean?",
    "choices": [
-    "cold-weather clothing layers",
-    "standard precautions",
-    "general adaptation syndrome",
-    "eustress"
+    "The most effective way to preserve body heat when functioning in cold, wet weather — wearing at least three layers of clothing.",
+    "Protective measures that have traditionally been developed by the Centers for Disease Control and Prevention (CDC) for use in dealing with objects, blood, body fluids, and other potential exposure risks of communicable disease; they are now officially referred to as standard precautions.",
+    "The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
+    "A beneficial response to a stressor."
    ],
    "answer": 2,
-   "explanation": "general adaptation syndrome: general adaptation syndrome",
+   "explanation": "general adaptation syndrome: The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
    "source": "Flashcard Slides — Set 5"
   },
   {

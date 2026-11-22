@@ -217,7 +217,7 @@
    "source": "Quiz-Style Slides — Set 3"
   },
   {
-   "question": "Which term is defined as: communicable disease",
+   "question": "Which term is defined as: A disease that can be spread from one person or species to another.",
    "choices": [
     "vector-borne transmission",
     "general adaptation syndrome",
@@ -225,19 +225,19 @@
     "communicable disease"
    ],
    "answer": 3,
-   "explanation": "communicable disease: communicable disease",
+   "explanation": "communicable disease: A disease that can be spread from one person or species to another.",
    "source": "Flashcard Slides — Set 3"
   },
   {
    "question": "What does the term \"communicable disease\" mean?",
    "choices": [
-    "infection",
-    "communicable disease",
-    "burnout",
-    "syphilis"
+    "The abnormal invasion of a host or host tissues by organisms such as bacteria, viruses, or parasites, with or without signs or symptoms of disease.",
+    "A disease that can be spread from one person or species to another.",
+    "A combination of exhaustion, cynicism, and reduced performance resulting from long-term job stresses.",
+    "A sexually transmitted infectious disease caused by the bacterium Treponema pallidum; unlike many infections, it confers no protection from reinfection after exposure, so a treated person can catch it again."
    ],
    "answer": 1,
-   "explanation": "communicable disease: communicable disease",
+   "explanation": "communicable disease: A disease that can be spread from one person or species to another.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -265,7 +265,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: eustress",
+   "question": "Which term is defined as: A beneficial response to a stressor.",
    "choices": [
     "wellness",
     "quid pro quo",
@@ -273,19 +273,19 @@
     "eustress"
    ],
    "answer": 3,
-   "explanation": "eustress: eustress",
+   "explanation": "eustress: A beneficial response to a stressor.",
    "source": "Flashcard Slides — Set 3"
   },
   {
    "question": "What does the term \"eustress\" mean?",
    "choices": [
-    "indirect contact",
-    "eustress",
-    "Occupational Safety and Health Administration",
-    "resilience"
+    "Exposure or transmission of disease from one person to another by contact with a contaminated object.",
+    "A beneficial response to a stressor.",
+    "The federal regulatory compliance agency that develops, publishes, and enforces guidelines concerning employee safety.",
+    "The capacity of an individual to cope with and recover from distress."
    ],
    "answer": 1,
-   "explanation": "eustress: eustress",
+   "explanation": "eustress: A beneficial response to a stressor.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -313,7 +313,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: immune",
+   "question": "Which term is defined as: The body's ability to protect itself from acquiring a disease.",
    "choices": [
     "immune",
     "acute stress reactions",
@@ -321,19 +321,19 @@
     "hand washing"
    ],
    "answer": 0,
-   "explanation": "immune: immune",
+   "explanation": "immune: The body's ability to protect itself from acquiring a disease.",
    "source": "Flashcard Slides — Set 3"
   },
   {
    "question": "What does the term \"immune\" mean?",
    "choices": [
-    "immune",
-    "burnout",
-    "concealment",
-    "eustress"
+    "The body's ability to protect itself from acquiring a disease.",
+    "A combination of exhaustion, cynicism, and reduced performance resulting from long-term job stresses.",
+    "The use of objects to limit a person's ability to see you.",
+    "A beneficial response to a stressor."
    ],
    "answer": 0,
-   "explanation": "immune: immune",
+   "explanation": "immune: The body's ability to protect itself from acquiring a disease.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -361,7 +361,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: personal protective equipment",
+   "question": "Which term is defined as: Protective equipment that blocks exposure to a pathogen or a hazardous material.",
    "choices": [
     "bloodborne pathogens",
     "exposure",
@@ -369,19 +369,19 @@
     "acute stress reactions"
    ],
    "answer": 2,
-   "explanation": "personal protective equipment: personal protective equipment",
+   "explanation": "personal protective equipment: Protective equipment that blocks exposure to a pathogen or a hazardous material.",
    "source": "Flashcard Slides — Set 3"
   },
   {
    "question": "What does the term \"personal protective equipment\" mean?",
    "choices": [
-    "distress",
-    "general adaptation syndrome",
-    "vehicle stabilization",
-    "personal protective equipment"
+    "A negative response to a stressor.",
+    "The body's response to stress that begins with an alarm response, followed by a stage of reaction and resistance, and then recovery or, if the stress is prolonged, exhaustion.",
+    "Securing a crashed vehicle with cribbing, struts, or other supports so it cannot move, shift, or roll; it must be done to ensure the vehicle is stable before attempting to access a patient trapped inside.",
+    "Protective equipment that blocks exposure to a pathogen or a hazardous material."
    ],
    "answer": 3,
-   "explanation": "personal protective equipment: personal protective equipment",
+   "explanation": "personal protective equipment: Protective equipment that blocks exposure to a pathogen or a hazardous material.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -409,7 +409,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: bloodborne pathogens",
+   "question": "Which term is defined as: Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
    "choices": [
     "contamination",
     "transmission",
@@ -417,19 +417,19 @@
     "exposure"
    ],
    "answer": 2,
-   "explanation": "bloodborne pathogens: bloodborne pathogens",
+   "explanation": "bloodborne pathogens: Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
    "source": "Flashcard Slides — Set 3"
   },
   {
    "question": "What does the term \"bloodborne pathogens\" mean?",
    "choices": [
-    "bloodborne pathogens",
-    "resilience",
-    "pathogen",
-    "designated officer"
+    "Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
+    "The capacity of an individual to cope with and recover from distress.",
+    "A microorganism that is capable of causing disease in a susceptible host.",
+    "The individual in the department who is charged with the responsibility of managing exposures and infection control."
    ],
    "answer": 0,
-   "explanation": "bloodborne pathogens: bloodborne pathogens",
+   "explanation": "bloodborne pathogens: Pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include, but are not limited to, hepatitis B virus and human immunodeficiency virus.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -457,7 +457,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: host",
+   "question": "Which term is defined as: The organism or individual that is attacked by the infecting agent.",
    "choices": [
     "airborne transmission",
     "host",
@@ -465,19 +465,19 @@
     "vehicle stabilization"
    ],
    "answer": 1,
-   "explanation": "host: host",
+   "explanation": "host: The organism or individual that is attacked by the infecting agent.",
    "source": "Flashcard Slides — Set 3"
   },
   {
    "question": "What does the term \"host\" mean?",
    "choices": [
-    "airborne transmission",
-    "host",
-    "transmission",
-    "resilience"
+    "The spread of an organism via droplets or dust.",
+    "The organism or individual that is attacked by the infecting agent.",
+    "The way in which an infectious disease is spread: contact, airborne, by vehicles, or by vectors.",
+    "The capacity of an individual to cope with and recover from distress."
    ],
    "answer": 1,
-   "explanation": "host: host",
+   "explanation": "host: The organism or individual that is attacked by the infecting agent.",
    "source": "Flashcard Slides — Set 3"
   },
   {

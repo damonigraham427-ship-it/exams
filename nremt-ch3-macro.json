@@ -27,13 +27,13 @@
   {
    "question": "What does the term \"statute of limitations\" mean?",
    "choices": [
-    "putrefaction",
-    "statute of limitations",
-    "algor mortis",
-    "abandonment"
+    "Decomposition of body tissues; a definitive sign of death.",
+    "The time within which a legal case must be commenced.",
+    "Cooling of the body after death until it matches the ambient temperature.",
+    "Unilateral termination of care by the EMT without the patient's consent and without making provisions for continuing care by a medical professional who is training at the same level or higher."
    ],
    "answer": 1,
-   "explanation": "statute of limitations: statute of limitations",
+   "explanation": "statute of limitations: The time within which a legal case must be commenced.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -121,7 +121,7 @@
    "source": "Flashcard Case Studies — Set 7"
   },
   {
-   "question": "Which term is defined as: emergency",
+   "question": "Which term is defined as: A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention.",
    "choices": [
     "patient autonomy",
     "emergency",
@@ -129,11 +129,11 @@
     "gross negligence"
    ],
    "answer": 1,
-   "explanation": "emergency: emergency",
+   "explanation": "emergency: A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention.",
    "source": "Flashcard Slides — Set 5"
   },
   {
-   "question": "Which term is defined as: discovery",
+   "question": "Which term is defined as: The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases.",
    "choices": [
     "discovery",
     "emergency",
@@ -141,7 +141,7 @@
     "medicolegal"
    ],
    "answer": 0,
-   "explanation": "discovery: discovery",
+   "explanation": "discovery: The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -231,25 +231,25 @@
   {
    "question": "What does the term \"discovery\" mean?",
    "choices": [
-    "health care proxy",
-    "res ipsa loquitur",
-    "compensatory damages",
-    "discovery"
+    "A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
+    "When the EMT or an EMS system is held liable even when the plaintiff is unable to clearly demonstrate how an injury occurred.",
+    "Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
+    "The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases."
    ],
    "answer": 3,
-   "explanation": "discovery: discovery",
+   "explanation": "discovery: The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"libel\" mean?",
    "choices": [
-    "statute of limitations",
-    "libel",
-    "consent",
-    "applied ethics"
+    "The time within which a legal case must be commenced.",
+    "False and damaging information about a person that is communicated in writing.",
+    "Permission to render care.",
+    "The manner in which principles of ethics are incorporated into professional conduct."
    ],
    "answer": 1,
-   "explanation": "libel: libel",
+   "explanation": "libel: False and damaging information about a person that is communicated in writing.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -279,13 +279,13 @@
   {
    "question": "What does the term \"dependent lividity\" mean?",
    "choices": [
-    "depositions",
-    "patient care documentation (patient care report)",
-    "dependent lividity",
-    "emergency"
+    "Oral questions asked of parties and witnesses under oath.",
+    "The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
+    "Blood settling to the lowest point of the body, causing discoloration of the skin; a definitive sign of death.",
+    "A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention."
    ],
    "answer": 2,
-   "explanation": "dependent lividity: dependent lividity",
+   "explanation": "dependent lividity: Blood settling to the lowest point of the body, causing discoloration of the skin; a definitive sign of death.",
    "source": "Flashcard Slides — Set 10"
   },
   {
@@ -411,29 +411,29 @@
   {
    "question": "What does the term \"implied consent\" mean?",
    "choices": [
-    "emergency",
-    "torts",
-    "implied consent",
-    "governmental immunity"
+    "A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention.",
+    "Wrongful acts that give rise to a civil lawsuit.",
+    "Type of consent in which a patient who is unable to give consent is given treatment under the legal assumption that he or she would want treatment.",
+    "Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider."
    ],
    "answer": 2,
-   "explanation": "implied consent: implied consent",
+   "explanation": "implied consent: Type of consent in which a patient who is unable to give consent is given treatment under the legal assumption that he or she would want treatment.",
    "source": "Flashcard Slides — Set 3"
   },
   {
    "question": "What does the term \"punitive damages\" mean?",
    "choices": [
-    "punitive damages",
-    "breach of confidentiality",
-    "consent",
-    "negligence per se"
+    "Damages that are sometimes awarded in a civil lawsuit when the conduct of the defendant was intentional or constituted a willful and wanton disregard for the safety of the public and the rights of others.",
+    "Disclosure of information without proper authorization.",
+    "Permission to render care.",
+    "A theory that may be used when the conduct of the person being sued is alleged to have occurred in clear violation of a statute."
    ],
    "answer": 0,
-   "explanation": "punitive damages: punitive damages",
+   "explanation": "punitive damages: Damages that are sometimes awarded in a civil lawsuit when the conduct of the defendant was intentional or constituted a willful and wanton disregard for the safety of the public and the rights of others.",
    "source": "Flashcard Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: contributory negligence",
+   "question": "Which term is defined as: A legal defense that may be raised when the defendant thinks that the conduct of the plaintiff somehow contributed to any injuries or damages that were sustained by the plaintiff.",
    "choices": [
     "contributory negligence",
     "durable power of attorney for health care",
@@ -441,7 +441,7 @@
     "consent"
    ],
    "answer": 0,
-   "explanation": "contributory negligence: contributory negligence",
+   "explanation": "contributory negligence: A legal defense that may be raised when the defendant thinks that the conduct of the plaintiff somehow contributed to any injuries or damages that were sustained by the plaintiff.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -471,25 +471,25 @@
   {
    "question": "What does the term \"slander\" mean?",
    "choices": [
-    "slander",
-    "kidnapping",
-    "in loco parentis",
-    "expressed consent"
+    "False and damaging information about a person that is communicated by spoken word.",
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
+    "Refers to the legal responsibility of a person or organization to take on some of the functions and responsibilities of a parent.",
+    "A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport."
    ],
    "answer": 0,
-   "explanation": "slander: slander",
+   "explanation": "slander: False and damaging information about a person that is communicated by spoken word.",
    "source": "Flashcard Slides — Set 9"
   },
   {
    "question": "What does the term \"depositions\" mean?",
    "choices": [
-    "in loco parentis",
-    "depositions",
-    "algor mortis",
-    "forcible restraint"
+    "Refers to the legal responsibility of a person or organization to take on some of the functions and responsibilities of a parent.",
+    "Oral questions asked of parties and witnesses under oath.",
+    "Cooling of the body after death until it matches the ambient temperature.",
+    "The act of physically preventing an individual from initiating any physical action."
    ],
    "answer": 1,
-   "explanation": "depositions: depositions",
+   "explanation": "depositions: Oral questions asked of parties and witnesses under oath.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -517,7 +517,7 @@
    "source": "Quiz-Style Slides — Set 9"
   },
   {
-   "question": "Which term is defined as: governmental immunity",
+   "question": "Which term is defined as: Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider.",
    "choices": [
     "slander",
     "governmental immunity",
@@ -525,7 +525,7 @@
     "decision-making capacity"
    ],
    "answer": 1,
-   "explanation": "governmental immunity: governmental immunity",
+   "explanation": "governmental immunity: Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -555,13 +555,13 @@
   {
    "question": "What does the term \"proximate causation\" mean?",
    "choices": [
-    "kidnapping",
-    "proximate causation",
-    "negligence per se",
-    "consent"
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
+    "When a person who has a duty abuses it, and causes harm to another individual, the EMT, the agency, and/or the medical director may be sued for negligence.",
+    "A theory that may be used when the conduct of the person being sued is alleged to have occurred in clear violation of a statute.",
+    "Permission to render care."
    ],
    "answer": 1,
-   "explanation": "proximate causation: proximate causation",
+   "explanation": "proximate causation: When a person who has a duty abuses it, and causes harm to another individual, the EMT, the agency, and/or the medical director may be sued for negligence.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -603,13 +603,13 @@
   {
    "question": "What does the term \"interrogatories\" mean?",
    "choices": [
-    "proximate causation",
-    "health care directive",
-    "interrogatories",
-    "do not resuscitate order"
+    "When a person who has a duty abuses it, and causes harm to another individual, the EMT, the agency, and/or the medical director may be sued for negligence.",
+    "A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
+    "Written questions that the defense and plaintiff send to one another.",
+    "Written documentation by a physician giving permission to medical personnel not to attempt resuscitation in the event of cardiac arrest."
    ],
    "answer": 2,
-   "explanation": "interrogatories: interrogatories",
+   "explanation": "interrogatories: Written questions that the defense and plaintiff send to one another.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -651,13 +651,13 @@
   {
    "question": "What does the term \"Good Samaritan laws\" mean?",
    "choices": [
-    "decision-making capacity",
-    "Good Samaritan laws",
-    "chain of evidence",
-    "ethics"
+    "Ability to understand and process information and make a choice regarding appropriate medical care.",
+    "Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
+    "The documented, unbroken record of everyone who collected, handled, and transferred physical evidence from a crime scene, maintained so the evidence stays usable in court.",
+    "The philosophy of right and wrong, of moral duties, and of ideal professional behavior."
    ],
    "answer": 1,
-   "explanation": "Good Samaritan laws: Good Samaritan laws",
+   "explanation": "Good Samaritan laws: Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
    "source": "Flashcard Slides — Set 10"
   },
   {
@@ -711,13 +711,13 @@
   {
    "question": "What does the term \"do not resuscitate order\" mean?",
    "choices": [
-    "mandatory reporting",
-    "do not resuscitate order",
-    "patient autonomy",
-    "contributory negligence"
+    "The legal duty of an EMT to notify the appropriate authorities in specific situations, such as suspected child or elder abuse or neglect, injuries caused by weapons or crimes, and attempted suicide.",
+    "Written documentation by a physician giving permission to medical personnel not to attempt resuscitation in the event of cardiac arrest.",
+    "The right of a patient to make informed choices regarding his or her health care.",
+    "A legal defense that may be raised when the defendant thinks that the conduct of the plaintiff somehow contributed to any injuries or damages that were sustained by the plaintiff."
    ],
    "answer": 1,
-   "explanation": "do not resuscitate order: do not resuscitate order",
+   "explanation": "do not resuscitate order: Written documentation by a physician giving permission to medical personnel not to attempt resuscitation in the event of cardiac arrest.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -781,7 +781,7 @@
    "source": "Flashcard Case Studies — Set 2"
   },
   {
-   "question": "Which term is defined as: abandonment",
+   "question": "Which term is defined as: Unilateral termination of care by the EMT without the patient's consent and without making provisions for continuing care by a medical professional who is training at the same level or higher.",
    "choices": [
     "abandonment",
     "forcible restraint",
@@ -789,7 +789,7 @@
     "slander"
    ],
    "answer": 0,
-   "explanation": "abandonment: abandonment",
+   "explanation": "abandonment: Unilateral termination of care by the EMT without the patient's consent and without making provisions for continuing care by a medical professional who is training at the same level or higher.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -841,7 +841,7 @@
    "source": "Quiz-Style Slides — Set 1"
   },
   {
-   "question": "Which term is defined as: advance directive",
+   "question": "Which term is defined as: Written documentation that specifies medical treatment for a competent patient should the patient become unable to make decisions; also called a living will or a health care directive.",
    "choices": [
     "discovery",
     "Good Samaritan laws",
@@ -849,7 +849,7 @@
     "advance directive"
    ],
    "answer": 3,
-   "explanation": "advance directive: advance directive",
+   "explanation": "advance directive: Written documentation that specifies medical treatment for a competent patient should the patient become unable to make decisions; also called a living will or a health care directive.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -903,13 +903,13 @@
   {
    "question": "What does the term \"patient autonomy\" mean?",
    "choices": [
-    "kidnapping",
-    "patient autonomy",
-    "standard of care",
-    "bioethics"
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
+    "The right of a patient to make informed choices regarding his or her health care.",
+    "Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
+    "The study of ethics related to issues that arise in health care."
    ],
    "answer": 1,
-   "explanation": "patient autonomy: patient autonomy",
+   "explanation": "patient autonomy: The right of a patient to make informed choices regarding his or her health care.",
    "source": "Flashcard Slides — Set 10"
   },
   {
@@ -951,25 +951,25 @@
   {
    "question": "What does the term \"consent\" mean?",
    "choices": [
-    "rigor mortis",
-    "consent",
-    "patient care documentation (patient care report)",
-    "assault"
+    "Stiffening of the body muscles; a definitive sign of death.",
+    "Permission to render care.",
+    "The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
+    "Unlawfully placing a patient in fear of bodily harm."
    ],
    "answer": 1,
-   "explanation": "consent: consent",
+   "explanation": "consent: Permission to render care.",
    "source": "Flashcard Slides — Set 1"
   },
   {
    "question": "What does the term \"expressed consent\" mean?",
    "choices": [
-    "expressed consent",
-    "emergency doctrine",
-    "applied ethics",
-    "ethics"
+    "A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
+    "The principle of law that permits a health care provider to treat a patient in an emergency situation when the patient is incapable of granting consent because of an altered level of consciousness, disability, the effects of drugs or alcohol, or the patient's age.",
+    "The manner in which principles of ethics are incorporated into professional conduct.",
+    "The philosophy of right and wrong, of moral duties, and of ideal professional behavior."
    ],
    "answer": 0,
-   "explanation": "expressed consent: expressed consent",
+   "explanation": "expressed consent: A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -997,7 +997,7 @@
    "source": "Flashcard Case Studies — Set 9"
   },
   {
-   "question": "Which term is defined as: durable power of attorney for health care",
+   "question": "Which term is defined as: A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
    "choices": [
     "durable power of attorney for health care",
     "battery",
@@ -1005,23 +1005,23 @@
     "applied ethics"
    ],
    "answer": 0,
-   "explanation": "durable power of attorney for health care: durable power of attorney for health care",
+   "explanation": "durable power of attorney for health care: A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
    "source": "Flashcard Slides — Set 1"
   },
   {
    "question": "What does the term \"emergency doctrine\" mean?",
    "choices": [
-    "bioethics",
-    "interrogatories",
-    "emancipated minor",
-    "emergency doctrine"
+    "The study of ethics related to issues that arise in health care.",
+    "Written questions that the defense and plaintiff send to one another.",
+    "A person who is under the legal age in a given state but, because of other circumstances, is legally considered an adult.",
+    "The principle of law that permits a health care provider to treat a patient in an emergency situation when the patient is incapable of granting consent because of an altered level of consciousness, disability, the effects of drugs or alcohol, or the patient's age."
    ],
    "answer": 3,
-   "explanation": "emergency doctrine: emergency doctrine",
+   "explanation": "emergency doctrine: The principle of law that permits a health care provider to treat a patient in an emergency situation when the patient is incapable of granting consent because of an altered level of consciousness, disability, the effects of drugs or alcohol, or the patient's age.",
    "source": "Flashcard Slides — Set 5"
   },
   {
-   "question": "Which term is defined as: compensatory damages",
+   "question": "Which term is defined as: Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
    "choices": [
     "bioethics",
     "chain of evidence",
@@ -1029,23 +1029,23 @@
     "compensatory damages"
    ],
    "answer": 3,
-   "explanation": "compensatory damages: compensatory damages",
+   "explanation": "compensatory damages: Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
    "source": "Flashcard Slides — Set 6"
   },
   {
    "question": "What does the term \"negligence per se\" mean?",
    "choices": [
-    "emergency medical care",
-    "duty to act",
-    "Good Samaritan laws",
-    "negligence per se"
+    "Immediate care or treatment.",
+    "A medicolegal term relating to certain personnel who either by statute or by function have a responsibility to provide care.",
+    "Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
+    "A theory that may be used when the conduct of the person being sued is alleged to have occurred in clear violation of a statute."
    ],
    "answer": 3,
-   "explanation": "negligence per se: negligence per se",
+   "explanation": "negligence per se: A theory that may be used when the conduct of the person being sued is alleged to have occurred in clear violation of a statute.",
    "source": "Flashcard Slides — Set 5"
   },
   {
-   "question": "Which term is defined as: decision-making capacity",
+   "question": "Which term is defined as: Ability to understand and process information and make a choice regarding appropriate medical care.",
    "choices": [
     "HIPAA",
     "battery",
@@ -1053,11 +1053,11 @@
     "decision-making capacity"
    ],
    "answer": 3,
-   "explanation": "decision-making capacity: decision-making capacity",
+   "explanation": "decision-making capacity: Ability to understand and process information and make a choice regarding appropriate medical care.",
    "source": "Flashcard Slides — Set 3"
   },
   {
-   "question": "Which term is defined as: standard of care",
+   "question": "Which term is defined as: Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
    "choices": [
     "in loco parentis",
     "proximate causation",
@@ -1065,7 +1065,7 @@
     "standard of care"
    ],
    "answer": 3,
-   "explanation": "standard of care: standard of care",
+   "explanation": "standard of care: Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
    "source": "Flashcard Slides — Set 10"
   },
   {
@@ -1107,13 +1107,13 @@
   {
    "question": "What does the term \"contributory negligence\" mean?",
    "choices": [
-    "Good Samaritan laws",
-    "governmental immunity",
-    "depositions",
-    "contributory negligence"
+    "Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
+    "Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider.",
+    "Oral questions asked of parties and witnesses under oath.",
+    "A legal defense that may be raised when the defendant thinks that the conduct of the plaintiff somehow contributed to any injuries or damages that were sustained by the plaintiff."
    ],
    "answer": 3,
-   "explanation": "contributory negligence: contributory negligence",
+   "explanation": "contributory negligence: A legal defense that may be raised when the defendant thinks that the conduct of the plaintiff somehow contributed to any injuries or damages that were sustained by the plaintiff.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -1131,13 +1131,13 @@
   {
    "question": "What does the term \"kidnapping\" mean?",
    "choices": [
-    "kidnapping",
-    "false imprisonment",
-    "morality",
-    "decision-making capacity"
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
+    "The confinement of a person without legal authority or the person's consent.",
+    "A code of conduct that can be defined by society, religion, or a person, affecting character, conduct, and conscience.",
+    "Ability to understand and process information and make a choice regarding appropriate medical care."
    ],
    "answer": 0,
-   "explanation": "kidnapping: kidnapping",
+   "explanation": "kidnapping: The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -1189,7 +1189,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: scope of practice",
+   "question": "Which term is defined as: Most commonly defined by state law; outlines the care that the EMT is able to provide for the patient.",
    "choices": [
     "scope of practice",
     "rigor mortis",
@@ -1197,7 +1197,7 @@
     "chain of evidence"
    ],
    "answer": 0,
-   "explanation": "scope of practice: scope of practice",
+   "explanation": "scope of practice: Most commonly defined by state law; outlines the care that the EMT is able to provide for the patient.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -1215,13 +1215,13 @@
   {
    "question": "What does the term \"mandatory reporting\" mean?",
    "choices": [
-    "mandatory reporting",
-    "torts",
-    "Good Samaritan laws",
-    "Health Insurance Portability and Accountability Act (HIPAA)"
+    "The legal duty of an EMT to notify the appropriate authorities in specific situations, such as suspected child or elder abuse or neglect, injuries caused by weapons or crimes, and attempted suicide.",
+    "Wrongful acts that give rise to a civil lawsuit.",
+    "Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
+    "The federal law, enacted in 1996, that protects the privacy and security of a patient's health information and limits how EMS personnel may use or share it."
    ],
    "answer": 0,
-   "explanation": "mandatory reporting: mandatory reporting",
+   "explanation": "mandatory reporting: The legal duty of an EMT to notify the appropriate authorities in specific situations, such as suspected child or elder abuse or neglect, injuries caused by weapons or crimes, and attempted suicide.",
    "source": "Flashcard Slides — Set 11"
   },
   {
@@ -1239,13 +1239,13 @@
   {
    "question": "What does the term \"defamation\" mean?",
    "choices": [
-    "kidnapping",
-    "scope of practice",
-    "discovery",
-    "defamation"
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
+    "Most commonly defined by state law; outlines the care that the EMT is able to provide for the patient.",
+    "The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases.",
+    "The communication of false information about a person that is damaging to that person's reputation or standing in the community."
    ],
    "answer": 3,
-   "explanation": "defamation: defamation",
+   "explanation": "defamation: The communication of false information about a person that is damaging to that person's reputation or standing in the community.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -1309,7 +1309,7 @@
    "source": "Quiz-Style Slides — Set 7"
   },
   {
-   "question": "Which term is defined as: implied consent",
+   "question": "Which term is defined as: Type of consent in which a patient who is unable to give consent is given treatment under the legal assumption that he or she would want treatment.",
    "choices": [
     "competent",
     "implied consent",
@@ -1317,7 +1317,7 @@
     "false imprisonment"
    ],
    "answer": 1,
-   "explanation": "implied consent: implied consent",
+   "explanation": "implied consent: Type of consent in which a patient who is unable to give consent is given treatment under the legal assumption that he or she would want treatment.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -1395,17 +1395,17 @@
   {
    "question": "What does the term \"medicolegal\" mean?",
    "choices": [
-    "false imprisonment",
-    "assault",
-    "medicolegal",
-    "implied consent"
+    "The confinement of a person without legal authority or the person's consent.",
+    "Unlawfully placing a patient in fear of bodily harm.",
+    "A term relating to medical jurisprudence (law) or forensic medicine.",
+    "Type of consent in which a patient who is unable to give consent is given treatment under the legal assumption that he or she would want treatment."
    ],
    "answer": 2,
-   "explanation": "medicolegal: medicolegal",
+   "explanation": "medicolegal: A term relating to medical jurisprudence (law) or forensic medicine.",
    "source": "Flashcard Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: rigor mortis",
+   "question": "Which term is defined as: Stiffening of the body muscles; a definitive sign of death.",
    "choices": [
     "breach of confidentiality",
     "rigor mortis",
@@ -1413,19 +1413,19 @@
     "morality"
    ],
    "answer": 1,
-   "explanation": "rigor mortis: rigor mortis",
+   "explanation": "rigor mortis: Stiffening of the body muscles; a definitive sign of death.",
    "source": "Flashcard Slides — Set 9"
   },
   {
    "question": "What does the term \"chain of evidence\" mean?",
    "choices": [
-    "emergency medical care",
-    "chain of evidence",
-    "interrogatories",
-    "informed consent"
+    "Immediate care or treatment.",
+    "The documented, unbroken record of everyone who collected, handled, and transferred physical evidence from a crime scene, maintained so the evidence stays usable in court.",
+    "Written questions that the defense and plaintiff send to one another.",
+    "Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained."
    ],
    "answer": 1,
-   "explanation": "chain of evidence: chain of evidence",
+   "explanation": "chain of evidence: The documented, unbroken record of everyone who collected, handled, and transferred physical evidence from a crime scene, maintained so the evidence stays usable in court.",
    "source": "Flashcard Slides — Set 11"
   },
   {
@@ -1575,13 +1575,13 @@
   {
    "question": "What does the term \"in loco parentis\" mean?",
    "choices": [
-    "forcible restraint",
-    "consent",
-    "expressed consent",
-    "in loco parentis"
+    "The act of physically preventing an individual from initiating any physical action.",
+    "Permission to render care.",
+    "A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
+    "Refers to the legal responsibility of a person or organization to take on some of the functions and responsibilities of a parent."
    ],
    "answer": 3,
-   "explanation": "in loco parentis: in loco parentis",
+   "explanation": "in loco parentis: Refers to the legal responsibility of a person or organization to take on some of the functions and responsibilities of a parent.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -1597,7 +1597,7 @@
    "source": "Flashcard Case Studies — Set 10"
   },
   {
-   "question": "Which term is defined as: negligence per se",
+   "question": "Which term is defined as: A theory that may be used when the conduct of the person being sued is alleged to have occurred in clear violation of a statute.",
    "choices": [
     "putrefaction",
     "negligence per se",
@@ -1605,7 +1605,7 @@
     "emergency medical care"
    ],
    "answer": 1,
-   "explanation": "negligence per se: negligence per se",
+   "explanation": "negligence per se: A theory that may be used when the conduct of the person being sued is alleged to have occurred in clear violation of a statute.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -1707,17 +1707,17 @@
   {
    "question": "What does the term \"false imprisonment\" mean?",
    "choices": [
-    "false imprisonment",
-    "breach of confidentiality",
-    "mandatory reporting",
-    "discovery"
+    "The confinement of a person without legal authority or the person's consent.",
+    "Disclosure of information without proper authorization.",
+    "The legal duty of an EMT to notify the appropriate authorities in specific situations, such as suspected child or elder abuse or neglect, injuries caused by weapons or crimes, and attempted suicide.",
+    "The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases."
    ],
    "answer": 0,
-   "explanation": "false imprisonment: false imprisonment",
+   "explanation": "false imprisonment: The confinement of a person without legal authority or the person's consent.",
    "source": "Flashcard Slides — Set 6"
   },
   {
-   "question": "Which term is defined as: mandatory reporting",
+   "question": "Which term is defined as: The legal duty of an EMT to notify the appropriate authorities in specific situations, such as suspected child or elder abuse or neglect, injuries caused by weapons or crimes, and attempted suicide.",
    "choices": [
     "mandatory reporting",
     "dependent lividity",
@@ -1725,7 +1725,7 @@
     "morality"
    ],
    "answer": 0,
-   "explanation": "mandatory reporting: mandatory reporting",
+   "explanation": "mandatory reporting: The legal duty of an EMT to notify the appropriate authorities in specific situations, such as suspected child or elder abuse or neglect, injuries caused by weapons or crimes, and attempted suicide.",
    "source": "Flashcard Slides — Set 11"
   },
   {
@@ -1801,7 +1801,7 @@
    "source": "Quiz-Style Slides — Set 3"
   },
   {
-   "question": "Which term is defined as: bioethics",
+   "question": "Which term is defined as: The study of ethics related to issues that arise in health care.",
    "choices": [
     "health care directive",
     "emergency",
@@ -1809,7 +1809,7 @@
     "statute of limitations"
    ],
    "answer": 2,
-   "explanation": "bioethics: bioethics",
+   "explanation": "bioethics: The study of ethics related to issues that arise in health care.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -1863,13 +1863,13 @@
   {
    "question": "What does the term \"durable power of attorney for health care\" mean?",
    "choices": [
-    "compensatory damages",
-    "putrefaction",
-    "durable power of attorney for health care",
-    "assault"
+    "Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
+    "Decomposition of body tissues; a definitive sign of death.",
+    "A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
+    "Unlawfully placing a patient in fear of bodily harm."
    ],
    "answer": 2,
-   "explanation": "durable power of attorney for health care: durable power of attorney for health care",
+   "explanation": "durable power of attorney for health care: A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -1909,7 +1909,7 @@
    "source": "Flashcard Case Studies — Set 8"
   },
   {
-   "question": "Which term is defined as: health care directive",
+   "question": "Which term is defined as: A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
    "choices": [
     "false imprisonment",
     "negligence",
@@ -1917,7 +1917,7 @@
     "Good Samaritan laws"
    ],
    "answer": 2,
-   "explanation": "health care directive: health care directive",
+   "explanation": "health care directive: A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -1945,7 +1945,7 @@
    "source": "Flashcard Case Studies — Set 9"
   },
   {
-   "question": "Which term is defined as: competent",
+   "question": "Which term is defined as: Able to make rational decisions about personal well-being.",
    "choices": [
     "bioethics",
     "protected health information",
@@ -1953,19 +1953,19 @@
     "competent"
    ],
    "answer": 3,
-   "explanation": "competent: competent",
+   "explanation": "competent: Able to make rational decisions about personal well-being.",
    "source": "Flashcard Slides — Set 4"
   },
   {
    "question": "What does the term \"negligence\" mean?",
    "choices": [
-    "negligence",
-    "durable power of attorney for health care",
-    "torts",
-    "health care directive"
+    "Failure to provide the same care that a person with similar training would provide.",
+    "A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
+    "Wrongful acts that give rise to a civil lawsuit.",
+    "A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will."
    ],
    "answer": 0,
-   "explanation": "negligence: negligence",
+   "explanation": "negligence: Failure to provide the same care that a person with similar training would provide.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -2007,13 +2007,13 @@
   {
    "question": "What does the term \"emergency\" mean?",
    "choices": [
-    "applied ethics",
-    "standard of care",
-    "emergency",
-    "do not resuscitate order"
+    "The manner in which principles of ethics are incorporated into professional conduct.",
+    "Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
+    "A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention.",
+    "Written documentation by a physician giving permission to medical personnel not to attempt resuscitation in the event of cardiac arrest."
    ],
    "answer": 2,
-   "explanation": "emergency: emergency",
+   "explanation": "emergency: A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -2055,13 +2055,13 @@
   {
    "question": "What does the term \"compensatory damages\" mean?",
    "choices": [
-    "emergency",
-    "kidnapping",
-    "compensatory damages",
-    "consent"
+    "A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention.",
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
+    "Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
+    "Permission to render care."
    ],
    "answer": 2,
-   "explanation": "compensatory damages: compensatory damages",
+   "explanation": "compensatory damages: Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -2079,25 +2079,25 @@
   {
    "question": "What does the term \"HIPAA\" mean?",
    "choices": [
-    "consent",
-    "Health Insurance Portability and Accountability Act (HIPAA)",
-    "interrogatories",
-    "mandatory reporting"
+    "Permission to render care.",
+    "The federal law, enacted in 1996, that protects the privacy and security of a patient's health information and limits how EMS personnel may use or share it.",
+    "Written questions that the defense and plaintiff send to one another.",
+    "The legal duty of an EMT to notify the appropriate authorities in specific situations, such as suspected child or elder abuse or neglect, injuries caused by weapons or crimes, and attempted suicide."
    ],
    "answer": 1,
-   "explanation": "HIPAA: Health Insurance Portability and Accountability Act (HIPAA)",
+   "explanation": "HIPAA: The federal law, enacted in 1996, that protects the privacy and security of a patient's health information and limits how EMS personnel may use or share it.",
    "source": "Flashcard Slides — Set 11"
   },
   {
    "question": "What does the term \"rigor mortis\" mean?",
    "choices": [
-    "health care proxy",
-    "patient care documentation (patient care report)",
-    "rigor mortis",
-    "Health Insurance Portability and Accountability Act (HIPAA)"
+    "A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
+    "The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
+    "Stiffening of the body muscles; a definitive sign of death.",
+    "The federal law, enacted in 1996, that protects the privacy and security of a patient's health information and limits how EMS personnel may use or share it."
    ],
    "answer": 2,
-   "explanation": "rigor mortis: rigor mortis",
+   "explanation": "rigor mortis: Stiffening of the body muscles; a definitive sign of death.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -2115,25 +2115,25 @@
   {
    "question": "What does the term \"protected health information\" mean?",
    "choices": [
-    "medicolegal",
-    "negligence",
-    "protected health information",
-    "ethics"
+    "A term relating to medical jurisprudence (law) or forensic medicine.",
+    "Failure to provide the same care that a person with similar training would provide.",
+    "Any information about health status, provision of health care, or payment for health care that can be linked to an individual.",
+    "The philosophy of right and wrong, of moral duties, and of ideal professional behavior."
    ],
    "answer": 2,
-   "explanation": "protected health information: protected health information",
+   "explanation": "protected health information: Any information about health status, provision of health care, or payment for health care that can be linked to an individual.",
    "source": "Flashcard Slides — Set 7"
   },
   {
    "question": "What does the term \"health care directive\" mean?",
    "choices": [
-    "emancipated minor",
-    "dependent lividity",
-    "health care directive",
-    "duty to act"
+    "A person who is under the legal age in a given state but, because of other circumstances, is legally considered an adult.",
+    "Blood settling to the lowest point of the body, causing discoloration of the skin; a definitive sign of death.",
+    "A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
+    "A medicolegal term relating to certain personnel who either by statute or by function have a responsibility to provide care."
    ],
    "answer": 2,
-   "explanation": "health care directive: health care directive",
+   "explanation": "health care directive: A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -2187,29 +2187,29 @@
   {
    "question": "What does the term \"emancipated minor\" mean?",
    "choices": [
-    "battery",
-    "applied ethics",
-    "emancipated minor",
-    "medicolegal"
+    "Unlawfully touching a patient or providing emergency care without consent.",
+    "The manner in which principles of ethics are incorporated into professional conduct.",
+    "A person who is under the legal age in a given state but, because of other circumstances, is legally considered an adult.",
+    "A term relating to medical jurisprudence (law) or forensic medicine."
    ],
    "answer": 2,
-   "explanation": "emancipated minor: emancipated minor",
+   "explanation": "emancipated minor: A person who is under the legal age in a given state but, because of other circumstances, is legally considered an adult.",
    "source": "Flashcard Slides — Set 3"
   },
   {
    "question": "What does the term \"decision-making capacity\" mean?",
    "choices": [
-    "negligence per se",
-    "decision-making capacity",
-    "discovery",
-    "rigor mortis"
+    "A theory that may be used when the conduct of the person being sued is alleged to have occurred in clear violation of a statute.",
+    "Ability to understand and process information and make a choice regarding appropriate medical care.",
+    "The phase of a civil lawsuit where the plaintiff and defense obtain information from each other that will help both build their cases.",
+    "Stiffening of the body muscles; a definitive sign of death."
    ],
    "answer": 1,
-   "explanation": "decision-making capacity: decision-making capacity",
+   "explanation": "decision-making capacity: Ability to understand and process information and make a choice regarding appropriate medical care.",
    "source": "Flashcard Slides — Set 3"
   },
   {
-   "question": "Which term is defined as: slander",
+   "question": "Which term is defined as: False and damaging information about a person that is communicated by spoken word.",
    "choices": [
     "chain of evidence",
     "bioethics",
@@ -2217,7 +2217,7 @@
     "slander"
    ],
    "answer": 3,
-   "explanation": "slander: slander",
+   "explanation": "slander: False and damaging information about a person that is communicated by spoken word.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -2245,7 +2245,7 @@
    "source": "Flashcard Case Studies — Set 6"
   },
   {
-   "question": "Which term is defined as: emergency medical care",
+   "question": "Which term is defined as: Immediate care or treatment.",
    "choices": [
     "emergency medical care",
     "contributory negligence",
@@ -2253,7 +2253,7 @@
     "assault"
    ],
    "answer": 0,
-   "explanation": "emergency medical care: emergency medical care",
+   "explanation": "emergency medical care: Immediate care or treatment.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -2293,7 +2293,7 @@
    "source": "Textbook — Assessment in Action"
   },
   {
-   "question": "Which term is defined as: medicolegal",
+   "question": "Which term is defined as: A term relating to medical jurisprudence (law) or forensic medicine.",
    "choices": [
     "medicolegal",
     "morality",
@@ -2301,7 +2301,7 @@
     "mandatory reporting"
    ],
    "answer": 0,
-   "explanation": "medicolegal: medicolegal",
+   "explanation": "medicolegal: A term relating to medical jurisprudence (law) or forensic medicine.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -2341,7 +2341,7 @@
    "source": "Flashcard Case Studies — Set 8"
   },
   {
-   "question": "Which term is defined as: battery",
+   "question": "Which term is defined as: Unlawfully touching a patient or providing emergency care without consent.",
    "choices": [
     "patient autonomy",
     "battery",
@@ -2349,7 +2349,7 @@
     "assault"
    ],
    "answer": 1,
-   "explanation": "battery: battery",
+   "explanation": "battery: Unlawfully touching a patient or providing emergency care without consent.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -2425,7 +2425,7 @@
    "source": "Quiz-Style Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: negligence",
+   "question": "Which term is defined as: Failure to provide the same care that a person with similar training would provide.",
    "choices": [
     "patient autonomy",
     "negligence",
@@ -2433,11 +2433,11 @@
     "assault"
    ],
    "answer": 1,
-   "explanation": "negligence: negligence",
+   "explanation": "negligence: Failure to provide the same care that a person with similar training would provide.",
    "source": "Flashcard Slides — Set 2"
   },
   {
-   "question": "Which term is defined as: depositions",
+   "question": "Which term is defined as: Oral questions asked of parties and witnesses under oath.",
    "choices": [
     "depositions",
     "emergency medical care",
@@ -2445,7 +2445,7 @@
     "Good Samaritan laws"
    ],
    "answer": 0,
-   "explanation": "depositions: depositions",
+   "explanation": "depositions: Oral questions asked of parties and witnesses under oath.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -2509,7 +2509,7 @@
    "source": "Quiz-Style Slides — Set 5"
   },
   {
-   "question": "Which term is defined as: emancipated minor",
+   "question": "Which term is defined as: A person who is under the legal age in a given state but, because of other circumstances, is legally considered an adult.",
    "choices": [
     "emancipated minor",
     "assault",
@@ -2517,19 +2517,19 @@
     "interrogatories"
    ],
    "answer": 0,
-   "explanation": "emancipated minor: emancipated minor",
+   "explanation": "emancipated minor: A person who is under the legal age in a given state but, because of other circumstances, is legally considered an adult.",
    "source": "Flashcard Slides — Set 3"
   },
   {
    "question": "What does the term \"algor mortis\" mean?",
    "choices": [
-    "algor mortis",
-    "patient care documentation (patient care report)",
-    "bioethics",
-    "informed consent"
+    "Cooling of the body after death until it matches the ambient temperature.",
+    "The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
+    "The study of ethics related to issues that arise in health care.",
+    "Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained."
    ],
    "answer": 0,
-   "explanation": "algor mortis: algor mortis",
+   "explanation": "algor mortis: Cooling of the body after death until it matches the ambient temperature.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -2557,7 +2557,7 @@
    "source": "Quiz-Style Slides — Set 11"
   },
   {
-   "question": "Which term is defined as: do not resuscitate order",
+   "question": "Which term is defined as: Written documentation by a physician giving permission to medical personnel not to attempt resuscitation in the event of cardiac arrest.",
    "choices": [
     "health care directive",
     "health care proxy",
@@ -2565,7 +2565,7 @@
     "do not resuscitate order"
    ],
    "answer": 3,
-   "explanation": "do not resuscitate order: do not resuscitate order",
+   "explanation": "do not resuscitate order: Written documentation by a physician giving permission to medical personnel not to attempt resuscitation in the event of cardiac arrest.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -2617,7 +2617,7 @@
    "source": "Quiz-Style Slides — Set 9"
   },
   {
-   "question": "Which term is defined as: duty to act",
+   "question": "Which term is defined as: A medicolegal term relating to certain personnel who either by statute or by function have a responsibility to provide care.",
    "choices": [
     "duty to act",
     "bioethics",
@@ -2625,7 +2625,7 @@
     "proximate causation"
    ],
    "answer": 0,
-   "explanation": "duty to act: duty to act",
+   "explanation": "duty to act: A medicolegal term relating to certain personnel who either by statute or by function have a responsibility to provide care.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -2689,7 +2689,7 @@
    "source": "Quiz-Style Slides — Set 9"
   },
   {
-   "question": "Which term is defined as: chain of evidence",
+   "question": "Which term is defined as: The documented, unbroken record of everyone who collected, handled, and transferred physical evidence from a crime scene, maintained so the evidence stays usable in court.",
    "choices": [
     "consent",
     "patient care documentation",
@@ -2697,11 +2697,11 @@
     "Good Samaritan laws"
    ],
    "answer": 2,
-   "explanation": "chain of evidence: chain of evidence",
+   "explanation": "chain of evidence: The documented, unbroken record of everyone who collected, handled, and transferred physical evidence from a crime scene, maintained so the evidence stays usable in court.",
    "source": "Flashcard Slides — Set 11"
   },
   {
-   "question": "Which term is defined as: emergency doctrine",
+   "question": "Which term is defined as: The principle of law that permits a health care provider to treat a patient in an emergency situation when the patient is incapable of granting consent because of an altered level of consciousness, disability, the effects of drugs or alcohol, or the patient's age.",
    "choices": [
     "health care directive",
     "emergency",
@@ -2709,7 +2709,7 @@
     "emergency doctrine"
    ],
    "answer": 3,
-   "explanation": "emergency doctrine: emergency doctrine",
+   "explanation": "emergency doctrine: The principle of law that permits a health care provider to treat a patient in an emergency situation when the patient is incapable of granting consent because of an altered level of consciousness, disability, the effects of drugs or alcohol, or the patient's age.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -2799,13 +2799,13 @@
   {
    "question": "What does the term \"abandonment\" mean?",
    "choices": [
-    "Health Insurance Portability and Accountability Act (HIPAA)",
-    "abandonment",
-    "kidnapping",
-    "in loco parentis"
+    "The federal law, enacted in 1996, that protects the privacy and security of a patient's health information and limits how EMS personnel may use or share it.",
+    "Unilateral termination of care by the EMT without the patient's consent and without making provisions for continuing care by a medical professional who is training at the same level or higher.",
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
+    "Refers to the legal responsibility of a person or organization to take on some of the functions and responsibilities of a parent."
    ],
    "answer": 1,
-   "explanation": "abandonment: abandonment",
+   "explanation": "abandonment: Unilateral termination of care by the EMT without the patient's consent and without making provisions for continuing care by a medical professional who is training at the same level or higher.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -2919,17 +2919,17 @@
   {
    "question": "What does the term \"forcible restraint\" mean?",
    "choices": [
-    "dependent lividity",
-    "forcible restraint",
-    "breach of confidentiality",
-    "in loco parentis"
+    "Blood settling to the lowest point of the body, causing discoloration of the skin; a definitive sign of death.",
+    "The act of physically preventing an individual from initiating any physical action.",
+    "Disclosure of information without proper authorization.",
+    "Refers to the legal responsibility of a person or organization to take on some of the functions and responsibilities of a parent."
    ],
    "answer": 1,
-   "explanation": "forcible restraint: forcible restraint",
+   "explanation": "forcible restraint: The act of physically preventing an individual from initiating any physical action.",
    "source": "Flashcard Slides — Set 4"
   },
   {
-   "question": "Which term is defined as: morality",
+   "question": "Which term is defined as: A code of conduct that can be defined by society, religion, or a person, affecting character, conduct, and conscience.",
    "choices": [
     "assault",
     "morality",
@@ -2937,7 +2937,7 @@
     "standard of care"
    ],
    "answer": 1,
-   "explanation": "morality: morality",
+   "explanation": "morality: A code of conduct that can be defined by society, religion, or a person, affecting character, conduct, and conscience.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -2955,25 +2955,25 @@
   {
    "question": "What does the term \"bioethics\" mean?",
    "choices": [
-    "health care proxy",
-    "governmental immunity",
-    "bioethics",
-    "statute of limitations"
+    "A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
+    "Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider.",
+    "The study of ethics related to issues that arise in health care.",
+    "The time within which a legal case must be commenced."
    ],
    "answer": 2,
-   "explanation": "bioethics: bioethics",
+   "explanation": "bioethics: The study of ethics related to issues that arise in health care.",
    "source": "Flashcard Slides — Set 4"
   },
   {
    "question": "What does the term \"patient care documentation\" mean?",
    "choices": [
-    "patient care documentation (patient care report)",
-    "rigor mortis",
-    "false imprisonment",
-    "health care directive"
+    "The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
+    "Stiffening of the body muscles; a definitive sign of death.",
+    "The confinement of a person without legal authority or the person's consent.",
+    "A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will."
    ],
    "answer": 0,
-   "explanation": "patient care documentation: patient care documentation (patient care report)",
+   "explanation": "patient care documentation: The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
    "source": "Flashcard Slides — Set 11"
   },
   {
@@ -3013,7 +3013,7 @@
    "source": "Quiz-Style Slides — Set 4"
   },
   {
-   "question": "Which term is defined as: Good Samaritan laws",
+   "question": "Which term is defined as: Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
    "choices": [
     "proximate causation",
     "applied ethics",
@@ -3021,7 +3021,7 @@
     "Good Samaritan laws"
    ],
    "answer": 3,
-   "explanation": "Good Samaritan laws: Good Samaritan laws",
+   "explanation": "Good Samaritan laws: Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
    "source": "Flashcard Slides — Set 10"
   },
   {
@@ -3049,7 +3049,7 @@
    "source": "Textbook — YOU are the Provider"
   },
   {
-   "question": "Which term is defined as: proximate causation",
+   "question": "Which term is defined as: When a person who has a duty abuses it, and causes harm to another individual, the EMT, the agency, and/or the medical director may be sued for negligence.",
    "choices": [
     "negligence per se",
     "proximate causation",
@@ -3057,7 +3057,7 @@
     "punitive damages"
    ],
    "answer": 1,
-   "explanation": "proximate causation: proximate causation",
+   "explanation": "proximate causation: When a person who has a duty abuses it, and causes harm to another individual, the EMT, the agency, and/or the medical director may be sued for negligence.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -3123,13 +3123,13 @@
   {
    "question": "What does the term \"putrefaction\" mean?",
    "choices": [
-    "ethics",
-    "gross negligence",
-    "putrefaction",
-    "contributory negligence"
+    "The philosophy of right and wrong, of moral duties, and of ideal professional behavior.",
+    "Conduct that constitutes a willful or reckless disregard for a duty or standard of care.",
+    "Decomposition of body tissues; a definitive sign of death.",
+    "A legal defense that may be raised when the defendant thinks that the conduct of the plaintiff somehow contributed to any injuries or damages that were sustained by the plaintiff."
    ],
    "answer": 2,
-   "explanation": "putrefaction: putrefaction",
+   "explanation": "putrefaction: Decomposition of body tissues; a definitive sign of death.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -3193,7 +3193,7 @@
    "source": "Flashcard Case Studies — Set 2"
   },
   {
-   "question": "Which term is defined as: punitive damages",
+   "question": "Which term is defined as: Damages that are sometimes awarded in a civil lawsuit when the conduct of the defendant was intentional or constituted a willful and wanton disregard for the safety of the public and the rights of others.",
    "choices": [
     "punitive damages",
     "rigor mortis",
@@ -3201,7 +3201,7 @@
     "medicolegal"
    ],
    "answer": 0,
-   "explanation": "punitive damages: punitive damages",
+   "explanation": "punitive damages: Damages that are sometimes awarded in a civil lawsuit when the conduct of the defendant was intentional or constituted a willful and wanton disregard for the safety of the public and the rights of others.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -3217,7 +3217,7 @@
    "source": "Quiz-Style Slides — Set 8"
   },
   {
-   "question": "Which term is defined as: in loco parentis",
+   "question": "Which term is defined as: Refers to the legal responsibility of a person or organization to take on some of the functions and responsibilities of a parent.",
    "choices": [
     "in loco parentis",
     "patient care documentation",
@@ -3225,7 +3225,7 @@
     "libel"
    ],
    "answer": 0,
-   "explanation": "in loco parentis: in loco parentis",
+   "explanation": "in loco parentis: Refers to the legal responsibility of a person or organization to take on some of the functions and responsibilities of a parent.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -3325,7 +3325,7 @@
    "source": "Flashcard Case Studies — Set 3"
   },
   {
-   "question": "Which term is defined as: ethics",
+   "question": "Which term is defined as: The philosophy of right and wrong, of moral duties, and of ideal professional behavior.",
    "choices": [
     "ethics",
     "chain of evidence",
@@ -3333,7 +3333,7 @@
     "morality"
    ],
    "answer": 0,
-   "explanation": "ethics: ethics",
+   "explanation": "ethics: The philosophy of right and wrong, of moral duties, and of ideal professional behavior.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -3421,7 +3421,7 @@
    "source": "Quiz-Style Slides — Set 1"
   },
   {
-   "question": "Which term is defined as: patient care documentation (patient care report)",
+   "question": "Which term is defined as: The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
    "choices": [
     "ethics",
     "health care directive",
@@ -3429,7 +3429,7 @@
     "patient care documentation"
    ],
    "answer": 3,
-   "explanation": "patient care documentation: patient care documentation (patient care report)",
+   "explanation": "patient care documentation: The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
    "source": "Flashcard Slides — Set 11"
   },
   {
@@ -3517,7 +3517,7 @@
    "source": "Flashcard Case Studies — Set 7"
   },
   {
-   "question": "Which term is defined as: informed consent",
+   "question": "Which term is defined as: Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
    "choices": [
     "health care directive",
     "informed consent",
@@ -3525,7 +3525,7 @@
     "false imprisonment"
    ],
    "answer": 1,
-   "explanation": "informed consent: informed consent",
+   "explanation": "informed consent: Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -3615,13 +3615,13 @@
   {
    "question": "What does the term \"morality\" mean?",
    "choices": [
-    "morality",
-    "Health Insurance Portability and Accountability Act (HIPAA)",
-    "patient care documentation (patient care report)",
-    "emancipated minor"
+    "A code of conduct that can be defined by society, religion, or a person, affecting character, conduct, and conscience.",
+    "The federal law, enacted in 1996, that protects the privacy and security of a patient's health information and limits how EMS personnel may use or share it.",
+    "The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
+    "A person who is under the legal age in a given state but, because of other circumstances, is legally considered an adult."
    ],
    "answer": 0,
-   "explanation": "morality: morality",
+   "explanation": "morality: A code of conduct that can be defined by society, religion, or a person, affecting character, conduct, and conscience.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -3685,7 +3685,7 @@
    "source": "Flashcard Case Studies — Set 6"
   },
   {
-   "question": "Which term is defined as: statute of limitations",
+   "question": "Which term is defined as: The time within which a legal case must be commenced.",
    "choices": [
     "decision-making capacity",
     "standard of care",
@@ -3693,7 +3693,7 @@
     "proximate causation"
    ],
    "answer": 2,
-   "explanation": "statute of limitations: statute of limitations",
+   "explanation": "statute of limitations: The time within which a legal case must be commenced.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -3757,7 +3757,7 @@
    "source": "Quiz-Style Slides — Set 2"
   },
   {
-   "question": "Which term is defined as: patient autonomy",
+   "question": "Which term is defined as: The right of a patient to make informed choices regarding his or her health care.",
    "choices": [
     "health care directive",
     "patient autonomy",
@@ -3765,11 +3765,11 @@
     "negligence"
    ],
    "answer": 1,
-   "explanation": "patient autonomy: patient autonomy",
+   "explanation": "patient autonomy: The right of a patient to make informed choices regarding his or her health care.",
    "source": "Flashcard Slides — Set 10"
   },
   {
-   "question": "Which term is defined as: false imprisonment",
+   "question": "Which term is defined as: The confinement of a person without legal authority or the person's consent.",
    "choices": [
     "negligence per se",
     "abandonment",
@@ -3777,7 +3777,7 @@
     "false imprisonment"
    ],
    "answer": 3,
-   "explanation": "false imprisonment: false imprisonment",
+   "explanation": "false imprisonment: The confinement of a person without legal authority or the person's consent.",
    "source": "Flashcard Slides — Set 6"
   },
   {
@@ -3793,7 +3793,7 @@
    "source": "Textbook — Navigate Case Study"
   },
   {
-   "question": "Which term is defined as: forcible restraint",
+   "question": "Which term is defined as: The act of physically preventing an individual from initiating any physical action.",
    "choices": [
     "battery",
     "depositions",
@@ -3801,7 +3801,7 @@
     "forcible restraint"
    ],
    "answer": 3,
-   "explanation": "forcible restraint: forcible restraint",
+   "explanation": "forcible restraint: The act of physically preventing an individual from initiating any physical action.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -3855,13 +3855,13 @@
   {
    "question": "What does the term \"scope of practice\" mean?",
    "choices": [
-    "scope of practice",
-    "emancipated minor",
-    "emergency medical care",
-    "breach of confidentiality"
+    "Most commonly defined by state law; outlines the care that the EMT is able to provide for the patient.",
+    "A person who is under the legal age in a given state but, because of other circumstances, is legally considered an adult.",
+    "Immediate care or treatment.",
+    "Disclosure of information without proper authorization."
    ],
    "answer": 0,
-   "explanation": "scope of practice: scope of practice",
+   "explanation": "scope of practice: Most commonly defined by state law; outlines the care that the EMT is able to provide for the patient.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -3877,7 +3877,7 @@
    "source": "Flashcard Case Studies — Set 11"
   },
   {
-   "question": "Which term is defined as: health care proxy",
+   "question": "Which term is defined as: A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
    "choices": [
     "assault",
     "health care proxy",
@@ -3885,11 +3885,11 @@
     "interrogatories"
    ],
    "answer": 1,
-   "explanation": "health care proxy: health care proxy",
+   "explanation": "health care proxy: A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
    "source": "Flashcard Slides — Set 10"
   },
   {
-   "question": "Which term is defined as: algor mortis",
+   "question": "Which term is defined as: Cooling of the body after death until it matches the ambient temperature.",
    "choices": [
     "chain of evidence",
     "algor mortis",
@@ -3897,23 +3897,23 @@
     "contributory negligence"
    ],
    "answer": 1,
-   "explanation": "algor mortis: algor mortis",
+   "explanation": "algor mortis: Cooling of the body after death until it matches the ambient temperature.",
    "source": "Flashcard Slides — Set 7"
   },
   {
    "question": "What does the term \"health care proxy\" mean?",
    "choices": [
-    "compensatory damages",
-    "negligence",
-    "ethics",
-    "health care proxy"
+    "Damages awarded in a civil lawsuit that are intended to restore the plaintiff to the same condition that he or she was in prior to the incident complained about in the lawsuit.",
+    "Failure to provide the same care that a person with similar training would provide.",
+    "The philosophy of right and wrong, of moral duties, and of ideal professional behavior.",
+    "A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so."
    ],
    "answer": 3,
-   "explanation": "health care proxy: health care proxy",
+   "explanation": "health care proxy: A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
    "source": "Flashcard Slides — Set 10"
   },
   {
-   "question": "Which term is defined as: expressed consent",
+   "question": "Which term is defined as: A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
    "choices": [
     "slander",
     "health care directive",
@@ -3921,7 +3921,7 @@
     "expressed consent"
    ],
    "answer": 3,
-   "explanation": "expressed consent: expressed consent",
+   "explanation": "expressed consent: A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
    "source": "Flashcard Slides — Set 9"
   },
   {
@@ -3973,7 +3973,7 @@
    "source": "Quiz-Style Slides — Set 1"
   },
   {
-   "question": "Which term is defined as: applied ethics",
+   "question": "Which term is defined as: The manner in which principles of ethics are incorporated into professional conduct.",
    "choices": [
     "duty to act",
     "applied ethics",
@@ -3981,7 +3981,7 @@
     "contributory negligence"
    ],
    "answer": 1,
-   "explanation": "applied ethics: applied ethics",
+   "explanation": "applied ethics: The manner in which principles of ethics are incorporated into professional conduct.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -3999,29 +3999,29 @@
   {
    "question": "What does the term \"governmental immunity\" mean?",
    "choices": [
-    "standard of care",
-    "breach of confidentiality",
-    "interrogatories",
-    "governmental immunity"
+    "Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
+    "Disclosure of information without proper authorization.",
+    "Written questions that the defense and plaintiff send to one another.",
+    "Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider."
    ],
    "answer": 3,
-   "explanation": "governmental immunity: governmental immunity",
+   "explanation": "governmental immunity: Legal doctrine that can protect an EMS provider from being sued or that may limit the amount of the monetary judgement (the amount of money that a court of law orders one person to pay to another) against the EMS provider.",
    "source": "Flashcard Slides — Set 2"
   },
   {
    "question": "What does the term \"assault\" mean?",
    "choices": [
-    "assault",
-    "implied consent",
-    "emergency medical care",
-    "health care directive"
+    "Unlawfully placing a patient in fear of bodily harm.",
+    "Type of consent in which a patient who is unable to give consent is given treatment under the legal assumption that he or she would want treatment.",
+    "Immediate care or treatment.",
+    "A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will."
    ],
    "answer": 0,
-   "explanation": "assault: assault",
+   "explanation": "assault: Unlawfully placing a patient in fear of bodily harm.",
    "source": "Flashcard Slides — Set 2"
   },
   {
-   "question": "Which term is defined as: res ipsa loquitur",
+   "question": "Which term is defined as: When the EMT or an EMS system is held liable even when the plaintiff is unable to clearly demonstrate how an injury occurred.",
    "choices": [
     "res ipsa loquitur",
     "chain of evidence",
@@ -4029,7 +4029,7 @@
     "duty to act"
    ],
    "answer": 0,
-   "explanation": "res ipsa loquitur: res ipsa loquitur",
+   "explanation": "res ipsa loquitur: When the EMT or an EMS system is held liable even when the plaintiff is unable to clearly demonstrate how an injury occurred.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -4129,7 +4129,7 @@
    "source": "Quiz-Style Slides — Set 4"
   },
   {
-   "question": "Which term is defined as: consent",
+   "question": "Which term is defined as: Permission to render care.",
    "choices": [
     "emergency doctrine",
     "patient autonomy",
@@ -4137,7 +4137,7 @@
     "in loco parentis"
    ],
    "answer": 2,
-   "explanation": "consent: consent",
+   "explanation": "consent: Permission to render care.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -4239,13 +4239,13 @@
   {
    "question": "What does the term \"torts\" mean?",
    "choices": [
-    "implied consent",
-    "ethics",
-    "torts",
-    "false imprisonment"
+    "Type of consent in which a patient who is unable to give consent is given treatment under the legal assumption that he or she would want treatment.",
+    "The philosophy of right and wrong, of moral duties, and of ideal professional behavior.",
+    "Wrongful acts that give rise to a civil lawsuit.",
+    "The confinement of a person without legal authority or the person's consent."
    ],
    "answer": 2,
-   "explanation": "torts: torts",
+   "explanation": "torts: Wrongful acts that give rise to a civil lawsuit.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -4297,7 +4297,7 @@
    "source": "Quiz-Style Slides — Set 5"
   },
   {
-   "question": "Which term is defined as: putrefaction",
+   "question": "Which term is defined as: Decomposition of body tissues; a definitive sign of death.",
    "choices": [
     "contributory negligence",
     "res ipsa loquitur",
@@ -4305,7 +4305,7 @@
     "false imprisonment"
    ],
    "answer": 2,
-   "explanation": "putrefaction: putrefaction",
+   "explanation": "putrefaction: Decomposition of body tissues; a definitive sign of death.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -4359,13 +4359,13 @@
   {
    "question": "What does the term \"gross negligence\" mean?",
    "choices": [
-    "gross negligence",
-    "protected health information",
-    "libel",
-    "kidnapping"
+    "Conduct that constitutes a willful or reckless disregard for a duty or standard of care.",
+    "Any information about health status, provision of health care, or payment for health care that can be linked to an individual.",
+    "False and damaging information about a person that is communicated in writing.",
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will."
    ],
    "answer": 0,
-   "explanation": "gross negligence: gross negligence",
+   "explanation": "gross negligence: Conduct that constitutes a willful or reckless disregard for a duty or standard of care.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -4395,29 +4395,29 @@
   {
    "question": "What does the term \"informed consent\" mean?",
    "choices": [
-    "informed consent",
-    "medicolegal",
-    "patient care documentation (patient care report)",
-    "Good Samaritan laws"
+    "Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
+    "A term relating to medical jurisprudence (law) or forensic medicine.",
+    "The written or electronic legal record of an EMS call, which courts treat as a reflection of the care itself, so that an incomplete or untidy report is read as evidence of inadequate care.",
+    "Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence."
    ],
    "answer": 0,
-   "explanation": "informed consent: informed consent",
+   "explanation": "informed consent: Permission for treatment given by a competent patient after the potential risks, benefits, and alternatives to treatment have been explained.",
    "source": "Flashcard Slides — Set 9"
   },
   {
    "question": "What does the term \"battery\" mean?",
    "choices": [
-    "putrefaction",
-    "decision-making capacity",
-    "battery",
-    "punitive damages"
+    "Decomposition of body tissues; a definitive sign of death.",
+    "Ability to understand and process information and make a choice regarding appropriate medical care.",
+    "Unlawfully touching a patient or providing emergency care without consent.",
+    "Damages that are sometimes awarded in a civil lawsuit when the conduct of the defendant was intentional or constituted a willful and wanton disregard for the safety of the public and the rights of others."
    ],
    "answer": 2,
-   "explanation": "battery: battery",
+   "explanation": "battery: Unlawfully touching a patient or providing emergency care without consent.",
    "source": "Flashcard Slides — Set 4"
   },
   {
-   "question": "Which term is defined as: breach of confidentiality",
+   "question": "Which term is defined as: Disclosure of information without proper authorization.",
    "choices": [
     "breach of confidentiality",
     "health care directive",
@@ -4425,19 +4425,19 @@
     "emergency"
    ],
    "answer": 0,
-   "explanation": "breach of confidentiality: breach of confidentiality",
+   "explanation": "breach of confidentiality: Disclosure of information without proper authorization.",
    "source": "Flashcard Slides — Set 7"
   },
   {
    "question": "What does the term \"advance directive\" mean?",
    "choices": [
-    "proximate causation",
-    "libel",
-    "slander",
-    "advance directive"
+    "When a person who has a duty abuses it, and causes harm to another individual, the EMT, the agency, and/or the medical director may be sued for negligence.",
+    "False and damaging information about a person that is communicated in writing.",
+    "False and damaging information about a person that is communicated by spoken word.",
+    "Written documentation that specifies medical treatment for a competent patient should the patient become unable to make decisions; also called a living will or a health care directive."
    ],
    "answer": 3,
-   "explanation": "advance directive: advance directive",
+   "explanation": "advance directive: Written documentation that specifies medical treatment for a competent patient should the patient become unable to make decisions; also called a living will or a health care directive.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -4501,7 +4501,7 @@
    "source": "Quiz-Style Slides — Set 9"
   },
   {
-   "question": "Which term is defined as: defamation",
+   "question": "Which term is defined as: The communication of false information about a person that is damaging to that person's reputation or standing in the community.",
    "choices": [
     "defamation",
     "contributory negligence",
@@ -4509,7 +4509,7 @@
     "competent"
    ],
    "answer": 0,
-   "explanation": "defamation: defamation",
+   "explanation": "defamation: The communication of false information about a person that is damaging to that person's reputation or standing in the community.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -4585,7 +4585,7 @@
    "source": "Flashcard Case Studies — Set 11"
   },
   {
-   "question": "Which term is defined as: protected health information",
+   "question": "Which term is defined as: Any information about health status, provision of health care, or payment for health care that can be linked to an individual.",
    "choices": [
     "battery",
     "ethics",
@@ -4593,7 +4593,7 @@
     "protected health information"
    ],
    "answer": 3,
-   "explanation": "protected health information: protected health information",
+   "explanation": "protected health information: Any information about health status, provision of health care, or payment for health care that can be linked to an individual.",
    "source": "Flashcard Slides — Set 7"
   },
   {
@@ -4621,7 +4621,7 @@
    "source": "Flashcard Case Studies — Set 8"
   },
   {
-   "question": "Which term is defined as: torts",
+   "question": "Which term is defined as: Wrongful acts that give rise to a civil lawsuit.",
    "choices": [
     "morality",
     "implied consent",
@@ -4629,7 +4629,7 @@
     "discovery"
    ],
    "answer": 2,
-   "explanation": "torts: torts",
+   "explanation": "torts: Wrongful acts that give rise to a civil lawsuit.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -4657,7 +4657,7 @@
    "source": "Quiz-Style Slides — Set 6"
   },
   {
-   "question": "Which term is defined as: dependent lividity",
+   "question": "Which term is defined as: Blood settling to the lowest point of the body, causing discoloration of the skin; a definitive sign of death.",
    "choices": [
     "false imprisonment",
     "assault",
@@ -4665,7 +4665,7 @@
     "contributory negligence"
    ],
    "answer": 2,
-   "explanation": "dependent lividity: dependent lividity",
+   "explanation": "dependent lividity: Blood settling to the lowest point of the body, causing discoloration of the skin; a definitive sign of death.",
    "source": "Flashcard Slides — Set 10"
   },
   {
@@ -4731,13 +4731,13 @@
   {
    "question": "What does the term \"duty to act\" mean?",
    "choices": [
-    "standard of care",
-    "duty to act",
-    "abandonment",
-    "advance directive"
+    "Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
+    "A medicolegal term relating to certain personnel who either by statute or by function have a responsibility to provide care.",
+    "Unilateral termination of care by the EMT without the patient's consent and without making provisions for continuing care by a medical professional who is training at the same level or higher.",
+    "Written documentation that specifies medical treatment for a competent patient should the patient become unable to make decisions; also called a living will or a health care directive."
    ],
    "answer": 1,
-   "explanation": "duty to act: duty to act",
+   "explanation": "duty to act: A medicolegal term relating to certain personnel who either by statute or by function have a responsibility to provide care.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -4765,7 +4765,7 @@
    "source": "Textbook — Assessment in Action"
   },
   {
-   "question": "Which term is defined as: Health Insurance Portability and Accountability Act (HIPAA)",
+   "question": "Which term is defined as: The federal law, enacted in 1996, that protects the privacy and security of a patient's health information and limits how EMS personnel may use or share it.",
    "choices": [
     "gross negligence",
     "torts",
@@ -4773,7 +4773,7 @@
     "ethics"
    ],
    "answer": 2,
-   "explanation": "HIPAA: Health Insurance Portability and Accountability Act (HIPAA)",
+   "explanation": "HIPAA: The federal law, enacted in 1996, that protects the privacy and security of a patient's health information and limits how EMS personnel may use or share it.",
    "source": "Flashcard Slides — Set 11"
   },
   {
@@ -4803,13 +4803,13 @@
   {
    "question": "What does the term \"applied ethics\" mean?",
    "choices": [
-    "statute of limitations",
-    "Health Insurance Portability and Accountability Act (HIPAA)",
-    "expressed consent",
-    "applied ethics"
+    "The time within which a legal case must be commenced.",
+    "The federal law, enacted in 1996, that protects the privacy and security of a patient's health information and limits how EMS personnel may use or share it.",
+    "A type of consent in which a patient gives verbal or nonverbal authorization for provision of care or transport.",
+    "The manner in which principles of ethics are incorporated into professional conduct."
    ],
    "answer": 3,
-   "explanation": "applied ethics: applied ethics",
+   "explanation": "applied ethics: The manner in which principles of ethics are incorporated into professional conduct.",
    "source": "Flashcard Slides — Set 5"
   },
   {
@@ -4839,13 +4839,13 @@
   {
    "question": "What does the term \"emergency medical care\" mean?",
    "choices": [
-    "Good Samaritan laws",
-    "durable power of attorney for health care",
-    "emergency medical care",
-    "breach of confidentiality"
+    "Statutory provisions enacted by many states to protect citizens from liability for errors and omissions in giving good faith emergency medical care, unless there is wanton, gross, or willful negligence.",
+    "A type of advance directive executed by a competent adult that appoints another individual to make medical treatment decisions on his or her behalf when he or she is unable to do so.",
+    "Immediate care or treatment.",
+    "Disclosure of information without proper authorization."
    ],
    "answer": 2,
-   "explanation": "emergency medical care: emergency medical care",
+   "explanation": "emergency medical care: Immediate care or treatment.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -4885,7 +4885,7 @@
    "source": "Flashcard Case Studies — Set 11"
   },
   {
-   "question": "Which term is defined as: gross negligence",
+   "question": "Which term is defined as: Conduct that constitutes a willful or reckless disregard for a duty or standard of care.",
    "choices": [
     "kidnapping",
     "breach of confidentiality",
@@ -4893,7 +4893,7 @@
     "do not resuscitate order"
    ],
    "answer": 2,
-   "explanation": "gross negligence: gross negligence",
+   "explanation": "gross negligence: Conduct that constitutes a willful or reckless disregard for a duty or standard of care.",
    "source": "Flashcard Slides — Set 8"
   },
   {
@@ -4911,13 +4911,13 @@
   {
    "question": "What does the term \"standard of care\" mean?",
    "choices": [
-    "proximate causation",
-    "kidnapping",
-    "defamation",
-    "standard of care"
+    "When a person who has a duty abuses it, and causes harm to another individual, the EMT, the agency, and/or the medical director may be sued for negligence.",
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
+    "The communication of false information about a person that is damaging to that person's reputation or standing in the community.",
+    "Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm."
    ],
    "answer": 3,
-   "explanation": "standard of care: standard of care",
+   "explanation": "standard of care: Written, accepted levels of emergency care expected by reason of training and profession; written by legal or professional organizations so that patients are not exposed to unreasonable risk or harm.",
    "source": "Flashcard Slides — Set 10"
   },
   {
@@ -4935,13 +4935,13 @@
   {
    "question": "What does the term \"res ipsa loquitur\" mean?",
    "choices": [
-    "res ipsa loquitur",
-    "protected health information",
-    "mandatory reporting",
-    "defamation"
+    "When the EMT or an EMS system is held liable even when the plaintiff is unable to clearly demonstrate how an injury occurred.",
+    "Any information about health status, provision of health care, or payment for health care that can be linked to an individual.",
+    "The legal duty of an EMT to notify the appropriate authorities in specific situations, such as suspected child or elder abuse or neglect, injuries caused by weapons or crimes, and attempted suicide.",
+    "The communication of false information about a person that is damaging to that person's reputation or standing in the community."
    ],
    "answer": 0,
-   "explanation": "res ipsa loquitur: res ipsa loquitur",
+   "explanation": "res ipsa loquitur: When the EMT or an EMS system is held liable even when the plaintiff is unable to clearly demonstrate how an injury occurred.",
    "source": "Flashcard Slides — Set 1"
   },
   {
@@ -4971,13 +4971,13 @@
   {
    "question": "What does the term \"competent\" mean?",
    "choices": [
-    "competent",
-    "health care directive",
-    "assault",
-    "emergency"
+    "Able to make rational decisions about personal well-being.",
+    "A written document that specifies medical treatment for a competent patient, should he or she become unable to make decisions in the future; also known as an advance directive or a living will.",
+    "Unlawfully placing a patient in fear of bodily harm.",
+    "A serious situation, such as injury or illness that threatens the life or welfare of a person or group of people and requires immediate intervention."
    ],
    "answer": 0,
-   "explanation": "competent: competent",
+   "explanation": "competent: Able to make rational decisions about personal well-being.",
    "source": "Flashcard Slides — Set 4"
   },
   {
@@ -5017,7 +5017,7 @@
    "source": "Flashcard Case Studies — Set 8"
   },
   {
-   "question": "Which term is defined as: kidnapping",
+   "question": "Which term is defined as: The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
    "choices": [
     "kidnapping",
     "emergency doctrine",
@@ -5025,7 +5025,7 @@
     "scope of practice"
    ],
    "answer": 0,
-   "explanation": "kidnapping: kidnapping",
+   "explanation": "kidnapping: The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -5067,13 +5067,13 @@
   {
    "question": "What does the term \"ethics\" mean?",
    "choices": [
-    "ethics",
-    "emergency doctrine",
-    "consent",
-    "in loco parentis"
+    "The philosophy of right and wrong, of moral duties, and of ideal professional behavior.",
+    "The principle of law that permits a health care provider to treat a patient in an emergency situation when the patient is incapable of granting consent because of an altered level of consciousness, disability, the effects of drugs or alcohol, or the patient's age.",
+    "Permission to render care.",
+    "Refers to the legal responsibility of a person or organization to take on some of the functions and responsibilities of a parent."
    ],
    "answer": 0,
-   "explanation": "ethics: ethics",
+   "explanation": "ethics: The philosophy of right and wrong, of moral duties, and of ideal professional behavior.",
    "source": "Flashcard Slides — Set 3"
   },
   {
@@ -5089,7 +5089,7 @@
    "source": "Flashcard Case Studies — Set 4"
   },
   {
-   "question": "Which term is defined as: libel",
+   "question": "Which term is defined as: False and damaging information about a person that is communicated in writing.",
    "choices": [
     "emergency doctrine",
     "libel",
@@ -5097,11 +5097,11 @@
     "torts"
    ],
    "answer": 1,
-   "explanation": "libel: libel",
+   "explanation": "libel: False and damaging information about a person that is communicated in writing.",
    "source": "Flashcard Slides — Set 2"
   },
   {
-   "question": "Which term is defined as: assault",
+   "question": "Which term is defined as: Unlawfully placing a patient in fear of bodily harm.",
    "choices": [
     "assault",
     "dependent lividity",
@@ -5109,7 +5109,7 @@
     "chain of evidence"
    ],
    "answer": 0,
-   "explanation": "assault: assault",
+   "explanation": "assault: Unlawfully placing a patient in fear of bodily harm.",
    "source": "Flashcard Slides — Set 2"
   },
   {
@@ -5223,17 +5223,17 @@
   {
    "question": "What does the term \"breach of confidentiality\" mean?",
    "choices": [
-    "breach of confidentiality",
-    "patient autonomy",
-    "medicolegal",
-    "kidnapping"
+    "Disclosure of information without proper authorization.",
+    "The right of a patient to make informed choices regarding his or her health care.",
+    "A term relating to medical jurisprudence (law) or forensic medicine.",
+    "The seizing, confining, abducting, or carrying away of a person by force, including transporting a competent adult for medical treatment against his or her will."
    ],
    "answer": 0,
-   "explanation": "breach of confidentiality: breach of confidentiality",
+   "explanation": "breach of confidentiality: Disclosure of information without proper authorization.",
    "source": "Flashcard Slides — Set 7"
   },
   {
-   "question": "Which term is defined as: interrogatories",
+   "question": "Which term is defined as: Written questions that the defense and plaintiff send to one another.",
    "choices": [
     "interrogatories",
     "emergency medical care",
@@ -5241,7 +5241,7 @@
     "Good Samaritan laws"
    ],
    "answer": 0,
-   "explanation": "interrogatories: interrogatories",
+   "explanation": "interrogatories: Written questions that the defense and plaintiff send to one another.",
    "source": "Flashcard Slides — Set 8"
   },
   {
