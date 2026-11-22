@@ -153,6 +153,13 @@
           if (db && uid) {
             db.collection('users').doc(uid)
               .set({ outbox: firebase.firestore.FieldValue.arrayUnion(report) }, { merge: true })
+              .then(function () {
+                // Ping: a tiny public-readable flag (timestamp + page only,
+                // no content) that Edison's watcher checks about once a
+                // minute. The report itself stays owner-only in the outbox.
+                return db.collection('inbox_pings').doc(uid)
+                  .set({ ts: Date.now(), page: report.page, reportId: report.id }, { merge: true });
+              })
               .then(resolve).catch(reject);
           } else if (tries++ < 40) { setTimeout(wait, 250); }
           else { reject(new Error('not-signed-in')); }
