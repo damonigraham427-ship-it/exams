@@ -64,6 +64,13 @@
       var a = (hist[file + sfx] || [])[0] || null;
       consider(a, sfx === '' ? 'Start' : sfx.slice(1));
     });
+    // Tier runs (&tier=<b>, key file#tier:<b>): each asks every question in
+    // its own tier, so it is exact evidence for that tier. Newest wins via
+    // the same ts rule inside consider().
+    for (var tb = 0; tb < 20; tb++) {
+      var ta = (hist[file + '#tier:' + tb] || [])[0] || null;
+      if (ta) consider(ta, 'Tier run');
+    }
     tiers.forEach(function (t) {
       if (!t.n) { t.status = 'Ready to Learn'; return; }
       t.status = (t.correct / t.n) >= 0.8 ? 'Mastered' : 'Learning';

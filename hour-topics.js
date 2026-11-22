@@ -91,7 +91,8 @@
         html += '<p class="tp-detail-group" style="color:' + STATUS[st] + '">' + st + '</p>';
         ts.forEach(function (x) {
           html += '<div class="tp-topic-row"><span class="tp-topic-name">Tier ' + esc(x.label) + '</span><span class="tp-topic-meta">' +
-            (x.n ? x.correct + '/' + x.n + ' seen \u00B7 ' + esc(x.source) : g.st.rangeN[x.b] + ' questions \u00B7 not attempted') + '</span></div>';
+            (x.n ? x.correct + '/' + x.n + ' seen \u00B7 ' + esc(x.source) : g.st.rangeN[x.b] + ' questions \u00B7 not attempted') + '</span>' +
+            '<a class="tp-practice" href="exam.html?exam=' + f + '&tier=' + x.b + '">Practice</a></div>';
         });
       });
       box.innerHTML = html;

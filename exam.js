@@ -2,6 +2,7 @@ const params = new URLSearchParams(location.search);
 const file = params.get('exam');
 const wantMode = params.get('mode');
 const topicParam = params.get('topic');
+const tierParam = params.get('tier');
 // This exam's own Notepad / Quality pads
 document.querySelectorAll('a[href="notepad.html"]').forEach(function (a) { a.href = 'notepad.html?exam=' + encodeURIComponent(file); });
 document.querySelectorAll('a[href="quality.html"]').forEach(function (a) { a.href = 'quality.html?exam=' + encodeURIComponent(file); });
@@ -179,6 +180,16 @@ Promise.all([
     examTitle = examTitle + ' \u2014 Topic: ' + topicParam;
     document.getElementById('exam-title').textContent = examTitle;
   }
+  // Hour series tier run: &tier=<0-19> runs every question in that 5% tier
+  // of the pool (same bands as Meta/Coverage), keyed file#tier:<b> like
+  // topic runs are keyed file#topic:<name>.
+  const tierB = (tierParam !== null && /^\d+$/.test(tierParam) && +tierParam < 20 && entry && entry.draw) ? +tierParam : -1;
+  const isTier = tierB >= 0 && !isTopic;
+  if (isTier) {
+    storageKey = file + '#tier:' + tierB;
+    examTitle = examTitle + ' \u2014 Tier ' + (tierB * 5 + 1) + '\u2013' + ((tierB + 1) * 5) + '%';
+    document.getElementById('exam-title').textContent = examTitle;
+  }
   isRedund = !!(wantMode === 'redundancy' && entry && Array.isArray(entry.redundancy) && entry.redundancy.length);
   isCoverage = !!(wantMode === 'coverage' && entry && entry.draw);
   isMeta = !!(wantMode === 'meta' && entry && entry.draw);
@@ -205,6 +216,17 @@ Promise.all([
     const p = all[storageKey];
     if (isTopic) {
       const tqs = pool.filter(q => q.topic === topicParam);
+      exam = Object.assign({}, data, { questions: tqs });
+      if (p && p.total === tqs.length && p.idx < tqs.length) {
+        idx = p.idx; score = p.score || 0;
+        (p.answers || []).forEach((a, i) => { answers[i] = a; });
+        (p.flagged || []).forEach(i => flagged.add(i));
+        (p.quality || []).forEach(i => quality.add(i));
+      }
+    } else if (isTier) {
+      const lo = Math.floor(tierB * pool.length / 20);
+      const hi = Math.floor((tierB + 1) * pool.length / 20);
+      const tqs = pool.slice(lo, hi);
       exam = Object.assign({}, data, { questions: tqs });
       if (p && p.total === tqs.length && p.idx < tqs.length) {
         idx = p.idx; score = p.score || 0;

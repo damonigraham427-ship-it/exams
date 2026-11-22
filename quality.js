@@ -19,7 +19,7 @@
     var b = baseOf(examKey);
     var p = picker[b] || (picker[b] = { title: '', count: 0 });
     if (examKey === b && title) p.title = title;
-    if (!p.title && title) p.title = title.replace(/ \u2014 (Topic: .*|Meta 10|Meta|Redundancy|Coverage)$/, '');
+    if (!p.title && title) p.title = title.replace(/ \u2014 (Topic: .*|Tier .*|Meta 10|Meta|Redundancy|Coverage)$/, '');
     p.count += count;
   }
 
