@@ -289,18 +289,6 @@
    "source": "Flashcard Slides — Set 1"
   },
   {
-   "question": "In 2006 in Washington DC, crews found assault victim David Rosenbaum on a sidewalk, smelled alcohol, presumed he was drunk, recorded no vital signs, and took him to a farther hospital while his critical head injury went unrecognized; he died two days later. The Inspector General's findings — ignored protocols on assessment, documentation, and destination — are best described as a failure of which concept?",
-   "choices": [
-    "Online medical control, because the crew never radioed a physician for orders",
-    "The medical director's personal supervision of the call",
-    "Public-access defibrillation",
-    "Offline medical control, because the service's written protocols were not followed"
-   ],
-   "answer": 3,
-   "explanation": "The Rosenbaum case was an offline medical control failure: DC's written protocols on assessment, documentation, and destination were not followed.",
-   "source": "Flashcard Case Studies — Set 1"
-  },
-  {
    "question": "In Southfield, Michigan in 2020, a physician declared Timesha Beauchamp dead by phone based on a crew's report; she was later found breathing at a funeral home, and regulators found the paramedic had stopped CPR early and reported inaccurate vitals. What does this case show about online medical control?",
    "choices": [
     "A termination-of-resuscitation order is only as reliable as the accurate, complete findings the crew reports to the physician",
@@ -349,18 +337,6 @@
    "source": "Flashcard Case Studies — Set 1"
   },
   {
-   "question": "In a 2000 study, casino security officers were trained to use AEDs placed so a shock could be given within 3 minutes of collapse; witnessed-arrest patients shocked within 3 minutes survived 74% of the time, versus 49% when the first shock came later. What is the main takeaway for EMTs?",
-   "choices": [
-    "Only paramedics should operate AEDs",
-    "Casino patients survive because casinos have hospitals nearby",
-    "Time to the first shock strongly affects survival, so ask responders for the collapse and first-shock times",
-    "AED placement makes no difference if CPR is performed"
-   ],
-   "answer": 2,
-   "explanation": "The casino study proved non-medical responders with AEDs save lives and that time to first shock drives survival.",
-   "source": "Flashcard Case Studies — Set 1"
-  },
-  {
    "question": "Which term is defined as: a system of internal and external reviews and audits of all aspects of an EMS system aimed at improving outcomes?",
    "choices": [
     "HIPAA",
@@ -397,18 +373,6 @@
    "source": "Flashcard Case Studies — Set 1"
   },
   {
-   "question": "Atlanta's CARES registry linked 911, EMS, and hospital data and revealed that each 911 call passed through police and a county dispatcher before reaching EMS; after the process changed, average time from 911 call to ambulance dispatch fell from 107 to 43 seconds. What CQI principle does this show?",
-   "choices": [
-    "Registries are only useful for billing",
-    "Dispatch times cannot be improved once measured",
-    "An external data registry is a core CQI tool that can expose system delays no one had measured",
-    "Accurate times on patient care reports do not matter"
-   ],
-   "answer": 2,
-   "explanation": "CARES, an external data registry, exposed a hidden dispatch delay — a core CQI function — and fixing it cut dispatch time from 107 to 43 seconds.",
-   "source": "Flashcard Case Studies — Set 1"
-  },
-  {
    "question": "Which term is defined as: federal legislation passed in 1996 whose main effect in EMS is limiting the availability of patients' health care information and penalizing violations of patient privacy?",
    "choices": [
     "Health Insurance Portability and Accountability Act (HIPAA)",
@@ -442,18 +406,6 @@
    ],
    "answer": 1,
    "explanation": "The lost-laptop case turned on unsecured devices; crews should secure ePCR devices before moving and report a loss immediately so the breach process can start.",
-   "source": "Flashcard Case Studies — Set 1"
-  },
-  {
-   "question": "In 2006 in Kirksville, Missouri, an EMT posted photos from an ATV-crash call on a public web forum and commented that the patient 'came back to KV today. He is in rehab.' He was fired even though the patient was not identifiable in the photos. Why did his comments still violate patient privacy?",
-   "choices": [
-    "Forum posts are exempt from privacy rules",
-    "Only a patient's name counts as protected information",
-    "A patient's condition and location can be protected health information even without a name or face",
-    "He was fired only because the photos were blurry"
-   ],
-   "answer": 2,
-   "explanation": "The agency kept the charge that his comments disclosed protected information: condition and location can be PHI even without a name or face.",
    "source": "Flashcard Case Studies — Set 1"
   },
   {

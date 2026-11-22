@@ -278,7 +278,7 @@ Promise.all([
 function refreshFlagBtn() {
   const btn = document.getElementById('flag-btn');
   const on = flagged.has(idx);
-  btn.textContent = on ? '\u2605 Flagged for practice' : '\u2606 Needs more practice';
+  btn.textContent = on ? '\u2605 Flagged: needs more work' : '\u2606 Needs more work';
   btn.classList.toggle('flagged-on', on);
 }
 
@@ -422,7 +422,7 @@ function missedText() {
     if (m.source) lines.push('Deck: ' + m.source);
     if (m.explanation) lines.push('Why: ' + m.explanation);
   });
-  lines.push('', 'Flagged: needs more practice:');
+  lines.push('', 'Flagged: needs more work:');
   if (!lastFlagged.length) lines.push('None flagged.');
   lastFlagged.forEach(m => {
     lines.push('', 'Q' + m.n + '. ' + m.question, 'Correct answer: ' + m.correct, 'You ' + m.result + '.');

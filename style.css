@@ -66,3 +66,13 @@ button.choice.wrong { background: #fee2e2; border-color: #dc2626; }
 .ladder-date { font: inherit; padding: 0.3rem; }
 .ladder-empty { color: #64748b; padding: 0.4rem 0; }
 .ladder-add input { padding: 0.4em; max-width: 90%; margin-right: 0.5rem; }
+
+/* Notepad page */
+.note-card { background: #fff; border: 2px solid #cbd5e1; border-radius: 10px; padding: 0.8rem 1rem; margin: 0.6rem 0; }
+.np-tags { font-weight: 700; margin: 0 0 0.3rem; }
+.np-q { font-weight: 600; margin: 0.3rem 0; }
+.np-meta { color: #334155; margin: 0.3rem 0; }
+.note-area { display: block; width: 100%; box-sizing: border-box; font: inherit; padding: 0.5rem; border: 2px solid #cbd5e1; border-radius: 8px; margin: 0.5rem 0; }
+.np-remove { padding: 0.4rem 0.8rem; border-radius: 8px; border: 2px solid #111827; background: #fff; color: #0f172a; font-weight: 600; cursor: pointer; }
+.np-chip { padding: 0.45rem 0.9rem; border-radius: 999px; border: 2px solid #cbd5e1; background: #fff; color: #0f172a; font-weight: 600; cursor: pointer; margin-right: 0.4rem; }
+.np-chip-on { background: #2563eb; border-color: #2563eb; color: #fff; }
