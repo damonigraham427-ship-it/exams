@@ -6,12 +6,19 @@
 <title>Adaptive Learning</title>
 <link rel="stylesheet" href="style.css">
 <style>
-.pie-wrap{display:flex;gap:1rem;align-items:center;background:#fff;border-radius:12px;padding:1rem;box-shadow:0 1px 4px rgba(15,23,42,.15);margin:.9rem 0}
+.pie-wrap{display:flex;gap:1rem;align-items:center;background:#fff;border-radius:12px;padding:1rem;box-shadow:0 1px 4px rgba(15,23,42,.15);margin:.9rem 0;flex-wrap:wrap}
 .legend{font-size:.95rem;line-height:1.7}
 .dot{display:inline-block;width:.8rem;height:.8rem;border-radius:50%;margin-right:.4rem;vertical-align:middle}
 .topic-row{background:#fff;border-radius:10px;padding:.7rem 1rem;margin:.5rem 0;box-shadow:0 1px 3px rgba(15,23,42,.12);display:flex;justify-content:space-between;gap:.5rem}
 .mode-btn{display:inline-block;background:#111827;color:#fff;font-weight:600;border:none;padding:.6rem 1.1rem;border-radius:8px;margin:.3rem .3rem .3rem 0;cursor:pointer;font-size:1rem}
 .mode-btn.secondary{background:#2563eb}
+.mode-btn.light{background:#e2e8f0;color:#0f172a}
+.mode-btn.active{background:#16a34a;color:#fff}
+.chip-btn{display:inline-block;background:#fff;border:2px solid #cbd5e1;color:#0f172a;font-weight:600;padding:.35rem .8rem;border-radius:999px;margin:.2rem .2rem .2rem 0;cursor:pointer}
+.chip-btn.active{border-color:#2563eb;background:#eff6ff}
+.banner{background:#fef3c7;border:2px solid #f59e0b;border-radius:10px;padding:.7rem 1rem;margin:.7rem 0;font-weight:600}
+.gauge{letter-spacing:.15rem;font-size:.9rem}
+.tl-row{background:#fff;border-radius:10px;padding:.6rem 1rem;margin:.45rem 0;box-shadow:0 1px 3px rgba(15,23,42,.12)}
 </style>
 </head>
 <body>
@@ -25,18 +32,32 @@
 <section id="dashboard" hidden>
 <button class="back-btn" id="dash-back">&larr; All subjects</button>
 <h2 id="dash-title"></h2>
-<div class="pie-wrap">
+<div id="check-banner" class="banner" hidden></div>
+<p>
+<button class="chip-btn active" id="view-pie-btn">Pie</button>
+<button class="chip-btn" id="view-timeline-btn">Timeline</button>
+</p>
+<div class="pie-wrap" id="pie-wrap">
 <svg id="pie" width="140" height="140" viewBox="0 0 42 42" role="img" aria-label="Mastery pie">
 <circle cx="21" cy="21" r="15.9" fill="none" stroke="#e2e8f0" stroke-width="6"></circle>
-<circle id="pie-mastered" cx="21" cy="21" r="15.9" fill="none" stroke="#16a34a" stroke-width="6" stroke-dasharray="0 100" transform="rotate(-90 21 21)"></circle>
-<circle id="pie-learning" cx="21" cy="21" r="15.9" fill="none" stroke="#f59e0b" stroke-width="6" stroke-dasharray="0 100" transform="rotate(-90 21 21)"></circle>
+<circle id="pie-learned" cx="21" cy="21" r="15.9" fill="none" stroke="#86efac" stroke-width="6" stroke-dasharray="0 100" transform="rotate(-90 21 21)"></circle>
+<circle id="pie-mastered" cx="21" cy="21" r="15.9" fill="none" stroke="#15803d" stroke-width="6" stroke-dasharray="0 100" transform="rotate(-90 21 21)"></circle>
 <text id="pie-pct" x="21" y="23" text-anchor="middle" font-size="8" font-weight="700">0%</text>
 </svg>
 <div class="legend" id="legend"></div>
 </div>
+<div id="timeline" hidden></div>
 <p>
 <button class="mode-btn" id="btn-check">Initial Check — find my level</button>
 <button class="mode-btn secondary" id="btn-learn">Learn — Ready to Learn topics</button>
+<button class="mode-btn light" id="btn-progress">Progress Check</button>
+</p>
+<p id="next-check" class="history"></p>
+<p>
+<button class="chip-btn active" data-filter="all">All topics</button>
+<button class="chip-btn" data-filter="ready">Ready to Learn</button>
+<button class="chip-btn" data-filter="practice">Needs More Practice</button>
+<button class="chip-btn" data-filter="review">Review</button>
 </p>
 <div id="topic-list"></div>
 <p><button class="back-btn" id="btn-reset">Reset this subject</button></p>
@@ -45,11 +66,15 @@
 <section id="runner" hidden>
 <button class="back-btn" id="run-back">&larr; Dashboard</button>
 <p id="progress"></p>
+<p id="topic-gauge" class="gauge"></p>
 <p id="source-line"></p>
 <h2 id="question-text"></h2>
 <div id="choices"></div>
 <p id="feedback" hidden></p>
-<p><button class="mode-btn" id="btn-next" hidden>Next</button></p>
+<p>
+<button class="mode-btn light" id="btn-idk" hidden>I Don't Know</button>
+<button class="mode-btn" id="btn-next" hidden>Next</button>
+</p>
 </section>
 </main>
 <script src="adaptive.js"></script>
