@@ -52,12 +52,18 @@
 
   fetch('index.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (idx) {
     var entries = (idx.exams || []).filter(function (e) { return e.category === 'NREMT' && !/macro/.test(e.file); });
-    return Promise.all(entries.map(function (e) {
+    // STAGED hour-fix: also load the Hour series so its statuses are visible here.
+    var hourEntries = (idx.exams || []).filter(function (e) { return e.category === '60 Minutes Equals an Hour'; });
+    function load(e) {
       return fetch(e.file, { cache: 'no-store' }).then(function (r) { return r.json(); })
         .then(function (d) { return { entry: e, questions: d.questions || [] }; })
         .catch(function () { return { entry: e, questions: [] }; });
-    }));
-  }).then(function (groups) {
+    }
+    return Promise.all([Promise.all(entries.map(load)), Promise.all(hourEntries.map(load))])
+      .then(function (both) { return { groups: both[0], hourGroups: both[1] }; });
+  }).then(function (bundle) {
+    var groups = bundle.groups;
+    var hourGroups = bundle.hourGroups;
     var html = '';
     var snap = {}; // chapter -> {mastered, total}
     var byCh = {};
@@ -94,6 +100,32 @@
       snap[ch] = { mastered: chM, total: chT };
     });
 
+    // STAGED hour-fix: Hour series section. Tier logic is inlined here
+    // (backdoor.html does not load hour-tiers.js); it mirrors hour-tiers.js:
+    // per tier, newest eligible attempt (Start / #coverage / #redundancy)
+    // decides; Meta / Meta 10 are synthetic and reported as mode lines only.
+    html += '<p class="bd-sec">60 Minutes Equals an Hour</p>';
+    var hourM = 0, hourT = 0;
+    hourGroups.forEach(function (g) {
+      var st = (typeof HourTiers !== 'undefined')
+        ? HourTiers.hourStatus(hist, g.entry.file, g.questions)
+        : null;
+      var modes = ['#meta10|Meta 10%', '#meta|Meta', '#redundancy|Redundancy', '#coverage|Coverage', '|Start'];
+      var lines = modes.map(function (spec) {
+        var a = (hist[g.entry.file + spec.split('|')[0]] || [])[0];
+        return spec.split('|')[1] + ': ' + (a ? (a.score || 0) + '/' + (a.total || 0) + ', ' + when(a.ts) : 'not attempted');
+      }).join(' \u00B7 ');
+      if (st) {
+        html += '<div class="bd-line"><b>' + esc(g.entry.title) + '</b> \u2014 ' + st.pct + '% tiers mastered (' + st.mastered + '/20)</div>';
+        html += '<div class="bd-line bd-dim">' + esc(lines) + '</div>';
+        hourM += st.mastered; hourT += 20;
+      } else {
+        html += '<div class="bd-line"><b>' + esc(g.entry.title) + '</b> \u2014 tier status unavailable (hour-tiers.js not loaded)</div>';
+        html += '<div class="bd-line bd-dim">' + esc(lines) + '</div>';
+      }
+    });
+    if (hourT) snap['Hour'] = { mastered: hourM, total: hourT };
+
     // Raw attempts, newest first across all keys
     var all = [];
     Object.keys(hist).forEach(function (k) {
@@ -110,7 +142,7 @@
     var log = [];
     try { log = JSON.parse(localStorage.getItem('backdoorLog') || '[]'); } catch (e) { log = []; }
     var parts = Object.keys(snap).sort().map(function (ch) {
-      return 'Ch' + ch + ' ' + snap[ch].mastered + '/' + snap[ch].total;
+      return (ch === 'Hour' ? 'Hour tiers' : 'Ch' + ch) + ' ' + snap[ch].mastered + '/' + snap[ch].total;
     }).join(' · ');
     var line = new Date().toLocaleString() + ' — ' + (parts || 'no topics');
     if (!log.length || log[log.length - 1].line !== line) {

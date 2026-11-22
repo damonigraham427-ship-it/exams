@@ -12,13 +12,14 @@
   // Per-exam scoping: ?exam=<file> shows only that exam's pad (its full-set
   // attempt plus its topic runs). No param: a picker of exams that have entries.
   var examParam = new URLSearchParams(location.search).get('exam');
-  function baseOf(key) { return key.split('#topic:')[0]; }
+  // STAGED hour-fix: see notepad.js — strip any '#mode' suffix, not only '#topic:'.
+  function baseOf(key) { return key.split('#')[0]; }
   var picker = {}; // base file -> {title, count}
   function notePicker(examKey, title, count) {
     var b = baseOf(examKey);
     var p = picker[b] || (picker[b] = { title: '', count: 0 });
     if (examKey === b && title) p.title = title;
-    if (!p.title && title) p.title = title.replace(/ \u2014 Topic: .*$/, '');
+    if (!p.title && title) p.title = title.replace(/ \u2014 (Topic: .*|Meta 10|Meta|Redundancy|Coverage)$/, '');
     p.count += count;
   }
 

@@ -458,7 +458,11 @@ function finish() {
   try {
     const all = JSON.parse(localStorage.getItem('examHistory') || '{}');
     if (!Array.isArray(all[storageKey])) all[storageKey] = [];
-    all[storageKey].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, missed: lastMissed, flagged: lastFlagged, quality: lastQuality });
+    // STAGED hour-fix: store the full asked set so draw-mode attempts
+    // (Hour series: Start/Coverage draw 20 of up to 365) can be mapped back
+    // to tiers/topics exactly. Without it, only missed/marked questions are
+    // recoverable from history. Harmless for NREMT full-set runs.
+    all[storageKey].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, missed: lastMissed, flagged: lastFlagged, quality: lastQuality, asked: exam.questions.map(function (q) { return q.question; }) });
     all[storageKey] = all[storageKey].slice(0, 20);
     localStorage.setItem('examHistory', JSON.stringify(all));
   } catch (e) { /* storage unavailable; results still shown on screen */ }
