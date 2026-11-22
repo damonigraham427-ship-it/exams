@@ -54,6 +54,15 @@ function renderCategories() {
     if (!cats.includes(c)) cats.push(c);
   });
   cats.forEach((c, i) => {
+    if (c === '60 Minutes Equals an Hour') {
+      // One front-page entry for this series: the tier circle. Its per-exam
+      // detail carries the 5 mode links, so the old exam-list card is removed
+      // (Damoni's order, Nov 22, 2026 — two 60 Minutes entries was one too many).
+      wrap.appendChild(navCard(c, 'tier circle \u00B7 status by 5% tier', PALETTE[i % PALETTE.length], () => {
+        location.href = 'hour-topics.html';
+      }));
+      return;
+    }
     const inCat = allExams.filter(e => (e.category || 'General') === c);
     const chs = new Set(inCat.map(e => e.chapter === undefined ? 'Other' : String(e.chapter)));
     const n = chs.size;
@@ -73,11 +82,6 @@ function renderCategories() {
         renderChapters();
         view = 'chapters';
         setView();
-      }));
-    }
-    if (c === '60 Minutes Equals an Hour') {
-      wrap.appendChild(navCard('60 Minutes Equals an Hour \u2014 Tiers', 'tier circle \u00B7 status by 5% tier', PALETTE[(i + 1) % PALETTE.length], () => {
-        location.href = 'hour-topics.html';
       }));
     }
   });
