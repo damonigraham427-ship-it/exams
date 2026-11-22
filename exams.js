@@ -127,6 +127,12 @@ function renderChapters() {
   chs.forEach((ch, i) => {
     const n = inCat.filter(e => (e.chapter === undefined ? 'Other' : String(e.chapter)) === ch).length;
     const label = chapterLabel(ch);
+    if (selCategory === 'NREMT' && ch !== 'Other') {
+      wrap.appendChild(navCard(label, 'topic circle \u00B7 practice by topic', PALETTE[i % PALETTE.length], () => {
+        location.href = 'topics.html?ch=' + encodeURIComponent(ch);
+      }));
+      return;
+    }
     wrap.appendChild(navCard(label, n + (n === 1 ? ' exam' : ' exams'), PALETTE[i % PALETTE.length], () => {
       selChapter = ch;
       cards.forEach(card => {

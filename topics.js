@@ -42,12 +42,14 @@
   var chParam = params.get('ch');
 
   fetch('index.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (idx) {
-    var entries = (idx.exams || []).filter(function (e) { return e.category === 'NREMT' && !/macro/.test(e.file); });
+    var allNremt = (idx.exams || []).filter(function (e) { return e.category === 'NREMT'; });
+    var entries = allNremt.filter(function (e) { return !/macro/.test(e.file); });
     var chapters = [];
     entries.forEach(function (e) { if (chapters.indexOf(e.chapter) === -1) chapters.push(e.chapter); });
     chapters.sort(function (a, b) { return a - b; });
     if (!chParam) return renderCards(entries, chapters);
-    renderChapter(entries.filter(function (e) { return String(e.chapter) === String(chParam); }), chParam);
+    var macro = allNremt.filter(function (e) { return /macro/.test(e.file) && String(e.chapter) === String(chParam); })[0] || null;
+    renderChapter(entries.filter(function (e) { return String(e.chapter) === String(chParam); }), chParam, macro);
   }).catch(function () {
     document.getElementById('tp-chapters').textContent = 'Could not load the exam list.';
   });
@@ -90,10 +92,15 @@
     return per;
   }
 
-  function renderChapter(es, ch) {
+  function renderChapter(es, ch, macro) {
     document.getElementById('tp-title').textContent = 'Chapter ' + ch + ' \u2014 Topics';
     document.getElementById('tp-note').textContent = 'Status from your latest finished attempt on each set, on this device. Mastered = 80%+ correct on that attempt.';
     document.getElementById('tp-main').hidden = false;
+    if (macro) {
+      var mb = document.createElement('p');
+      mb.innerHTML = '<a class="tp-practice" href="exam.html?exam=' + encodeURIComponent(macro.file) + '">Chapter ' + ch + ' macro exam \u2014 all questions</a>';
+      document.getElementById('tp-main').insertBefore(mb, document.getElementById('tp-main').children[1]);
+    }
     Promise.all(es.map(function (e) {
       return fetch(e.file, { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (d) {
         return { entry: e, questions: d.questions || [] };
@@ -210,6 +217,12 @@
       var body = document.createElement('div');
       body.className = 'tp-group-body';
       body.hidden = true;
+      if (!g.isTextbook) {
+        var full = document.createElement('div');
+        full.className = 'tp-topic-row';
+        full.innerHTML = '<span class="tp-topic-name">Full set exam</span><span class="tp-topic-meta">every topic in this set</span><a class="tp-practice" href="exam.html?exam=' + encodeURIComponent(g.entry.file) + '">Start</a>';
+        body.appendChild(full);
+      }
       g.topics.forEach(function (t) {
         var row = document.createElement('div');
         row.className = 'tp-topic-row';
