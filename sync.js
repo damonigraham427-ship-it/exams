@@ -12,7 +12,7 @@
     appId: "1:534075148283:web:8d7d1110bbd561dcc0ed5e"
   };
 
-  var EXACT_KEYS = ['examHistory', 'examProgress', 'notepadNotes', 'notepadCleared', 'qualityNotes', 'qualityCleared'];
+  var EXACT_KEYS = ['examHistory', 'examProgress', 'notepadNotes', 'notepadCleared', 'qualityNotes', 'qualityCleared', 'backdoorLog'];
   var PREFIXES = ['workoutNotes:', 'ladderDates:', 'ladderAdded:'];
 
   // ---- sync bar UI ----
@@ -103,6 +103,14 @@
     Object.keys(local || {}).forEach(function (k) { out[k] = local[k]; });
     return out;
   }
+  function mergeLog(L, R) { // backdoorLog: union by ts, oldest first, cap 200
+    var seen = {}, out = [];
+    (R || []).concat(L || []).forEach(function (x) {
+      if (x && x.ts && !seen[x.ts]) { seen[x.ts] = 1; out.push(x); }
+    });
+    out.sort(function (a, b) { return a.ts - b.ts; });
+    return out.slice(-200);
+  }
   function mergeState(local, remote) {
     var out = {};
     var keys = {};
@@ -115,6 +123,7 @@
       if (k === 'examHistory') out[k] = mergeHistory(L, R);
       else if (k === 'examProgress') out[k] = mergeProgress(L, R);
       else if (k === 'notepadCleared' || k === 'qualityCleared') out[k] = mergeCleared(L, R);
+      else if (k === 'backdoorLog') out[k] = mergeLog(L, R);
       else out[k] = mergeGeneric(L, R);
     });
     return out;

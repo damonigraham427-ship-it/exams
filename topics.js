@@ -77,27 +77,48 @@
   }
 
   function statusFor(file, questions) {
-    var attempts = hist[file] || [];
-    var latest = attempts.length ? attempts[0] : null;
-    if (!latest) return null;
-    var missed = {};
-    (latest.missed || []).forEach(function (m) { missed[m.question] = true; });
-    var flagged = {};
-    (latest.flagged || []).forEach(function (m) { flagged[m.question] = true; });
-    var per = {};
+    // Evidence per topic, newest wins, from two sources:
+    //  - the latest full-set attempt: hist[file]
+    //  - the latest topic run:        hist[file + '#topic:' + name]
+    var byTopicQ = {};
     questions.forEach(function (q) {
       if (!q.topic) return;
-      var t = per[q.topic] || (per[q.topic] = { n: 0, correct: 0, flagged: 0 });
-      t.n++;
-      if (!missed[q.question]) t.correct++;
-      if (flagged[q.question]) t.flagged++;
+      (byTopicQ[q.topic] || (byTopicQ[q.topic] = [])).push(q);
     });
-    return per;
+    var out = {};
+    function consider(topic, attempt, runQuestions) {
+      if (!attempt) return;
+      var missed = {};
+      (attempt.missed || []).forEach(function (m) { missed[m.question] = true; });
+      var flagged = {};
+      (attempt.flagged || []).forEach(function (m) { flagged[m.question] = true; });
+      var n = 0, correct = 0, fl = 0;
+      runQuestions.forEach(function (q) {
+        n++;
+        if (!missed[q.question]) correct++;
+        if (flagged[q.question]) fl++;
+      });
+      if (!n) return;
+      var ts = Date.parse(attempt.ts || '') || 0;
+      if (!out[topic] || ts >= out[topic].ts) {
+        out[topic] = { n: n, correct: correct, flagged: fl, ts: ts };
+      }
+    }
+    var setAttempts = hist[file] || [];
+    var latestSet = setAttempts.length ? setAttempts[0] : null;
+    Object.keys(byTopicQ).forEach(function (topic) {
+      consider(topic, latestSet, byTopicQ[topic]);
+      var key = file + '#topic:' + topic;
+      var tAttempts = hist[key] || [];
+      var latestTopic = tAttempts.length ? tAttempts[0] : null;
+      consider(topic, latestTopic, byTopicQ[topic]);
+    });
+    return out;
   }
 
   function renderChapter(es, ch, macro) {
     document.getElementById('tp-title').textContent = 'Chapter ' + ch + ' \u2014 Topics';
-    document.getElementById('tp-note').textContent = 'Status from your latest finished attempt on each set, on this device. Mastered = 80%+ correct on that attempt.';
+    document.getElementById('tp-note').textContent = 'Status from your latest attempt on each topic \u2014 a topic run or a full set run, whichever is newer. Mastered = 80%+ correct. The % is your mastered share.';
     document.getElementById('tp-main').hidden = false;
     if (macro) {
       var mb = document.createElement('p');
@@ -140,14 +161,19 @@
       }
       g.counts = { 'Mastered': 0, 'Learning': 0, 'Ready to Learn': 0 };
       g.topics.forEach(function (t) { g.counts[t.status]++; });
-      g.done = g.counts['Mastered'] + g.counts['Learning'];
+      g.done = g.counts['Mastered'];
       g.pct = g.topics.length ? Math.round(100 * g.done / g.topics.length) : 0;
+      if (g.isTextbook) {
+        var tb = (hist[g.entry.file] || [])[0];
+        g.pct = (tb && tb.total) ? Math.round(100 * (tb.score || 0) / tb.total) : 0;
+      }
     });
 
     var totalTopics = groups.reduce(function (s, g) { return s + g.topics.length; }, 0);
     var realTopics = groups.reduce(function (s, g) { return s + (g.isTextbook ? 0 : g.topics.length); }, 0);
-    var doneTopics = 0, masteredTopics = 0;
-    groups.forEach(function (g) { if (g.isTextbook) return; doneTopics += g.done; masteredTopics += g.counts['Mastered']; });
+    var masteredTopics = 0;
+    groups.forEach(function (g) { if (g.isTextbook) return; masteredTopics += g.counts['Mastered']; });
+    var doneTopics = masteredTopics;
 
     // Up next: first Learning topic, else first Ready topic
     var up = null;
