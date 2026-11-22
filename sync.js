@@ -125,7 +125,7 @@
     applying = false;
   }
   function pushNow() {
-    return db.collection('users').doc(uid).set({ state: collectState(), updatedAt: Date.now() });
+    return db.collection('users').doc(uid).set({ state: collectState(), updatedAt: Date.now() }, { merge: true });
   }
   function push() {
     if (!uid || applying) return;
@@ -141,10 +141,29 @@
     origSet(k, v);
     if (isSyncKey(k)) push();
   };
+
+  // Outbox: pages call examSync.sendReport(report) to send the user a
+  // snapshot (marked questions + their comments) to the 'outbox' array on
+  // their cloud doc. Edison's inbox check reads and discusses them.
+  window.examSync = {
+    sendReport: function (report) {
+      return new Promise(function (resolve, reject) {
+        var tries = 0;
+        (function wait() {
+          if (db && uid) {
+            db.collection('users').doc(uid)
+              .set({ outbox: firebase.firestore.FieldValue.arrayUnion(report) }, { merge: true })
+              .then(resolve).catch(reject);
+          } else if (tries++ < 40) { setTimeout(wait, 250); }
+          else { reject(new Error('not-signed-in')); }
+        })();
+      });
+    }
+  };
   window.addEventListener('pagehide', function () {
     if (!uid) return;
     clearTimeout(pushTimer);
-    try { db.collection('users').doc(uid).set({ state: collectState(), updatedAt: Date.now() }); } catch (e) {}
+    try { db.collection('users').doc(uid).set({ state: collectState(), updatedAt: Date.now() }, { merge: true }); } catch (e) {}
   });
 
   loadSdk(0, function () {

@@ -75,4 +75,37 @@
       box.appendChild(card);
     });
   });
+
+  // Send to Edison: snapshot of everything on this page + my comments.
+  var sendBtn = document.getElementById('send-btn');
+  var sendStatus = document.getElementById('send-status');
+  if (sendBtn) sendBtn.onclick = function () {
+    var reportGroups = [];
+    groups.forEach(function (g) {
+      var items = [];
+      g.entries.forEach(function (e) {
+        var item = { n: e.n, question: e.question, correct: e.correct, explanation: e.explanation || '', comment: notes[e.examKey + '||' + e.question] || '' };
+        item.result = e.result || '';
+        items.push(item);
+      });
+      if (items.length) reportGroups.push({ title: g.title, items: items });
+    });
+    if (!reportGroups.length) { sendStatus.textContent = 'Nothing to send yet.'; return; }
+    var report = { id: 'r' + Date.now(), ts: new Date().toISOString(), page: 'quality', groups: reportGroups };
+    sendBtn.disabled = true;
+    sendStatus.textContent = 'Sending\u2026';
+    var wait = setInterval(function () {
+      if (window.examSync) {
+        clearInterval(wait);
+        window.examSync.sendReport(report).then(function () {
+          sendStatus.textContent = 'Sent \u2713 \u2014 Edison will message you to discuss.';
+          sendBtn.disabled = false;
+        }).catch(function () {
+          sendStatus.textContent = 'Could not send \u2014 sign in to sync first (blue bar at the top), then try again.';
+          sendBtn.disabled = false;
+        });
+      }
+    }, 200);
+    setTimeout(function () { clearInterval(wait); if (sendBtn.disabled) { sendStatus.textContent = 'Could not send \u2014 sign in to sync first (blue bar at the top), then try again.'; sendBtn.disabled = false; } }, 12000);
+  };
 })();
