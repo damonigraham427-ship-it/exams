@@ -32,8 +32,12 @@
   function saveNotes() { try { localStorage.setItem('notepadNotes', JSON.stringify(notes)); } catch (e) {} }
   function saveCleared() { try { localStorage.setItem('notepadCleared', JSON.stringify(cleared)); } catch (e) {} }
 
-  // Build entries from the LATEST finished attempt of each exam.
-  var groups = []; // {title, entries:[{key,n,question,source,your,correct,explanation,flagged,wrong}]}
+  // Build entries per exam key from the LATEST source: a finished attempt
+  // (examHistory) or, when newer, the in-progress run's live marks
+  // (examProgress.live, saved by exam.js on every flag/quality/answer) —
+  // so a question shows here the moment Next is pressed, even if the
+  // test is stopped early. Newest source wins per key (topics.js rule).
+  var groupByKey = {}; // examKey -> {title, entries, tsMs}
   Object.keys(hist).forEach(function (examKey) {
     var attempts = hist[examKey];
     if (!Array.isArray(attempts) || !attempts.length) return;
@@ -56,8 +60,36 @@
       .filter(function (e) { return gone.indexOf(e.question) === -1; })
       .sort(function (a, b) { return (a.n || 0) - (b.n || 0); })
       .map(function (e) { e.examKey = examKey; e.ts = latest.ts; return e; });
-    if (entries.length) { groups.push({ title: latest.title || examKey, entries: entries }); notePicker(examKey, latest.title || examKey, entries.length); }
+    if (entries.length) groupByKey[examKey] = { title: latest.title || examKey, entries: entries, tsMs: Date.parse(latest.ts || '') || 0 };
   });
+  var prog = {};
+  try { prog = JSON.parse(localStorage.getItem('examProgress') || '{}'); } catch (e) { prog = {}; }
+  Object.keys(prog).forEach(function (examKey) {
+    var rec = prog[examKey];
+    if (!rec || !rec.live) return;
+    if (examParam && baseOf(examKey) !== examParam) return;
+    var tsMs = rec.ts || 0;
+    if (groupByKey[examKey] && groupByKey[examKey].tsMs >= tsMs) return;
+    var byQ = {};
+    var order = [];
+    function add(q, patch) {
+      if (!byQ[q]) { byQ[q] = { question: q, flagged: false, wrong: false }; order.push(q); }
+      Object.assign(byQ[q], patch);
+    }
+    (rec.live.missedQs || []).forEach(function (m) {
+      add(m.question, { n: m.n, source: m.source || '', your: m.your, correct: m.correct, explanation: m.explanation || '', wrong: true });
+    });
+    (rec.live.flaggedQs || []).forEach(function (m) {
+      add(m.question, { n: m.n, source: m.source || '', correct: m.correct, explanation: m.explanation || '', flagged: true, result: m.result || '' });
+    });
+    var tsIso = new Date(tsMs).toISOString();
+    var entries = order.map(function (q) { return byQ[q]; })
+      .sort(function (a, b) { return (a.n || 0) - (b.n || 0); })
+      .map(function (e) { e.examKey = examKey; e.ts = tsIso; e.live = true; return e; });
+    if (entries.length) groupByKey[examKey] = { title: (rec.live.title || examKey) + ' \u2014 in progress', entries: entries, tsMs: tsMs };
+  });
+  var groups = Object.keys(groupByKey).map(function (k) { return groupByKey[k]; });
+  groups.forEach(function (g) { g.entries.forEach(function () {}); notePicker(g.entries[0].examKey, g.title, g.entries.length); });
   groups.sort(function (a, b) { return a.title < b.title ? -1 : 1; });
 
   if (!examParam) {
@@ -131,6 +163,21 @@
       rm.className = 'np-remove';
       rm.textContent = 'Done — remove';
       rm.addEventListener('click', function () {
+        if (e.live) {
+          // Live entry: remove it from the in-progress run's saved marks.
+          try {
+            var pr = JSON.parse(localStorage.getItem('examProgress') || '{}');
+            var rc = pr[e.examKey];
+            if (rc && rc.live) {
+              ['flaggedQs', 'qualityQs', 'missedQs'].forEach(function (k) {
+                rc.live[k] = (rc.live[k] || []).filter(function (m) { return m.question !== e.question; });
+              });
+              localStorage.setItem('examProgress', JSON.stringify(pr));
+            }
+          } catch (err) {}
+          card.remove();
+          return;
+        }
         if (!cleared[e.examKey] || cleared[e.examKey].ts !== e.ts) cleared[e.examKey] = { ts: e.ts, questions: [] };
         cleared[e.examKey].questions.push(e.question);
         saveCleared();

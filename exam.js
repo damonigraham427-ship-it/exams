@@ -339,10 +339,30 @@ function refreshQualityBtn() {
 }
 
 const PKEY = 'examProgress';
+// Live marks: snapshots of flagged / quality / missed-so-far questions,
+// saved on every progress save so the Notepad / Quality pads can show them
+// mid-run — Damoni may stop a test early to comment, then come back.
+// (Pads used to read only finished attempts from examHistory.)
+function buildLive() {
+  function snap(i, extra) {
+    const q = exam.questions[i];
+    const o = { n: i + 1, question: q.question, source: q.source || '', correct: q.choices[q.answer], explanation: q.explanation || '' };
+    if (extra) Object.assign(o, extra);
+    return o;
+  }
+  function marked(set) {
+    return [...set].sort((a, b) => a - b).map(i => snap(i, { result: answers[i] === exam.questions[i].answer ? 'answered correctly' : 'answered incorrectly' }));
+  }
+  const missedQs = [];
+  exam.questions.forEach((q, i) => {
+    if (answers[i] !== undefined && answers[i] !== q.answer) missedQs.push(snap(i, { your: q.choices[answers[i]] }));
+  });
+  return { title: examTitle, flaggedQs: marked(flagged), qualityQs: marked(quality), missedQs: missedQs };
+}
 function saveProgress() {
   try {
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
-    const rec = { idx: idx, answers: answers, flagged: [...flagged], quality: [...quality], score: score, total: exam.questions.length, ts: Date.now() };
+    const rec = { idx: idx, answers: answers, flagged: [...flagged], quality: [...quality], score: score, total: exam.questions.length, ts: Date.now(), live: buildLive() };
     if (runOrder) rec.order = runOrder;
     all[storageKey] = rec;
     localStorage.setItem(PKEY, JSON.stringify(all));

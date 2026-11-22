@@ -32,7 +32,10 @@
   function saveNotes() { try { localStorage.setItem('qualityNotes', JSON.stringify(notes)); } catch (e) {} }
   function saveCleared() { try { localStorage.setItem('qualityCleared', JSON.stringify(cleared)); } catch (e) {} }
 
-  var groups = [];
+  // Per exam key, newest source wins: finished attempt (examHistory) or,
+  // when newer, the in-progress run's live marks (examProgress.live) — so a
+  // quality-marked question shows here mid-run, before the test is finished.
+  var groupByKey = {};
   Object.keys(hist).forEach(function (examKey) {
     var attempts = hist[examKey];
     if (!Array.isArray(attempts) || !attempts.length) return;
@@ -45,8 +48,26 @@
       .map(function (m) {
         return { examKey: examKey, ts: latest.ts, n: m.n, question: m.question, source: m.source || '', correct: m.correct, explanation: m.explanation || '', result: m.result || '' };
       });
-    if (entries.length) { groups.push({ title: latest.title || examKey, entries: entries }); notePicker(examKey, latest.title || examKey, entries.length); }
+    if (entries.length) groupByKey[examKey] = { title: latest.title || examKey, entries: entries, tsMs: Date.parse(latest.ts || '') || 0 };
   });
+  var prog = {};
+  try { prog = JSON.parse(localStorage.getItem('examProgress') || '{}'); } catch (e) { prog = {}; }
+  Object.keys(prog).forEach(function (examKey) {
+    var rec = prog[examKey];
+    if (!rec || !rec.live) return;
+    if (examParam && baseOf(examKey) !== examParam) return;
+    var tsMs = rec.ts || 0;
+    if (groupByKey[examKey] && groupByKey[examKey].tsMs >= tsMs) return;
+    var tsIso = new Date(tsMs).toISOString();
+    var entries = (rec.live.qualityQs || [])
+      .sort(function (a, b) { return (a.n || 0) - (b.n || 0); })
+      .map(function (m) {
+        return { examKey: examKey, ts: tsIso, live: true, n: m.n, question: m.question, source: m.source || '', correct: m.correct, explanation: m.explanation || '', result: m.result || '' };
+      });
+    if (entries.length) groupByKey[examKey] = { title: (rec.live.title || examKey) + ' \u2014 in progress', entries: entries, tsMs: tsMs };
+  });
+  var groups = Object.keys(groupByKey).map(function (k) { return groupByKey[k]; });
+  groups.forEach(function (g) { notePicker(g.entries[0].examKey, g.title, g.entries.length); });
   groups.sort(function (a, b) { return a.title < b.title ? -1 : 1; });
 
   if (!examParam) {
@@ -113,6 +134,18 @@
       rm.className = 'np-remove';
       rm.textContent = 'Done — remove';
       rm.addEventListener('click', function () {
+        if (e.live) {
+          try {
+            var pr = JSON.parse(localStorage.getItem('examProgress') || '{}');
+            var rc = pr[e.examKey];
+            if (rc && rc.live) {
+              rc.live.qualityQs = (rc.live.qualityQs || []).filter(function (m) { return m.question !== e.question; });
+              localStorage.setItem('examProgress', JSON.stringify(pr));
+            }
+          } catch (err) {}
+          card.remove();
+          return;
+        }
         if (!cleared[e.examKey] || cleared[e.examKey].ts !== e.ts) cleared[e.examKey] = { ts: e.ts, questions: [] };
         cleared[e.examKey].questions.push(e.question);
         saveCleared();
