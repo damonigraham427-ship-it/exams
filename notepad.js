@@ -93,18 +93,33 @@
   groups.sort(function (a, b) { return a.title < b.title ? -1 : 1; });
 
   if (!examParam) {
-    // Picker: each exam has its own pad — link into it, nothing aggregated here.
+    // Picker: each exam has its own pad \u2014 link into it, nothing aggregated here.
+    // ?category=<name> filters the picker to one subject (the entry point from
+    // inside that subject); no param keeps the all-subjects picker.
+    var categoryParam = new URLSearchParams(location.search).get('category');
     var sb = document.getElementById('send-btn'); if (sb) sb.parentElement.hidden = true;
     var fl = document.querySelector('.np-filters'); if (fl) fl.hidden = true;
     document.getElementById('np-empty').hidden = true;
-    var bases = Object.keys(picker).sort();
-    var tot = 0; bases.forEach(function (b) { tot += picker[b].count; });
-    document.getElementById('np-counts').textContent = tot
-      ? 'Each exam has its own notepad. Pick an exam:'
-      : 'Nothing here yet. Flag a question while you answer, or finish an exam, and it shows up in that exam\'s pad.';
-    document.getElementById('notepad').innerHTML = bases.map(function (b) {
-      return '<p><a href="notepad.html?exam=' + encodeURIComponent(b) + '">' + esc(picker[b].title || b) + '</a> \u2014 ' + picker[b].count + ' questions</p>';
-    }).join('');
+    var renderPicker = function (bases) {
+      var tot = 0; bases.forEach(function (b) { tot += picker[b].count; });
+      var h1p = document.querySelector('h1');
+      if (categoryParam && h1p) h1p.textContent = 'Notepad \u2014 ' + categoryParam;
+      document.getElementById('np-counts').textContent = tot
+        ? (categoryParam ? categoryParam + ' \u2014 pick an exam:' : 'Each exam has its own notepad. Pick an exam:')
+        : 'Nothing here yet. Flag a question while you answer, or finish an exam, and it shows up in that exam\'s pad.';
+      document.getElementById('notepad').innerHTML =
+        (categoryParam ? '<p><a href="notepad.html">All subjects</a></p>' : '') +
+        bases.map(function (b) {
+          return '<p><a href="notepad.html?exam=' + encodeURIComponent(b) + '">' + esc(picker[b].title || b) + '</a> \u2014 ' + picker[b].count + ' questions</p>';
+        }).join('');
+    };
+    var allBases = Object.keys(picker).sort();
+    if (!categoryParam) { renderPicker(allBases); return; }
+    fetch('index.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (idx) {
+      var inCat = {};
+      (idx.exams || []).forEach(function (e) { if ((e.category || 'General') === categoryParam) inCat[e.file] = true; });
+      renderPicker(allBases.filter(function (b) { return inCat[b]; }));
+    }).catch(function () { renderPicker(allBases); });
     return;
   }
   var h1 = document.querySelector('h1');

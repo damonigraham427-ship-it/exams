@@ -31,6 +31,19 @@ function setView() {
     back.textContent = '\u2190 ' + selCategory;
     crumb.textContent = 'Exams / ' + selCategory + ' / ' + chapterLabel(selChapter);
   }
+  renderCatLinks();
+}
+
+function renderCatLinks() {
+  const el = document.getElementById('cat-links');
+  if (!el) return;
+  if (view === 'categories' || !selCategory) { el.hidden = true; el.innerHTML = ''; return; }
+  el.hidden = false;
+  el.innerHTML = '';
+  const mk = (href, text) => { const a = document.createElement('a'); a.href = href; a.textContent = text; return a; };
+  el.appendChild(mk('notepad.html?category=' + encodeURIComponent(selCategory), selCategory + ' Notepad'));
+  el.appendChild(document.createTextNode(' \u00B7 '));
+  el.appendChild(mk('quality.html?category=' + encodeURIComponent(selCategory), selCategory + ' Quality review'));
 }
 
 function navCard(label, sub, color, onclick) {
