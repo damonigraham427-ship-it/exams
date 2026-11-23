@@ -93,7 +93,7 @@ function renderCategories() {
   });
   // Front-page order is fixed by Damoni (Nov 22, 2026): NREMT, 60nminutes,
   // Workout Elements, Fraction Bases. Unknown subjects follow in list order.
-  const ORDER = ['NREMT', '60nminutes', 'Workout Elements', 'Fraction Bases'];
+  const ORDER = ['NREMT', '60nminutes', 'Workout Elements', 'Fraction Bases', 'Vocabulary'];
   cats.sort((x, y) => {
     const ix = ORDER.indexOf(x), iy = ORDER.indexOf(y);
     return (ix < 0 ? 99 : ix) - (iy < 0 ? 99 : iy);
