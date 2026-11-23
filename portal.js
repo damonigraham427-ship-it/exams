@@ -10,7 +10,7 @@
   var box = document.getElementById('portal-box');
   if (!box) return;
 
-  var SUBJECTS = ['NREMT', '60nminutes', 'Fraction Bases', 'Vocabulary'];
+  var SUBJECTS = ['NREMT', '60 Minutes', 'Fraction Bases', 'Vocabulary'];
   var RETENTION = 'Meta Retention';
   var RETENTION_KEY = 'meta-retention';
   var allExams = [];

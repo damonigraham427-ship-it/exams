@@ -282,9 +282,9 @@
   },
   {
    "file": "hour-minutes-per-hour.json",
-   "title": "60nminutes — Minutes per hour",
+   "title": "60 Minutes — Minutes per hour",
    "note": "20 questions",
-   "category": "60nminutes",
+   "category": "60 Minutes",
    "draw": 20,
    "redundancy": [
     4,
@@ -311,9 +311,9 @@
   },
   {
    "file": "hour-seconds-per-hour.json",
-   "title": "60nminutes — Seconds per hour",
+   "title": "60 Minutes — Seconds per hour",
    "note": "20 questions",
-   "category": "60nminutes",
+   "category": "60 Minutes",
    "draw": 20,
    "redundancy": [
     4,
@@ -2933,9 +2933,9 @@
   },
   {
    "file": "hour-minutes-per-1-week.json",
-   "title": "60nminutes — Minutes per 1 week",
+   "title": "60 Minutes — Minutes per 1 week",
    "note": "20 questions",
-   "category": "60nminutes",
+   "category": "60 Minutes",
    "draw": 20,
    "redundancy": [
     4,
@@ -2962,9 +2962,9 @@
   },
   {
    "file": "hour-minutes-4-weeks.json",
-   "title": "60nminutes — Minutes 4 weeks",
+   "title": "60 Minutes — Minutes 4 weeks",
    "note": "20 questions",
-   "category": "60nminutes",
+   "category": "60 Minutes",
    "draw": 20,
    "redundancy": [
     4,
@@ -2991,9 +2991,9 @@
   },
   {
    "file": "hour-52-weeks-364-days.json",
-   "title": "60nminutes — 52 Weeks 364 Days",
+   "title": "60 Minutes — 52 Weeks 364 Days",
    "note": "20 questions",
-   "category": "60nminutes",
+   "category": "60 Minutes",
    "draw": 20,
    "redundancy": [
     4,
@@ -3020,9 +3020,9 @@
   },
   {
    "file": "hour-hours-per-week.json",
-   "title": "60nminutes — Hours per week",
+   "title": "60 Minutes — Hours per week",
    "note": "20 questions",
-   "category": "60nminutes",
+   "category": "60 Minutes",
    "draw": 20,
    "redundancy": [
     2,
@@ -3049,9 +3049,9 @@
   },
   {
    "file": "hour-minutes-per-day.json",
-   "title": "60nminutes — Minutes per day",
+   "title": "60 Minutes — Minutes per day",
    "note": "20 questions",
-   "category": "60nminutes",
+   "category": "60 Minutes",
    "draw": 20,
    "redundancy": [
     17,

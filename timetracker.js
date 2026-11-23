@@ -11,7 +11,7 @@
   var box = document.getElementById('tracker-box');
   if (!box) return;
 
-  var CAT_ORDER = ['NREMT', '60nminutes', 'Fraction Bases', 'Vocabulary'];
+  var CAT_ORDER = ['NREMT', '60 Minutes', 'Fraction Bases', 'Vocabulary'];
   var RETENTION = 'Meta Retention';
   var RETENTION_KEY = 'meta-retention';
   var ALL = 'All combined';

@@ -12,7 +12,7 @@
   function shortTitle(e) { var t = e.title || e.file; var pre = (e.category || '') + ' \u2014 '; if (t.indexOf(pre) === 0) t = t.slice(pre.length); return t; }
 
   fetch('index.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (idx) {
-    var entries = (idx.exams || []).filter(function (e) { return e.category === '60nminutes'; });
+    var entries = (idx.exams || []).filter(function (e) { return e.category === '60 Minutes'; });
     return Promise.all(entries.map(function (e) {
       return fetch(e.file, { cache: 'no-store' }).then(function (r) { return r.json(); })
         .then(function (d) { return { entry: e, questions: d.questions || [] }; })

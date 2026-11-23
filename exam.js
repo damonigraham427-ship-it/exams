@@ -182,7 +182,7 @@ Promise.all([
   if (entry) {
     let back = 'exams.html';
     if (entry.category === 'NREMT') back = 'topics.html?ch=' + encodeURIComponent(entry.chapter);
-    else if (entry.category === '60nminutes') back = 'hour-topics.html';
+    else if (entry.category === '60 Minutes') back = 'hour-topics.html';
     else if (entry.category === 'Fraction Bases') back = 'fraction-topics.html';
     else back = 'exams.html?cat=' + encodeURIComponent(entry.category || 'General') +
       (entry.chapter !== undefined ? '&ch=' + encodeURIComponent(entry.chapter) : '');

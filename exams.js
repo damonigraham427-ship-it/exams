@@ -64,7 +64,7 @@ function navCard(label, sub, color, onclick) {
   return b;
 }
 
-// Meta Retention Exam card count: number sets (60nminutes + Fraction Bases)
+// Meta Retention Exam card count: number sets (60 Minutes + Fraction Bases)
 // with a finished attempt at 80% or better. Mirrors the qualify rule in
 // retention.js (retModulePassed) — keep the two in sync.
 function retQualifyingCount() {
@@ -72,7 +72,7 @@ function retQualifyingCount() {
   try { hist = JSON.parse(localStorage.getItem('examHistory') || '{}'); } catch (e) { /* none */ }
   let n = 0;
   allExams.forEach(e => {
-    if (e.category !== '60nminutes' && e.category !== 'Fraction Bases') return;
+    if (e.category !== '60 Minutes' && e.category !== 'Fraction Bases') return;
     let passed = false;
     Object.keys(hist).forEach(k => {
       if (passed) return;
@@ -95,15 +95,15 @@ function renderCategories() {
     const c = e.category || 'General';
     if (!cats.includes(c)) cats.push(c);
   });
-  // Front-page order is fixed by Damoni (Nov 22, 2026): NREMT, 60nminutes,
+  // Front-page order is fixed by Damoni (Nov 22, 2026): NREMT, 60 Minutes,
   // Workout Elements, Fraction Bases. Unknown subjects follow in list order.
-  const ORDER = ['NREMT', '60nminutes', 'Workout Elements', 'Fraction Bases', 'Vocabulary'];
+  const ORDER = ['NREMT', '60 Minutes', 'Workout Elements', 'Fraction Bases', 'Vocabulary'];
   cats.sort((x, y) => {
     const ix = ORDER.indexOf(x), iy = ORDER.indexOf(y);
     return (ix < 0 ? 99 : ix) - (iy < 0 ? 99 : iy);
   });
   cats.forEach((c, i) => {
-    if (c === '60nminutes') {
+    if (c === '60 Minutes') {
       // One front-page entry for this series: the tier circle. Its per-exam
       // detail carries the 5 mode links, so the old exam-list card is removed
       // (Damoni's order, Nov 22, 2026 — two 60 Minutes entries was one too many).

@@ -2,14 +2,14 @@
 // sits different — its own spot on the front page. It builds a random test
 // from the number sets he has FINISHED SUCCESSFULLY (a finished attempt at
 // 80% or better, the site's Mastered line) across the two number subjects
-// (60nminutes + Fraction Bases), as an assessment that he hasn't forgotten.
+// (60 Minutes + Fraction Bases), as an assessment that he hasn't forgotten.
 //
 // Own history key 'meta-retention': its attempts never feed any module's
 // tier/topic status, and its missed list lives on this page's results (and
 // in its own attempt record). Place-holding mirrors exam.js: progress is
 // saved to examProgress under the same key and resumes at the same question.
 const RET_KEY = 'meta-retention';
-const RET_CATS = ['60nminutes', 'Fraction Bases'];
+const RET_CATS = ['60 Minutes', 'Fraction Bases'];
 const RET_N = 20;
 
 function retHistory() {
@@ -201,7 +201,7 @@ fetch('index.json', { cache: 'no-store' })
     const status = document.getElementById('ret-status');
     const sets = document.getElementById('ret-sets');
     if (!qual.length) {
-      status.textContent = 'No finished sets yet. Finish a 60nminutes or Fraction Bases set at 80% or better and it joins this test.';
+      status.textContent = 'No finished sets yet. Finish a 60 Minutes or Fraction Bases set at 80% or better and it joins this test.';
       return;
     }
     return Promise.all(qual.map(e =>
