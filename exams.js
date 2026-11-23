@@ -121,8 +121,8 @@ function renderCategories() {
       // One front-page entry for this section: its circle (Damoni's order,
       // Nov 22, 2026 — same pattern as the 60 Minutes tier circle). The
       // circle reads his saved dates/entries; editing stays on the list pages.
-      wrap.appendChild(navCard(c, 'circle \u00B7 status by dated steps', PALETTE[i % PALETTE.length], () => {
-        location.href = 'workout-topics.html';
+      wrap.appendChild(navCard(c, 'body circles \u00B7 plus a running & treadmill section', PALETTE[i % PALETTE.length], () => {
+        location.href = 'workout.html';
       }));
       return;
     }

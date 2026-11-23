@@ -55,6 +55,10 @@ if (!file) {
     if (index && Array.isArray(index.exams)) {
       const entry = index.exams.find(e => e.file === file);
       if (entry && entry.title) document.getElementById('notes-title').textContent = entry.title;
+      if (entry) {
+        const backHref = entry.region && entry.region !== 'general' ? 'workout-topics.html?body=' + entry.region : 'workout.html';
+        document.querySelectorAll('.back-to-list').forEach(a => { a.href = backHref; });
+      }
     }
     let stored = null;
     try { stored = JSON.parse(localStorage.getItem(storeKey) || 'null'); } catch (err) { stored = null; }

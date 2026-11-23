@@ -110,6 +110,10 @@ if (!file) {
     if (index && Array.isArray(index.exams)) {
       const entry = index.exams.find(e => e.file === file);
       if (entry && entry.title) document.getElementById('ladder-title').textContent = entry.title;
+      if (entry) {
+        const backHref = entry.region && entry.region !== 'general' ? 'workout-topics.html?body=' + entry.region : 'workout.html';
+        document.querySelectorAll('.back-to-list').forEach(a => { a.href = backHref; });
+      }
     }
     fileData = data;
     render();

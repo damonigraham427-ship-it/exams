@@ -10,11 +10,17 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function tint(hex, f) { var n = parseInt(hex.slice(1), 16); var r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255; r = Math.round(r + (255 - r) * f); g = Math.round(g + (255 - g) * f); b = Math.round(b + (255 - b) * f); return 'rgb(' + r + ',' + g + ',' + b + ')'; }
   function wedge(cx, cy, r, a0, a1) { if (a1 - a0 >= Math.PI * 2) a1 = a0 + Math.PI * 2 - 0.0001; var x0 = cx + r * Math.cos(a0), y0 = cy + r * Math.sin(a0); var x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1); var large = (a1 - a0) > Math.PI ? 1 : 0; return 'M' + cx + ' ' + cy + ' L' + x0.toFixed(1) + ' ' + y0.toFixed(1) + ' A' + r + ' ' + r + ' 0 ' + large + ' 1 ' + x1.toFixed(1) + ' ' + y1.toFixed(1) + ' Z'; }
-  function shortTitle(e) { var t = e.title || e.file; var pre = (e.category || '') + ' \u2014 '; if (t.indexOf(pre) === 0) t = t.slice(pre.length); var pre2 = 'Upper Body \u2014 '; if (t.indexOf(pre2) === 0) t = t.slice(pre2.length); return t; }
+  function shortTitle(e) { var t = e.title || e.file; var pre = (e.category || '') + ' \u2014 '; if (t.indexOf(pre) === 0) t = t.slice(pre.length); ['Upper Body \u2014 ', 'Lower Body \u2014 ', 'Abdomen \u2014 '].forEach(function (pre2) { if (t.indexOf(pre2) === 0) t = t.slice(pre2.length); }); return t; }
   function ls(key) { try { return JSON.parse(localStorage.getItem(key) || 'null'); } catch (e) { return null; } }
 
   fetch('index.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (idx) {
-    var entries = (idx.exams || []).filter(function (e) { return e.category === 'Workout Elements'; });
+    var body = new URLSearchParams(location.search).get('body');
+    if (['upper', 'abdomen', 'lower', 'running', 'vest', 'incline'].indexOf(body) === -1) { location.replace('workout.html'); return; }
+    var regionName = { upper: 'Upper Body', abdomen: 'Abdomen', lower: 'Lower Body', running: 'Running', vest: 'Weight Vest Run', incline: 'Incline Treadmill' }[body];
+    document.title = 'Workout Elements \u2014 ' + regionName;
+    var h1 = document.getElementById('tp-title');
+    if (h1) h1.textContent = 'Workout Elements \u2014 ' + regionName;
+    var entries = (idx.exams || []).filter(function (e) { return e.category === 'Workout Elements' && e.region === body; });
     return Promise.all(entries.map(function (e) {
       return fetch(e.file, { cache: 'no-store' }).then(function (r) { return r.json(); })
         .then(function (d) { return { entry: e, data: d || {} }; })
