@@ -468,14 +468,18 @@ function finish() {
       result: answers[i] === q.answer ? 'answered correctly' : 'answered incorrectly'
     };
   });
+  // Damoni's rule (Nov 22, 2026): on a FINISHED test, only missed questions
+  // need review \u2014 a flagged question answered correctly is not listed here.
+  // The saved attempt record keeps the full flagged list; this is display only.
+  const reviewFlagged = lastFlagged.filter(m => m.result === 'answered incorrectly');
   const flist = document.getElementById('flagged-list');
   flist.innerHTML = '';
-  lastFlagged.forEach(m => {
+  reviewFlagged.forEach(m => {
     const li = document.createElement('li');
     li.textContent = m.question + ' — Correct: ' + m.correct + ' · You ' + m.result + (m.source ? ' · Deck: ' + m.source : '') + (m.explanation ? ' · ' + m.explanation : '');
     flist.appendChild(li);
   });
-  document.getElementById('no-flagged').hidden = lastFlagged.length !== 0;
+  document.getElementById('no-flagged').hidden = reviewFlagged.length !== 0;
 
   lastQuality = [...quality].sort((a, b) => a - b).map(i => {
     const q = exam.questions[i];

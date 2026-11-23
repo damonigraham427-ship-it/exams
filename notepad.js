@@ -52,8 +52,13 @@
     (latest.missed || []).forEach(function (m) {
       add(m.question, { n: m.n, source: m.source || '', your: m.your, correct: m.correct, explanation: m.explanation || '', wrong: true });
     });
+    // Damoni's rule (Nov 22, 2026): a FINISHED test's review set is its missed
+    // questions only. A flag on a missed question still marks that entry;
+    // a flagged question answered correctly never becomes a review entry.
+    // (Live in-progress marks below are separate: they show until the test
+    // finishes, then this finished-attempt set takes over.)
     (latest.flagged || []).forEach(function (m) {
-      add(m.question, { n: m.n, source: m.source || '', correct: m.correct, explanation: m.explanation || '', flagged: true, result: m.result || '' });
+      if (byQ[m.question]) byQ[m.question].flagged = true;
     });
     var gone = (cleared[examKey] && cleared[examKey].ts === latest.ts) ? cleared[examKey].questions : [];
     var entries = order.map(function (q) { return byQ[q]; })
