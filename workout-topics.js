@@ -56,7 +56,11 @@
       }
     });
 
-    var totalItems = groups.reduce(function (s, g) { return s + g.total; }, 0);
+    // Slice weight: item count, but never zero — an empty list (e.g. Static
+    // List before he adds to it) still gets a thin slice so it stays
+    // reachable from the circle.
+    groups.forEach(function (g) { g.w = Math.max(g.total, 1); });
+    var totalItems = groups.reduce(function (s, g) { return s + g.w; }, 0);
     var totalSteps = groups.reduce(function (s, g) { return s + (g.kind === 'ladder' ? g.total : 0); }, 0);
     var totalDated = groups.reduce(function (s, g) { return s + (g.kind === 'ladder' ? g.dated : 0); }, 0);
 
@@ -73,18 +77,18 @@
     var svg = document.getElementById('tp-pie');
     var CX = 210, CY = 210, R = 198, a = -Math.PI / 2, parts = [];
     groups.forEach(function (g, gi) {
-      var span = totalItems ? (Math.PI * 2) * (g.total / totalItems) : 0;
+      var span = totalItems ? (Math.PI * 2) * (g.w / totalItems) : 0;
       var cur = a;
-      if (g.kind === 'ladder') {
+      if (g.kind === 'ladder' && g.total) {
         var bands = [[g.dated, g.color], [g.total - g.dated, tint(g.color, 0.82)]];
         bands.forEach(function (bd) {
-          if (!bd[0] || !g.total) return;
+          if (!bd[0]) return;
           var sub = span * (bd[0] / g.total);
           parts.push('<path d="' + wedge(CX, CY, R, cur, cur + sub) + '" fill="' + bd[1] + '" stroke="#fff" stroke-width="2" data-group="' + gi + '"><title>' + esc(g.name) + '</title></path>');
           cur += sub;
         });
-      } else if (g.total) {
-        parts.push('<path d="' + wedge(CX, CY, R, cur, cur + span) + '" fill="' + tint(g.color, 0.45) + '" stroke="#fff" stroke-width="2" data-group="' + gi + '"><title>' + esc(g.name) + '</title></path>');
+      } else {
+        parts.push('<path d="' + wedge(CX, CY, R, cur, cur + span) + '" fill="' + tint(g.color, g.kind === 'ladder' ? 0.82 : 0.45) + '" stroke="#fff" stroke-width="2" data-group="' + gi + '"><title>' + esc(g.name) + '</title></path>');
       }
       a += span;
     });
