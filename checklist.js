@@ -58,41 +58,37 @@ function ckLadderRow(entry, group, host) {
   last.className = 'ck-last';
   main.appendChild(label);
   main.appendChild(last);
-  // Three attempt boxes beside the weight goal (Damoni, Nov 23, 2026): a
-  // check here means an attempt was made but the feat was not completed.
-  // Stored per step in ladderAttempts:<file> as "group|step" -> 1..3.
-  const tries = document.createElement('span');
-  tries.className = 'ck-tries';
-  const triesLabel = document.createElement('span');
-  triesLabel.className = 'ck-tries-label';
-  triesLabel.textContent = 'tried';
-  tries.appendChild(triesLabel);
-  const tryBtns = [];
-  for (let i = 0; i < 3; i++) {
-    const b = document.createElement('button');
-    b.type = 'button';
-    b.className = 'ck-try';
-    b.addEventListener('click', () => {
-      const step = ckNextStep(entry, group);
-      if (!step) return;
-      const key = group.name + '|' + step;
-      const all = ckParse('ladderAttempts:' + entry.file, {});
-      const cur = all[key] || 0;
-      const next = (cur === i + 1) ? i : i + 1;
-      if (next) all[key] = next; else delete all[key];
-      ckSave('ladderAttempts:' + entry.file, all);
-      paintTries(step);
-    });
-    tryBtns.push(b);
-    tries.appendChild(b);
-  }
-  function paintTries(step) {
-    const all = ckParse('ladderAttempts:' + entry.file, {});
-    const n = all[group.name + '|' + step] || 0;
-    tryBtns.forEach((b, i) => {
-      b.textContent = i < n ? '\u2713' : '';
-      b.classList.toggle('on', i < n);
-    });
+  // Sets-completed selector beside the weight goal (Damoni, Nov 23, 2026,
+  // replacing the attempt check boxes): most ladders are 5x5, so the box
+  // lists half-step counts 0.5..5. Stored per step in ladderSets:<file>
+  // as "group|step" -> number. Progress only — a step completes by date.
+  const setsWrap = document.createElement('span');
+  setsWrap.className = 'ck-sets-wrap';
+  const setsLabel = document.createElement('span');
+  setsLabel.className = 'ck-sets-label';
+  setsLabel.textContent = 'sets';
+  setsWrap.appendChild(setsLabel);
+  const setsSel = document.createElement('select');
+  setsSel.className = 'ck-sets';
+  ['', '0.5', '1', '1.5', '2', '2.5', '3', '3.5', '4', '4.5', '5'].forEach(v => {
+    const o = document.createElement('option');
+    o.value = v;
+    o.textContent = v === '' ? '\u2014' : v;
+    setsSel.appendChild(o);
+  });
+  setsSel.addEventListener('change', () => {
+    const step = ckNextStep(entry, group);
+    if (!step) return;
+    const key = group.name + '|' + step;
+    const all = ckParse('ladderSets:' + entry.file, {});
+    if (setsSel.value) all[key] = parseFloat(setsSel.value); else delete all[key];
+    ckSave('ladderSets:' + entry.file, all);
+  });
+  setsWrap.appendChild(setsSel);
+  function paintSets(step) {
+    const all = ckParse('ladderSets:' + entry.file, {});
+    const n = all[group.name + '|' + step];
+    setsSel.value = n ? String(n) : '';
   }
   const dateIn = document.createElement('input');
   dateIn.type = 'date';
@@ -112,7 +108,7 @@ function ckLadderRow(entry, group, host) {
       if (dates[group.name + '|' + steps[i]]) lastDate = dates[group.name + '|' + steps[i]];
     }
     last.textContent = 'Last done: ' + (lastDate || '\u2014');
-    paintTries(step);
+    paintSets(step);
     dateIn.value = ckToday();
     btn.textContent = 'Done';
     btn.disabled = false;
@@ -146,7 +142,7 @@ function ckLadderRow(entry, group, host) {
   });
 
   row.appendChild(main);
-  row.appendChild(tries);
+  row.appendChild(setsWrap);
   row.appendChild(dateIn);
   row.appendChild(btn);
   show(ckNextStep(entry, group), false);

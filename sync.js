@@ -13,7 +13,7 @@
   };
 
   var EXACT_KEYS = ['examHistory', 'examProgress', 'notepadNotes', 'notepadCleared', 'qualityNotes', 'qualityCleared', 'backdoorLog', 'frontChecklist'];
-  var PREFIXES = ['workoutNotes:', 'ladderDates:', 'ladderAdded:', 'ladderAttempts:'];
+  var PREFIXES = ['workoutNotes:', 'ladderDates:', 'ladderAdded:', 'ladderSets:'];
 
   // ---- sync bar UI ----
   var bar = document.createElement('div');
