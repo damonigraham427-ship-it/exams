@@ -28,6 +28,18 @@
       g.st.tiers.forEach(function (t) { g.counts[t.status]++; });
     });
     var totalTiers = groups.length * 20;
+    // UP NEXT: first Learning tier, else first Ready tier (topics.js pattern).
+    var up = null;
+    ['Learning', 'Ready to Learn'].forEach(function (want) {
+      if (up) return;
+      groups.forEach(function (g) { if (up) return; g.st.tiers.forEach(function (t) { if (!up && t.status === want) up = { g: g, t: t }; }); });
+    });
+    var upEl = document.getElementById('tp-upnext');
+    if (up && upEl) {
+      upEl.hidden = false;
+      upEl.innerHTML = 'UP NEXT: <strong>Tier ' + esc(up.t.label) + '</strong> \u00B7 ' + esc(up.g.name) +
+        ' <a class="tp-practice" href="exam.html?exam=' + encodeURIComponent(up.g.entry.file) + '&tier=' + up.t.b + '">Practice</a>';
+    }
     var mastered = groups.reduce(function (s, g) { return s + g.counts['Mastered']; }, 0);
     var svg = document.getElementById('tp-pie');
     var CX = 210, CY = 210, R = 198, a = -Math.PI / 2, parts = [];
@@ -47,7 +59,7 @@
     parts.push('<text id="tp-center-num" x="' + CX + '" y="' + (CY - 2) + '" text-anchor="middle" font-size="40" font-weight="700" fill="#0f172a"></text>');
     parts.push('<text id="tp-center-lab" x="' + CX + '" y="' + (CY + 24) + '" text-anchor="middle" font-size="14" fill="#475569"></text>');
     svg.innerHTML = parts.join('');
-    var preview = -1, locked = -1;
+    var preview = -1, locked = -1, mi = 0;
     function active() { return preview >= 0 ? preview : locked; }
     function modeLine(g) {
       var m = g.st.modes, bits = [];
@@ -60,8 +72,12 @@
       var num = document.getElementById('tp-center-num'), lab = document.getElementById('tp-center-lab'), gi = active();
       if (gi >= 0) { var g = groups[gi]; num.textContent = g.pct + '%'; num.setAttribute('fill', g.color); lab.textContent = g.name; return; }
       num.setAttribute('fill', '#0f172a');
-      num.textContent = mastered;
-      lab.textContent = 'tiers mastered of ' + totalTiers;
+      var modes = [
+        [mastered, 'tiers mastered of ' + totalTiers],
+        [(totalTiers ? Math.round(100 * mastered / totalTiers) : 0) + '%', 'of tiers mastered']
+      ];
+      num.textContent = modes[mi][0];
+      lab.textContent = modes[mi][1];
     }
     function renderDetail() {
       var box = document.getElementById('tp-detail'), gi = active();
@@ -108,7 +124,7 @@
     svg.addEventListener('pointermove', function (ev) { var gi = sliceFromEvent(ev); if (gi >= 0 && gi !== preview) { preview = gi; draw(); } });
     svg.addEventListener('pointerleave', function () { if (preview >= 0) { preview = -1; draw(); } });
     svg.addEventListener('click', function (ev) {
-      if (ev.target.id === 'tp-center-bg' || ev.target.id === 'tp-center-num' || ev.target.id === 'tp-center-lab') { if (active() >= 0) { locked = -1; preview = -1; draw(); } return; }
+      if (ev.target.id === 'tp-center-bg' || ev.target.id === 'tp-center-num' || ev.target.id === 'tp-center-lab') { if (active() >= 0) { locked = -1; preview = -1; draw(); } else { mi = (mi + 1) % 2; drawCenter(); } return; }
       var gi = sliceFromEvent(ev);
       if (gi >= 0) { locked = (locked === gi) ? -1 : gi; preview = -1; draw(); }
     });

@@ -76,6 +76,15 @@ function renderCategories() {
       }));
       return;
     }
+    if (c === 'Workout Elements') {
+      // One front-page entry for this section: its circle (Damoni's order,
+      // Nov 22, 2026 — same pattern as the 60 Minutes tier circle). The
+      // circle reads his saved dates/entries; editing stays on the list pages.
+      wrap.appendChild(navCard(c, 'circle \u00B7 status by dated steps', PALETTE[i % PALETTE.length], () => {
+        location.href = 'workout-topics.html';
+      }));
+      return;
+    }
     const inCat = allExams.filter(e => (e.category || 'General') === c);
     const chs = new Set(inCat.map(e => e.chapter === undefined ? 'Other' : String(e.chapter)));
     const n = chs.size;
