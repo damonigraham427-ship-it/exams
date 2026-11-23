@@ -3182,6 +3182,22 @@
   },
   {
    "category": "Workout Elements",
+   "chapter": "Running",
+   "file": "stair-master.json",
+   "title": "Running — Stair Master",
+   "notes": true,
+   "region": "running"
+  },
+  {
+   "category": "Workout Elements",
+   "chapter": "Running",
+   "file": "weighted-stair-master.json",
+   "title": "Running — Weighted Stair Master",
+   "notes": true,
+   "region": "running"
+  },
+  {
+   "category": "Workout Elements",
    "chapter": "Weight Vest Run",
    "file": "weight-vest-run.json",
    "title": "Weight Vest Run — Run",
