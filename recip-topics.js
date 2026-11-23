@@ -27,7 +27,7 @@
       g.color = PALETTE[gi % PALETTE.length];
       g.name = shortTitle(g.entry);
       var atts = (hist[g.entry.file] || []).filter(function (a) { return a && a.total > 0; });
-      var last = atts.length ? atts[atts.length - 1] : null;
+      var last = atts.length ? atts[0] : null; // attempts are newest-first (exam.js unshifts)
       g.pct = last ? Math.round(100 * last.score / last.total) : 0;
       g.status = !last ? 'Ready to Learn' : (g.pct >= 80 ? 'Mastered' : 'Learning');
       g.last = last;

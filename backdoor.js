@@ -53,7 +53,7 @@
   fetch('index.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (idx) {
     var entries = (idx.exams || []).filter(function (e) { return e.category === 'NREMT' && !/macro/.test(e.file); });
     // STAGED hour-fix: also load the Hour series so its statuses are visible here.
-    var hourEntries = (idx.exams || []).filter(function (e) { return e.category === '60nminutes' || e.category === 'Fraction Bases'; });
+    var hourEntries = (idx.exams || []).filter(function (e) { return (e.category === '60nminutes' || e.category === 'Fraction Bases') && e.pie !== 2; }); // pie:2 = recip exams: Start-only, tracked on the fraction page, not in tiers
     function load(e) {
       return fetch(e.file, { cache: 'no-store' }).then(function (r) { return r.json(); })
         .then(function (d) { return { entry: e, questions: d.questions || [] }; })

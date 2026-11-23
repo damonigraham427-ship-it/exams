@@ -12,6 +12,8 @@ function chapterLabel(ch) {
 function setView() {
   const clBox = document.getElementById('checklist-box');
   if (clBox) clBox.hidden = view !== 'categories';
+  const ptBox = document.getElementById('portal-box');
+  if (ptBox) ptBox.hidden = view !== 'categories';
   document.getElementById('level-categories').hidden = view !== 'categories';
   document.getElementById('level-chapters').hidden = view !== 'chapters';
   document.getElementById('level-exams').hidden = view !== 'exams';
@@ -383,7 +385,9 @@ fetch('index.json', { cache: 'no-store' })
     }
     buildCards();
     renderCategories();
-    view = 'categories';
+    // If the ?cat= deep link applied, renderCategories already set the
+    // view — don't reset it to the top-level list (fix, Nov 23, 2026).
+    if (!new URLSearchParams(location.search).get('cat')) view = 'categories';
     setView();
   });
 
