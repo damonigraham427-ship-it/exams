@@ -38,6 +38,11 @@ let retRun = [];         // sampled questions for this run
 let retIdx = 0;
 let retAnswers = [];
 let retScore = 0;
+// Time tracker (Nov 23, 2026): same banking as exam.js — a resumed run
+// keeps its earlier segments; a finished attempt records the total 'secs'.
+let retBankedSecs = 0;
+let retSegStart = Date.now();
+function retElapsedSecs() { return Math.round(retBankedSecs + (Date.now() - retSegStart) / 1000); }
 
 function retSaveProgress() {
   try {
@@ -45,7 +50,7 @@ function retSaveProgress() {
     all[RET_KEY] = {
       picks: retRun.map(r => ({ f: r.file, q: r.q.question })),
       idx: retIdx, answers: retAnswers, score: retScore,
-      total: retRun.length, ts: Date.now()
+      total: retRun.length, ts: Date.now(), secs: retElapsedSecs()
     };
     localStorage.setItem('examProgress', JSON.stringify(all));
   } catch (e) { /* storage unavailable */ }
@@ -146,7 +151,7 @@ function retFinish() {
     if (!Array.isArray(all[RET_KEY])) all[RET_KEY] = [];
     all[RET_KEY].unshift({
       ts: new Date().toISOString(), title: 'Meta Retention Exam',
-      score: retScore, total: retRun.length, missed: missed, flagged: [], quality: [],
+      score: retScore, total: retRun.length, secs: retElapsedSecs(), missed: missed, flagged: [], quality: [],
       asked: retRun.map(r => r.q.question)
     });
     all[RET_KEY] = all[RET_KEY].slice(0, 20);
@@ -165,6 +170,8 @@ function retStart(resume) {
       retIdx = Math.min(p.idx || 0, retRun.length - 1);
       retAnswers = Array.isArray(p.answers) ? p.answers : [];
       retScore = p.score || 0;
+      retBankedSecs = p.secs || 0;
+      retSegStart = Date.now();
       document.getElementById('setup-box').hidden = true;
       document.getElementById('result-box').hidden = true;
       document.getElementById('question-box').hidden = false;
@@ -177,6 +184,8 @@ function retStart(resume) {
   retIdx = 0;
   retAnswers = [];
   retScore = 0;
+  retBankedSecs = 0;
+  retSegStart = Date.now();
   retSaveProgress();
   document.getElementById('setup-box').hidden = true;
   document.getElementById('result-box').hidden = true;

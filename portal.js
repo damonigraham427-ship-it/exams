@@ -29,8 +29,12 @@
     var min = null;
     for (var i = 0; i < atts.length; i++) {
       var a = atts[i];
-      if (a && typeof a.ts === 'number' && isFinite(a.ts)) {
-        if (min === null || a.ts < min) min = a.ts;
+      // Attempts store ts as an ISO string (exam.js/retention.js) — accept
+      // numeric ms too (fix, Nov 23, 2026: numeric-only check hid every
+      // real finished test).
+      var t = a ? (typeof a.ts === 'number' ? a.ts : (typeof a.ts === 'string' ? Date.parse(a.ts) : NaN)) : NaN;
+      if (isFinite(t)) {
+        if (min === null || t < min) min = t;
       }
     }
     return min;

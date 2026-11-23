@@ -20,6 +20,12 @@ const flagged = new Set();
 const quality = new Set();
 let entry = null;
 let runOrder = null;
+// Time tracker (Nov 23, 2026): banked seconds from earlier segments of a
+// resumed run plus the current segment's start. Every progress save carries
+// the accumulated 'secs' so far; a finished attempt records the total.
+let bankedSecs = 0;
+let segStart = Date.now();
+function elapsedSecs() { return Math.round(bankedSecs + (Date.now() - segStart) / 1000); }
 
 function buildMetaQuestions(pool) {
   const N = pool.length;
@@ -231,6 +237,7 @@ Promise.all([
       exam = Object.assign({}, data, { questions: tqs });
       if (p && p.total === tqs.length && p.idx < tqs.length) {
         idx = p.idx; score = p.score || 0;
+        bankedSecs = p.secs || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
@@ -242,6 +249,7 @@ Promise.all([
       exam = Object.assign({}, data, { questions: tqs });
       if (p && p.total === tqs.length && p.idx < tqs.length) {
         idx = p.idx; score = p.score || 0;
+        bankedSecs = p.secs || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
@@ -253,6 +261,7 @@ Promise.all([
           p.order.every(i => i >= 0 && i < blockQs.length) && p.idx < blockQs.length) {
         runOrder = p.order;
         idx = p.idx; score = p.score || 0;
+        bankedSecs = p.secs || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
@@ -267,6 +276,7 @@ Promise.all([
           p.order.every(i => i >= 0 && i < metaQs.length) && p.idx < metaQs.length) {
         runOrder = p.order;
         idx = p.idx; score = p.score || 0;
+        bankedSecs = p.secs || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
@@ -282,6 +292,7 @@ Promise.all([
           p.order.every(i => picks.indexOf(i) !== -1) && p.idx < drawN) {
         runOrder = p.order;
         idx = p.idx; score = p.score || 0;
+        bankedSecs = p.secs || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
@@ -296,6 +307,7 @@ Promise.all([
           p.order.every(i => i >= 0 && i < pool.length) && p.idx < drawN) {
         runOrder = p.order;
         idx = p.idx; score = p.score || 0;
+        bankedSecs = p.secs || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
@@ -318,6 +330,7 @@ Promise.all([
           p.order.every(i => i >= 0 && i < pool.length) && p.idx < drawN) {
         runOrder = p.order;
         idx = p.idx; score = p.score || 0;
+        bankedSecs = p.secs || 0;
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
@@ -327,11 +340,13 @@ Promise.all([
       exam = Object.assign({}, data, { questions: runOrder.map(i => pool[i]) });
     } else if (p && p.total === pool.length && p.idx < pool.length) {
       idx = p.idx; score = p.score || 0;
+      bankedSecs = p.secs || 0;
       (p.answers || []).forEach((a, i) => { answers[i] = a; });
       (p.flagged || []).forEach(i => flagged.add(i));
       (p.quality || []).forEach(i => quality.add(i));
     }
   } catch (e) { /* no saved progress */ }
+  segStart = Date.now();
   show();
   renderAnswered();
 });
@@ -374,7 +389,7 @@ function buildLive() {
 function saveProgress() {
   try {
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
-    const rec = { idx: idx, answers: answers, flagged: [...flagged], quality: [...quality], score: score, total: exam.questions.length, ts: Date.now(), live: buildLive() };
+    const rec = { idx: idx, answers: answers, flagged: [...flagged], quality: [...quality], score: score, total: exam.questions.length, ts: Date.now(), secs: elapsedSecs(), live: buildLive() };
     if (runOrder) rec.order = runOrder;
     all[storageKey] = rec;
     localStorage.setItem(PKEY, JSON.stringify(all));
@@ -520,7 +535,7 @@ function finish() {
     // (Hour series: Start/Coverage draw 20 of up to 365) can be mapped back
     // to tiers/topics exactly. Without it, only missed/marked questions are
     // recoverable from history. Harmless for NREMT full-set runs.
-    all[storageKey].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, missed: lastMissed, flagged: lastFlagged, quality: lastQuality, asked: exam.questions.map(function (q) { return q.question; }) });
+    all[storageKey].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, secs: elapsedSecs(), missed: lastMissed, flagged: lastFlagged, quality: lastQuality, asked: exam.questions.map(function (q) { return q.question; }) });
     all[storageKey] = all[storageKey].slice(0, 20);
     localStorage.setItem('examHistory', JSON.stringify(all));
   } catch (e) { /* storage unavailable; results still shown on screen */ }

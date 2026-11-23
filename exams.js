@@ -14,6 +14,8 @@ function setView() {
   if (clBox) clBox.hidden = view !== 'categories';
   const ptBox = document.getElementById('portal-box');
   if (ptBox) ptBox.hidden = view !== 'categories';
+  const trBox = document.getElementById('tracker-box');
+  if (trBox) trBox.hidden = view !== 'categories';
   document.getElementById('level-categories').hidden = view !== 'categories';
   document.getElementById('level-chapters').hidden = view !== 'chapters';
   document.getElementById('level-exams').hidden = view !== 'exams';
