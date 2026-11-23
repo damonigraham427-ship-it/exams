@@ -128,3 +128,12 @@ button.choice.wrong { background: #fee2e2; border-color: #dc2626; }
 #send-btn { padding: 0.55rem 1rem; border-radius: 8px; border: 2px solid #2563eb; background: #2563eb; color: #fff; font-weight: 600; font-size: 1rem; cursor: pointer; }
 #send-btn:disabled { opacity: 0.6; cursor: default; }
 #send-status { font-weight: 600; }
+/* Front-page checklist notepad */
+.cl-title { font-size: 1.15rem; margin: 1.2em 0 0.4em; }
+.cl-list { list-style: none; margin: 0; padding: 0; }
+.cl-row { display: flex; align-items: center; gap: 0.5em; padding: 0.35em 0; border-bottom: 1px solid #e2e8f0; }
+.cl-row input[type="checkbox"] { width: 1.1em; height: 1.1em; }
+.cl-text { flex: 1; }
+.cl-done { text-decoration: line-through; color: #64748b; }
+.cl-empty { color: #64748b; }
+.cl-add { display: flex; gap: 0.5em; margin-top: 0.6em; }

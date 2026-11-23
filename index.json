@@ -282,9 +282,9 @@
   },
   {
    "file": "hour-minutes-per-hour.json",
-   "title": "60 Minutes Equals an Hour — Minutes per hour",
+   "title": "60nminutes — Minutes per hour",
    "note": "20 questions",
-   "category": "60 Minutes Equals an Hour",
+   "category": "60nminutes",
    "draw": 20,
    "redundancy": [
     4,
@@ -311,9 +311,9 @@
   },
   {
    "file": "hour-seconds-per-hour.json",
-   "title": "60 Minutes Equals an Hour — Seconds per hour",
+   "title": "60nminutes — Seconds per hour",
    "note": "20 questions",
-   "category": "60 Minutes Equals an Hour",
+   "category": "60nminutes",
    "draw": 20,
    "redundancy": [
     4,
@@ -340,9 +340,9 @@
   },
   {
    "file": "hour-x15.json",
-   "title": "60 Minutes Equals an Hour — X/15",
+   "title": "Fraction Bases — X/15",
    "note": "20 questions",
-   "category": "60 Minutes Equals an Hour",
+   "category": "Fraction Bases",
    "draw": 20,
    "redundancy": [
     0,
@@ -369,9 +369,9 @@
   },
   {
    "file": "hour-x35.json",
-   "title": "60 Minutes Equals an Hour — X/35",
+   "title": "Fraction Bases — X/35",
    "note": "20 questions",
-   "category": "60 Minutes Equals an Hour",
+   "category": "Fraction Bases",
    "draw": 20,
    "redundancy": [
     2,
@@ -398,9 +398,9 @@
   },
   {
    "file": "hour-x45.json",
-   "title": "60 Minutes Equals an Hour — X/45",
+   "title": "Fraction Bases — X/45",
    "note": "20 questions",
-   "category": "60 Minutes Equals an Hour",
+   "category": "Fraction Bases",
    "draw": 20,
    "redundancy": [
     2,
@@ -427,9 +427,9 @@
   },
   {
    "file": "hour-minutes-per-1-week.json",
-   "title": "60 Minutes Equals an Hour — Minutes per 1 week",
+   "title": "60nminutes — Minutes per 1 week",
    "note": "20 questions",
-   "category": "60 Minutes Equals an Hour",
+   "category": "60nminutes",
    "draw": 20,
    "redundancy": [
     4,
@@ -456,9 +456,9 @@
   },
   {
    "file": "hour-minutes-4-weeks.json",
-   "title": "60 Minutes Equals an Hour — Minutes 4 weeks",
+   "title": "60nminutes — Minutes 4 weeks",
    "note": "20 questions",
-   "category": "60 Minutes Equals an Hour",
+   "category": "60nminutes",
    "draw": 20,
    "redundancy": [
     4,
@@ -485,9 +485,9 @@
   },
   {
    "file": "hour-52-weeks-364-days.json",
-   "title": "60 Minutes Equals an Hour — 52 Weeks 364 Days",
+   "title": "60nminutes — 52 Weeks 364 Days",
    "note": "20 questions",
-   "category": "60 Minutes Equals an Hour",
+   "category": "60nminutes",
    "draw": 20,
    "redundancy": [
     4,
@@ -514,9 +514,9 @@
   },
   {
    "file": "hour-hours-per-week.json",
-   "title": "60 Minutes Equals an Hour — Hours per week",
+   "title": "60nminutes — Hours per week",
    "note": "20 questions",
-   "category": "60 Minutes Equals an Hour",
+   "category": "60nminutes",
    "draw": 20,
    "redundancy": [
     2,
@@ -543,9 +543,9 @@
   },
   {
    "file": "hour-minutes-per-day.json",
-   "title": "60 Minutes Equals an Hour — Minutes per day",
+   "title": "60nminutes — Minutes per day",
    "note": "20 questions",
-   "category": "60 Minutes Equals an Hour",
+   "category": "60nminutes",
    "draw": 20,
    "redundancy": [
     17,

@@ -53,7 +53,7 @@
   fetch('index.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (idx) {
     var entries = (idx.exams || []).filter(function (e) { return e.category === 'NREMT' && !/macro/.test(e.file); });
     // STAGED hour-fix: also load the Hour series so its statuses are visible here.
-    var hourEntries = (idx.exams || []).filter(function (e) { return e.category === '60 Minutes Equals an Hour'; });
+    var hourEntries = (idx.exams || []).filter(function (e) { return e.category === '60nminutes' || e.category === 'Fraction Bases'; });
     function load(e) {
       return fetch(e.file, { cache: 'no-store' }).then(function (r) { return r.json(); })
         .then(function (d) { return { entry: e, questions: d.questions || [] }; })
@@ -104,7 +104,7 @@
     // (backdoor.html does not load hour-tiers.js); it mirrors hour-tiers.js:
     // per tier, newest eligible attempt (Start / #coverage / #redundancy)
     // decides; Meta / Meta 10 are synthetic and reported as mode lines only.
-    html += '<p class="bd-sec">60 Minutes Equals an Hour</p>';
+    html += '<p class="bd-sec">60nminutes \u00B7 Fraction Bases</p>';
     var hourM = 0, hourT = 0;
     hourGroups.forEach(function (g) {
       var st = (typeof HourTiers !== 'undefined')

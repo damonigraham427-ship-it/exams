@@ -10,6 +10,8 @@ function chapterLabel(ch) {
 }
 
 function setView() {
+  const clBox = document.getElementById('checklist-box');
+  if (clBox) clBox.hidden = view !== 'categories';
   document.getElementById('level-categories').hidden = view !== 'categories';
   document.getElementById('level-chapters').hidden = view !== 'chapters';
   document.getElementById('level-exams').hidden = view !== 'exams';
@@ -66,13 +68,29 @@ function renderCategories() {
     const c = e.category || 'General';
     if (!cats.includes(c)) cats.push(c);
   });
+  // Front-page order is fixed by Damoni (Nov 22, 2026): NREMT, 60nminutes,
+  // Workout Elements, Fraction Bases. Unknown subjects follow in list order.
+  const ORDER = ['NREMT', '60nminutes', 'Workout Elements', 'Fraction Bases'];
+  cats.sort((x, y) => {
+    const ix = ORDER.indexOf(x), iy = ORDER.indexOf(y);
+    return (ix < 0 ? 99 : ix) - (iy < 0 ? 99 : iy);
+  });
   cats.forEach((c, i) => {
-    if (c === '60 Minutes Equals an Hour') {
+    if (c === '60nminutes') {
       // One front-page entry for this series: the tier circle. Its per-exam
       // detail carries the 5 mode links, so the old exam-list card is removed
       // (Damoni's order, Nov 22, 2026 — two 60 Minutes entries was one too many).
       wrap.appendChild(navCard(c, 'tier circle \u00B7 status by 5% tier', PALETTE[i % PALETTE.length], () => {
         location.href = 'hour-topics.html';
+      }));
+      return;
+    }
+    if (c === 'Fraction Bases') {
+      // The fraction-based modules of the Hour series, given their own
+      // front-page exam (Damoni's order, Nov 22, 2026): same tier circle,
+      // its own page.
+      wrap.appendChild(navCard(c, 'tier circle \u00B7 status by 5% tier', PALETTE[i % PALETTE.length], () => {
+        location.href = 'fraction-topics.html';
       }));
       return;
     }
@@ -324,3 +342,54 @@ document.getElementById('back-btn').addEventListener('click', () => {
   setView();
   window.scrollTo({ top: 0 });
 });
+
+// ---- Front-page checklist notepad (Damoni, Nov 22, 2026) ----
+// Notes he puts down underneath the subject list; each note is checkable.
+// Stored in localStorage 'frontChecklist' as [{text, done}]; syncs through
+// sync.js (EXACT_KEYS). Additive only — no existing key is touched.
+const clKey = 'frontChecklist';
+let clItems = [];
+try { clItems = JSON.parse(localStorage.getItem(clKey) || '[]') || []; } catch (e) { clItems = []; }
+if (!Array.isArray(clItems)) clItems = [];
+function clSave() { try { localStorage.setItem(clKey, JSON.stringify(clItems)); } catch (e) { /* storage unavailable */ } }
+function clRender() {
+  const list = document.getElementById('cl-list');
+  if (!list) return;
+  list.innerHTML = '';
+  clItems.forEach((it, i) => {
+    const li = document.createElement('li');
+    li.className = 'cl-row';
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = !!it.done;
+    cb.addEventListener('change', () => { it.done = cb.checked; clSave(); clRender(); });
+    li.appendChild(cb);
+    const sp = document.createElement('span');
+    sp.className = 'cl-text' + (it.done ? ' cl-done' : '');
+    sp.textContent = it.text;
+    li.appendChild(sp);
+    const del = document.createElement('button');
+    del.type = 'button';
+    del.className = 'note-del';
+    del.textContent = '\u2715';
+    del.addEventListener('click', () => { clItems.splice(i, 1); clSave(); clRender(); });
+    li.appendChild(del);
+    list.appendChild(li);
+  });
+  document.getElementById('cl-empty').hidden = clItems.length > 0;
+}
+function clAdd() {
+  const input = document.getElementById('cl-input');
+  const text = input.value.trim();
+  if (!text) return;
+  clItems.push({ text: text, done: false });
+  input.value = '';
+  clSave();
+  clRender();
+  input.focus();
+}
+const clBtn = document.getElementById('cl-add-btn');
+if (clBtn) clBtn.addEventListener('click', clAdd);
+const clInput = document.getElementById('cl-input');
+if (clInput) clInput.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') clAdd(); });
+clRender();
