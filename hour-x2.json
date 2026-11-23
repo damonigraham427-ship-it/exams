@@ -1,0 +1,22 @@
+{
+ "questions": [
+  {
+   "question": "What is 1/2 as a percentage?",
+   "choices": [
+    "50.00%"
+   ],
+   "answer": 0,
+   "explanation": "1/2 = 0.5000 = 50.00%",
+   "source": "X/2"
+  },
+  {
+   "question": "What is 1/2 as a decimal?",
+   "choices": [
+    "0.5000"
+   ],
+   "answer": 0,
+   "explanation": "1/2 = 0.5000 = 50.00%",
+   "source": "X/2"
+  }
+ ]
+}
