@@ -60,6 +60,29 @@ function navCard(label, sub, color, onclick) {
   return b;
 }
 
+// Meta Retention Exam card count: number sets (60nminutes + Fraction Bases)
+// with a finished attempt at 80% or better. Mirrors the qualify rule in
+// retention.js (retModulePassed) — keep the two in sync.
+function retQualifyingCount() {
+  let hist = {};
+  try { hist = JSON.parse(localStorage.getItem('examHistory') || '{}'); } catch (e) { /* none */ }
+  let n = 0;
+  allExams.forEach(e => {
+    if (e.category !== '60nminutes' && e.category !== 'Fraction Bases') return;
+    let passed = false;
+    Object.keys(hist).forEach(k => {
+      if (passed) return;
+      if (k === e.file || k.indexOf(e.file + '#') === 0) {
+        (hist[k] || []).forEach(a => {
+          if (a && a.total > 0 && a.score / a.total >= 0.8) passed = true;
+        });
+      }
+    });
+    if (passed) n++;
+  });
+  return n;
+}
+
 function renderCategories() {
   const wrap = document.getElementById('level-categories');
   wrap.innerHTML = '';
@@ -125,6 +148,13 @@ function renderCategories() {
       }));
     }
   });
+  // Meta Retention Exam (Damoni, Nov 23, 2026): sits different — its own
+  // spot under the subject cards. Random test from sets finished at 80%+.
+  const retN = retQualifyingCount();
+  wrap.appendChild(navCard('Meta Retention Exam',
+    retN ? 'random test from sets you finished \u00B7 ' + retN + (retN === 1 ? ' set' : ' sets') + ' in the mix'
+         : 'random test from sets you finished \u00B7 none yet',
+    '#9333ea', () => { location.href = 'retention.html'; }));
 }
 
 function renderChapters() {
