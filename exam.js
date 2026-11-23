@@ -170,6 +170,18 @@ Promise.all([
 ]).then(([idxData, data]) => {
   entry = ((idxData && idxData.exams) || []).find(e => e.file === file) || null;
   if (entry) examTitle = entry.title;
+  // Back links return to this exam's own subject page, not the top-level
+  // list (Damoni, Nov 23, 2026): NREMT -> its chapter circle, the number
+  // series -> their circle pages, anything else -> its subject exam list.
+  if (entry) {
+    let back = 'exams.html';
+    if (entry.category === 'NREMT') back = 'topics.html?ch=' + encodeURIComponent(entry.chapter);
+    else if (entry.category === '60nminutes') back = 'hour-topics.html';
+    else if (entry.category === 'Fraction Bases') back = 'fraction-topics.html';
+    else back = 'exams.html?cat=' + encodeURIComponent(entry.category || 'General') +
+      (entry.chapter !== undefined ? '&ch=' + encodeURIComponent(entry.chapter) : '');
+    document.querySelectorAll('a[href="exams.html"]').forEach(a => { a.href = back; });
+  }
   document.getElementById('exam-title').textContent = examTitle;
   exam = data;
   if (data.title) { examTitle = data.title; document.getElementById('exam-title').textContent = examTitle; }

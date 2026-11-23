@@ -155,6 +155,27 @@ function renderCategories() {
     retN ? 'random test from sets you finished \u00B7 ' + retN + (retN === 1 ? ' set' : ' sets') + ' in the mix'
          : 'random test from sets you finished \u00B7 none yet',
     '#9333ea', () => { location.href = 'retention.html'; }));
+  // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
+  // that subject's exam list directly — the exam runner's back button
+  // points here for subjects without their own page.
+  const q = new URLSearchParams(location.search);
+  const qCat = q.get('cat'), qCh = q.get('ch');
+  if (qCat && allExams.some(e => (e.category || 'General') === qCat)) {
+    selCategory = qCat;
+    const chs = new Set(allExams.filter(e => (e.category || 'General') === qCat)
+      .map(e => e.chapter === undefined ? 'Other' : String(e.chapter)));
+    if (qCh !== null && chs.has(qCh)) {
+      selChapter = qCh;
+      cards.forEach(card => {
+        card.style.display = (card.dataset.category === selCategory && card.dataset.chapter === selChapter) ? '' : 'none';
+      });
+      view = 'exams';
+    } else {
+      renderChapters();
+      view = 'chapters';
+    }
+    setView();
+  }
 }
 
 function renderChapters() {

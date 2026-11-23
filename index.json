@@ -2892,6 +2892,46 @@
    ]
   },
   {
+   "file": "recip-1.json",
+   "title": "Fraction Bases — Reciprocals 1/x · 6–28",
+   "note": "20 numbers · 1/x as % and decimal",
+   "category": "Fraction Bases",
+   "draw": 20,
+   "pie": 2
+  },
+  {
+   "file": "recip-2.json",
+   "title": "Fraction Bases — Reciprocals 1/x · 29–49",
+   "note": "20 numbers · 1/x as % and decimal",
+   "category": "Fraction Bases",
+   "draw": 20,
+   "pie": 2
+  },
+  {
+   "file": "recip-3.json",
+   "title": "Fraction Bases — Reciprocals 1/x · 51–70",
+   "note": "20 numbers · 1/x as % and decimal",
+   "category": "Fraction Bases",
+   "draw": 20,
+   "pie": 2
+  },
+  {
+   "file": "recip-4.json",
+   "title": "Fraction Bases — Reciprocals 1/x · 71–90",
+   "note": "20 numbers · 1/x as % and decimal",
+   "category": "Fraction Bases",
+   "draw": 20,
+   "pie": 2
+  },
+  {
+   "file": "recip-5.json",
+   "title": "Fraction Bases — Reciprocals 1/x · 91–99",
+   "note": "9 numbers · 1/x as % and decimal",
+   "category": "Fraction Bases",
+   "draw": 20,
+   "pie": 2
+  },
+  {
    "file": "hour-minutes-per-1-week.json",
    "title": "60nminutes — Minutes per 1 week",
    "note": "20 questions",
