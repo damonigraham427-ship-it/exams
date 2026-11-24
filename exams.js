@@ -208,6 +208,12 @@ function renderCategories() {
   wrap.appendChild(navCard('Houses', 'its own site \u00B7 house sheets + 3D models \u00B7 sq ft verified', '#0f766e', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/houses/';
   }));
+  // Computer Science portal door (Damoni, Nov 24, 2026): a parent portal —
+  // CCNA Routing and Switching nests under it, so there is no flat CCNA
+  // door here; the CCNA exams live on the CCNA sub-portal's own site.
+  wrap.appendChild(navCard('Computer Science', 'its own site \u00B7 sub-portals \u00B7 CCNA Routing and Switching', '#2563eb', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/computer-science/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.
