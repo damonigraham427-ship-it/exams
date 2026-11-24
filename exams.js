@@ -12,6 +12,8 @@ function chapterLabel(ch) {
 function setView() {
   const clBox = document.getElementById('checklist-box');
   if (clBox) clBox.hidden = view !== 'categories';
+  const pdBox = document.getElementById('pending-box');
+  if (pdBox) pdBox.hidden = view !== 'categories';
   const ptBox = document.getElementById('portal-box');
   if (ptBox) ptBox.hidden = view !== 'categories';
   const trBox = document.getElementById('tracker-box');
