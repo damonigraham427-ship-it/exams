@@ -199,6 +199,11 @@ function renderCategories() {
   wrap.appendChild(navCard('Cooking', 'its own site \u00B7 video portal \u00B7 cooking + vegetarian', '#ea580c', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/cooking/';
   }));
+  // Houses portal door (Damoni, Nov 24, 2026): house sheets + 3D models on
+  // their own site \u2014 appended beside Cooking, not an exam category.
+  wrap.appendChild(navCard('Houses', 'its own site \u00B7 house sheets + 3D models \u00B7 sq ft verified', '#0f766e', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/houses/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.
