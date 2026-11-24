@@ -18,6 +18,8 @@ function setView() {
   if (ptBox) ptBox.hidden = view !== 'categories';
   const trBox = document.getElementById('tracker-box');
   if (trBox) trBox.hidden = view !== 'categories';
+  const invBox = document.getElementById('inventory-box');
+  if (invBox) invBox.hidden = view !== 'categories';
   document.getElementById('level-categories').hidden = view !== 'categories';
   document.getElementById('level-chapters').hidden = view !== 'chapters';
   document.getElementById('level-exams').hidden = view !== 'exams';
