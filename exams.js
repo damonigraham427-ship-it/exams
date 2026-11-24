@@ -97,7 +97,7 @@ function renderCategories() {
   });
   // Front-page order is fixed by Damoni (Nov 22, 2026): NREMT, 60 Minutes,
   // Workout Elements, Fraction Bases. Unknown subjects follow in list order.
-  const ORDER = ['NREMT', '60 Minutes', 'Workout Elements', 'Fraction Bases', 'Vocabulary'];
+  const ORDER = ['NREMT', '60 Minutes', 'Workout Elements', 'Fraction Bases', 'Vocabulary', 'Signal'];
   cats.sort((x, y) => {
     const ix = ORDER.indexOf(x), iy = ORDER.indexOf(y);
     return (ix < 0 ? 99 : ix) - (iy < 0 ? 99 : iy);
@@ -115,12 +115,24 @@ function renderCategories() {
       }));
       return;
     }
+    if (c === 'Signal') {
+      // Signal spawned to its own site (Damoni's order, Nov 24, 2026),
+      // same pattern as the 60 Minutes card: this card is the way into it.
+      // One exam per Signal Networking Theory study tab lives there.
+      wrap.appendChild(navCard(c, 'its own site \u00B7 one exam per study tab', PALETTE[i % PALETTE.length], () => {
+        location.href = 'https://damonigraham427-ship-it.github.io/signal/';
+      }));
+      return;
+    }
     if (c === 'Fraction Bases') {
       // The fraction-based modules of the Hour series, given their own
       // front-page exam (Damoni's order, Nov 22, 2026): same tier circle,
       // its own page.
-      wrap.appendChild(navCard(c, 'tier circle \u00B7 status by 5% tier', PALETTE[i % PALETTE.length], () => {
-        location.href = 'fraction-topics.html';
+      wrap.appendChild(navCard(c, 'its own site \u00B7 tier circle \u00B7 status by 5% tier', PALETTE[i % PALETTE.length], () => {
+        // Fraction Bases spawned to its own site (Damoni, Nov 24, 2026);
+        // this card is the way into it. Its entries stay in this index so
+        // Retention and the portals keep counting them here.
+        location.href = 'https://damonigraham427-ship-it.github.io/fractions/';
       }));
       return;
     }
@@ -128,8 +140,27 @@ function renderCategories() {
       // One front-page entry for this section: its circle (Damoni's order,
       // Nov 22, 2026 — same pattern as the 60 Minutes tier circle). The
       // circle reads his saved dates/entries; editing stays on the list pages.
-      wrap.appendChild(navCard(c, 'body circles \u00B7 plus a running & treadmill section', PALETTE[i % PALETTE.length], () => {
-        location.href = 'workout.html';
+      wrap.appendChild(navCard(c, 'its own site \u00B7 body circles \u00B7 plus a running & treadmill section', PALETTE[i % PALETTE.length], () => {
+        // Workout Elements spawned to its own site (Damoni, Nov 24, 2026);
+        // this card is the way into it.
+        location.href = 'https://damonigraham427-ship-it.github.io/workout/';
+      }));
+      return;
+    }
+    if (c === 'NREMT') {
+      // NREMT spawned to its own site (Damoni, Nov 24, 2026); this card is
+      // the way into it. Its entries stay in this index so the portals
+      // keep counting them here.
+      wrap.appendChild(navCard(c, 'its own site \u00B7 4 chapters', PALETTE[i % PALETTE.length], () => {
+        location.href = 'https://damonigraham427-ship-it.github.io/nremt/';
+      }));
+      return;
+    }
+    if (c === 'Vocabulary') {
+      // Vocabulary spawned to its own site (Damoni, Nov 24, 2026); this
+      // card is the way into it.
+      wrap.appendChild(navCard(c, 'its own site \u00B7 11 sets', PALETTE[i % PALETTE.length], () => {
+        location.href = 'https://damonigraham427-ship-it.github.io/vocabulary/';
       }));
       return;
     }
@@ -162,6 +193,12 @@ function renderCategories() {
     retN ? 'random test from sets you finished \u00B7 ' + retN + (retN === 1 ? ' set' : ' sets') + ' in the mix'
          : 'random test from sets you finished \u00B7 none yet',
     '#9333ea', () => { location.href = 'retention.html'; }));
+  // Cooking portal door (Damoni, Nov 24, 2026): a video portal on its own
+  // site — not an exam category, so it is appended here beside Retention
+  // rather than driven by the index.
+  wrap.appendChild(navCard('Cooking', 'its own site \u00B7 video portal \u00B7 cooking + vegetarian', '#ea580c', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/cooking/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.
