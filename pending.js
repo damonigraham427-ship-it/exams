@@ -6,7 +6,11 @@
 // 5x5, which is what records its date, so "no date" = still pending.
 // Read-only: it reads the same localStorage keys the Workout site writes
 // (shared origin + sync), so a step finished in the Workout site drops
-// off this list on the next load/sync. Editing stays in the Workout
+// off this list on the next load/sync. Named categories with no logged
+// data at all also count as pending (Damoni, Nov 24, 2026): a ladder
+// group with no steps yet, or a notes list he has never added to
+// (no workoutNotes:<file> stored), shows as "Nothing logged yet" and
+// never ages out. Editing stays in the Workout
 // site — the footer link goes to its checklist page. Renders into
 // <section id="pending-box">; needs index.json like the other pages.
 (function () {
@@ -20,6 +24,15 @@
       var v = JSON.parse(localStorage.getItem(key) || 'null');
       return (v && typeof v === 'object') ? v : fallback;
     } catch (e) { return fallback; }
+  }
+
+  function parseRaw(key) {
+    try {
+      var raw = localStorage.getItem(key);
+      if (raw === null) return null;
+      var v = JSON.parse(raw);
+      return (v && typeof v === 'object') ? v : null;
+    } catch (e) { return null; }
   }
 
   function shortTitle(e) {
@@ -62,7 +75,7 @@
     var note = document.createElement('p');
     note.className = 'check-note';
     note.textContent = rows.length
-      ? 'The next step waiting on each exercise. Finish it at 5x5 in the Workout checklist and it drops off here.'
+      ? 'The next step waiting on each exercise, plus any category with nothing logged yet. Finish a step at 5x5 in the Workout checklist and it drops off here.'
       : 'Nothing pending \u2014 every ladder step is dated.';
     box.appendChild(note);
     if (rows.length) {
@@ -98,8 +111,9 @@
   fetch('index.json', { cache: 'no-store' })
     .then(function (r) { return r.json(); })
     .then(function (idx) {
-      var entries = (idx.exams || idx || []).filter(function (e) { return e && e.ladder; });
+      var entries = (idx.exams || idx || []).filter(function (e) { return e && (e.ladder || e.notes); });
       var jobs = entries.map(function (e) {
+        if (!e.ladder) return Promise.resolve({ entry: e, data: null, notesEntry: true });
         return fetch(e.file, { cache: 'no-store' })
           .then(function (r) { return r.json(); })
           .then(function (data) { return { entry: e, data: data }; })
@@ -110,14 +124,30 @@
     .then(function (loaded) {
       var rows = [];
       (loaded || []).forEach(function (item) {
-        if (!item || !item.data || !Array.isArray(item.data.groups)) return;
+        if (!item) return;
         var e = item.entry;
+        if (item.notesEntry) {
+          // A named list he has never added to is pending by definition.
+          var stored = parseRaw('workoutNotes:' + e.file);
+          if (!stored || !stored.length) {
+            rows.push({ label: shortTitle(e), step: 'Nothing logged yet', sets: '' });
+          }
+          return;
+        }
+        if (!item.data || !Array.isArray(item.data.groups)) return;
         item.data.groups.forEach(function (g) {
-          var step = nextStep(e, g);
-          if (!step) return;
           var label = g.name || shortTitle(e);
           var st = shortTitle(e);
           if (st && label.indexOf(st) < 0 && g.name) label = st + ' \u2014 ' + g.name;
+          var added = parse('ladderAdded:' + e.file, {});
+          var total = (g.steps || []).length + (added[g.name] || []).length;
+          if (!total) {
+            // Named group with no steps at all: pending, never ages out.
+            rows.push({ label: label, step: 'Nothing logged yet', sets: '' });
+            return;
+          }
+          var step = nextStep(e, g);
+          if (!step) return;
           rows.push({ label: label, step: step, sets: setsNote(e, g, step) });
         });
       });
