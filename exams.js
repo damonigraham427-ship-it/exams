@@ -107,8 +107,11 @@ function renderCategories() {
       // One front-page entry for this series: the tier circle. Its per-exam
       // detail carries the 5 mode links, so the old exam-list card is removed
       // (Damoni's order, Nov 22, 2026 — two 60 Minutes entries was one too many).
-      wrap.appendChild(navCard(c, 'tier circle \u00B7 status by 5% tier', PALETTE[i % PALETTE.length], () => {
-        location.href = 'hour-topics.html';
+      wrap.appendChild(navCard(c, 'its own site \u00B7 tier circle \u00B7 status by 5% tier', PALETTE[i % PALETTE.length], () => {
+        // 60 Minutes spawned to its own site (Damoni, Nov 23, 2026); this
+        // card is the way into it. The series' data stays in this index so
+        // Retention and the portals keep counting it here.
+        location.href = 'https://damonigraham427-ship-it.github.io/60-minutes/';
       }));
       return;
     }
