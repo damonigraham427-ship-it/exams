@@ -98,6 +98,13 @@
     return out;
   }
   function mergeGeneric(local, remote) { // local wins on conflict, remote fills gaps
+    // Empty-array guard (Nov 23, 2026): an empty array never beats a
+    // non-empty one — a device that never used a feature must not wipe
+    // another device's list when states merge.
+    if (Array.isArray(local) && Array.isArray(remote)) {
+      if (!local.length && remote.length) return remote;
+      if (!remote.length && local.length) return local;
+    }
     var out = {};
     Object.keys(remote || {}).forEach(function (k) { out[k] = remote[k]; });
     Object.keys(local || {}).forEach(function (k) { out[k] = local[k]; });
@@ -110,6 +117,22 @@
     });
     out.sort(function (a, b) { return a.ts - b.ts; });
     return out.slice(-200);
+  }
+  function mergeChecklist(L, R) { // frontChecklist: union by text; done on either side wins
+    var byText = {}, out = [];
+    function add(item, other) {
+      if (!item || typeof item.text !== 'string') return;
+      var ex = byText[item.text];
+      if (ex) { if (item.done || (other && other.done)) ex.done = true; return; }
+      var rec = { text: item.text, done: !!(item.done || (other && other.done)) };
+      byText[item.text] = rec;
+      out.push(rec);
+    }
+    var rByText = {};
+    (Array.isArray(R) ? R : []).forEach(function (x) { if (x && typeof x.text === 'string') rByText[x.text] = x; });
+    (Array.isArray(L) ? L : []).forEach(function (x) { add(x, rByText[x && x.text]); });
+    (Array.isArray(R) ? R : []).forEach(function (x) { add(x, null); });
+    return out;
   }
   function mergeState(local, remote) {
     var out = {};
@@ -124,6 +147,7 @@
       else if (k === 'examProgress') out[k] = mergeProgress(L, R);
       else if (k === 'notepadCleared' || k === 'qualityCleared') out[k] = mergeCleared(L, R);
       else if (k === 'backdoorLog') out[k] = mergeLog(L, R);
+      else if (k === 'frontChecklist') out[k] = mergeChecklist(L, R);
       else out[k] = mergeGeneric(L, R);
     });
     return out;
