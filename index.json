@@ -3673,6 +3673,465 @@
    "file": "apush-pacing-drill.json",
    "note": "9 questions",
    "title": "AP U.S. History — Pacing Drill"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "I — General Principles",
+   "draw": 20,
+   "file": "pharm-i-1-pharmacokinetics.json",
+   "note": "32 questions",
+   "pie": true,
+   "title": "Pharmacokinetics"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "I — General Principles",
+   "draw": 20,
+   "file": "pharm-i-2-pharmacodynamics.json",
+   "note": "23 questions",
+   "pie": true,
+   "title": "Pharmacodynamics"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "I — General Principles",
+   "draw": 20,
+   "file": "pharm-i-3-adverse-effects-of-drugs.json",
+   "note": "19 questions",
+   "pie": true,
+   "title": "Adverse Effects of Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "II — Autonomic Nervous System",
+   "draw": 20,
+   "file": "pharm-ii-1-introduction-to-autonomic-pharmacology.json",
+   "note": "20 questions",
+   "pie": true,
+   "title": "Introduction to Autonomic Pharmacology"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "II — Autonomic Nervous System",
+   "draw": 20,
+   "file": "pharm-ii-2-adrenergic-drugs.json",
+   "note": "39 questions",
+   "pie": true,
+   "title": "Adrenergic Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "II — Autonomic Nervous System",
+   "draw": 20,
+   "file": "pharm-ii-3-antiadrenergic-drugs.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Antiadrenergic Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "II — Autonomic Nervous System",
+   "draw": 20,
+   "file": "pharm-ii-4-cholinergic-drugs.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Cholinergic Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "II — Autonomic Nervous System",
+   "draw": 20,
+   "file": "pharm-ii-5-anticholinergic-drugs.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Anticholinergic Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-1-introduction-to-central-nervous-system-pharmacology.json",
+   "note": "18 questions",
+   "pie": true,
+   "title": "Introduction to Central Nervous System Pharmacology"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-2-sedative-and-hypnotic-drugs.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Sedative and Hypnotic Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-3-general-anesthetics.json",
+   "note": "29 questions",
+   "pie": true,
+   "title": "General Anesthetics"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-4-local-anesthetics.json",
+   "note": "20 questions",
+   "pie": true,
+   "title": "Local Anesthetics"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-5-skeletal-muscle-relaxants.json",
+   "note": "32 questions",
+   "pie": true,
+   "title": "Skeletal Muscle Relaxants"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-6-antiseizure-drugs.json",
+   "note": "40 questions",
+   "pie": true,
+   "title": "Antiseizure Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-7-drugs-for-degenerative-disorders-of-the-central-nervous-system.json",
+   "note": "31 questions",
+   "pie": true,
+   "title": "Drugs for Degenerative Disorders of the Central Nervous System"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-8-neuroleptic-drugs.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Neuroleptic Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-9-drugs-for-depressive-and-anxiety-disorders.json",
+   "note": "32 questions",
+   "pie": true,
+   "title": "Drugs for Depressive and Anxiety Disorders"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-10-drugs-for-bipolar-disorders.json",
+   "note": "21 questions",
+   "pie": true,
+   "title": "Drugs for Bipolar Disorders"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-11-drugs-for-childhood-behavioral-disorders.json",
+   "note": "20 questions",
+   "pie": true,
+   "title": "Drugs for Childhood Behavioral Disorders"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-12-opioid-analgesics-and-antagonists.json",
+   "note": "42 questions",
+   "pie": true,
+   "title": "Opioid Analgesics and Antagonists"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "III — Central Nervous System",
+   "draw": 20,
+   "file": "pharm-iii-13-drugs-of-abuse.json",
+   "note": "44 questions",
+   "pie": true,
+   "title": "Drugs of Abuse"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "IV — Cardiovascular and Renal",
+   "draw": 20,
+   "file": "pharm-iv-1-diuretics.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Diuretics"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "IV — Cardiovascular and Renal",
+   "draw": 20,
+   "file": "pharm-iv-2-ischemic-heart-disease.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Drugs for Ischemic Heart Disease"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "IV — Cardiovascular and Renal",
+   "draw": 20,
+   "file": "pharm-iv-3-cardiac-failure.json",
+   "note": "40 questions",
+   "pie": true,
+   "title": "Drugs for Cardiac Failure"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "IV — Cardiovascular and Renal",
+   "draw": 20,
+   "file": "pharm-iv-4-antihypertensive.json",
+   "note": "40 questions",
+   "pie": true,
+   "title": "Antihypertensive Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "IV — Cardiovascular and Renal",
+   "draw": 20,
+   "file": "pharm-iv-5-antiarrhythmic.json",
+   "note": "39 questions",
+   "pie": true,
+   "title": "Antiarrhythmic Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "IV — Cardiovascular and Renal",
+   "draw": 20,
+   "file": "pharm-iv-6-antihyperlipidemic.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Antihyperlipidemic Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "IV — Cardiovascular and Renal",
+   "draw": 20,
+   "file": "pharm-iv-7-hemostasis.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Drugs Affecting Hemostasis"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "V — Endocrine",
+   "draw": 20,
+   "file": "pharm-v-1-hypothalamic-pituitary.json",
+   "note": "33 questions",
+   "pie": true,
+   "title": "Drugs for Hypothalamic and Pituitary Disorders"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "V — Endocrine",
+   "draw": 20,
+   "file": "pharm-v-2-thyroid.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Drugs for Thyroid Disorders"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "V — Endocrine",
+   "draw": 20,
+   "file": "pharm-v-3-corticosteroids.json",
+   "note": "44 questions",
+   "pie": true,
+   "title": "Corticosteroids and Antagonists"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "V — Endocrine",
+   "draw": 20,
+   "file": "pharm-v-4-gonadal.json",
+   "note": "41 questions",
+   "pie": true,
+   "title": "Drugs for Gonadal Disorders"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "V — Endocrine",
+   "draw": 20,
+   "file": "pharm-v-5-bone-homeostasis.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Drugs for Bone Homeostasis"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "V — Endocrine",
+   "draw": 20,
+   "file": "pharm-v-6-diabetes-mellitus.json",
+   "note": "40 questions",
+   "pie": true,
+   "title": "Drugs for Diabetes Mellitus"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VI — Respiratory, GI, Hematopoietic",
+   "draw": 20,
+   "file": "pharm-vi-1-bronchospastic-disorders.json",
+   "note": "34 questions",
+   "pie": true,
+   "title": "Drugs for Bronchospastic Disorders"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VI — Respiratory, GI, Hematopoietic",
+   "draw": 20,
+   "file": "pharm-vi-2-gastrointestinal-disorders.json",
+   "note": "42 questions",
+   "pie": true,
+   "title": "Drugs for Gastrointestinal Disorders"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VI — Respiratory, GI, Hematopoietic",
+   "draw": 20,
+   "file": "pharm-vi-3-hematopoietic-disorders.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Drugs for Hematopoietic Disorders"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VII — Inflammation and Immunomodulation",
+   "draw": 20,
+   "file": "pharm-vii-1-histamine-and-serotonin-agonists-and-antagonists.json",
+   "note": "31 questions",
+   "pie": true,
+   "title": "Histamine and Serotonin: Agonists and Antagonists"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VII — Inflammation and Immunomodulation",
+   "draw": 20,
+   "file": "pharm-vii-2-eicosanoids-agonists-antagonists-and-inhibitors.json",
+   "note": "20 questions",
+   "pie": true,
+   "title": "Eicosanoids: Agonists, Antagonists, and Inhibitors"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VII — Inflammation and Immunomodulation",
+   "draw": 20,
+   "file": "pharm-vii-3-nonsteroidal-antiinflammatory-drugs.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Nonsteroidal Antiinflammatory Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VII — Inflammation and Immunomodulation",
+   "draw": 20,
+   "file": "pharm-vii-4-immunomodulating-drugs.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Immunomodulating Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VII — Inflammation and Immunomodulation",
+   "draw": 20,
+   "file": "pharm-vii-5-drugs-for-arthritis-and-gout.json",
+   "note": "20 questions",
+   "pie": true,
+   "title": "Drugs for Arthritis and Gout"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VIII — Chemotherapeutic Drugs",
+   "draw": 20,
+   "file": "pharm-viii-1-bacterial-cell-wall-synthesis-inhibitors.json",
+   "note": "50 questions",
+   "pie": true,
+   "title": "Bacterial Cell Wall Synthesis Inhibitors"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VIII — Chemotherapeutic Drugs",
+   "draw": 20,
+   "file": "pharm-viii-2-bacterial-protein-synthesis-inhibitors.json",
+   "note": "49 questions",
+   "pie": true,
+   "title": "Bacterial Protein Synthesis Inhibitors"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VIII — Chemotherapeutic Drugs",
+   "draw": 20,
+   "file": "pharm-viii-3-inhibitors-of-bacterial-nucleic-acid-synthesis-or-function.json",
+   "note": "30 questions",
+   "pie": true,
+   "title": "Inhibitors of Bacterial Nucleic Acid Synthesis or Function"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VIII — Chemotherapeutic Drugs",
+   "draw": 20,
+   "file": "pharm-viii-4-antimycobacterial-drugs.json",
+   "note": "22 questions",
+   "pie": true,
+   "title": "Antimycobacterial Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VIII — Chemotherapeutic Drugs",
+   "draw": 20,
+   "file": "pharm-viii-5-antifungal-drugs.json",
+   "note": "24 questions",
+   "pie": true,
+   "title": "Antifungal Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VIII — Chemotherapeutic Drugs",
+   "draw": 20,
+   "file": "pharm-viii-6-antiviral-drugs.json",
+   "note": "40 questions",
+   "pie": true,
+   "title": "Antiviral Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VIII — Chemotherapeutic Drugs",
+   "draw": 20,
+   "file": "pharm-viii-7-antiprotozoal-drugs.json",
+   "note": "22 questions",
+   "pie": true,
+   "title": "Antiprotozoal Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VIII — Chemotherapeutic Drugs",
+   "draw": 20,
+   "file": "pharm-viii-8-anthelmintic-drugs.json",
+   "note": "22 questions",
+   "pie": true,
+   "title": "Anthelmintic Drugs"
+  },
+  {
+   "category": "Pharmacology",
+   "chapter": "VIII — Chemotherapeutic Drugs",
+   "draw": 20,
+   "file": "pharm-viii-9-antineoplastic-drugs.json",
+   "note": "50 questions",
+   "pie": true,
+   "title": "Antineoplastic Drugs"
   }
  ]
 }

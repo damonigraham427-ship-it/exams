@@ -191,6 +191,15 @@ function renderCategories() {
       }));
       return;
     }
+    if (c === 'Pharmacology') {
+      // Pharmacology spawned to its own site (Nov 25, 2026); this card is
+      // the way into it. Its entries stay in this index so the portals
+      // keep counting them here.
+      wrap.appendChild(navCard(c, 'its own site \u00B7 51 exams', PALETTE[i % PALETTE.length], () => {
+        location.href = 'https://damonigraham427-ship-it.github.io/pharmacology/';
+      }));
+      return;
+    }
     const inCat = allExams.filter(e => (e.category || 'General') === c);
     const chs = new Set(inCat.map(e => e.chapter === undefined ? 'Other' : String(e.chapter)));
     const n = chs.size;
