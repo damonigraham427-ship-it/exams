@@ -226,6 +226,12 @@ function renderCategories() {
   wrap.appendChild(navCard('Texas Real Estate', 'its own site \u00B7 step plan \u00B7 license \u2192 sponsor', '#b45309', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/realestate/';
   }));
+  // ASU Film portal door (Damoni, Nov 24, 2026): ASU's film-development
+  // majors and their curriculums on their own site — appended beside
+  // Texas Real Estate, not an exam category.
+  wrap.appendChild(navCard('ASU Film', 'its own site \u00B7 ASU majors \u00B7 curriculums', '#8c1d40', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/asu-film/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.
