@@ -10,7 +10,9 @@
 // data at all also count as pending (Damoni, Nov 24, 2026): a ladder
 // group with no steps yet, or a notes list he has never added to
 // (no workoutNotes:<file> stored), shows as "Nothing logged yet" and
-// never ages out. Editing stays in the Workout
+// never ages out. Reference Weight is excluded from this list entirely
+// (Damoni, Nov 25, 2026): it stays in the Workout portal as-is, it just
+// does not appear here. Editing stays in the Workout
 // site — the footer link goes to its checklist page. Renders into
 // <section id="pending-box">; needs index.json like the other pages.
 (function () {
@@ -147,7 +149,7 @@
   fetch('index.json', { cache: 'no-store' })
     .then(function (r) { return r.json(); })
     .then(function (idx) {
-      var entries = (idx.exams || idx || []).filter(function (e) { return e && (e.ladder || e.notes); });
+      var entries = (idx.exams || idx || []).filter(function (e) { return e && (e.ladder || e.notes) && e.file !== 'workout-reference-weight.json'; });
       var jobs = entries.map(function (e) {
         if (!e.ladder) return Promise.resolve({ entry: e, data: null, notesEntry: true });
         return fetch(e.file, { cache: 'no-store' })
