@@ -35,6 +35,34 @@
     } catch (e) { return null; }
   }
 
+  // Display groups (Damoni, Nov 25, 2026): the pending list is separated
+  // into Upper Body / Abdominal / Lower Body / Running, by entry region.
+  // Weight Vest Run and Incline Treadmill count as Running; anything else
+  // (Static List, Pump Circumference) falls under General, listed last.
+  var GROUPS = ['Upper Body', 'Abdominal', 'Lower Body', 'Running', 'General'];
+  function groupOf(e) {
+    var r = e.region || '';
+    if (r === 'upper') return 'Upper Body';
+    if (r === 'abdomen') return 'Abdominal';
+    if (r === 'lower') return 'Lower Body';
+    if (r === 'running' || r === 'vest' || r === 'incline') return 'Running';
+    return 'General';
+  }
+
+  // One ladder entry can span body areas (Reference Weight holds a group
+  // per body part): a group whose name is itself a body area files under
+  // that area; any other group files under its entry's area.
+  var GROUP_AREA = {
+    'Lower back': 'Lower Body', 'Hamstrings': 'Lower Body', 'Hip Muscles': 'Lower Body',
+    'Abdominals': 'Abdominal', 'Obliques': 'Abdominal',
+    'Chest': 'Upper Body', 'Shoulders': 'Upper Body', 'Upper back': 'Upper Body',
+    'Rotator cuffs': 'Upper Body', 'Lats': 'Upper Body', 'Biceps': 'Upper Body',
+    'Triceps': 'Upper Body', 'Forearms': 'Upper Body'
+  };
+  function groupFor(e, groupName) {
+    return GROUP_AREA[groupName] || groupOf(e);
+  }
+
   function shortTitle(e) {
     var t = e.title || e.file || '';
     var pre = (e.category || '') + ' \u2014 ';
@@ -79,26 +107,34 @@
       : 'Nothing pending \u2014 every ladder step is dated.';
     box.appendChild(note);
     if (rows.length) {
-      var table = document.createElement('table');
-      table.className = 'check-table';
-      var tbody = document.createElement('tbody');
-      rows.forEach(function (r) {
-        var tr = document.createElement('tr');
-        var td = document.createElement('td');
-        td.className = 'tname';
-        td.textContent = r.label;
-        tr.appendChild(td);
-        var td2 = document.createElement('td');
-        td2.textContent = r.step;
-        tr.appendChild(td2);
-        var td3 = document.createElement('td');
-        td3.className = 'check-sub';
-        td3.textContent = r.sets || '\u2014';
-        tr.appendChild(td3);
-        tbody.appendChild(tr);
+      GROUPS.forEach(function (gname) {
+        var grows = rows.filter(function (r) { return r.group === gname; });
+        if (!grows.length) return;
+        var gh = document.createElement('h3');
+        gh.className = 'pending-group';
+        gh.textContent = gname;
+        box.appendChild(gh);
+        var table = document.createElement('table');
+        table.className = 'check-table';
+        var tbody = document.createElement('tbody');
+        grows.forEach(function (r) {
+          var tr = document.createElement('tr');
+          var td = document.createElement('td');
+          td.className = 'tname';
+          td.textContent = r.label;
+          tr.appendChild(td);
+          var td2 = document.createElement('td');
+          td2.textContent = r.step;
+          tr.appendChild(td2);
+          var td3 = document.createElement('td');
+          td3.className = 'check-sub';
+          td3.textContent = r.sets || '\u2014';
+          tr.appendChild(td3);
+          tbody.appendChild(tr);
+        });
+        table.appendChild(tbody);
+        box.appendChild(table);
       });
-      table.appendChild(tbody);
-      box.appendChild(table);
     }
     var p = document.createElement('p');
     var a = document.createElement('a');
@@ -130,7 +166,7 @@
           // A named list he has never added to is pending by definition.
           var stored = parseRaw('workoutNotes:' + e.file);
           if (!stored || !stored.length) {
-            rows.push({ label: shortTitle(e), step: 'Nothing logged yet', sets: '' });
+            rows.push({ label: shortTitle(e), step: 'Nothing logged yet', sets: '', group: groupOf(e) });
           }
           return;
         }
@@ -143,12 +179,12 @@
           var total = (g.steps || []).length + (added[g.name] || []).length;
           if (!total) {
             // Named group with no steps at all: pending, never ages out.
-            rows.push({ label: label, step: 'Nothing logged yet', sets: '' });
+            rows.push({ label: label, step: 'Nothing logged yet', sets: '', group: groupFor(e, g.name) });
             return;
           }
           var step = nextStep(e, g);
           if (!step) return;
-          rows.push({ label: label, step: step, sets: setsNote(e, g, step) });
+          rows.push({ label: label, step: step, sets: setsNote(e, g, step), group: groupFor(e, g.name) });
         });
       });
       render(rows);
