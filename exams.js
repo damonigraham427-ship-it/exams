@@ -270,6 +270,17 @@ function renderCategories() {
   wrap.appendChild(navCard('Stern — B.S. in Business', 'its own site \u00B7 NYU Stern \u00B7 curriculum + exams', '#57068c', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/stern/';
   }));
+  // Sports portal door (Damoni, Nov 25, 2026): a parent portal — the
+  // sports (Basketball, Football, Tennis) nest under it as sub-portals,
+  // the Computer Science pattern. No standalone Basketball door.
+  wrap.appendChild(navCard('Sports', 'its own site \u00B7 basketball \u00B7 football \u00B7 tennis', '#15803d', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/sports/';
+  }));
+  // Automobile portal door (Damoni, Nov 25, 2026): shell only for now —
+  // content sections land once Damoni names them.
+  wrap.appendChild(navCard('Automobile', 'its own site \u00B7 new portal', '#475569', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/automobile/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.
