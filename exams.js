@@ -214,6 +214,12 @@ function renderCategories() {
   wrap.appendChild(navCard('Computer Science', 'its own site \u00B7 sub-portals \u00B7 CCNA Routing and Switching', '#2563eb', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/computer-science/';
   }));
+  // PhD portal door (Damoni, Nov 24, 2026): the BBA to TSU PhD pathway
+  // brief on its own site — appended beside Computer Science, not an
+  // exam category.
+  wrap.appendChild(navCard('PhD', 'its own site \u00B7 pathway \u00B7 BBA \u2192 master\u2019s \u2192 TSU PhD', '#7c3aed', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/phd/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.
