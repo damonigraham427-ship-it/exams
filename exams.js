@@ -168,6 +168,29 @@ function renderCategories() {
       }));
       return;
     }
+    if (c === 'AP Chemistry') {
+      // AP Chemistry spawned to its own site (Nov 25, 2026); this card is
+      // the way into it. Its entries stay in this index so the portals
+      // keep counting them here.
+      wrap.appendChild(navCard(c, 'its own site \u00B7 17 exams', PALETTE[i % PALETTE.length], () => {
+        location.href = 'https://damonigraham427-ship-it.github.io/ap-chemistry/';
+      }));
+      return;
+    }
+    if (c === 'AP Government') {
+      // AP Government spawned to its own site (Nov 25, 2026); same pattern.
+      wrap.appendChild(navCard(c, 'its own site \u00B7 16 exams', PALETTE[i % PALETTE.length], () => {
+        location.href = 'https://damonigraham427-ship-it.github.io/ap-government/';
+      }));
+      return;
+    }
+    if (c === 'AP U.S. History') {
+      // AP U.S. History spawned to its own site (Nov 25, 2026); same pattern.
+      wrap.appendChild(navCard(c, 'its own site \u00B7 13 exams', PALETTE[i % PALETTE.length], () => {
+        location.href = 'https://damonigraham427-ship-it.github.io/ap-us-history/';
+      }));
+      return;
+    }
     const inCat = allExams.filter(e => (e.category || 'General') === c);
     const chs = new Set(inCat.map(e => e.chapter === undefined ? 'Other' : String(e.chapter)));
     const n = chs.size;
