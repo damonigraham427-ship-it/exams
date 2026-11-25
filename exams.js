@@ -232,6 +232,12 @@ function renderCategories() {
   wrap.appendChild(navCard('ASU Film', 'its own site \u00B7 ASU majors \u00B7 curriculums', '#8c1d40', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/asu-film/';
   }));
+  // Stern portal door (Damoni, Nov 24, 2026): NYU Stern B.S. in Business
+  // curriculum portal + exam hub on its own site — appended beside
+  // ASU Film, not an exam category.
+  wrap.appendChild(navCard('Stern — B.S. in Business', 'its own site \u00B7 NYU Stern \u00B7 curriculum + exams', '#57068c', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/stern/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.
