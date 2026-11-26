@@ -99,24 +99,20 @@ function renderCategories() {
     const c = e.category || 'General';
     if (!cats.includes(c)) cats.push(c);
   });
-  // Front-page order is fixed by Damoni (Nov 22, 2026): NREMT, 60 Minutes,
-  // Workout Elements, Fraction Bases. Unknown subjects follow in list order.
-  const ORDER = ['NREMT', '60 Minutes', 'Workout Elements', 'Fraction Bases', 'Vocabulary', 'Signal'];
+  // Front-page order is fixed by Damoni (Nov 22, 2026): NREMT, Workout
+  // Elements, Vocabulary. Unknown subjects follow in list order.
+  // 60 Minutes and Fraction Bases moved under the Math portal
+  // (Damoni, Nov 26, 2026) — no top-level doors for them anymore.
+  const ORDER = ['NREMT', 'Workout Elements', 'Vocabulary', 'Signal'];
   cats.sort((x, y) => {
     const ix = ORDER.indexOf(x), iy = ORDER.indexOf(y);
     return (ix < 0 ? 99 : ix) - (iy < 0 ? 99 : iy);
   });
   cats.forEach((c, i) => {
-    if (c === '60 Minutes') {
-      // One front-page entry for this series: the tier circle. Its per-exam
-      // detail carries the 5 mode links, so the old exam-list card is removed
-      // (Damoni's order, Nov 22, 2026 — two 60 Minutes entries was one too many).
-      wrap.appendChild(navCard(c, 'its own site \u00B7 tier circle \u00B7 status by 5% tier', PALETTE[i % PALETTE.length], () => {
-        // 60 Minutes spawned to its own site (Damoni, Nov 23, 2026); this
-        // card is the way into it. The series' data stays in this index so
-        // Retention and the portals keep counting it here.
-        location.href = 'https://damonigraham427-ship-it.github.io/60-minutes/';
-      }));
+    if (c === '60 Minutes' || c === 'Fraction Bases') {
+      // Under the Math portal now (Damoni, Nov 26, 2026): no top-level
+      // door here. Their entries stay in this index so Retention and the
+      // portals keep counting them here; the way in is the Math door.
       return;
     }
     if (c === 'Signal') {
@@ -125,18 +121,6 @@ function renderCategories() {
       // One exam per Signal Networking Theory study tab lives there.
       wrap.appendChild(navCard(c, 'its own site \u00B7 one exam per study tab', PALETTE[i % PALETTE.length], () => {
         location.href = 'https://damonigraham427-ship-it.github.io/signal/';
-      }));
-      return;
-    }
-    if (c === 'Fraction Bases') {
-      // The fraction-based modules of the Hour series, given their own
-      // front-page exam (Damoni's order, Nov 22, 2026): same tier circle,
-      // its own page.
-      wrap.appendChild(navCard(c, 'its own site \u00B7 tier circle \u00B7 status by 5% tier', PALETTE[i % PALETTE.length], () => {
-        // Fraction Bases spawned to its own site (Damoni, Nov 24, 2026);
-        // this card is the way into it. Its entries stay in this index so
-        // Retention and the portals keep counting them here.
-        location.href = 'https://damonigraham427-ship-it.github.io/fractions/';
       }));
       return;
     }
@@ -285,6 +269,12 @@ function renderCategories() {
   // content sections land once Damoni names them.
   wrap.appendChild(navCard('Fashion', 'its own site \u00B7 new portal', '#be185d', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/fashion/';
+  }));
+  // Math portal door (Damoni, Nov 26, 2026): a parent portal — 60 Minutes
+  // and Fraction Bases nest under it, so their top-level doors are gone;
+  // their exams live on their own sites, reached through Math.
+  wrap.appendChild(navCard('Math', 'its own site \u00B7 sub-portals \u00B7 60 Minutes + Fraction Bases', '#b91c1c', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/math/';
   }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
