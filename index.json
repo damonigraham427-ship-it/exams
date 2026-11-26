@@ -3050,27 +3050,11 @@
   },
   {
    "category": "Workout Elements",
-   "chapter": "Reference Weight",
+   "chapter": "Upper Body",
    "file": "workout-reference-weight.json",
    "ladder": true,
    "region": "upper",
-   "title": "Workout Elements — Reference Weight"
-  },
-  {
-   "category": "Workout Elements",
-   "chapter": "Static List",
-   "file": "workout-static-list.json",
-   "notes": true,
-   "region": "general",
-   "title": "Workout Elements — Static List"
-  },
-  {
-   "category": "Workout Elements",
-   "chapter": "Pump Circumference",
-   "file": "workout-pump-circumference.json",
-   "notes": true,
-   "region": "general",
-   "title": "Workout Elements — Pump Circumference"
+   "title": "Upper Body — Reference Weight"
   },
   {
    "category": "Workout Elements",
@@ -3202,6 +3186,22 @@
   },
   {
    "category": "Workout Elements",
+   "file": "lowerbody-reference-weight.json",
+   "title": "Lower Body — Reference Weight",
+   "chapter": "Lower Body",
+   "ladder": true,
+   "region": "lower"
+  },
+  {
+   "category": "Workout Elements",
+   "chapter": "Lower Body",
+   "file": "lowerbody-static-list.json",
+   "title": "Lower Body — Static List",
+   "notes": true,
+   "region": "lower"
+  },
+  {
+   "category": "Workout Elements",
    "chapter": "Abdomen",
    "file": "upperbody-abdominals.json",
    "notes": true,
@@ -3215,6 +3215,22 @@
    "notes": true,
    "region": "abdomen",
    "title": "Abdomen — Obliques"
+  },
+  {
+   "category": "Workout Elements",
+   "file": "abdomen-reference-weight.json",
+   "title": "Abdomen — Reference Weight",
+   "chapter": "Abdomen",
+   "ladder": true,
+   "region": "abdomen"
+  },
+  {
+   "category": "Workout Elements",
+   "chapter": "Abdomen",
+   "file": "abdomen-static-list.json",
+   "title": "Abdomen — Static List",
+   "notes": true,
+   "region": "abdomen"
   },
   {
    "category": "Workout Elements",
@@ -3245,6 +3261,14 @@
    "chapter": "Upper Body",
    "file": "upperbody-upper-traps.json",
    "title": "Upper Body — Upper Traps",
+   "notes": true,
+   "region": "upper"
+  },
+  {
+   "category": "Workout Elements",
+   "chapter": "Upper Body",
+   "file": "upperbody-static-list.json",
+   "title": "Upper Body — Static List",
    "notes": true,
    "region": "upper"
   },
@@ -3290,19 +3314,19 @@
   },
   {
    "category": "Workout Elements",
-   "chapter": "Weight Vest Run",
+   "chapter": "Running",
    "file": "weight-vest-run.json",
    "notes": true,
-   "region": "vest",
-   "title": "Weight Vest Run — Run"
+   "region": "running",
+   "title": "Running — Weight Vest Run"
   },
   {
    "category": "Workout Elements",
-   "chapter": "Incline Treadmill",
+   "chapter": "Running",
    "file": "incline-treadmill.json",
    "notes": true,
-   "region": "incline",
-   "title": "Incline Treadmill — Run"
+   "region": "running",
+   "title": "Running — Incline Treadmill"
   },
   {
    "category": "Vocabulary",

@@ -171,7 +171,7 @@
   fetch('index.json', { cache: 'no-store' })
     .then(function (r) { return r.json(); })
     .then(function (idx) {
-      var entries = (idx.exams || idx || []).filter(function (e) { return e && (e.ladder || e.notes) && e.file !== 'workout-reference-weight.json'; });
+      var entries = (idx.exams || idx || []).filter(function (e) { return e && (e.ladder || e.notes) && !/reference-weight\.json$/.test(e.file || ''); });
       var jobs = entries.map(function (e) {
         if (!e.ladder) return Promise.resolve({ entry: e, data: null, notesEntry: true });
         return fetch(e.file, { cache: 'no-store' })
