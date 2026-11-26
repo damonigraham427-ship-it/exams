@@ -127,7 +127,7 @@
     var note = document.createElement('p');
     note.className = 'check-note';
     note.textContent = rows.length
-      ? 'The next step waiting on each exercise, plus any category with nothing logged yet. Finish a step at 5x5 in the Workout checklist and it drops off here.'
+      ? 'The next step waiting on each exercise, plus any category with nothing logged yet. Finish a step at 5x5 in the Workout portal and it drops off here.'
       : 'Nothing pending \u2014 every ladder step is dated.';
     box.appendChild(note);
     if (rows.length) {
@@ -143,6 +143,14 @@
         var tbody = document.createElement('tbody');
         grows.forEach(function (r) {
           var tr = document.createElement('tr');
+          if (r.single) {
+            var std = document.createElement('td');
+            std.colSpan = 3;
+            std.textContent = r.single;
+            tr.appendChild(std);
+            tbody.appendChild(tr);
+            return;
+          }
           var td = document.createElement('td');
           td.className = 'tname';
           td.textContent = r.label;
@@ -192,9 +200,11 @@
           if (!stored || !stored.length) {
             rows.push({ label: shortTitle(e), step: 'Nothing logged yet', sets: '', group: groupOf(e) });
           }
-          // Items with progress entries show their latest one here.
+          // Items with progress entries show their latest one here, in
+          // the note page's own format (Damoni, Nov 26, 2026): the item
+          // name, then " · date — text", one line, latest entry only.
           latestProgress(e.file).forEach(function (lp) {
-            rows.push({ label: shortTitle(e), step: lp.text, sets: fmtDate(lp.d) + ' \u2014 ' + lp.t, group: groupOf(e) });
+            rows.push({ label: shortTitle(e), step: lp.text, sets: fmtDate(lp.d) + ' \u2014 ' + lp.t, group: groupOf(e), single: lp.text + ' \u00B7 ' + fmtDate(lp.d) + ' \u2014 ' + lp.t });
           });
           return;
         }
