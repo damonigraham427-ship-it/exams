@@ -84,6 +84,28 @@
     return null;
   }
 
+  function fmtDate(iso) {
+    var p = String(iso || '').split('-');
+    if (p.length !== 3) return iso || '';
+    return Number(p[1]) + '/' + Number(p[2]) + '/' + p[0];
+  }
+
+  // Latest dated progress entry per note item (Damoni, Nov 26, 2026):
+  // noteProgress:<file> holds { "<item text>": [{d, t}, ...] } written on
+  // the Workout list pages. Display only — editing stays there.
+  function latestProgress(file) {
+    var all = parse('noteProgress:' + file, {});
+    var out = [];
+    Object.keys(all).forEach(function (text) {
+      var arr = Array.isArray(all[text]) ? all[text].slice() : [];
+      if (!arr.length) return;
+      arr.sort(function (a, b) { return (a.d < b.d ? -1 : a.d > b.d ? 1 : 0); });
+      var last = arr[arr.length - 1];
+      if (last && last.t) out.push({ text: text, d: last.d, t: last.t });
+    });
+    return out;
+  }
+
   // Sets progress logged against a step, if any: ladderSets:<file> holds
   // "group|step" -> {v, d} (v = sets value, d = date logged); a legacy
   // plain number is still readable.
@@ -170,6 +192,10 @@
           if (!stored || !stored.length) {
             rows.push({ label: shortTitle(e), step: 'Nothing logged yet', sets: '', group: groupOf(e) });
           }
+          // Items with progress entries show their latest one here.
+          latestProgress(e.file).forEach(function (lp) {
+            rows.push({ label: shortTitle(e), step: lp.text, sets: fmtDate(lp.d) + ' \u2014 ' + lp.t, group: groupOf(e) });
+          });
           return;
         }
         if (!item.data || !Array.isArray(item.data.groups)) return;
