@@ -281,6 +281,11 @@ function renderCategories() {
   wrap.appendChild(navCard('Automobile', 'its own site \u00B7 new portal', '#475569', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/automobile/';
   }));
+  // Fashion portal door (Damoni, Nov 26, 2026): shell only for now —
+  // content sections land once Damoni names them.
+  wrap.appendChild(navCard('Fashion', 'its own site \u00B7 new portal', '#be185d', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/fashion/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.
