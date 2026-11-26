@@ -276,6 +276,11 @@ function renderCategories() {
   wrap.appendChild(navCard('Math', 'its own site \u00B7 sub-portals \u00B7 60 Minutes + Fraction Bases', '#b91c1c', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/math/';
   }));
+  // Interview portal door (Damoni, Nov 26, 2026): its own site — the
+  // Drive "16. Interview" folder documents are its starting content.
+  wrap.appendChild(navCard('Interview', 'its own site \u00B7 documents + prep', '#1e3a8a', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/interview/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.
