@@ -16,8 +16,10 @@ const answers = [];
 let lastMissed = [];
 let lastFlagged = [];
 let lastQuality = [];
+let lastResearch = [];
 const flagged = new Set();
 const quality = new Set();
+const research = new Set();
 let entry = null;
 let runOrder = null;
 // Time tracker: ACTIVE time only (changed Nov 24, 2026). 'secs' banks
@@ -266,6 +268,7 @@ Promise.all([
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
+        (p.research || []).forEach(i => research.add(i));
       }
     } else if (isTier) {
       const lo = Math.floor(tierB * pool.length / 20);
@@ -278,6 +281,7 @@ Promise.all([
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
+        (p.research || []).forEach(i => research.add(i));
       }
     } else if (isMeta10) {
       const blockQs = buildBlockQuestions(pool);
@@ -290,6 +294,7 @@ Promise.all([
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
+        (p.research || []).forEach(i => research.add(i));
         restored = true;
       }
       if (!restored) runOrder = shuffleIdx(blockQs.length);
@@ -305,6 +310,7 @@ Promise.all([
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
+        (p.research || []).forEach(i => research.add(i));
         restored = true;
       }
       if (!restored) runOrder = shuffleIdx(metaQs.length);
@@ -321,6 +327,7 @@ Promise.all([
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
+        (p.research || []).forEach(i => research.add(i));
         restored = true;
       }
       if (!restored) runOrder = shuffleIdx(drawN).map(i => picks[i]);
@@ -336,6 +343,7 @@ Promise.all([
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
+        (p.research || []).forEach(i => research.add(i));
         restored = true;
       }
       if (!restored) {
@@ -359,6 +367,7 @@ Promise.all([
         (p.answers || []).forEach((a, i) => { answers[i] = a; });
         (p.flagged || []).forEach(i => flagged.add(i));
         (p.quality || []).forEach(i => quality.add(i));
+        (p.research || []).forEach(i => research.add(i));
         restored = true;
       }
       if (!restored) runOrder = shuffleIdx(pool.length).slice(0, drawN);
@@ -369,6 +378,7 @@ Promise.all([
       (p.answers || []).forEach((a, i) => { answers[i] = a; });
       (p.flagged || []).forEach(i => flagged.add(i));
       (p.quality || []).forEach(i => quality.add(i));
+      (p.research || []).forEach(i => research.add(i));
     }
   } catch (e) { /* no saved progress */ }
   resetSegment();
@@ -381,6 +391,14 @@ function refreshFlagBtn() {
   const on = flagged.has(idx);
   btn.textContent = on ? '\u2605 Flagged: needs more work' : '\u2606 Needs more work';
   btn.classList.toggle('flagged-on', on);
+}
+
+function refreshResearchBtn() {
+  const btn = document.getElementById('research-btn');
+  if (!btn) return;
+  const on = research.has(idx);
+  btn.textContent = on ? '\uD83D\uDD0E Marked for further research' : '\uD83D\uDD0E Further research';
+  btn.classList.toggle('research-on', on);
 }
 
 function refreshQualityBtn() {
@@ -409,12 +427,12 @@ function buildLive() {
   exam.questions.forEach((q, i) => {
     if (answers[i] !== undefined && answers[i] !== q.answer) missedQs.push(snap(i, { your: q.choices[answers[i]] }));
   });
-  return { title: examTitle, flaggedQs: marked(flagged), qualityQs: marked(quality), missedQs: missedQs };
+  return { title: examTitle, flaggedQs: marked(flagged), qualityQs: marked(quality), researchQs: [...research].sort((a, b) => a - b).map(i => snap(i, { topic: exam.questions[i].topic || '', result: answers[i] === exam.questions[i].answer ? 'answered correctly' : 'answered incorrectly' })), missedQs: missedQs };
 }
 function saveProgress() {
   try {
     const all = JSON.parse(localStorage.getItem(PKEY) || '{}');
-    const rec = { idx: idx, answers: answers, flagged: [...flagged], quality: [...quality], score: score, total: exam.questions.length, ts: Date.now(), secs: elapsedSecs(), live: buildLive() };
+    const rec = { idx: idx, answers: answers, flagged: [...flagged], quality: [...quality], research: [...research], score: score, total: exam.questions.length, ts: Date.now(), secs: elapsedSecs(), live: buildLive() };
     if (runOrder) rec.order = runOrder;
     all[storageKey] = rec;
     localStorage.setItem(PKEY, JSON.stringify(all));
@@ -455,6 +473,7 @@ function show() {
   document.getElementById('back-btn').hidden = idx === 0;
   refreshFlagBtn();
   refreshQualityBtn();
+  refreshResearchBtn();
   const qp = document.getElementById('quality-panel');
   if (qp) qp.hidden = true;
   const box = document.getElementById('choices');
@@ -555,6 +574,33 @@ function finish() {
   });
   document.getElementById('no-quality').hidden = lastQuality.length !== 0;
 
+  // Further research (Damoni, Nov 26, 2026): the question was RESOURCEFUL —
+  // he wants the depth in its context turned into NEW questions. The full
+  // context (exam, set, topic, question, correct answer, explanation)
+  // rides the attempt record and the outbox report below.
+  lastResearch = [...research].sort((a, b) => a - b).map(i => {
+    const q = exam.questions[i];
+    return {
+      n: i + 1,
+      question: q.question,
+      topic: q.topic || '',
+      source: q.source || '',
+      correct: q.choices[q.answer],
+      explanation: q.explanation || '',
+      result: answers[i] === q.answer ? 'answered correctly' : 'answered incorrectly'
+    };
+  });
+  const rlist = document.getElementById('research-list');
+  if (rlist) {
+    rlist.innerHTML = '';
+    lastResearch.forEach(m => {
+      const li = document.createElement('li');
+      li.textContent = m.question + ' — Correct: ' + m.correct + (m.topic ? ' · Topic: ' + m.topic : '') + (m.explanation ? ' · ' + m.explanation : '');
+      rlist.appendChild(li);
+    });
+    document.getElementById('no-research').hidden = lastResearch.length !== 0;
+  }
+
   try {
     const all = JSON.parse(localStorage.getItem('examHistory') || '{}');
     if (!Array.isArray(all[storageKey])) all[storageKey] = [];
@@ -562,19 +608,39 @@ function finish() {
     // (Hour series: Start/Coverage draw 20 of up to 365) can be mapped back
     // to tiers/topics exactly. Without it, only missed/marked questions are
     // recoverable from history. Harmless for NREMT full-set runs.
-    all[storageKey].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, secs: elapsedSecs(), missed: lastMissed, flagged: lastFlagged, quality: lastQuality, asked: exam.questions.map(function (q) { return q.question; }) });
+    all[storageKey].unshift({ ts: new Date().toISOString(), title: examTitle, score: score, total: exam.questions.length, secs: elapsedSecs(), missed: lastMissed, flagged: lastFlagged, quality: lastQuality, research: lastResearch, asked: exam.questions.map(function (q) { return q.question; }) });
     all[storageKey] = all[storageKey].slice(0, 20);
     localStorage.setItem('examHistory', JSON.stringify(all));
   } catch (e) { /* storage unavailable; results still shown on screen */ }
+
+  // Further research flags ride the outbox as their own report type
+  // (page: 'research') so they reach Edison with full context. The
+  // attempt record above carries them too, so a failed send loses nothing.
+  if (lastResearch.length) {
+    const report = { id: 'fr' + Date.now(), ts: new Date().toISOString(), page: 'research', file: storageKey, groups: [{ title: examTitle, items: lastResearch }] };
+    let tries = 0;
+    const wait = setInterval(function () {
+      if (window.examSync) {
+        clearInterval(wait);
+        try { window.examSync.sendReport(report).catch(function () {}); } catch (e) { /* attempt record carries the flags */ }
+      } else if (tries++ > 20) clearInterval(wait);
+    }, 250);
+  }
 }
 
 document.getElementById('flag-btn').onclick = () => {
   if (flagged.has(idx)) flagged.delete(idx); else flagged.add(idx);
   refreshFlagBtn();
   refreshQualityBtn();
+  refreshResearchBtn();
   saveProgress();
 };
 document.getElementById('quality-btn').onclick = () => { openQualityPanel(); };
+document.getElementById('research-btn').onclick = () => {
+  if (research.has(idx)) research.delete(idx); else research.add(idx);
+  refreshResearchBtn();
+  saveProgress();
+};
 
 // Inline quality review (Damoni, Nov 25, 2026): the Quality review button
 // opens the form right here in the exam \u2014 no trip to the Quality page,
