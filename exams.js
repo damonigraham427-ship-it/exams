@@ -281,6 +281,11 @@ function renderCategories() {
   wrap.appendChild(navCard('Interview', 'its own site \u00B7 documents + prep', '#1e3a8a', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/interview/';
   }));
+  // Firefighter portal door (Damoni, Nov 27, 2026): its own site — the
+  // firefighter exam pies live there, published pie by pie as verified.
+  wrap.appendChild(navCard('Firefighter', 'its own site \u00B7 exam pies', '#dc2626', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/firefighter/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.

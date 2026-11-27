@@ -4176,6 +4176,24 @@
    "note": "50 questions",
    "pie": true,
    "title": "Antineoplastic Drugs"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Reading Comprehension",
+   "draw": 20,
+   "file": "ff-rc-basics-a.json",
+   "note": "60 questions",
+   "pie": true,
+   "title": "RC Basics — Sets 1–2"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Reading Comprehension",
+   "draw": 20,
+   "file": "ff-rc-basics-b.json",
+   "note": "77 questions",
+   "pie": true,
+   "title": "RC Basics — Sets 3–5"
   }
  ]
 }
