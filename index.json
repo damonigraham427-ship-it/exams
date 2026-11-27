@@ -4273,6 +4273,42 @@
    "note": "71 questions",
    "pie": true,
    "title": "Information Ordering + Problem Sensitivity"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Mechanical Concepts",
+   "draw": 20,
+   "file": "ff-mechanical-a.json",
+   "note": "74 questions",
+   "pie": true,
+   "title": "Mechanical Concepts — Drills 1–4"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Mechanical Concepts",
+   "draw": 20,
+   "file": "ff-mechanical-b.json",
+   "note": "57 questions",
+   "pie": true,
+   "title": "Mechanical Concepts — Cogwheels, Pressure & Basic Concepts"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Electrical Concepts",
+   "draw": 20,
+   "file": "ff-electrical.json",
+   "note": "80 questions",
+   "pie": true,
+   "title": "Electrical Concepts"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Scenes & Tools",
+   "draw": 20,
+   "file": "ff-tools.json",
+   "note": "38 questions",
+   "pie": true,
+   "title": "Tools"
   }
  ]
 }
