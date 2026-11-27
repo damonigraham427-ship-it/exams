@@ -51,6 +51,13 @@
   },
   {
    "category": "NREMT",
+   "file": "nremt-ch1-cases.json",
+   "note": "14 questions",
+   "title": "NREMT — Chapter 1, Case Study & Assessment in Action",
+   "chapter": 1
+  },
+  {
+   "category": "NREMT",
    "chapter": 2,
    "file": "nremt-ch2-set1.json",
    "note": "42 questions",
@@ -3192,7 +3199,7 @@
    "ladder": true,
    "region": "lower"
   },
-    {
+  {
    "category": "Workout Elements",
    "chapter": "Abdomen",
    "file": "upperbody-abdominals.json",
@@ -3216,7 +3223,7 @@
    "ladder": true,
    "region": "abdomen"
   },
-    {
+  {
    "category": "Workout Elements",
    "chapter": "Upper Body",
    "file": "upperbody-biceps.json",
@@ -3248,7 +3255,7 @@
    "notes": true,
    "region": "upper"
   },
-    {
+  {
    "category": "Workout Elements",
    "chapter": "Running",
    "file": "running-1-mile.json",
