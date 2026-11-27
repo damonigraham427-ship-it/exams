@@ -4194,6 +4194,15 @@
    "note": "77 questions",
    "pie": true,
    "title": "RC Basics — Sets 3–5"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Tables and Numeracy",
+   "draw": 20,
+   "file": "ff-numeracy.json",
+   "note": "35 questions",
+   "pie": true,
+   "title": "Numeracy"
   }
  ]
 }
