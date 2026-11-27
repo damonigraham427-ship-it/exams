@@ -4237,6 +4237,42 @@
    "note": "85 questions",
    "pie": true,
    "title": "RC Practice — Sets 7–10"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Reasoning",
+   "draw": 20,
+   "file": "ff-reasoning-deductive.json",
+   "note": "60 questions · 1 held out for re-capture",
+   "pie": true,
+   "title": "Deductive Reasoning"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Reasoning",
+   "draw": 20,
+   "file": "ff-reasoning-inductive.json",
+   "note": "52 questions",
+   "pie": true,
+   "title": "Inductive Reasoning"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Reasoning",
+   "draw": 20,
+   "file": "ff-reasoning-logical.json",
+   "note": "48 questions",
+   "pie": true,
+   "title": "Logical Reasoning"
+  },
+  {
+   "category": "Firefighter",
+   "chapter": "Reasoning",
+   "draw": 20,
+   "file": "ff-reasoning-ordering-sensitivity.json",
+   "note": "71 questions",
+   "pie": true,
+   "title": "Information Ordering + Problem Sensitivity"
   }
  ]
 }
