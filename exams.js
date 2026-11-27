@@ -290,6 +290,11 @@ function renderCategories() {
   wrap.appendChild(navCard('Interview', 'its own site \u00B7 documents + prep', '#1e3a8a', () => {
     location.href = 'https://damonigraham427-ship-it.github.io/interview/';
   }));
+  // OpenTubeX portal door (Damoni, Nov 27, 2026): hub page for the
+  // OpenTubeX YouTube client — what it is, platforms, install, status.
+  wrap.appendChild(navCard('OpenTubeX', 'its own site \u00B7 private YouTube client', '#dc2626', () => {
+    location.href = 'https://damonigraham427-ship-it.github.io/opentubex/';
+  }));
   // Deep link (Nov 23, 2026): exams.html?cat=<category>&ch=<chapter> opens
   // that subject's exam list directly — the exam runner's back button
   // points here for subjects without their own page.
