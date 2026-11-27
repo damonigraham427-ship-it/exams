@@ -4345,6 +4345,15 @@
    "note": "50 questions · 9 stems pending re-capture",
    "pie": true,
    "title": "Floor Plans"
+  },
+  {
+   "file": "ff-adding-mirror.json",
+   "title": "Adding Shapes + Mirror Images",
+   "note": "69 questions · 2 Mirror items pending re-capture",
+   "category": "Firefighter",
+   "chapter": "Spatial Shapes",
+   "pie": true,
+   "draw": 20
   }
  ]
 }
